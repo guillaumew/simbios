@@ -1,0 +1,24 @@
+:root {
+  --color-1: white;
+  --color-2: grey;
+  --color-3: white;
+  --color-4: black;
+  --color-5: white;
+  --color-6: grey;
+}
+.splash-subhead, .splash-head {
+  color: black;
+}
+.pure-menu{
+  background: white;
+}
+.pure-menu .pure-menu-heading{
+  color: black;
+}
+.ribbon, .content-head-ribbon {
+  background: white;
+  color: black;
+}
+.content, h1,h2,h3,h4,h5, h6, label{
+  color: black;
+}
