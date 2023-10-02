@@ -97,7 +97,7 @@ a.pure-button-primary {
  * I want to customize how my .pure-menu looks at the top of the page
  */
 .home-menu .logo{
-    background-image: url('files/logo-simbios-darkmode.svg');
+    background-image: url('files/simbios-light.svg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 2.2em;
