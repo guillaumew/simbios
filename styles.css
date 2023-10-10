@@ -226,6 +226,9 @@ a.pure-button-primary {
     background: var(--color-1);
     color: var(--color-5);
 }
+.ribbon a{
+    color: lightgray;
+}
 
 /* This is the class used for the footer */
 .footer {
@@ -236,6 +239,13 @@ a.pure-button-primary {
     width: 100%;
 }
 
+.outer-horizontal-align{
+    display: flex;
+    justify-content: center;
+}
+.inner-horizontal-align{
+    margin:auto;
+}
 .round-image{
     border-radius: 150px;
 }
