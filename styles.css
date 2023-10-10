@@ -236,6 +236,10 @@ a.pure-button-primary {
     width: 100%;
 }
 
+.round-image{
+    border-radius: 150px;
+}
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
