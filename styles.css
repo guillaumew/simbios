@@ -226,7 +226,7 @@ a.pure-button-primary {
     background: var(--color-1);
     color: var(--color-5);
 }
-.ribbon a{
+.ribbon a, .footer a{
     color: lightgray;
 }
 
