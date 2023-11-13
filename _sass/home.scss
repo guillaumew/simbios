@@ -1,14 +1,12 @@
+$teal-color: #175873;
+$light_teal-color: #2B7C85;
+$dark_white-color: #DDEEFF;
+$dark_teal-color: #0C1414;
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-:root {
-  --teal: #175873;
-  --light_teal: #2B7C85;
-  --dark_white: #DDEEFF;
-  --dark-teal: #0C1414;
-  --white: white;
 }
 /*
  * -- BASE STYLES --
@@ -16,7 +14,7 @@
  */
 body {
     line-height: 1.7em;
-    color: var(--dark-teal);
+    color: $dark_teal-color;
     font-size: 13px;
 }
 
@@ -27,13 +25,9 @@ h4,
 h5,
 h6,
 label {
-    color: var(--teal);
+    color: $teal-color;
 }
 
-.pure-img-responsive {
-    max-width: 100%;
-    height: auto;
-}
 
 /*
  * -- LAYOUT STYLES --
@@ -58,18 +52,19 @@ label {
  * -- PURE FORM STYLES --
  * Style the form inputs and labels
  */
-.pure-form label {
-    margin: 1em 0 0;
-    font-weight: bold;
-    font-size: 100%;
-}
-
-.pure-form input[type] {
-    border: 2px solid #ddd;
-    box-shadow: none;
-    font-size: 100%;
-    width: 100%;
-    margin-bottom: 1em;
+.pure-form {
+    label {
+        margin: 1em 0 0;
+        font-weight: bold;
+        font-size: 100%;
+    }
+    input[type] {
+        border: 2px solid #ddd;
+        box-shadow: none;
+        font-size: 100%;
+        width: 100%;
+        margin-bottom: 1em;
+    }
 }
 
 /*
@@ -78,13 +73,13 @@ label {
  */
 .pure-button {
     background-color: #00221C;
-    color: var(--white);
+    color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
 }
 
 a.pure-button-primary {
-    background: var(--white);
+    background: white;
     color: #00221C;
     border-radius: 5px;
     font-size: 120%;
@@ -95,48 +90,42 @@ a.pure-button-primary {
  * -- MENU STYLES --
  * I want to customize how my .pure-menu looks at the top of the page
  */
-.home-menu .logo{
-    background-image: url('../img/simbios-white.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 2.2em;
-    width: 2.2em;
-    padding: 0;
-}
-
-.home-menu {
-    padding: 0.5em;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-}
-.home-menu {
-    background: var(--dark-teal);
-}
-.pure-menu.pure-menu-fixed {
+ .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
     border-bottom: none;
     /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
 }
-
-.home-menu .pure-menu-heading {
-    color: var(--white);
-    font-weight: 400;
-    font-size: 120%;
-}
-
-.home-menu .pure-menu-selected a {
-    color: var(--light_teal)!important;
-}
-
-.home-menu a {
-    color: var(--light_teal);
-}
-.home-menu li a:hover,
-.home-menu li a:focus {
-    background: none;
-    border: none;
-    color: var(--dark_white);
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background: $dark_teal-color;
+    
+    .logo{
+        background-image: url('../img/simbios-white.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 2.2em;
+        width: 2.2em;
+        padding: 0;
+    }
+    .pure-menu-heading {
+        color: white;
+        font-weight: 400;
+        font-size: 120%;
+    }
+    .pure-menu-selected a {
+        color: $light_teal-color!important;
+    }
+    a {
+        color: $light_teal-color;
+    }
+    li a:focus, li a:hover {
+        background: none;
+        border: none;
+        color: $dark_white-color;
+    }
 }
 
 
@@ -146,7 +135,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: var(--teal);
+    background: $teal-color;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -170,14 +159,9 @@ a.pure-button-primary {
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
-    color: var(--white);
+    color: white;
     letter-spacing: 0.05em;
     opacity: 0.8;
-}
-.splash .logo{
-    width: 100%;
-    height: 100px;
-    color: white;
 }
 
 /*
@@ -191,7 +175,7 @@ a.pure-button-primary {
     width: 100%;
     min-height: 12%;
     z-index: 2;
-    background: var(--white);
+    background: white;
 
 }
 
@@ -210,7 +194,7 @@ a.pure-button-primary {
 
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
-    color: var(--white);
+    color: white;
 }
 
 /* This is the class used for the content sub-headers (<h3>) */
@@ -223,20 +207,23 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: var(--teal);
-    color: var(--white);
-}
-.ribbon a, .footer a{
-    color: lightgray;
+    background: $teal-color;
+    color: white;
+    a{
+        color: lightgray;
+    }
 }
 
 /* This is the class used for the footer */
 .footer {
-    background: var(--dark-teal);
-    color: var(--white);
+    background: $dark_teal-color;
+    color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
+    a{
+        color: lightgray;
+    }
 }
 
 .outer-horizontal-align{
@@ -248,6 +235,17 @@ a.pure-button-primary {
 }
 .round-image{
     border-radius: 150px;
+}
+
+.social {
+    span{
+        margin-right: 5px;
+    }
+    a{
+        width: 90%;
+        margin-bottom: 5px;
+        text-align: center;
+    }
 }
 
 /*
@@ -293,16 +291,6 @@ a.pure-button-primary {
     }
 
 }
-
-.social span{
-    margin-right: 5px;
-}
-.social a{
-    width: 90%;
-    margin-bottom: 5px;
-    text-align: center;
-}
-
 
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
