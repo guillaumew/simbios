@@ -1,0 +1,282 @@
+@import "colors";
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+body {
+    line-height: 1.7em;
+    color: $dark_teal-color;
+    font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: $teal-color;
+}
+
+
+/*
+ * -- LAYOUT STYLES --
+ * These are some useful classes which I will need
+ */
+.l-box {
+    padding: 1em;
+}
+
+.l-box-lrg {
+    padding: 2em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.is-center {
+    text-align: center;
+}
+
+
+
+/*
+ * -- PURE FORM STYLES --
+ * Style the form inputs and labels
+ */
+.pure-form {
+    label {
+        margin: 1em 0 0;
+        font-weight: bold;
+        font-size: 100%;
+    }
+    input[type] {
+        border: 2px solid #ddd;
+        box-shadow: none;
+        font-size: 100%;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
+
+/*
+ * -- PURE BUTTON STYLES --
+ * I want my pure-button elements to look a little different
+ */
+.pure-button {
+    background-color: #00221C;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+a.pure-button-primary {
+    background: white;
+    color: #00221C;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+
+/*
+ * -- MENU STYLES --
+ * I want to customize how my .pure-menu looks at the top of the page
+ */
+ .pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background: $dark_teal-color;
+    & > a {
+        text-decoration: none;
+    }
+    .logo{
+        background-image: url('../img/simbios-white.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 2.2em;
+        width: 2.2em;
+        padding: 0;
+    }
+    .pure-menu-heading {
+        color: white;
+        font-weight: 400;
+        font-size: 120%;
+    }
+    .pure-menu-selected a {
+        color: $light_teal-color!important;
+    }
+    a {
+        color: $light_teal-color;
+    }
+    li a:focus, li a:hover {
+        background: none;
+        border: none;
+        color: $dark_white-color;
+    }
+}
+
+
+/*
+ * -- SPLASH STYLES --
+ * This is the blue top section that appears on the page.
+ */
+
+.splash-container {
+    background: $teal-color;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    left: 0;
+    top: 3.75em;
+    margin-bottom: 3.75em;
+}
+
+.splash {
+    /* absolute center .splash within .splash-container */
+    width: 80%;
+    height: min-content;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    img{
+        max-width: 100%;
+    }
+}
+
+/* This is the subheading that appears on the blue section */
+.splash-subhead {
+    color: white;
+    letter-spacing: 0.05em;
+    font-size: 1.2em;
+}
+
+/*
+ * -- CONTENT STYLES --
+ * This represents the content area (everything below the blue section)
+ */
+.content-wrapper {
+    width: 100%;
+    min-height: 12%;
+    background: white;
+
+}
+
+/* We want to give the content area some more padding */
+.content {
+    padding: 1em 1em 3em;
+}
+
+/* This is the class used for the main content headers (<h2>) */
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+/* This is a modifier class used when the content-head is inside a ribbon */
+.content-head-ribbon {
+    color: white;
+}
+
+/* This is the class used for the content sub-headers (<h3>) */
+.content-subhead {
+    color: #00221C;
+}
+    .content-subhead i {
+        margin-right: 7px;
+    }
+
+/* This is the class used for the dark-background areas. */
+.ribbon {
+    background: $teal-color;
+    color: white;
+    a{
+        color: lightgray;
+    }
+}
+
+/* This is the class used for the footer */
+.footer {
+    background: $dark_teal-color;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    a{
+        color: lightgray;
+    }
+}
+
+.outer-horizontal-align{
+    display: flex;
+    justify-content: center;
+}
+.inner-horizontal-align{
+    margin:auto;
+}
+.round-image{
+    border-radius: 150px;
+}
+
+.social {
+    span{
+        margin-right: 5px;
+    }
+    a{
+        width: 90%;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+}
+
+/*
+ * -- TABLET (AND UP) MEDIA QUERIES --
+ * On tablets and other medium-sized devices, we want to customize some
+ * of the mobile styles.
+ */
+@media (min-width: 48em) {
+
+    /* We increase the body font size */
+    body {
+        font-size: 16px;
+    }
+
+    /* We can align the menu header to the left, but float the
+    menu items to the right. */
+    .home-menu {
+        text-align: left;
+    }
+        .home-menu ul {
+            float: right;
+        }
+
+
+    /* We decrease the width of the .splash, since we have more width
+    to work with */
+
+    .splash-head {
+        font-size: 250%;
+    }
+
+
+    /* We remove the border-separator assigned to .l-box-lrg */
+    .l-box-lrg {
+        border: none;
+    }
+
+}
+

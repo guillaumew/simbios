@@ -3,8 +3,22 @@ collections:
 defaults:
   - scope:
       path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      css: "blog.css"
+      thumbnail: "/assets/img/simbios-black.svg"
+  - scope:
+      path: "index.html"
     values:
       layout: "default"
+      css: "home.css"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      css: "blog.css"
+      subhead: "Pour réduire l'impact environnemental du numérique"
 sass:
   style: compressed
   

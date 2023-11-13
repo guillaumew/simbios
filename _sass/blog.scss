@@ -1,0 +1,70 @@
+@import "colors";
+
+.splash-container{
+	position: relative;
+}
+.splash-head {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  padding: 1em 1.6em;
+  line-height: 1em;
+}
+
+.content{
+	padding: 2em;
+}
+
+
+.post_summary{
+	margin-bottom: 1em;
+	h2{
+		margin-top: 0;
+	}
+	.description{
+		padding: 1em;
+	}
+	a{
+		text-decoration: none;
+		p {
+			color: $dark_teal-color;
+		}
+	}
+	.thumb_container{
+  		display: flex;
+		.thumbnail{
+			margin: auto;
+			max-width: 100%;
+			max-height: 200px;
+		}
+	}
+}
+
+
+
+.post{
+	p{
+		width:100%
+	}
+	img{
+		margin-left: auto;  
+		margin-right: auto; 
+		display: block;
+		max-width: 100%;
+	}
+	a{
+		color: $teal-color;
+	}
+	hr{
+		border-color:$teal-color;
+	}
+	.chip {
+	  display: inline-block;
+	  background: $light_teal-color;
+	  padding: 0 12px;
+	  margin-bottom: 12px;;
+	  border-radius: 32px;
+	  font-size: 16px;
+	  color: white;
+	}
+}

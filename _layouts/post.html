@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="content post">
+	{{ content}}
+	<hr>
+	<div class="post_info">
+		<p>Article paru le {{ page.date | date: "%d/%m/%Y" }}</p>
+		{% if page.tags %}
+		{% include tags_list.html tags=page.tags %}
+		{% endif %}
+	</div>
+</div>
