@@ -1,5 +1,4 @@
 # Simbios
-Ce repo contient le code du site vitrine de Siumbios, une entreprise de conseils à Nantes pour aider les entreprises à faire du numérique un outil à impact environnemental et social positif.
 
 ## Enpreinte environnementale du site
 Conformément à la vision de Simbios, ce site est conçu pour avoir une empreinte environnemental réduite.

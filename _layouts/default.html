@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simbios : conseil à Nantes pour un numérique à impact positif.">
+    <title>Simbios</title>
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/common.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/styles.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/print.min.css" media="print">
+     <noscript><link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css"><link rel="stylesheet" href="common.css"></noscript>
+</head>
+<body>
+
+{% include header.html %}
+
+<div class="splash-container">
+    <div class="splash">
+        <img class="animated rubberBand" src="assets/img/simbios-light.svg" alt="Logo Simbios : une variation de l'écriture grecque de Gaïa">
+        <p class="splash-subhead">
+            Pour réduire l'impact environnemental du numérique
+        </p>
+    </div>
+</div>
+
+<div class="content-wrapper">
+    {{ content }}
+
+    {% include footer.html %}
+
+</div>
+
+</body>
+</html>
