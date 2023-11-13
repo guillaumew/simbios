@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 :root {
-  --color-1: #175873;
-  --color-2: #2B7C85;
-  --color-3: #DDEEFF;
-  --color-4: #0C1414;
-  --color-5: white;
-  --color-6: #87ACA3;
+  --teal: #175873;
+  --light_teal: #2B7C85;
+  --dark_white: #DDEEFF;
+  --dark-teal: #0C1414;
+  --white: white;
 }
 /*
  * -- BASE STYLES --
@@ -17,7 +16,7 @@
  */
 body {
     line-height: 1.7em;
-    color: var(--color-4);
+    color: var(--dark-teal);
     font-size: 13px;
 }
 
@@ -28,7 +27,7 @@ h4,
 h5,
 h6,
 label {
-    color: var(--color-1);
+    color: var(--teal);
 }
 
 .pure-img-responsive {
@@ -79,13 +78,13 @@ label {
  */
 .pure-button {
     background-color: #00221C;
-    color: var(--color-5);
+    color: var(--white);
     padding: 0.5em 2em;
     border-radius: 5px;
 }
 
 a.pure-button-primary {
-    background: var(--color-5);
+    background: var(--white);
     color: #00221C;
     border-radius: 5px;
     font-size: 120%;
@@ -97,7 +96,7 @@ a.pure-button-primary {
  * I want to customize how my .pure-menu looks at the top of the page
  */
 .home-menu .logo{
-    background-image: url('../img/simbios-light.svg');
+    background-image: url('../img/simbios-white.svg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 2.2em;
@@ -111,7 +110,7 @@ a.pure-button-primary {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu {
-    background: var(--color-4);
+    background: var(--dark-teal);
 }
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -121,23 +120,23 @@ a.pure-button-primary {
 }
 
 .home-menu .pure-menu-heading {
-    color: var(--color-5);
+    color: var(--white);
     font-weight: 400;
     font-size: 120%;
 }
 
 .home-menu .pure-menu-selected a {
-    color: var(--color-2)!important;
+    color: var(--light_teal)!important;
 }
 
 .home-menu a {
-    color: var(--color-2);
+    color: var(--light_teal);
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
     background: none;
     border: none;
-    color: var(--color-3);
+    color: var(--dark_white);
 }
 
 
@@ -147,7 +146,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: var(--color-1);
+    background: var(--teal);
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -171,13 +170,14 @@ a.pure-button-primary {
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
-    color: var(--color-5);
+    color: var(--white);
     letter-spacing: 0.05em;
     opacity: 0.8;
 }
-.splash img{
+.splash .logo{
     width: 100%;
-    max-height: 100%;
+    height: 100px;
+    color: white;
 }
 
 /*
@@ -191,7 +191,7 @@ a.pure-button-primary {
     width: 100%;
     min-height: 12%;
     z-index: 2;
-    background: var(--color-5);
+    background: var(--white);
 
 }
 
@@ -210,7 +210,7 @@ a.pure-button-primary {
 
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
-    color: var(--color-5);
+    color: var(--white);
 }
 
 /* This is the class used for the content sub-headers (<h3>) */
@@ -223,8 +223,8 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: var(--color-1);
-    color: var(--color-5);
+    background: var(--teal);
+    color: var(--white);
 }
 .ribbon a, .footer a{
     color: lightgray;
@@ -232,8 +232,8 @@ a.pure-button-primary {
 
 /* This is the class used for the footer */
 .footer {
-    background: var(--color-4);
-    color: var(--color-5);
+    background: var(--dark-teal);
+    color: var(--white);
     position: absolute;
     bottom: 0;
     width: 100%;
