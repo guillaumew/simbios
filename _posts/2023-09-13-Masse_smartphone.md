@@ -2,7 +2,7 @@
 title: La masse d’un smartphone
 subhead: Un smartphone pèse bien pour lourd sur l'environnement que dans votre main.
 tags: Smartphones Extraction Metaux Raffinage Environnement
-thumbnail: /assets/img/posts/2023/Q3/thumb-masse_smartphone.jpg
+thumbnail: /assets/img/posts/2023/Q3/thumb-masse_smartphone.webp
 ---
 
 On ne s’en rend pas compte, mais quand on répond à un appel téléphonique, nous réalisons une petite prouesse physique en soulevant plus de 200 kg.
