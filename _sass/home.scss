@@ -4,6 +4,7 @@
 }
 .splash{
 	position: absolute;
+	width:50%;
 }
 .content-wrapper {
 	position: absolute;
@@ -13,12 +14,12 @@
 
 @media (min-width: 48em) {
 	.splash {
-        width: 40%;
+        width: 30%;
     }
 }
 
 @media (min-width: 78em) {
     .splash {
-        width: 30%;
+        width: 25%;
     }
 }
