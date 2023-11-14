@@ -16,6 +16,51 @@
 
 .post_summary{
 	margin-bottom: 1em;
+	position: relative;
+	&.cas_etudes{
+		.ribbon{
+			background-color: $dark_teal-color;
+			&:before{
+				content: "Cas d'étude"
+			}
+		}
+		h2{
+			color: $dark_teal-color;
+		}
+		.chip{
+			background: $dark_teal-color;
+		}
+	}
+	.ribbon-wrapper {
+		width: 90px;
+		height: 90px;
+		overflow: hidden;
+		position: absolute;
+		top: -3px;
+		right: -3px;
+		.ribbon {
+		  font: bold 12px sans-serif;
+		  color: #333;
+		  text-align: center;
+		  -webkit-transform: rotate(45deg);
+		  -moz-transform:    rotate(45deg);
+		  -ms-transform:     rotate(45deg);
+		  -o-transform:      rotate(45deg);
+		  position: relative;
+		  padding: 2px 0;
+		  top: 20px;
+		  right: 0px;
+		  width: 120px;
+		  
+		  color: #fff;
+		}
+		.blog{
+			background-color: $light_teal-color;
+			&:before{
+				content: "Article"
+			}
+		}
+	}
 	h2{
 		margin-top: 0;
 	}
