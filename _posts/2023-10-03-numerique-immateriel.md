@@ -1,8 +1,8 @@
 ---
 title: Le numérique n'est pas immatériel
-subhead: Terminaux, serveurs, infrastructures réseaux... ce qui fait fonctionner le numérique a été construit et consomme de l'électricité.
+description: Terminaux, serveurs, infrastructures réseaux... ce qui fait fonctionner le numérique a été construit et consomme de l'électricité.
 tags: NumeriqueResponsable Electricite Terminaux DataCenters Reseaux Servers
-thumbnail: /assets/img/posts/2023/Q4/thumb-materiel.webp
+image: /assets/img/posts/2023/Q4/thumb-materiel.webp
 ---
 
 Quand on pense au numérique, on pense souvent à immatériel. Pour dire qu’on est passé à une solution numérique on entend parfois : “On a dématérialisé tel service”. Cependant, les services numériques ont bel et bien de matériels pour fonctionner. On peut les ranger dans trois catégories :

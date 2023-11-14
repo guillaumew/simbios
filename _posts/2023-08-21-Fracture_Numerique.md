@@ -1,8 +1,8 @@
 ---
 title: La fracture numérique en France
-subhead: Une personne sur 6 en France ne peut pas utiliser les outils numériques.
+description: Une personne sur 6 en France ne peut pas utiliser les outils numériques.
 tags: Illectronisme Inclusion NumeriqueResponsable
-thumbnail: /assets/img/posts/2023/Q3/thumb-fracture_numerique.webp
+image: /assets/img/posts/2023/Q3/thumb-fracture_numerique.webp
 ---
 
 C’est quoi la fracture numérique ?

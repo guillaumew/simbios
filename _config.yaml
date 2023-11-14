@@ -7,7 +7,7 @@ defaults:
     values:
       layout: "post"
       css: "blog.css"
-      thumbnail: "/assets/img/simbios-black.svg"
+      image: "/assets/img/simbios-black.svg"
   - scope:
       path: "index.html"
     values:
@@ -18,10 +18,25 @@ defaults:
     values:
       layout: "default"
       css: "blog.css"
-      subhead: "Pour réduire l'impact environnemental du numérique"
+      description: "Pour réduire l'impact environnemental du numérique"
 sass:
   style: compressed
   
 domain: simbios.fr
 url: https://diabolosnantes.fr
 baseurl:
+
+title: Simbios
+description: "Aide les entreprises et les particuliers à réduire l'empreinte environnementale de leurs activités numériques."
+url: simbios.fr
+author: 
+  twitter: geeyom
+  picture: /assets/img/guillaumewolf.webp
+logo: /assets/img/simbios-black.svg
+social:
+  name: Guillaume Wolf
+  links:
+    - https://www.linkedin.com/in/guillaumewolf
+    - https://twitter.com/geeyom
+    - https://github.com/guillaumew
+locale: 'fr_FR'

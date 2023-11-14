@@ -1,8 +1,8 @@
 ---
 title: Le numérique et le handicap
-subhead: Le numérique pèse sur l'environnement au delà de se contribution au changement climatique
+description: Le numérique pèse sur l'environnement au delà de se contribution au changement climatique
 tags: NumeriqueResponsable Handicap Inclusion Accessibilité
-thumbnail: /assets/img/posts/2023/Q3/thumb-plage-braille.webp
+image: /assets/img/posts/2023/Q3/thumb-plage-braille.webp
 ---
 
 En France, 24% des personnes âgées entre 15 et 64 ans possèdent au moins un handicap au sens large ([source](https://travail-emploi.gouv.fr/IMG/pdf/2013-066.pdf)), c’est à dire une condition récurrente qui nuit à leur quotidien. Ces derniers peuvent être variés :
