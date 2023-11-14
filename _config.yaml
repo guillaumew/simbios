@@ -40,3 +40,12 @@ social:
     - https://twitter.com/geeyom
     - https://github.com/guillaumew
 locale: 'fr_FR'
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+paginate: 5
+paginate_path: "/blog/page:num/"

@@ -113,16 +113,13 @@ a.pure-button-primary {
         font-weight: 400;
         font-size: 120%;
     }
-    .pure-menu-selected a {
-        color: $light_teal-color!important;
-    }
     a {
-        color: $light_teal-color;
+        color: $dark_white-color;
     }
     li a:focus, li a:hover {
         background: none;
         border: none;
-        color: $dark_white-color;
+        color: $light_teal-color;
     }
 }
 
