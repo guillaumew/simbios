@@ -101,9 +101,6 @@
 		display: block;
 		text-align: center;
 	}
-	a{
-		color: $teal-color;
-	}
 	hr{
 		border-color:$teal-color;
 	}
@@ -118,5 +115,22 @@
 	}
 	.pagination{
 		text-align: center;
+	}
+}
+
+.err_404{
+	a {
+		color: white;
+	}
+}
+
+.services{
+	.image_container{
+		display: flex;
+		img{
+			margin: auto;
+			display: block;
+			max-width: 300px;
+		}
 	}
 }
