@@ -23,7 +23,7 @@ h6,
 label {
     color: $teal-color;
 }
-a{
+a {
     color: $teal-color;
 }
 
@@ -90,8 +90,8 @@ a{
  * I want my pure-button elements to look a little different
  */
 .pure-button {
-    background-color: #00221C;
-    color: white;
+    background-color: $dark_teal-color;
+    color: $dark_white-color;;
     padding: 0.5em 2em;
     border-radius: 5px;
 }
@@ -136,13 +136,9 @@ a.pure-button-primary {
         font-size: 120%;
     }
     a {
-        color: $dark_white-color;
+        color: white;
     }
-    li a:focus, li a:hover {
-        background: none;
-        border: none;
-        color: $light_teal-color;
-    }
+
 }
 
 
@@ -222,8 +218,8 @@ a.pure-button-primary {
 .ribbon {
     background: $teal-color;
     color: white;
-    a{
-        color: lightgray;
+    a {
+        color: $dark_white-color;
     }
 }
 
@@ -235,7 +231,7 @@ a.pure-button-primary {
     bottom: 0;
     width: 100%;
     a{
-        color: lightgray;
+        color: $dark_white-color;
     }
 }
 
