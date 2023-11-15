@@ -2,15 +2,31 @@
 
 ## Enpreinte environnementale du site
 Conformément à la vision de Simbios, ce site est conçu pour avoir une empreinte environnemental réduite.
-A l'heure de l'écriture du ce read me, il possède un [écoindex A](https://www.ecoindex.fr/resultat/?id=fafd52e0-208c-4864-b3ad-1ec78219a853) (91/100) :
- - 37ko
- - 81 éléments dans le DOM
- - 7 requêtes
+A l'heure de l'écriture du ce read me, il possède un [écoindex A](https://www.ecoindex.fr/resultat/?id=8278ca23-a84d-4fb9-afc7-f06f397b1b77) (91/100) :
+ - 54.8 ko (23.0 ko compressé)
+ - 108 éléments dans le DOM
+ - 8 requêtes
  
-Soit une consommation estimée à 1,7 cl d'eau et 1,18 gCO2e par visite.
+Soit une consommation estimée à 1,78 cl d'eau et 1,19 gCO2e par visite.
 
 ## Mise en place
 Pour le moment, il n'y a pas de javascript. J'espère pouvoir rester cette dynamique.
 Pour le CSS, j'ai utilisé [Pure.css](https://purecss.io/). Pour aller un cran plus loin, je pourrai décider de passer sur une solution complètement custom.
-Il n'y a qu'une seule image qui pèse pour plus de la moitié du poids de la page. Le logo va forcément ajouter du poid également.
-Pour les icones, j'ai utilisé [Icomoon](https://icomoon.io/), ce qui me permet de ne charger que les icones dont j'ai besoin.
+Les images doivent être ajoutées au format webp et optimisée manuellement pour le moment (je n'ai pas encore trouvé de solution compatible avec Github page)
+Les icônes sont gérées directement en svg dans le CSS.
+Les feuillets CSS sont listés dans `/assets/css/`. Ils sont générés à partir des fichiers dans `/_sass/`
+
+## Installation
+Il faut avoir Ruby, RubyGems, GCC et Make sur son ordinateur. Voir [le guide d'installation](https://jekyllrb.com/docs/installation/).
+Puis il suffit de faire un
+```bundle install```
+
+## Lancement
+Faire
+``` bundle exec jekyll serve ```
+
+Cela doit créer un site temporaire qui va se mettre à jour à chaque modification de fichier.
+
+## Structure du projet
+J'ai suivi le tutoriel de Jekyll. Je vous laisse le consulter.
+https://jekyllrb.com/docs/step-by-step/01-setup/
