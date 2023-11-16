@@ -6,6 +6,17 @@
     margin-bottom: 4em;
 }
 
+.services{
+	.image_container{
+		display: flex;
+		img{
+			margin: auto;
+			display: block;
+			max-width: 320px;
+		}
+	}
+}
+
 .les_plus {
     display: flex;
     border: solid 1px $dark_teal-color;
