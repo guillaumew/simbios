@@ -1,5 +1,7 @@
 ---
 title: Réduire l'impact environnemental du numérique 
+layout: home
+css: home.css
 ---
 
 <div class="content">
@@ -80,22 +82,7 @@ title: Réduire l'impact environnemental du numérique
     <div class="pure-g">
         <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
             <h3>Envoyer un message</h3>
-            <form class="pure-form pure-form-stacked" action="https://formspree.io/f/mdorwpop" method="POST">
-                <fieldset>
-
-                    <label for="email">
-                        Votre email
-                        <input id="email" name="email" type="email" placeholder="Votre email" autocomplete="on">
-                    </label>
-
-                    <label for="message">
-                        Votre message
-                        <textarea id="message" name="message" class="pure-input-1" placeholder="Votre message"></textarea>
-                    </label>
-
-                    <button type="submit" class="pure-button">Envoyer</button>
-                </fieldset>
-            </form>
+            {% include contact_form.html %}
         </div>
 
         <div class="l-box-lrg pure-u-1 pure-u-md-3-5">

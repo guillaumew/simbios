@@ -11,21 +11,10 @@
 </head>
 <body>
 
-{% include menu.html %}
-
-{% if page.url == '/' %}
-{% include splash.html %}
-{% else %}
-{% include header.html title=page.title description=page.description %}
-{% endif %}
-
-<div class="content-wrapper">
-    {{ content }}
-
-    {% include footer.html %}
-
-</div>
-
+    <div class="wrapper">
+        {% include menu.html %}
+        {{ content }}
+    </div>
 </body>
     <script defer async data-host="simbios.fr" src="https://liteanalytics.com/lite.js"></script>
 </html>
