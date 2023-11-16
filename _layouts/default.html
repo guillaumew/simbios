@@ -11,20 +11,13 @@
 </head>
 <body>
 
-{% include header.html %}
+{% include menu.html %}
 
-<div class="splash-container">
-    <div class="splash">
-        {% if page.url == '/' %}
-        <div class="svg_icons animated rubberBand splash_logo simbios_logo"></div>
-        {% else %}
-        <h1 class="splash-head">{{ page.title}}</h1>
-        {% endif %}
-        <p class="splash-subhead">
-            {{ page.description }}
-        </p>
-    </div>
-</div>
+{% if page.url == '/' %}
+{% include splash.html %}
+{% else %}
+{% include header.html title=page.title description=page.description %}
+{% endif %}
 
 <div class="content-wrapper">
     {{ content }}
