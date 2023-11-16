@@ -1,7 +1,7 @@
 ---
 title: La masse d’un smartphone
 description: Un smartphone pèse bien pour lourd sur l'environnement que dans votre main.
-tags: Smartphones Extraction Metaux Raffinage Environnement
+tags: ["Smartphones", "Extraction", "Metaux", "Raffinage", "Environnement"]
 image: /assets/img/posts/2023/Q3/thumb-masse_smartphone.webp
 ---
 
@@ -19,7 +19,7 @@ Laissez-moi vous expliquer la notion de sac-à-dos écologique de nos smartphone
 - 20g de fibre de carbone
 - 1g d’autres matériaux
 
-![Graphique présentant les statistiques mentionnées plus haut](/assets/img/posts/2023/Q3/composition_smartpone.webp)
+![Graphique présentant les statistiques mentionnées plus haut](/assets/img/posts/2023/Q3/composition_smartpone.webp){:loading="lazy"}
 
 
 Sauf qu’il a fallu trouver toutes ces ressources. Et pour cela nous avons eu besoin d’énergie. Pour un smartphone, l’extraction de matière première demande environ 150 MJ. Pour produire cette énergie, il a fallu utiliser près de 50kg de ressources (charbon, pétrole, gaz naturel…).
@@ -32,7 +32,7 @@ Au total, c’est plus de 175kg de ressources qui sont nécessaires pour la fabr
 
 Si on cumule les deux, la fabrication de mon smartphone a nécessité plus de 220 kg de ressources, soit près de 1000 fois plus que ce qu’il ne pèse. C’est ce qu’on appelle le sac-à-dos écologique.
 
-![Graphique représentant la répartition des procédés contributeur au sac à dos écologique d’un smartphone](/assets/img/posts/2023/Q3/contribution_sac_a_dos_smartphone.webp)
+![Graphique représentant la répartition des procédés contributeur au sac à dos écologique d’un smartphone](/assets/img/posts/2023/Q3/contribution_sac_a_dos_smartphone.webp){:loading="lazy"}
 *En orange, les ressources nécessaires pour obtenir de l’énergie, en bleu les ressources pour obtenir les matériaux*
 
 Et on soulève ça sans problème jusqu’à notre oreille…
@@ -41,7 +41,7 @@ Avec 1 milliard de téléphones fabriqués tous les ans sur Terre, cela fait 250
 
 Alors, si vous souhaitez battre vos records en musculation, pensez aux sacs à dos écologique des terminaux numériques. Me voici en train de soulever 1 500 kg.
 
-![Une personne en tenue de sport qui soulève un écran d’ordinateur.](/assets/img/posts/2023/Q3/souleve_ecran.webp)
+![Une personne en tenue de sport qui soulève un écran d’ordinateur.](/assets/img/posts/2023/Q3/souleve_ecran.webp){:loading="lazy"}
 *Un écran d’ordinateur pèse 6 kg mais possède un sac à dos écologique de 1,5 tonnes.*
 
-Source : [Modélisation et évaluation des impacts environnementaux de produits de consommation et biens d’équipement, ADEME, 2018](https://librairie.ademe.fr/consommer-autrement/1189-modelisation-et-evaluation-des-impacts-environnementaux-de-produits-de-consommation-et-biens-d-equipement.html)
+Source : [Modélisation et évaluation des impacts environnementaux de produits de consommation et biens d’équipement, ADEME, 2018 {% include external_link_icon.html %}](https://librairie.ademe.fr/consommer-autrement/1189-modelisation-et-evaluation-des-impacts-environnementaux-de-produits-de-consommation-et-biens-d-equipement.html){:target="new-tab"}
