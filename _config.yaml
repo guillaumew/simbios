@@ -1,4 +1,8 @@
 collections:
+  sensibilisations:
+    relative_directory: "sensibilisations"
+    output: true
+    permalink: /services/sensibilisation/:path.html
 
 defaults:
   - scope:
