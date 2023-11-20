@@ -48,7 +48,7 @@ Enfin, on pourra travailler sur l'approche optimale de communication des résult
 
 ## Mise en place d'une stratégie de réduction
 
-Maintenant que l'on connait les coûts environnementaux du champ étudié, il est possible de bâtir une stratégie de réduction de l'empreinte. On voit ceal dans l'étape suivante.
+Maintenant que l'on connait les coûts environnementaux du champ étudié, il est possible de bâtir une stratégie de réduction de l'empreinte. [On voit cela dans l'étape suivante](/services/strategie_reduction.html).
 
 ---
 
