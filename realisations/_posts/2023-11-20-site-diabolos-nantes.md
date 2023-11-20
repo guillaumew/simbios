@@ -5,13 +5,13 @@ tags: ["Ecoconception", "Réécriture", "Site"]
 image: /assets/img/posts/2023/Q4/thumb_diabolos_nantes.webp
 ---
 
-En 2018, j’avais créé un site pour ma troupe de théâtre d’improvisation. Ce site doit permettre de communiquer sur nos spectacles à venir. Mon objectif était alors de proposer une page statique qu’il était raisonnablement facile de mettre à jour pour afficher nos spectacles à venir. La raison principale de cette mise à jour du site était de faire un site qui s’affiche correctement sur les mobiles (en mode responsive donc).
+En 2018, j’avais créé un site pour ma troupe de théâtre d’improvisation. Ce site doit permettre de communiquer sur nos spectacles à venir. Mon objectif était alors de proposer une page statique qu’il était raisonnablement facile de mettre à jour. La raison principale de cette mise à jour du site était de faire un site qui s’affiche correctement sur les mobiles (en mode responsive donc).
 
 ![Logo de la troupe des Diabolos Nantes](/assets/img/posts/2023/Q4/thumb_diabolos_nantes.webp){:loading="lazy"}
 
 Dans le but d’aller vite, j’ai pris un joli template que j’ai adapté aux couleurs de la troupe. J’ai installé Angular JS et j’ai géré la liste des spectacles dans un fichier JSON. Ce n’est pas ce qu’il y a de plus facile pour la mise à jour des spectacles mais bon je ne voulais pas passer trop de temps sur ce sujet.
 
-A ce moment, je n’avais que très peu de considération de sobriété, à part le fait que le page devait s’afficher dans un délai raisonnable. 5 ans plus tard, je ne peux plus laisser mon nom sur une page qui ne respecte pas mes valeurs. Il est temps d'agir.
+A ce moment, je n’avais que très peu de considération de sobriété, à part le fait que le page devait s’afficher dans un délai raisonnable. 5 ans plus tard, je ne peux pas ignorer un site qui ne respecte pas mes valeurs. Il est temps d'agir.
 
 ## Etat des lieux
 
@@ -24,8 +24,9 @@ Cela implique une estimation de 2,22 cl de consommation d’eau pour un bilan ca
 |--------------------|-------------------|---------------|
 | 33                 | 2,4 Mo            | 109           |
 
-Au niveau de la taille du DOM on n’est pas trop mal. Il faudra rester sur cet ordre de grandeur avec une centaine d’éléments.
-On peut voir qu’une dizaine de requêtes proviennent du plugin Facebook. Voici un module qui coûte beaucoup, pour peu d’utilité. On va donc le supprimer.
+Au niveau de la taille du DOM on est bien. Il faudra rester sur cet ordre de grandeur avec une centaine d’éléments.
+
+Je constate qu’une dizaine de requêtes proviennent du plugin Facebook. Voici un module qui coûte beaucoup, pour peu d’utilité. On va donc le supprimer.
 On a aussi 6 requêtes javascript pour un site complètement statique c’est bien dommage.
 Le gros de la taille provient sans surprise des images. On devrait pouvoir optimiser cela.
 
