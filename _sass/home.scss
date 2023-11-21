@@ -32,8 +32,16 @@
     margin: 2em 0 1em;
 }
 
-.services h3 {
-    color: $dark_teal-color;
+.services {
+    h3 {
+        text-align: center;
+    }
+    .service {
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: justify;
+        background-position: center;
+    }
 }
 
 .social {

@@ -1,5 +1,4 @@
 {% assign ext = (include.link)[0,4] %}
 <a href="{{include.link}}" {% if include.external %} target="new-tab" {% endif %}>
     {{include.text}} {{ ext }}
-    {% if include.external %}<span class="external_link_icon svg_icons"></span>{% endif %}
-</a>
+    {% if include.external %}<span class="external_link_icon svg_icons"></span>{% endif %}</a>
