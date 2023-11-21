@@ -127,7 +127,7 @@ On va se projeter à périmètre constant, donc je retire les requêtes liées �
 | Images          | 5        | 2 Mo   | 5        | 500 ko | 5         | 153 ko |
 | TOTAL           | 33       | 2,4 Mo | 9        | 505 ko | 7         | 163 ko |
 
-On a donc largement atteint les objectifs pour un site qui garde une apparence très proche. La page est maintenant 7 fois plus légère et nécessite 5 fois moins de requêtes.
+On a donc largement atteint les objectifs pour un site qui garde une apparence très proche. La page est maintenant près de 15 fois plus légère et nécessite 5 fois moins de requêtes.
 
 ![Graphique présentant la diminutaion de la taille de la page d'accueil du site des Diabolos Nantes](/assets/img/posts/2023/Q4/optimisation_DN.webp){:loading="lazy"}
 
