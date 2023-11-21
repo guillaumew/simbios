@@ -1,0 +1,40 @@
+
+.pure-menu.pure-menu-fixed {
+    border-bottom: none;
+    z-index: 4;
+}
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background: $dark_teal-color;
+    & > a {
+        text-decoration: none;
+    }
+    .logo{
+        height: 2.2em;
+        width: 2.2em;
+        padding: 0;
+        background-color: white;
+        display: inline-block;
+        vertical-align:middle
+    }
+    .pure-menu-heading {
+        color: white;
+        font-weight: 400;
+        font-size: 120%;
+    }
+    a {
+        color: white;
+    }
+
+}
+
+@media (min-width: 48em) {
+    .home-menu {
+        text-align: left;
+    }
+    .home-menu ul {
+        float: right;
+    }
+}

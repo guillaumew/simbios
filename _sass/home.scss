@@ -19,10 +19,32 @@
     max-width: 500px;
 }
 
-.content-wrapper {
+.wrapper .content-wrapper {
 	position: absolute;
     top: calc(80% + 3.75em);
 	z-index: 2;
+}
+
+.content h2{
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+.services h3 {
+    color: $dark_teal-color;
+}
+
+.social {
+    span{
+        margin-right: 5px;
+    }
+    a, button{
+        width: 90%;
+        margin-bottom: 5px;
+        text-align: center;
+    }
 }
 
 @media (min-width: 48em) {

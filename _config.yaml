@@ -10,14 +10,15 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      css: "blog.css"
+      css: "markdown.css"
       image: "/assets/img/simbios-black.svg"
   - scope:
       path: ""
     values:
       layout: "page"
-      css: "blog.css"
+      css: "markdown.css"
       description: "Pour réduire l'impact environnemental du numérique"
+      image: "/assets/img/simbios-black.svg"
 sass:
   style: compressed
   

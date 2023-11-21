@@ -3,10 +3,13 @@ layout: page
 ---
 
 
-<div class="content post">
+<div class="content markdown column-content">
 	{{ content}}
+	
+</div>
+<div class="content">
 	<hr>
-	<div class="post_info">
+	<div class="markdown post_info">
 		<p>Article paru le {{ page.date | date: "%d/%m/%Y" }}</p>
 		{% if page.tags %}
 		{% include tags_list.html tags=page.tags %}

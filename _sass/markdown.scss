@@ -1,0 +1,42 @@
+.markdown {
+	p{
+		width:100%
+	}
+	img{
+		margin-left: auto;  
+		margin-right: auto; 
+		display: block;
+		max-width: 100%;
+	}
+	em{
+		display: block;
+		text-align: center;
+	}
+	.pagination{
+		text-align: center;
+	}
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width:100%;
+    text-align: center;
+    thead tr {
+	    background-color: $teal-color;
+	    color: #ffffff;
+	}
+	th,dt {
+		padding: 12px 15px;
+	}
+	tbody tr {
+    border-bottom: 1px solid #dddddd;
+    &:nth-of-type(even){
+    	background-color: $dark_white-color;
+    }
+    &:last-of-type {
+	    border-bottom: 2px solid $teal-color;
+		}
+	}
+}
