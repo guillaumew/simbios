@@ -20,7 +20,7 @@ $light: #D3DEEA;
   background: $white;
   border: 1px solid $gray;
   border-bottom: none;
-  animation: float 2s ease-out infinite;
+  animation: float 2s ease-out 2;
 }
 
 .ghost-copy {
@@ -33,7 +33,7 @@ $light: #D3DEEA;
   background: $white;
   border: 1px solid $gray;
   border-bottom: none;
-  animation: float 2s ease-out infinite;
+  animation: float 2s ease-out 2;
   z-index: 0;
 }
 
@@ -110,7 +110,7 @@ $light: #D3DEEA;
   left: 35%;
   top: 80%;
   border-radius: 50%;
-  animation: scale 2s infinite;
+  animation: scale 2s 2;
 }
 
 @keyframes scale {
