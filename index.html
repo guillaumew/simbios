@@ -8,51 +8,17 @@ css: home.css
     <h2 class="is-center">La réduction de l'impact environnemental des entreprises en 5 étapes</h2>
 
     <div class="pure-g">
-        <div class="content-box pure-u-1 pure-u-md-1-2 pure-u-xl-1-5 graduation_hat_icon service">
+        {% for service in site.data.services %}
+        <div class="content-box {{service.grid_classes}} service {{service.icon}}">
             <h3 class="content-subhead">
-                Sensibilisation
+                {{service.name}}
             </h3>
             <p>
-                Ateliers collaboratifs de sensibilisation sur l'impact environnemental du numérique (comme la Fresque du Numérique) ainsi que sur le numérique responsable (accessibilité, inclusion...).
+                {{service.description}}
             </p>
-            <a href="/services/sensibilisation/">En savoir plus</a>
+            <a href="{{service.link}}">En savoir plus</a>
         </div>
-        <div class="content-box pure-u-1 pure-u-md-1-2 pure-u-xl-1-5 service tachometer_icon">
-            <h3 class="content-subhead">
-                Etat des lieux
-            </h3>
-            <p>
-                Mesure de l'empreinte environnementale du service (site, application, produit, entreprise). Analyse du cycle de vie (ACV). Mise en évidence des points les plus impactants.
-            </p>
-            <a href="/services/analyse_cycle_vie.html">En savoir plus</a>
-        </div>
-        <div class="content-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-5 service chart_icon">
-            <h3 class="content-subhead">
-                Stratégie
-            </h3>
-            <p>
-                Mise en place d'objectifs de réduction de l'empreinte environnementale ainsi que d'un plan d'actions à mener pour y parvenir.
-            </p>
-            <a href="/services/strategie_reduction.html">En savoir plus</a>
-        </div>
-        <div class="content-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-5 service people_icon">
-            <h3 class="content-subhead">
-                Travaux
-            </h3>
-            <p>
-                Application du plan d'actions. Pilotage et suivi des tâches. Mesure de l'amélioration effective.
-            </p>
-            <a href="/services/actions_reduction.html">En savoir plus</a>
-        </div>
-        <div class="content-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-5 service communication_icon">
-            <h3 class="content-subhead">
-                Communication
-            </h3>
-            <p>
-                Communication sur les progrès réalisés (en interne comme en externe).
-            </p>
-            <a href="/services/communication.html">En savoir plus</a>
-        </div>
+        {% endfor %}
     </div>
 </div>
 

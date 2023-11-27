@@ -5,7 +5,7 @@
 }
 .home-menu {
     padding: 0.5em;
-    text-align: center;
+    text-align: left;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     background: $dark_teal-color;
     & > a {
@@ -26,15 +26,89 @@
     }
     a {
         color: white;
+        position: relative;
+        z-index: 2;
     }
-
+}
+#menuToggle{
+    float: right;
+    input, span{
+        display: none;
+    }
 }
 
-@media (min-width: 48em) {
-    .home-menu {
-        text-align: left;
-    }
-    .home-menu ul {
-        float: right;
+@media (max-width: 48em) {
+    #menuToggle {
+        float: none;
+        display: block;
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+        ul {
+            position: absolute;
+            width: 100vw;
+            padding: 1em;
+            top:3em;
+            right:-1em;
+            background: rgba($dark_teal-color,.9);
+            text-align: center;
+            list-style-type: none;
+            -webkit-font-smoothing: antialiased;
+            /* to stop flickering of text in safari */
+            transform-origin: 0% 0%;
+            transform: translate(0, calc(-100% - 4em));
+            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+            li {
+                display: block;
+            }
+        }
+        span {
+            display: block;
+            width: 33px;
+            height: 4px;
+            margin-bottom: 5px;
+            position: relative;
+            background: $dark_white-color;
+            border-radius: 3px;
+            z-index: 1;
+            transform-origin: 4px 0px;
+            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+            &:first-child{
+                transform-origin: 0% 0%;
+            }
+            &:nth-last-child(2){
+                transform-origin: 0% 100%;
+            }
+        }
+        input {
+            display: block;
+            width: 40px;
+            height: 32px;
+            position: absolute;
+            top: -7px;
+            left: -5px;
+            cursor: pointer;
+            opacity: 0; /* hide this */
+            z-index: 2; /* and place it over the hamburger */ 
+            -webkit-touch-callout: none;
+            &:checked ~ span {
+                opacity: 1;
+                transform: rotate(45deg) translate(-2px, -1px);
+            }
+            &:checked ~ span:nth-last-child(3) {
+                opacity: 0;
+                transform: rotate(0deg) scale(0.2, 0.2);
+            }
+            &:checked ~ span:nth-last-child(2) {
+            transform: rotate(-45deg) translate(0, -1px);
+            }
+            &:checked ~ ul {
+                transform: none;
+            }
+        }
     }
 }
