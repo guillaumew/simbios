@@ -28,4 +28,4 @@ Si on regardait la consommation de ressources, les mails pèseraient encore moin
 Le tri des emails a donc un impact très limité. Il est largement plus rentable d’avoir d’autres gestes responsables comme :
 - prolonger la durée de vie de ses terminaux
 - donner ou vendre son matériel inutilisé
-- diminuer la quantité et la qualité des vidéos regardées en ligne
+- diminuer la quantité et la qualité des vidéos regardées en ligne ([quelques astuces pour raisonner son usage vidéo](/blog/2023/11/27/Raisonner-usages-video.html))

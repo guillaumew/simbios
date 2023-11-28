@@ -5,8 +5,8 @@ tags: ["Vidéo", "Eco-geste", "Réseaux", "Qualité"]
 image: /assets/img/posts/2023/Q4/thumb-video_quality.webp
 ---
 
-## Les uagages vidéos occupent l'essentielle du trafic
-Comme on l’a déjà vu, notre consommation numérique ne cesse d’augmenter. Quand on regarde la quantité de données qui transitent, on constate qu’elle double tous les trois à cinq ans. Cette forte croissance a évidemment de gros impacts environnementaux.
+## Les usagages vidéos occupent l'essentiel du trafic
+Comme on l’a déjà vu, notre consommation numérique ne cesse d’augmenter. Quand on regarde la quantité de données qui transitent, on constate qu’elle double tous les trois à cinq ans. Cette forte croissance a évidemment de [gros impacts environnementaux](/blog/2023/09/16/Impact-environnemental-numerique.html).
 
 ![Graphique présentant l’évolution du trafic internet de 2009 à 2022.](/assets/img/posts/2023/Q3/croissance_flux_internet.webp){:loading="lazy"}
 *Source: [Cisco Visual Networking
