@@ -48,12 +48,25 @@ Les grandes plateformes ont réussi à mettre en place une mise en avant du cont
 Il faut être attentif à ses usages. Ai-je bien choisi le contenu que je consulte ? Ou suis-je en train de me laisser guider par une plateforme ?
 
 Dans cette logique, je vous recommande de ne pas permettre la lecture automatique de l’épisode suivant sur Netflix ou Amazon Prime. Voici {% include link.html text="comment faire" link="https://help.netflix.com/fr/node/121518" external=true %}.
+Cette logique s'applique également à {% include link.html text="Youtube" link="https://support.google.com/youtube/answer/6327615" external=true %}
 
 #### Favoriser les podcasts
 
 Il y a de nombreux podcasts (émissions audios) sur beaucoup de sujets différents disponibles sur de nombreuses plateformes. Les flux audios sont largement moins conséquents que les flux vidéos. Si l’image n’est pas indispensable, je recommande donc de se tourner vers ces contenus.
 
 Si vous avez l’habitude de mettre une vidéo lors de certaines activités (faire la cuisine, déjeuner, s’occuper du linge, se préparer le matin…), il s’agit d’une excellente alternative.
+
+#### Optimiser les visio-conférences
+
+N'allumer sa webcam que lorsque c'est utile. Ne partager son écran que lorsqu'il y a quelque chose à montrer.
+
+#### Désactiver la lecture automatique des vidéos sur les réseaux sociaux
+
+Beaucoup de réseaux sociaux proposent le lancement automatique des contenus vidéos dans le flux. Mais la plupart propose également une option qui permet de ne lire les vidéos qu'au clic.
+Voici comment faire sur :
+- {% include link.html text="Facebook" link="https://www.facebook.com/help/1406493312950827" external=true %}.
+- {% include link.html text="X" link="https://help.twitter.com/fr/using-x/x-videos" external=true %} (il faut scroller un peu...")
+- {% include link.html text="LinkedIn" link="https://www.linkedin.com/help/linkedin/answer/a569348/desactiver-le-lancement-automatique-des-videos" external=true %}
 
 ### Réduire la qualité des vidéos regardées
 
@@ -65,9 +78,9 @@ Il est donc intéressant de vérifier jusqu’à quel niveau vous êtes prêt.e 
 ![Sur Youtube, on peut choisir la qualité de la vidéo à chaque lecture](/assets/img/posts/2023/Q4/video_quality.webp){:loading="lazy"}
 
 Voici comment faire sur les différentes plateformes : 
-- **Netflix** : {% include link.html text="https://help.netflix.com/fr/node/87" link="https://help.netflix.com/fr/node/87" external=true %}
-- **Youtube** : {% include link.html text="https://support.google.com/youtube/answer/91449" link="https://support.google.com/youtube/answer/91449" external=true %}
-- **Disney+** : {% include link.html text="https://help.disneyplus.com/fr/article/disneyplus-data-usage" link="https://help.disneyplus.com/fr/article/disneyplus-data-usage" external=true %}
-- **Hulu** : {% include link.html text="https://help.hulu.com/s/article/video-quality-settings" link="https://help.hulu.com/s/article/video-quality-settings" external=true %}
+- **Netflix** : {% include link.html text="https://help.netflix.com/fr/node/87" link="https://help.netflix.com/fr/node/87" external=true %}.
+- **Youtube** : {% include link.html text="https://support.google.com/youtube/answer/91449" link="https://support.google.com/youtube/answer/91449" external=true %}.
+- **Disney+** : {% include link.html text="https://help.disneyplus.com/fr/article/disneyplus-data-usage" link="https://help.disneyplus.com/fr/article/disneyplus-data-usage" external=true %}.
+- **Hulu** : {% include link.html text="https://help.hulu.com/s/article/video-quality-settings" link="https://help.hulu.com/s/article/video-quality-settings" external=true %}.
 - **Tik Tok** : Il y a un mode économiseur de données disponible dans les « Paramètres et confidentialité ».
 - **Amazon Prime** : je n’ai pas trouvé la documentation officielle, mais cela fonctionne comme sur Netflix
