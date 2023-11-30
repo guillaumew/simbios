@@ -16,7 +16,8 @@ Le site simbios.fr est la propriété de Simbios, une société à actions simpl
 
 # Hébergement
 
-Github pages, un service de la société GitHub, 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA.
+Ce site est hébergé par Github pages, un service de la société GitHub (88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA).
+Il est diffusé via le CDN Cloudflare (101 TOWNSEND ST, 99404 SAN FRANCISO).
 
 # Données personnelles
 

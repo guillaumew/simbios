@@ -35,7 +35,20 @@ On touche un point intéressant ou la démarche environnementale peut permettre 
 - changement de localisation
 - révision de la politique de sauvegarde
 
+## Coaching agile
+
+Pour améliorer l'efficacité des équipes technique, nous pouvons organiser du coaching agile. L'idée est de guider les équipes à travers les méthodologies aglies telles que le Scrum, Kanban ou encore SAFe.
+
+- stimuler la collaboration
+- accroitre l'efficacité opérationnelle
+- favorier la culture d'amélioration continue
+
+## Chef de projet
+
+Le rôle d'un chef de projet est crucial pour intégrer les principes de durabilité et de respect de l'environnement dans le processus de développement d'un produit ou d'un service.
+
+Il est responsable de la planification, de la coordination et de la mise en œuvre des projets en veillant à ce que les meilleures pratiques d'éco-conception soient appliquées à chaque étape. Pour créer des solutions durables qui répondent aux besoins tout en préservant l'environnement.
 
 ---
-## Intéressé.e ? Prenons contact !
+# Intéressé.e ? Prenons contact !
 {% include contact_form.html %}
