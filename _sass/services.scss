@@ -1,7 +1,7 @@
 .service{
     text-align: center;
     position:relative;
-    height: 18em;
+    padding-bottom: 4em;
     &:before {
         content: attr(order);
         width: 100%;
