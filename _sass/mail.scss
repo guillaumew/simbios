@@ -18,6 +18,10 @@
 	-webkit-transition: .4s;
 	-moz-transition: .4s;
 	transition: .4s;
+
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
 	
 	.body {
 		position: absolute;
@@ -37,14 +41,18 @@
 		height: 0;
 		border-style: solid;
 		border-width: 50px 100px 0 100px;
-		-webkit-transform-origin: 50% 0%;
-		-webkit-transition: transform .4s .4s, z-index .2s .4s;
-		-moz-transform-origin: 50% 0%;
-		-moz-transition: transform .4s .4s, z-index .2s .4s;
-		transform-origin: 50% 0%;
-		transition: transform .4s .4s, z-index .2s .4s;
-		border-color: rgb(23,88,115) transparent transparent transparent;
-		z-index: 2;
+        transform-origin: 50% 0%;
+        -moz-transform-origin: 50% 0%;
+        -webkit-transform-origin: 50% 0%;
+        border-color: rgb(23,88,115) transparent transparent transparent;
+
+        transition: transform .4s, z-index .2s;
+        transform: rotateX(180deg);
+        -webkit-transition: transform .4s, z-index .2s;
+        -webkit-transform: rotateX(180deg);
+        -moz-transition: transform .4s, z-index .2s;
+        -moz-transform: rotateX(180deg);
+        z-index: 0;
 	}
 	
 	.back-fold {
@@ -72,7 +80,7 @@
 		bottom: 0px;
 		position: absolute;
 		width: 160px;
-		height: 60px;
+		height: 180px;
 		background: white;
 		z-index: 1;
 		overflow: hidden;
@@ -123,7 +131,7 @@
 	position: absolute;
 	top: 200px;
 	left: 50%;
-	width: 400px;
+    width: 250px;
 	height: 30px;
 	transition: .4s;
 	transform: translateX(-50%);
@@ -138,26 +146,26 @@
 
 .letter-image:active, .letter-image:hover{
     .animated-mail {
-        transform: translateY(50px);
-        -webkit-transform: translateY(50px);
-        -moz-transform: translateY(50px);
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
     }
     
     .animated-mail .top-fold {
-        transition: transform .4s, z-index .2s;
-        transform: rotateX(180deg);
-        -webkit-transition: transform .4s, z-index .2s;
-        -webkit-transform: rotateX(180deg);
-        -moz-transition: transform .4s, z-index .2s;
-        -moz-transform: rotateX(180deg);
-        z-index: 0;
+        -webkit-transition: transform .4s .4s, z-index .2s .4s;
+		-moz-transition: transform .4s .4s, z-index .2s .4s;
+		transition: transform .4s .4s, z-index .2s .4s;
+        transform: rotateX(0deg);
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+		z-index: 2;
     }
     
     .animated-mail .letter {
-        height: 180px;
+        height: 60px;
     }
     
     .shadow {
-        width: 250px;
+        width: 400px;
     }
 }
