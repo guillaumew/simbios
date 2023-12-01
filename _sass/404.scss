@@ -1,7 +1,6 @@
-$white: #EDEDED;
-$gray: #BFC0C0;
-$dark: #585959;
-$light: #D3DEEA;
+$white: $light_teal-color;
+$gray: $teal-color;
+$dark: $dark_teal-color;
 
 .container {
   margin: 0 auto;
@@ -18,25 +17,15 @@ $light: #D3DEEA;
   position: absolute;
   border-radius: 50% 50% 0 0;
   background: $white;
+  background-image: linear-gradient($white, $gray 75%);
   border: 1px solid $gray;
   border-bottom: none;
   animation: float 2s ease-out 2;
+  transition: transform 1s ease-out 100ms;
+  &:hover, &:active {
+    transform: translate(0,15px);
+  }
 }
-
-.ghost-copy {
-  width: 50%;
-  height: 53%;
-  left: 25%;
-  top: 10%;
-  position: absolute;
-  border-radius: 50% 50% 0 0;
-  background: $white;
-  border: 1px solid $gray;
-  border-bottom: none;
-  animation: float 2s ease-out 2;
-  z-index: 0;
-}
-
 
 .face {
   position: absolute;
@@ -44,7 +33,7 @@ $light: #D3DEEA;
   height: 60%;
   top: 20%;
 }
-.eye, .eye-right {
+.eye-left, .eye-right {
   position: absolute;
   background: $dark;
   width: 13px;
@@ -53,7 +42,7 @@ $light: #D3DEEA;
   top: 40%;
 }
 
-.eye {
+.eye-left {
   left: 25%;
 }
 .eye-right {
@@ -74,7 +63,7 @@ $light: #D3DEEA;
 
 .one, .two, .three, .four {
   position: absolute;
-  background: $white;
+  background: $gray;
   top: 85%;
   width: 25%;
   height: 23%;
@@ -107,7 +96,7 @@ $light: #D3DEEA;
   position: absolute;
   width: 30%;
   height: 7%;
-  background: $gray;
+  background: $dark;
   left: 35%;
   top: 80%;
   border-radius: 50%;
