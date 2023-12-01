@@ -1,6 +1,12 @@
-<form target="_blank" class="pure-form pure-form-stacked" action="https://formspree.io/f/mdorwpop" method="POST">
+<form 
+    class="pure-form pure-form-stacked" 
+    action="https://formsubmit.co/contact@simbios.fr" 
+    method="POST"
+    >
     <fieldset>
-
+        <input type="hidden" name="_next" value="{{site.url}}/message_envoye.html">
+        <input type="hidden" name="_subject" value="Nouveau message sur le formulaire de contact">
+        <input type="hidden" name="_captcha" value="false">
         <label for="email">
             Votre email
             <input id="email" name="email" type="email" placeholder="nom@domaine.com" autocomplete="on" data-required="true" required>
@@ -15,3 +21,4 @@
         </div>
     </fieldset>
 </form>
+
