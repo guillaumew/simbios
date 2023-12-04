@@ -2,6 +2,7 @@
 .pure-menu.pure-menu-fixed {
     border-bottom: none;
     z-index: 4;
+    position: fixed;
 }
 .home-menu {
     padding: 0.5em;
@@ -110,5 +111,11 @@
                 transform: none;
             }
         }
+    }
+}
+
+@media (max-height: 600px) {
+    .pure-menu.pure-menu-fixed {
+        position: absolute;
     }
 }
