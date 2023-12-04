@@ -2,17 +2,21 @@
 layout: page
 ---
 
-
-<div class="content markdown column-content">
-	{{ content}}
-	
-</div>
-<div class="content">
-	<hr>
-	<div class="markdown post_info column-content">
-		<p>Article paru le {{ page.date | date: "%d/%m/%Y" }}</p>
-		{% if page.tags %}
-		{% include tags_list.html tags=page.tags %}
-		{% endif %}
+<div class="over-content">
+	<div class="content markdown column-content">
+		{{ content}}
 	</div>
+	<div class="slider">
+		<div class="markdown post_info">
+			<img src="{{page.image}}">
+			<h4>{{page.title}}</h4>
+			<p>Paru le {{ page.date | date: "%d/%m/%Y" }}</p>
+			{% if page.tags %}
+			{% include tags_list.html tags=page.tags %}
+			{% endif %}
+		</div>
+	</div>
+</div>
+<div class="content-box is-center">
+	<a href="/blog/" class="pure-button"> Retour aux articles</a>
 </div>

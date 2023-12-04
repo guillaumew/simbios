@@ -43,7 +43,7 @@
         display: block;
         position: absolute;
         top: 1em;
-        right: 1em;
+        left: calc(100vw - 50px);
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
