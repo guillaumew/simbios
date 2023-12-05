@@ -71,26 +71,32 @@ hr{
     height: 1em;
 }
 
-
-/*
- * -- PURE BUTTON STYLES --
- * I want my pure-button elements to look a little different
- */
-.pure-button {
+.button {
     background-color: $dark_teal-color;
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
+    font-family: inherit;
+    font-size: 100%;
+    border: none transparent;
+    text-decoration: none;
+    display: inline-block;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
     .svg_icons{
         background-color: white;
     }
 }
-
-a.pure-button-primary {
-    background: white;
-    color: #00221C;
-    border-radius: 5px;
-    font-size: 120%;
+button {
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    margin: 0;
 }
 
 
