@@ -1,9 +1,15 @@
-.pure-form {
+.form {
+    fieldset {
+        margin:0;
+        padding:.35em 0 .75em;
+        border:0
+    }
     label {
         margin: 1em 0 0;
         font-weight: bold;
         font-size: 100%;
         color: $dark_teal-color;
+        display: block;
     }
     input[type],textarea {
         border: 2px solid #ddd;
@@ -11,8 +17,17 @@
         font-size: 100%;
         width: 100%;
         margin-bottom: 1em;
+        display: block;
+        margin: 0.25em 0 1em 0;
+        padding: .5em .6em;
+        border-radius: 4px;
+        box-sizing: border-box;
+        overflow: visible;
+        font-family: inherit;
+        line-height: 1.15;
     }
     textarea{
         height: 100px;
+        width: 100%;
     }
 }
