@@ -1,16 +1,25 @@
 
-.pure-menu.pure-menu-fixed {
-    border-bottom: none;
-    z-index: 4;
-    position: fixed;
-}
 .home-menu {
     padding: 0.5em;
     text-align: left;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     background: $dark_teal-color;
-    & > a {
+    border-bottom: none;
+    z-index: 4;
+    position: fixed;
+    width: 100%;
+    white-space: nowrap;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    .heading {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0.5em 1em;
         text-decoration: none;
+        color: white;
+        font-weight: 400;
+        font-size: 120%;
     }
     .logo{
         height: 2.2em;
@@ -20,15 +29,30 @@
         display: inline-block;
         vertical-align:middle
     }
-    .pure-menu-heading {
-        color: white;
-        font-weight: 400;
-        font-size: 120%;
-    }
     a {
         color: white;
         position: relative;
         z-index: 2;
+        text-decoration: none;
+    }
+    .menu-list {
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        .menu-item {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            position: relative;
+            a {
+                padding: 0.5em 1em;
+                display: block;
+            }
+        }
     }
 }
 #menuToggle{
@@ -115,7 +139,7 @@
 }
 
 @media (max-height: 600px) {
-    .pure-menu.pure-menu-fixed {
+    .home-menu {
         position: absolute;
     }
 }
