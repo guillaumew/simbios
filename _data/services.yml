@@ -3,28 +3,28 @@
   description: Ateliers collaboratifs de sensibilisation sur l'impact environnemental du numérique (comme la Fresque du Numérique) ainsi que sur le numérique responsable (accessibilité, inclusion...).
   order: 1
   icon: graduation_hat_icon
-  grid_classes: pure-u-1 pure-u-md-1-2 pure-u-xl-1-5
+  grid_sizes: --medium:50%; --large:20%;
 - name: Etat des lieux
   link: /services/analyse_cycle_vie.html
   description: Mesure de l'empreinte environnementale du service (site, application, produit, entreprise). Analyse du cycle de vie (ACV). Mise en évidence des points les plus impactants.
   order: 2
   icon: tachometer_icon
-  grid_classes: pure-u-1 pure-u-md-1-2 pure-u-xl-1-5
+  grid_sizes: --medium:50%; --large:20%;
 - name: Stratégie
   link: /services/strategie_reduction.html
   description: Mise en place d'objectifs de réduction de l'empreinte environnementale ainsi que d'un plan d'actions à mener pour y parvenir.
   order: 3
   icon: chart_icon
-  grid_classes: pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-5
+  grid_sizes: --medium:33%; --large:20%;
 - name: Travaux
   link: /services/actions_reduction.html
   description: Application du plan d'actions. Pilotage et suivi des tâches. Mesure de l'amélioration effective.
   order: 4
   icon: people_icon
-  grid_classes: pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-5
+  grid_sizes: --medium:33%; --large:20%;
 - name: Communication
   link: /services/communication.html
   description: Communication sur les progrès réalisés (en interne comme en externe).
   order: 5
   icon: communication_icon
-  grid_classes: pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-5
+  grid_sizes: --medium:33%; --large:20%;

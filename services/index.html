@@ -4,9 +4,9 @@ description: La réduction de l'impact environnemental des entreprises en 5 éta
 css: services.css
 ---
 
-<div class="pure-g content">
+<div class="grid content">
     {% for service in site.data.services %}
-    <div class="content-box {{service.grid_classes}} service" order="{{service.order}}">
+    <div class="content-box grid-item service" order="{{service.order}}" style="{{ service.grid_sizes }}">
         <h3 class="content-subhead is-center">
             {{service.name}}
         </h3>
