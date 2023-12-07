@@ -6,7 +6,7 @@ css: services.css
 
 <div class="grid content">
     {% for service in site.data.services %}
-    <div class="content-box grid-item service" order="{{service.order}}" style="{{ service.grid_sizes }}">
+    <div class="content-box grid-item service" icon_utf8="{{service.icon_utf8}}" style="{{ service.grid_sizes }}">
         <h3 class="content-subhead is-center">
             {{service.name}}
         </h3>
