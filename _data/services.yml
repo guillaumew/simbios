@@ -2,7 +2,7 @@
   link: /services/sensibilisation/
   description: Ateliers collaboratifs de sensibilisation sur l'impact environnemental du numérique (comme la Fresque du Numérique) ainsi que sur le numérique responsable (accessibilité, inclusion...).
   order: 1
-  icon_utf8: "🎓"
+  icon_utf8: 🎓
   icon: graduation_hat_icon
   grid_sizes: --medium:50%; --large:20%;
 - name: Etat des lieux
