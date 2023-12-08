@@ -26,7 +26,8 @@
         width: 2.2em;
         padding: 0;
         display: inline-block;
-        vertical-align:middle
+        vertical-align:middle;
+        background-size: 2.2em 2.2em;
     }
     a {
         color: white;
@@ -67,6 +68,7 @@
         display: block;
         position: absolute;
         top: 1em;
+        left:90%;
         left: calc(100vw - 50px);
         z-index: 1;
         -webkit-user-select: none;
