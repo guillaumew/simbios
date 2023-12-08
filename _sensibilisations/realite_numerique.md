@@ -4,8 +4,9 @@ plus:
     - "Entièrement personalisable en fonction des besoins"
     - "Couvre l'ensemble du numérique responsable avec un focus sur l'environnement."
 image: 
-    url: "/assets/img/services/face_cachee_numerique.webp"
+    url: "/assets/img/services/face_cachee_numerique"
     alt: "Exemples de cartes de la face cachée du numérique"
+    type: jpg
 order: 1
 ---
 

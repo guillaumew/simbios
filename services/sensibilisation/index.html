@@ -31,7 +31,11 @@ css: sensibilisations.css
 				</div>
 			</div>
 			<div class="grid-item image_container" style="--medium:33.3333%;">
-				<img src="{{sensibilisation.image.url}}" width="320" alt="{{sensibilisation.image.alt}}">
+				{% if sensibilisation.image.type == "jpg" %}
+				{% include picture.html url=sensibilisation.image.url alt=sensibilisation.image.alt width="320" %}
+				{% else %}
+				<img src="{{sensibilisation.image.url}}" width="320" alt="{{sensibilisation.image.alt}}" loading="lazy">
+				{% endif %}
 			</div>
 		</div>
 	</div>

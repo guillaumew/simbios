@@ -7,7 +7,7 @@
 /* Default is medium screen like tablet and landscape Smartphones */
 /* (IE 8 doesn't support media so it is in default) */
 .grid-item {
-    width: 50%;
+    width: 100%;
     width: var(--medium, var(--small, 100%) );
 }
 

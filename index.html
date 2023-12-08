@@ -24,11 +24,7 @@ css: home.css
 
 <div class="ribbon content grid">
     <div class="content-box is-center grid-item outer-center" style="--medium:40%;">
-        <picture class="inner-center">
-            <source srcset="/assets/img/guillaume-wolf.webp" type="image/webp">
-            <source srcset="/assets/img/guillaume-wolf.jpg" type="image/jpg">
-            <img width="256" height="256" alt="Photo de Guillaume Wolf" src="/assets/img/guillaume-wolf.jpg" loading="lazy">
-        </picture>
+        {% include picture.html url="/assets/img/guillaume-wolf" alt="Photo de Guillaume Wolf" class="inner-center" width="256" height="256" %}
     </div>
     <div class="content-box grid-item" style="--medium:60%;">
         <h2>Guillaume Wolf</h2>
