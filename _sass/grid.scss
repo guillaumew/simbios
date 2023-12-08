@@ -4,21 +4,25 @@
     align-content: flex-start;
 }
 
-/* Smartphones in portrait */
+/* Default is medium screen like tablet and landscape Smartphones */
+/* (IE 8 doesn't support media so it is in default) */
 .grid-item {
-    width: var(--small, 100%);
+    width: 50%;
+    width: var(--medium, var(--small, 100%) );
 }
 
-/* Tablets */
-@media screen and (min-width: 48em){
+/* Smartphones in portrait */
+@media screen and (max-width: 48em){
     .grid-item {
-        width: var(--medium, var(--small, 100%) );
+        width: 100%;
+        width: var(--small, 100%);
     }
 }
 
 /* Larger screens */
 @media screen and (min-width: 80em) {
     .grid-item {
+        width: 50%;
         width: var(--large, var(--medium, var(--small, 100%) ));
     }
 }
