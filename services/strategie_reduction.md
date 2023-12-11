@@ -19,7 +19,7 @@ Ces idées sont ensuite débattues pour conserver celles qui ont le plus de sens
 
 ## Coût des mesures
 
-La difficulté et le coût de mise en place de ces mesures en ensuite quantifiée pour déterminer si on pourrait appliquer rapidement.
+La difficulté et le coût de mise en place de ces mesures est ensuite quantifiée pour déterminer si on peut les appliquer rapidement.
 - La difficulté peut provenir d'une résistance au changement, de perte de confort au sein des équipes.
 - Le coût peut être financier ou en ressources nécessaires à la mise en place de la mesure (typiquement, des développements à réaliser) ou encore en perte potentielle de chiffre d'affaire.
 
@@ -31,7 +31,7 @@ En se basant sur l'Analyse du Cycle de Vie, Simbios va établir la réduction po
 
 ## Arbitrage et planification
 
-L'ensemble des mesures sont ensuite discutées afin de décider de le priorité. On décide qui devra les appliquer, avec quel moyens et à quelles échéances dans un plan d'actions.
+Toutes ces mesures sont ensuite discutées afin de décider de leurs priorités. On décide qui devra les appliquer, avec quels moyens et à quelles échéances dans un plan d'actions.
 On formalise également les critères de succès pour juger de l'efficacité de la mesure et de son application.
 
 ## Application du plan du plan d'actions

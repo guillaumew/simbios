@@ -1,7 +1,7 @@
 ---
 title: La réparabilité des appareils électroniques
-description: Comment la loi nous permet de facilement connaître la durabilité de nos achats numérique
-tags: ["Achat", "Eco-geste", "Smarphone", "Ordinateurs", "Réparabilité"]
+description: Comment la loi nous permet de facilement connaître la durabilité de nos achats numériques
+tags: ["Achat", "Eco-geste", "Smartphone", "Ordinateurs", "Réparabilité"]
 image: /assets/img/posts/2023/Q4/thumb-reparation.webp
 ---
 

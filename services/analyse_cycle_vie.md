@@ -6,7 +6,7 @@ layout: markdown
 
 Vous savez maintenant que le numérique possède un impact enivronnemental. Vous souhaitez passer à l'action, mais vous ne savez pas forcément comment ou quelles sont les actions qui ont le plus d'impact. C'est normal, les impacts environnementaux proviennent de sources diverses et ont des impacts variés (émissions de gaz à effet de serre, consommation d'eau, pollutions des sols, de l'air...)
 
-Pour y voir plus clair, Simbios vous propos un audit environnemental de vos services numériques. On appelle cela une Analyse du Cycle de Vie ou ACV pour faire plus court. Cette méthode est normée {% include link.html link="https://www.iso.org/fr/standard/37456.html" text="ISO 14040/44" external=true %}.
+Pour y voir plus clair, Simbios vous propose un audit environnemental de vos services numériques. On appelle cela une Analyse du Cycle de Vie ou ACV pour faire plus court. Cette méthode est normée {% include link.html link="https://www.iso.org/fr/standard/37456.html" text="ISO 14040/44" external=true %}.
 
 ## Définition du cadre de l'étude
 
@@ -25,9 +25,9 @@ Cet audit porte le nom d'Analyse de Cycle de Vie car il s'intéresse à l'ensemb
 - Utilisation
 - Fin de vie
 
-## Evaluation des inmpact environnementaux
+## Evaluation des inmpacts environnementaux
 
-Il est maintenant nécessaire de retransicrire toutes les étapes répertoriées dans l'inventaire en impacts environnementaux. Ces impacts peuvent être mesurés suivants différents critères :
+Il est maintenant nécessaire de retranscrire toutes les étapes répertoriées dans l'inventaire en impacts environnementaux. Ces impacts peuvent être mesurés suivants différents critères :
 - Contribution au réchauffement climatique
 - Pollution de l'eau
 - Consommation en eau
