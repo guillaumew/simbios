@@ -10,8 +10,9 @@
         line-height: 100%;
         position:absolute;
         left:0px;
-        color: rgba($teal-color,.2);
+        color: $teal-color;
         top: 20%;
+        opacity: .1;
     }
     h2,p{
         position: relative;
