@@ -17,7 +17,10 @@ Regardons uniquement les emissions de gaz à effet de serre pour simplifier. En 
 
 Difficile d’affirmer quelle est la part du stockage au sein des serveurs et sur ce stockage quelle est la place réservée pour les emails. Par contre, on sait que les messages (mails et services de messagerie) constituent 2,3 % du trafic internet (source : Sadnvine GIPR 2023). Si on fait une large sur-estimation on va dire que 50 % du coût environnemental des serveurs provient du stockage et 5 % du stockage sont liés aux mails. On arrive avec cette large sur-estimation à 0,35% des emissions du numérique dues au stockage des emails.
 
-![Répartition du trafic internet : 66% pour la vidéo et seulement 2,3% pour les messages.](/assets/img/posts/2023/Q4/repartition_trafic.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q4/repartition_trafic"
+    alt="Répartition du trafic internet : 66% pour la vidéo et seulement 2,3% pour les messages."
+ %}
 *Source {%include link.html text="Sadnvine GIPR 2023" link="https://www.sandvine.com/hubfs/Sandvine_Redesign_2019/Downloads/2023/reports/Sandvine%20GIPR%202023.pdf" external=true %}.*
 
 En réduisant de 90% les mails stockés, on aurait le même impact que si tout le monde réduisait de 2-3% la qualité des vidéos regardées (et personne ne verrait la différence !).

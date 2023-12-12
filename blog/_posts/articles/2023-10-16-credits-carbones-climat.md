@@ -3,6 +3,7 @@ title: L’impact des crédits carbone sur le climat
 description: Est-ce que planter des arbres permet de compenser ses émissions de gaz à effet de serre ?
 tags: ["Crédits Carbone", "Climat", "Neutralité Carbone", "Environnement", "Déforestation"]
 image: /assets/img/posts/2023/Q4/thumb-deforrestation.webp
+thumb: /assets/img/posts/2023/Q4/thumb-deforrestation
 ---
 
 Les activités humaines génèrent des gaz à effet de serre, ce qui provoque le dérèglement climatique. Si on peut faire des efforts pour minimiser son impact sur le climat, il est impossible de ne pas avoir d’impact du tout.
@@ -11,19 +12,28 @@ C’est pourtant un rêve qui est devenu accessible aux états et apparemment au
 
 Voilà pour une présentation rapide. Pour aller dans les détails, je vous propose de lire [cet article des décodeurs du Monde {% include external_link_icon.html %}](https://www.lemonde.fr/les-decodeurs/article/2019/03/06/le-principe-de-compensation-carbone-est-il-efficace_5432105_4355770.html){:target="new-tab"}.
 
-![Photo d’un grand parc d’éoliennes](/assets/img/posts/2023/Q4/eoliennes.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q4/eoliennes"
+    alt="Photo d’un grand parc d’éoliennes"
+ %}
 *Photo de [Tyler Casey sur Unsplash {% include external_link_icon.html %}](https://unsplash.com/@tylercaseyprod){:target="new-tab"}*
 
 Voilà une opportunité pour les entreprises voulant atteindre “la neutralité carbone”. Il est possible de faire des investissements permettant de limiter ses propres émissions. En quelques sorte, on peut acheter son droit à polluer… mais pourquoi pas… Après tout si c’est efficace.
 
 Mais quels sont donc les investissements qui se cachent derrière les crédits carbone ?
 
-![Répartition des activités derrières les investissements des crédits carbone. En tête les énergies renouvelable et les solutions basées sur la nature.](/assets/img/posts/2023/Q4/activite-credit-carbones.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q4/activite-credit-carbones"
+    alt="Répartition des activités derrières les investissements des crédits carbone. En tête les énergies renouvelable et les solutions basées sur la nature."
+ %}
 *Source [Climate Focus {% include external_link_icon.html %}](https://climatefocus.com/initiatives/voluntary-carbon-market-dashboard/){:target="new-tab"}*
 
 On voit par exemple qu’un tiers des investissements sont des solutions basées sur la nature. Concrètement on parle ici quasiment exclusivement d’actions qui permettent d’éviter la déforestation.
 
-![Photo illustrant la déforestation {% include external_link_icon.html %}](/assets/img/posts/2023/Q4/deforestation.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q4/deforestation"
+    alt="Photo illustrant la déforestation"
+ %}
 *Photo de [Dave Herring sur Unsplash {% include external_link_icon.html %}](https://unsplash.com/@daveherring){:target="new-tab"}*
 
 Or, il a été démontré par plusieurs études maintenant que les actions visant d’éviter la déforestation n’ont pas ou très peu d’effet.

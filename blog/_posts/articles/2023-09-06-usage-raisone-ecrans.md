@@ -3,6 +3,7 @@ title: Tous et toutes obsédé.e.s par nos écrans ?
 description: L'utilisation du numérique peut être considéré comme une activité addictive qui a des répercussion sur notre santé
 tags: ["Numérique responsable", "Eco-geste", "Smartphone"]
 image: /assets/img/posts/2023/Q3/thumb-ecran_ecole.webp
+thumb: /assets/img/posts/2023/Q3/thumb-ecran_ecole
 ---
 
 Je vous propose un petit jeu : essayez d'estimer combien de temps vous passez sur votre téléphone chaque jour.
@@ -21,7 +22,10 @@ L'exposition aux écrans (de manière générale, pas uniquement les smartphones
 
 L'idée ici n'est pas de rejeter en bloc l'ensemble des activités numériques. Au contraire, dans bien des cas, cela peut être extrêmement pratique ou épanouissant.
 
-![Adolescent qui joue avec son téléphone pendant un cours à l'école](/assets/img/posts/2023/Q3/ecran_ecole.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q3/ecran_ecole"
+    alt="Adolescent qui joue avec son téléphone pendant un cours à l'école"
+ %}
 
 Cependant, il convient d'être attentif et de surveiller ses comportements. Nos usages numériques ont souvent quelque chose d'addictif et il est bien difficile de changer une fois que les mauvaises habitudes sont prises. Je pense notamment au réflexe de sortir machinalement son téléphone dès qu'on a une mini-pause ou que l'on s'ennuie.
 

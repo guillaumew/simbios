@@ -3,6 +3,7 @@ title: Apple annonce un produit neutre en carbone
 description: Quels sont les réels engagements environnementaux d'Apple ?
 tags: ["Apple", "Climat", "Smartwatch", "Neutralité Carbone", "Green Washing"]
 image: /assets/img/posts/2023/Q4/thumb-apple-smatwatch.webp
+thumb: /assets/img/posts/2023/Q4/thumb-apple-smatwatch
 ---
 
 En septembre 2023, Apple a annoncé le lancement de ses premiers produits neutres en carbone à grands renforts de communication (dont une vidéo avec l’actrice Octavia Spencer).
@@ -19,7 +20,10 @@ D’après leur [communiqué de presse du 12 septembre {% include external_link_
 - Assurant que la moitié du transport nécessaire sera réalisé par voie non aérienne
 
 Le reste de l’empreinte est compensé avec des crédits carbone.
-![Apple baisse son empreinte carbone de 75% sur ses montres connectées.](/assets/img/posts/2023/Q4/appe-neutre.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q4/appe-neutre"
+    alt="Apple baisse son empreinte carbone de 75% sur ses montres connectées."
+ %}
 *Source : Rapport Apple [Product Environmental Report {% include external_link_icon.html %}](https://www.apple.com/environment/pdf/products/watch/Carbon_Neutral_Apple_Watch_Ultra_2_Sept2023.pdf){:target="new-tab"}*
 
 

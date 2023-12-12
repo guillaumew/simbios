@@ -3,6 +3,7 @@ title: Remise à niveau d'un vieux PC
 description: Est-ce possible pour un professionnel du numérique de travailler avec un ordinateur qui a 12 ans ?
 tags: ["Réparation", "Ordinateur", "Durée de vie"]
 image: /assets/img/posts/2023/Q4/thumb-ordi.webp
+thumb: /assets/img/posts/2023/Q4/thumb-ordi
 ---
 
 Je me lance à mon compte et j’ai donc besoin d’un ordinateur de travail. Comme je le répète souvent en atelier, la fabrication des terminaux numériques constitue ce qui pèse le plus lourd sur la balance environnementale. Je me dois de montrer l’exemple, mais en même temps je vais passer mes journées sur mon ordinateur.
@@ -19,7 +20,10 @@ De plus, je me rends compte que la batterie ne fonctionne plus du tout. Il est n
 
 Il m’a fallu une grosse heure pour changer les composants et tout réinstaller. Mais me voilà maintenant avec un ordinateur tout à fait fonctionnel.
 
-![Une photographie de mon ordinateur ouvert pendant sa remise en état](/assets/img/posts/2023/Q4/ordi.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q4/ordi"
+    alt="Une photographie de mon ordinateur ouvert pendant sa remise en état"
+ %}
 
 Côté finances, j’ai payé environ 100€ les composants pour obtenir un ordinateur qui a les mêmes spécifications que certaines références vendues environ 500€ neuves. Sur les plateformes de seconde main, on descend autour de 250€ - 350€. Généralement, ces ordinateurs sont plus fins, possèdent une garantie et ont un processeur légèrement meilleur… mais ils n’ont pas un bôô graveur DVD comme mon vieux PC !
 

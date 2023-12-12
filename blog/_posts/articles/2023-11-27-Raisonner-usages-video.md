@@ -3,18 +3,25 @@ title: Raisonner ses usages vidéos en ligne
 description: Comment réduire la quantité de données nécessaires pour la vidéo en ligne ?
 tags: ["Vidéo", "Eco-geste", "Réseaux", "Qualité"]
 image: /assets/img/posts/2023/Q4/thumb-video_quality.webp
+thumb: /assets/img/posts/2023/Q4/thumb-video_quality
 ---
 
 ## Les usagages vidéos occupent l'essentiel du trafic
 Comme on l’a déjà vu, notre consommation numérique ne cesse d’augmenter. Quand on regarde la quantité de données qui transitent, on constate qu’elle double tous les trois à cinq ans. Cette forte croissance a évidemment de [gros impacts environnementaux](/blog/2023/09/16/Impact-environnemental-numerique.html).
 
-![Graphique présentant l’évolution du trafic internet de 2009 à 2022.](/assets/img/posts/2023/Q3/croissance_flux_internet.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q3/croissance_flux_internet"
+    alt="Graphique présentant l’évolution du trafic internet de 2009 à 2022."
+ %}
 *Source: [Cisco Visual Networking
 Index {% include external_link_icon.html %}](https://twiki.cern.ch/twiki/pub/HEPIX/TechwatchNetwork/HtwNetworkDocuments/white-paper-c11-741490.pdf){:target="new-tab"}.*
 
 Or la vidéo représente deux tiers du trafic. Il convient donc de se poser la question : Comment faire pour limiter son empreinte environnementale liée au visionnage des vidéos en ligne ?
 
-![Répartition du trafic internet : 66% pour la vidéo et seulement 2,3% pour les messages.](/assets/img/posts/2023/Q4/repartition_trafic.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q4/repartition_trafic"
+    alt="Répartition du trafic internet : 66% pour la vidéo et seulement 2,3% pour les messages"
+ %}
 *Source {%include link.html text="Sadnvine GIPR 2023" link="https://www.sandvine.com/hubfs/Sandvine_Redesign_2019/Downloads/2023/reports/Sandvine%20GIPR%202023.pdf" external=true %}.*
 
 Parmi ces flux vidéos, vous allez probablement reconnaître certains services que vous utilisez (entre parenthèse leur contribution au trafic mondial) :
@@ -75,7 +82,10 @@ L'autre levier pour limiter l'empreinte environnementale des vidéos en ligne, c
 Chaque plateforme propose une option pour contrôler la qualité des vidéos que l’on regarde. En fonction de la qualité demandée, la taille de la vidéo pour varier du simple au quadruple.
 Il est donc intéressant de vérifier jusqu’à quel niveau vous êtes prêt.e à la baisser.
 
-![Sur Youtube, on peut choisir la qualité de la vidéo à chaque lecture](/assets/img/posts/2023/Q4/video_quality.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q4/video_quality"
+    alt="Sur Youtube, on peut choisir la qualité de la vidéo à chaque lecture"
+ %}
 
 Voici comment faire sur les différentes plateformes : 
 - **Netflix** : {% include link.html text="https://help.netflix.com/fr/node/87" link="https://help.netflix.com/fr/node/87" external=true %}.

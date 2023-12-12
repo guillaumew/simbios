@@ -3,6 +3,7 @@ title: La réparabilité des appareils électroniques
 description: Comment la loi nous permet de facilement connaître la durabilité de nos achats numériques
 tags: ["Achat", "Eco-geste", "Smartphone", "Ordinateurs", "Réparabilité"]
 image: /assets/img/posts/2023/Q4/thumb-reparation.webp
+thumb: /assets/img/posts/2023/Q4/thumb-reparation
 ---
 
 La fabrication des terminaux numériques est de loin ce qui pèse le plus lourd dans la balance écologique du secteur numérique.
@@ -15,7 +16,7 @@ Il convient donc lorsque l'on fait un achat numérique de se poser les bonnes qu
 
 Sur cette dernière question, j'entends souvent les personnes soupirer en disant qu'elles ne s'y connaissent pas, qu'elles ne savent pas comment faire. Pourtant depuis 2021, il existe une loi qui oblige les vendeurs à afficher l'{% include link.html text="indice de réparabilité" link="https://www.ecologie.gouv.fr/indice-reparabilite" external=true %} des appareils.
 
-![Les icônes de l'indice de réparabilité avec leur code couleur du rouge au vert.](/assets/img/posts/2023/Q4/indice_reparabilite.webp){:loading="lazy"}
+{% include picture.html url="/assets/img/posts/2023/Q4/indice_reparabilite" alt="Les icônes de l'indice de réparabilité avec leur code couleur du rouge au vert." %}
 
 Il s'agit d'une note sur 10 avec un code couleur très simple qui se base sur :
 - la documentation du produit

@@ -10,7 +10,11 @@ css: posts_list.css
 		<a href="{{ post.url }}">
 			<div class="grid">
 				<div class="grid-item outer-center" style="--medium:25%">
+					{% if post.thumb %}
+					{% include picture.html url=post.thumb alt=post.title class="thumbnail inner-center" %}
+					{% else %}
 					<img src="{{post.image}}" class="thumbnail inner-center">
+					{% endif %}
 				</div>
 				<div class="grid-item" style="--medium:75%">
 					<div class="description">

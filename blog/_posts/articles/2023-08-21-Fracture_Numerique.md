@@ -3,6 +3,7 @@ title: La fracture numérique en France
 description: Une personne sur 6 en France ne peut pas utiliser les outils numériques.
 tags: ["Illectronisme", "Inclusion", "Numérique Responsable"]
 image: /assets/img/posts/2023/Q3/thumb-fracture_numerique.webp
+thumb: /assets/img/posts/2023/Q3/thumb-fracture_numerique
 ---
 
 C’est quoi la fracture numérique ?
@@ -15,7 +16,10 @@ Pour être plus précis, en France :
 - 2% des internautes manquent de l’ensemble des compétences informatiques de base;
 - 38% des internautes manquent au moins d’une compétence informatiques de base;
 
-![Graphique présentant les statisque mentionnées plus haut](/assets/img/posts/2023/Q3/fracture_numerique.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q3/fracture_numerique"
+    alt="Graphique présentant les statisque mentionnées plus haut"
+ %}
 
 Pour les deux premières catégories on parle d’illectronisme : il s’agit de personnes qui ne peuvent pas utiliser les outils numériques et cela touche près d’une personne sur 6 en France.
 

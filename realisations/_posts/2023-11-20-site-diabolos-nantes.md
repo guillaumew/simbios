@@ -3,11 +3,15 @@ title: Diminution de l'empreinte du site des Diabolos Nantes
 description: Application des outils d'éco-conception aux conditions réelles d'un site statique
 tags: ["Ecoconception", "Réécriture", "Site"]
 image: /assets/img/posts/2023/Q4/thumb_diabolos_nantes.webp
+thumb: /assets/img/posts/2023/Q4/thumb_diabolos_nantes
 ---
 
 En 2018, j’avais créé un site pour ma troupe de théâtre d’improvisation. Ce site doit permettre de communiquer sur nos spectacles à venir. Mon objectif était alors de proposer une page statique qu’il était raisonnablement facile de mettre à jour. La raison principale de cette mise à jour du site était de faire un site qui s’affiche correctement sur les mobiles (en mode responsive donc).
 
-![Logo de la troupe des Diabolos Nantes](/assets/img/posts/2023/Q4/thumb_diabolos_nantes2.webp){:loading="lazy"}
+{% include picture.html 
+    url="/assets/img/posts/2023/Q4/thumb_diabolos_nantes2"
+    alt="Logo de la troupe des Diabolos Nantes"
+ %}
 
 Dans le but d’aller vite, j’ai pris un joli template que j’ai adapté aux couleurs de la troupe. J’ai installé Angular JS et j’ai géré la liste des spectacles dans un fichier JSON. Ce n’est pas ce qu’il y a de plus facile pour la mise à jour des spectacles mais bon je ne voulais pas passer trop de temps sur ce sujet.
 
