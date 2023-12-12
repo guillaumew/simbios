@@ -30,6 +30,11 @@ Mais l’illectronsime touche particulièrement certaines catégories de populat
 
 Les personnes en situation d’illectronisme peuvent se désintéresser des outils numériques ou peuvent ne pas avoir les moyens d’acheter un équipement ou ne pas savoir l’utiliser ou avoir un handicap qui nuit à son usage.
 
+{% include picture.html 
+    url="/assets/img/posts/2023/Q3/impossible-smartphone"
+    alt="Personne désemparée devant son téléphone"
+ %}
+
 Cela signifie que si on veut proposer un service qui doit être utilisé par tous, il faut forcément penser à une alternative non numérique. Et même parmi les usagers numérique, il faut faire un outil simple d’emploi car une forte partie de la population n’a pas toutes les compétences nécessaires pour bénéficier pleinement de son outil numérique.
 
 Source : [Etude INSEE de 2019 {% include external_link_icon.html %}](https://www.insee.fr/fr/statistiques/4241397){:target="new-tab"}
