@@ -1,7 +1,7 @@
 ---
 title: La démesure des besoins en ressources
 description: Pour la croissance des activités humaines nous utilisons de plus en plus de ressources
-tags: ["Ressources", "Environnement", "Bagger", "Machine"]
+tags: ["Ressources", "Environnement", "Bagger", "Machine", "Charbon", "Mine"]
 image: /assets/img/posts/2023/Q4/thumb-bagger-eiffel.webp
 thumb: /assets/img/posts/2023/Q4/thumb-bagger-eiffel
 ---
