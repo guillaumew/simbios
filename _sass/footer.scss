@@ -1,12 +1,10 @@
 .footer {
-    background: $dark_teal-color;
-    color: white;
+    background: rgba($teal-color,1);
     width: 100%;
     margin-top: auto;
-    a{
+    padding-top: 50px;
+    color: white;
+    a {
         color: $dark_white-color;
-    }
-    .svg_icons {
-        background-color: $dark_white-color;
     }
 }
