@@ -6,7 +6,7 @@ css: false
 ---
 
 # C'est quoi ce nom ?
-Simbios est une variation du substentif "Symbiose" que l'on peut définir par "association mutuellement bénéfique et durable entre deux organismes". Il voit voir par là l'hamonie possible entre l'environnement et le numérique.
+Simbios est une variation du substentif "Symbiose" que l'on peut définir par "association mutuellement bénéfique et durable entre deux organismes". Il faut voir par là l'hamonie possible entre l'environnement et le numérique.
 
 - **Sim**bios démarre par "sim" comme simple et simplicité, pour rappeler que la sobriété reste la solution la plus pérenne pour réaliser la symbiose souhaitée.
 - Sim**bio**s contient "bio" comme "biologique" et "biodiversté", pour rappeler qu'il faut protéger le vivant et de maniètre plus générale notre environnement.
@@ -18,11 +18,13 @@ Simbios est une société localisée à Nantes et créée par Guillaume Wolf.
 {% include guillaume.html %}
 
 # Pourquoi ?
-Le numérique propose des possibilités incroyables. On peut le considérer comme un outil qui favorise une transition écologique notamment puisqu'il permet de se passer de supports temporaires (papier, CD...).
+Le numérique propose des possibilités incroyables. Il constitue un atout indispensable à la transition écologique en permettant l'émergence de technologie plus propres (comme les énergies renvouelables) et en optimisant les efforts dans la construction, les transports et l'industrie.
+
+Cependant, les usages les plus massifs du numériques sont loin de cet idéal. Souvent considéré comme vertueux car immateriel, on use et on abuse de ses fonctionalités sans limites.
 
 Or, le numérique est loin d'être immatériel. Si les externalités qu'il engendre se trouvent souvent à des milliers de kilomètres de nous, il faut tout de même s'en préoccuper. 
 
-Malheureusement, malgré un réel intérêt écologique, on peut constater que la majorité des professionnels du numériques ne connaissent pas les impacts environnementaux engendrés par leur secteur... ce qui les conduits à prendre des décisions qui vont contre leur principe.
+Malheureusement, malgré un réel intérêt écologique, on peut constater que la majorité des professionnels du numériques ne connaissent pas les impacts environnementaux engendrés par leur secteur... ce qui les conduits à prendre des décisions qui vont contre leurs principes.
 
 # Pour qui ?
 ## Pour les entreprises

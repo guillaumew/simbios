@@ -2,9 +2,14 @@
     background: rgba($teal-color,1);
     width: 100%;
     margin-top: auto;
-    padding-top: 50px;
     color: white;
     a {
         color: $dark_white-color;
+    }
+    .simbios_logo {
+        height: 80%;
+    }
+    .footer-item {
+        margin: auto;
     }
 }

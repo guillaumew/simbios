@@ -6,7 +6,7 @@ layout: markdown
 
 Vous savez maintenant que le numérique possède un impact enivronnemental. Vous souhaitez passer à l'action, mais vous ne savez pas forcément comment ou quelles sont les actions qui ont le plus d'impact. C'est normal, les impacts environnementaux proviennent de sources diverses et ont des impacts variés (émissions de gaz à effet de serre, consommation d'eau, pollutions des sols, de l'air...)
 
-Pour y voir plus clair, Simbios vous propose un audit environnemental de vos services numériques. On appelle cela une Analyse du Cycle de Vie ou ACV pour faire plus court. Cette méthode est normée {% include link.html link="https://www.iso.org/fr/standard/37456.html" text="ISO 14040/44" external=true %}.
+Pour y voir plus clair, Simbios vous propose un audit environnemental de vos services numériques. On appelle cela une Analyse du Cycle de Vie ou ACV pour faire plus court. Cette méthode est normée {% include link.html link="https://www.iso.org/fr/standard/37456.html" text="ISO 14040/44" external=true %} et le {% include link.html text="consultant est certifié" link="https://certificat.greenit.fr/certificats/2023.12.20-GW130-6GF3-ACV25" external=true %}.
 
 ## Définition du cadre de l'étude
 
@@ -17,10 +17,8 @@ La première étape de cette analyse va constiter à cadrer les objectifs, mais 
 
 ## Inventaire
 
-Cet audit porte le nom d'Analyse de Cycle de Vie car il s'intéresse à l'ensemble des étapes nécesaire pour que le champ étudié puisse fonctionner. On va donc ici faire l'inventaire le plus exhaustif possible des entrants et des sortants. Cela inclut par exemple :
-- Conception
+Cet audit porte le nom d'Analyse de Cycle de Vie car il s'intéresse à l'ensemble des étapes nécesaire pour que le champ étudié puisse fonctionner. On va donc ici faire l'inventaire exhaustif possible des entrants et des sortants. Cela inclut :
 - Fabrication
-- Promotion
 - Distribution
 - Utilisation
 - Fin de vie
@@ -35,6 +33,7 @@ Il est maintenant nécessaire de retranscrire toutes les étapes répertoriées 
 - Acidification terrestre
 - Destruction de la couche d'ozone
 - Radiations
+- et plus encore !
 
 ## Interprétation
 
