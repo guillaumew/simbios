@@ -1,0 +1,58 @@
+.simbios_part {
+    position: relative;
+    padding: 1em;
+    color: $teal-color;
+    &:before, &:after {
+        position: absolute;
+        content: "";
+        width: calc(50% - 1px);
+        height: 10px;
+        background: inherit;
+    }
+    &:before {
+        left: 0;
+        border-right: 2px solid $teal-color;
+    }
+    &:after {
+        right:0;
+        border-left: 2px solid $teal-color;
+    }
+}
+
+.simbios_part.top {
+    margin-bottom: 5px;
+    &:before, &:after {
+        bottom: -2px;
+        border-bottom: 2px solid $teal-color;
+    }
+    &:before {
+        border-radius: 0 0 10px 0;
+    }
+    &:after {
+        border-radius: 0 0 0 10px;
+    }
+}
+.simbios_part.bottom {
+    margin-top: 5px;
+    &:before, &:after {
+        top: -2px;
+        border-top: 2px solid $teal-color;
+    }
+    &:before {
+        border-radius: 0 10px 0 0;
+    }
+    &:after {
+        border-radius: 10px 0 0 0;
+    }
+}
+.letter{
+	font-size: 20px;
+    background-color: $teal-color;
+    color: white;
+	margin: 1%; 
+	--small:12%;
+	height: 45px;
+	padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}

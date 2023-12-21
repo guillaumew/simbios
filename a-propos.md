@@ -1,16 +1,20 @@
 ---
 title: Simbios ? Qu'est-ce que c'est ?
-description: "Simbios apporte des conseils pour réduire l'impact environnemental du Numérique."
+description: "Simbios propose des conseils pour réduire l'impact environnemental du Numérique."
 layout: markdown
-css: false
+css: apropos.css
 ---
 
 # C'est quoi ce nom ?
-Simbios est une variation du substentif "Symbiose" que l'on peut définir par "association mutuellement bénéfique et durable entre deux organismes". Il faut voir par là l'hamonie possible entre l'environnement et le numérique.
+Simbios est une variation du substentif "Symbiose" que l'on peut définir par "association mutuellement bénéfique et durable entre deux organismes". 
+
+{% include simbios_name.html %}
 
 - **Sim**bios démarre par "sim" comme simple et simplicité, pour rappeler que la sobriété reste la solution la plus pérenne pour réaliser la symbiose souhaitée.
 - Sim**bio**s contient "bio" comme "biologique" et "biodiversté", pour rappeler qu'il faut protéger le vivant et de maniètre plus générale notre environnement.
 - Sim**bios** contient "bios" comme Basic Input:Output System, le système qui permet de lancer le système d'exploitation (Windows, Android...) sur presque tous les terminaux numériques. Il s'agit d'une image pour proposer que l'environnement et la sobriété soient pris en compte dès le démarrage, à la conception, de tout outil numérique.
+
+**Le nom Simbios symbolise l'harmonie possible et nécessaire entre l'environnement et le numérique grâce à la sobriété.**
 
 # C'est qui ?
 Simbios est une société localisée à Nantes et créée par Guillaume Wolf.
