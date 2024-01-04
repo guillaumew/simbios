@@ -1,3 +1,16 @@
+picture, img {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 600px) {
+    picture {
+        float: left;
+        margin: 1em;
+    }
+}
+
 .simbios_part {
     position: relative;
     padding: 1em;

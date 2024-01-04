@@ -16,19 +16,35 @@ Simbios est une variation du substentif "Symbiose" que l'on peut définir par "a
 
 **Le nom Simbios symbolise l'harmonie possible et nécessaire entre l'environnement et le numérique grâce à la sobriété.**
 
+# Pourquoi ce logo ?
+
+![Logo de simbios](/assets/icons/android-chrome-192x192.png)
+
+Le logo symbolyse les mêmes valeurs que le nom Simbios.
+- **Hamronie** : Le logo est une variation de **γῆ**. Il s'agit de l'écriture grecque de Gaïa. C'est une référence à {% include link.html text="l'hypothèse Gaïa" link="https://fr.wikipedia.org/wiki/Hypoth%C3%A8se_Ga%C3%AFa" external=true %} de Lovelock.
+> [La Terre est] un système physiologique dynamique qui inclut la biosphère et maintient notre planète depuis plus de trois milliards d'années en harmonie avec la vie.
+- **Environnement** : Gaïa c'est surtout la divinité grecque Terre-Mère. Cette déesse symbolise l'environnement et l'origine de l'ensemble de la vie.
+- **Numérique** : Le logo peut aussi être vu comme un bouton "on" (= "marche" en anglais), permettant d'allumer nos terminaux electroniques.
+- **Sobriété** : Le logo se veut simple. Il est possible de le reproduire en dessinant en quelques secondes.
+
+
+
 # C'est qui ?
 Simbios est une société localisée à Nantes et créée par Guillaume Wolf.
-
+{% include picture.html 
+    url="/assets/img/guillaume-wolf"
+    alt="Photo portrait de Guillaume Wolf"
+%}
 {% include guillaume.html %}
 
 # Pourquoi ?
-Le numérique propose des possibilités incroyables. Il constitue un atout indispensable à la transition écologique en permettant l'émergence de technologie plus propres (comme les énergies renvouelables) et en optimisant les efforts dans la construction, les transports et l'industrie.
+Le numérique propose des possibilités incroyables. Il constitue un atout indispensable à la transition écologique en permettant l'émergence de technologie plus propres (comme les énergies renouvelables) et en optimisant les efforts dans la construction, les transports et l'industrie.
 
 Cependant, les usages les plus massifs du numériques sont loin de cet idéal. Souvent considéré comme vertueux car immateriel, on use et on abuse de ses fonctionalités sans limites.
 
 Or, le numérique est loin d'être immatériel. Si les externalités qu'il engendre se trouvent souvent à des milliers de kilomètres de nous, il faut tout de même s'en préoccuper. 
 
-Malheureusement, malgré un réel intérêt écologique, on peut constater que la majorité des professionnels du numériques ne connaissent pas les impacts environnementaux engendrés par leur secteur... ce qui les conduits à prendre des décisions qui vont contre leurs principes.
+Malheureusement, malgré un réel intérêt écologique, on peut constater que la majorité des professionnels du numérique ne connaissent pas les impacts environnementaux engendrés par leur secteur... ce qui les conduits à prendre des décisions qui vont contre leurs principes.
 
 # Pour qui ?
 ## Pour les entreprises
