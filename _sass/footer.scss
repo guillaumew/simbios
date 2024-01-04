@@ -12,10 +12,15 @@
     .footer-item {
         margin: auto;
     }
-    .eco-intro {
-        line-height: 32px;
-        height: 32px;
-        display: inline-block;
-        vertical-align: top;
+    .page_stats{
+        font-size: 10px;
+        margin-top: -8px;
+    }
+
+}
+
+@media (max-width: 500px){
+    .ecoindex {
+        font-size: 12px;
     }
 }

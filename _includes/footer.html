@@ -12,9 +12,25 @@
                         <a href="/contact.html" class="grid-item" style="--small:30%;--medium:100%;">Contact</a>
                 </div>
         </div>
-        <div>
-                <span class="eco-intro">Score environnemental de la page : </span>
-                <a href="https://bff.ecoindex.fr/redirect/?url=https%3A%2F%2Fsimbios.fr{{ page.url }}" target="_blank">Ecoindex : A</a>        
+        <div class="ecoindex">
+                Score environnemental de la page :
+                <a href="https://bff.ecoindex.fr/redirect/?url=https%3A%2F%2Fsimbios.fr{{ page.url }}" target="_blank">
+                        {% assign ecoindex = site.data.ecoindex | where: 'path', page.url | first %}
+                        {% if ecoindex %}
+                        Ecoindex {{ecoindex.grade }} :
+                        {{ ecoindex.score }}/100
+                        {% else %}
+                        Ecoindex A
+                        {% endif %} 
+                        {% include external_link_icon.html %}
+                </a>
+                {% if ecoindex %}
+                <div class="page_stats">
+                        Taille : {{ ecoindex.size}} ko |
+                        DOM: {{ ecoindex.nodes}} noeuds | 
+                        {{ ecoindex.requests}} requêtes
+                </div>
+                {% endif %}
         </div>
         <div>2023 Simbios ©</div>
 </div>
