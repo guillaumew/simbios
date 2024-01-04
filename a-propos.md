@@ -21,7 +21,7 @@ Simbios est une variation du substentif "Symbiose" que l'on peut définir par "a
 ![Logo de simbios](/assets/icons/android-chrome-192x192.png)
 
 Le logo symbolyse les mêmes valeurs que le nom Simbios.
-- **Hamronie** : Le logo est une variation de **γῆ**. Il s'agit de l'écriture grecque de Gaïa. C'est une référence à {% include link.html text="l'hypothèse Gaïa" link="https://fr.wikipedia.org/wiki/Hypoth%C3%A8se_Ga%C3%AFa" external=true %} de Lovelock.
+- **Harmonie** : Le logo est une variation de **γῆ**. Il s'agit de l'écriture grecque de Gaïa. C'est une référence à {% include link.html text="l'hypothèse Gaïa" link="https://fr.wikipedia.org/wiki/Hypoth%C3%A8se_Ga%C3%AFa" external=true %} de Lovelock.
 > [La Terre est] un système physiologique dynamique qui inclut la biosphère et maintient notre planète depuis plus de trois milliards d'années en harmonie avec la vie.
 - **Environnement** : Gaïa c'est surtout la divinité grecque Terre-Mère. Cette déesse symbolise l'environnement et l'origine de l'ensemble de la vie.
 - **Numérique** : Le logo peut aussi être vu comme un bouton "on" (= "marche" en anglais), permettant d'allumer nos terminaux electroniques.
