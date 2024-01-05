@@ -18,7 +18,7 @@ Simbios est une variation du substentif "Symbiose" que l'on peut définir par "a
 
 # Pourquoi ce logo ?
 
-![Logo de simbios](/assets/icons/android-chrome-192x192.png)
+![Logo de simbios](/assets/icons/android-chrome-192x192.png){:width="256" height="256" loading="lazy"}
 
 Le logo symbolyse les mêmes valeurs que le nom Simbios.
 - **Harmonie** : Le logo est une variation de **γῆ**. Il s'agit de l'écriture grecque de Gaïa. C'est une référence à {% include link.html text="l'hypothèse Gaïa" link="https://fr.wikipedia.org/wiki/Hypoth%C3%A8se_Ga%C3%AFa" external=true %} de Lovelock.
@@ -34,6 +34,8 @@ Simbios est une société localisée à Nantes et créée par Guillaume Wolf.
 {% include picture.html 
     url="/assets/img/guillaume-wolf"
     alt="Photo portrait de Guillaume Wolf"
+    width="256"
+    height="256"
 %}
 {% include guillaume.html %}
 
