@@ -4,7 +4,10 @@ layout: default
 
 {% include header.html title=page.title description=page.description %}
 
-<div class="content-wrapper">
+<div class="content-wrapper fixed_wrapper">
     {{ content }}
 </div>
-{% include footer.html %}
+<div class="fixed_footer">
+    {% include footer.html %}
+</div>
+
