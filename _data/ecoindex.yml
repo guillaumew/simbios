@@ -177,16 +177,17 @@
   nodes: 97
   requests: 6
   grade: A
-  score: 91.0
+  score: 91
 - path: /blog/2024/01/10/galette-des-rois-et-complexite-economique.html
   size: 39
   nodes: 122
   requests: 9
   grade: A
-  score: 90.0
+  score: 90
 - path: /blog/2024/01/03/impact-environnemental-numerique-europe.html
   size: 28
   nodes: 131
   requests: 7
   grade: A
-  score: 90.0
+  score: 90
+  
