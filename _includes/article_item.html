@@ -1,0 +1,24 @@
+<div class="post_summary {{ include.categories | first }}">
+    <div class="corner-ribbon-wrapper"><div class="corner-ribbon {{ include.categories | first }}"></div></div>
+    <a href="{{ include.url }}">
+        <div class="grid">
+            <div class="grid-item outer-center" style="--medium:25%">
+                {% if include.thumb %}
+                {% include picture.html url=include.thumb alt=include.title class="thumbnail inner-center" %}
+                {% else %}
+                <img src="{{include.image}}" class="thumbnail inner-center">
+                {% endif %}
+            </div>
+            <div class="grid-item" style="--medium:75%">
+                <div class="description">
+                    <h2>{{ include.title }}</h2>
+                    <p>{{ include.description }}</p>
+                    {% if include.tags %}
+                    {% include tags_list.html tags=include.tags %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+<hr>

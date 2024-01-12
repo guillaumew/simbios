@@ -1,0 +1,28 @@
+---
+title: Recherche
+description: Voici un moteur de recherche pour retrouver vos articles préférés
+---
+
+<!-- HTML search field -->
+<div class="column-content content">
+    <div class="is-center">
+        <input type="text" id="search-input" placeholder="Tapez votre recherche ici" autofocus>
+    </div>
+    <ul id="results-container" style="height:10em;">
+        Les résultats apparaîtrons ici...
+    </ul>
+</div>
+    
+<!-- Grab search-script.js -->
+<script src="/assets/js/search-script.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/blog/search.json',
+    limit: 5,
+    noResultsText: 'Aucun résultat pour cette recherche.'
+})
+</script>
