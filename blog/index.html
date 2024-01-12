@@ -1,12 +1,10 @@
 ---
 title: Articles - Blog
 css: posts_list.css
+description: Un article par semaine sur le numérique responsble
 ---
 <div class="content column-content">
-
-		<p>Toutes les semaines, un article sur les thèmes et les valeurs de Simbios (Environnement, Numérique Responsble, Sobriété...)</p>
-		<p>Si vous cherchez un article ou thème spécifique, vous pouvez utiliser <a href="/blog/search.html">cet outil de recherche</a>.</p>
-		<p> Sinon, laisser vous tenter par les derniers articles :</p>
+		{% include search.html %}
 	<hr>
 {% for post in paginator.posts %}
 	<div class="post_summary {{ post.categories | first }}">

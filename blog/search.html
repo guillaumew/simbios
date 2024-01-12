@@ -1,28 +1,17 @@
 ---
 title: Recherche
 description: Voici un moteur de recherche pour retrouver vos articles préférés
+css: search.css
 ---
 
 <!-- HTML search field -->
-<div class="column-content content">
-    <div class="is-center">
+<div class="search-wrapper column-content">
+    <div class="search-bar">
+        <span class="magnifying_glass">
+            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+        </span>
         <input type="text" id="search-input" placeholder="Tapez votre recherche ici" autofocus>
     </div>
-    <ul id="results-container" style="height:10em;">
-        Les résultats apparaîtrons ici...
-    </ul>
+    <ul id="results-container"></ul>
 </div>
-    
-<!-- Grab search-script.js -->
-<script src="/assets/js/search-script.js" type="text/javascript"></script>
-
-<!-- Configuration -->
-<script>
-SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '/blog/search.json',
-    limit: 5,
-    noResultsText: 'Aucun résultat pour cette recherche.'
-})
-</script>
+<script src="/assets/js/search-script.js"></script>
