@@ -9,7 +9,8 @@ thumb: /assets/img/posts/2023/Q3/thumb-fracture_numerique
 C’est quoi la fracture numérique ?
 
 
-L’illectronisme est la difficulté, voire l’incapacité, que rencontre une personne à utiliser les appareils numériques et les outils informatiques en raison d’un manque ou d’une absence totale de connaissances à propos de leur fonctionnement. (selon [Wikipedia {% include external_link_icon.html %}](https://fr.wikipedia.org/wiki/Illectronisme){:target="new-tab"})
+L’illectronisme est la difficulté, voire l’incapacité, que rencontre une personne à utiliser les appareils numériques et les outils informatiques en raison d’un manque ou d’une absence totale de connaissances à propos de leur fonctionnement. (selon {% include link.html text="Wikipedia" link="https://fr.wikipedia.org/wiki/Illectronisme" %})
+
 
 Pour être plus précis, en France :
 - 15% de la population n’utilise pas internet;
@@ -37,4 +38,4 @@ Les personnes en situation d’illectronisme peuvent se désintéresser des outi
 
 Cela signifie que si on veut proposer un service qui doit être utilisé par tous, il faut forcément penser à une alternative non numérique. Et même parmi les usagers numérique, il faut faire un outil simple d’emploi car une forte partie de la population n’a pas toutes les compétences nécessaires pour bénéficier pleinement de son outil numérique.
 
-Source : [Etude INSEE de 2019 {% include external_link_icon.html %}](https://www.insee.fr/fr/statistiques/4241397){:target="new-tab"}
+Source : {% include link.html text="Etude INSEE de 2019" link="hhttps://www.insee.fr/fr/statistiques/4241397" %}

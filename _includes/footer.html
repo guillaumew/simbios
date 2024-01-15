@@ -14,7 +14,7 @@
         </div>
         <div class="ecoindex">
                 Score environnemental de la page :
-                <a href="https://bff.ecoindex.fr/redirect/?url=https%3A%2F%2Fsimbios.fr{{ page.url }}" target="_blank">
+                <a href="https://bff.ecoindex.fr/redirect/?url=https%3A%2F%2Fsimbios.fr{{ page.url }}" target="_blank" rel="noopener noreferrer">
                         {% assign ecoindex = site.data.ecoindex | where: 'path', page.url | first %}
                         {% if ecoindex %}
                         Ecoindex {{ecoindex.grade }} :
@@ -22,7 +22,6 @@
                         {% else %}
                         Ecoindex A
                         {% endif %} 
-                        {% include external_link_icon.html %}
                 </a>
                 {% if ecoindex %}
                 <div class="page_stats">

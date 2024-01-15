@@ -53,4 +53,4 @@ Alors, si vous souhaitez battre vos records en musculation, pensez aux sacs à d
  %}
 *Un écran d’ordinateur pèse 6 kg mais possède un sac à dos écologique de 1,5 tonnes.*
 
-Source : [Modélisation et évaluation des impacts environnementaux de produits de consommation et biens d’équipement, ADEME, 2018 {% include external_link_icon.html %}](https://librairie.ademe.fr/consommer-autrement/1189-modelisation-et-evaluation-des-impacts-environnementaux-de-produits-de-consommation-et-biens-d-equipement.html){:target="new-tab"}
+Source : {% include link.html text="Modélisation et évaluation des impacts environnementaux de produits de consommation et biens d’équipement, ADEME, 2018" link="https://librairie.ademe.fr/consommer-autrement/1189-modelisation-et-evaluation-des-impacts-environnementaux-de-produits-de-consommation-et-biens-d-equipement.html" %}

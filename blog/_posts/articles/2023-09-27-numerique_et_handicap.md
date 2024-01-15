@@ -6,7 +6,7 @@ image: /assets/img/posts/2023/Q3/thumb-plage-braille.webp
 thumb: /assets/img/posts/2023/Q3/thumb-plage-braille
 ---
 
-En France, 24% des personnes âgées entre 15 et 64 ans possèdent au moins un handicap au sens large ([source {% include external_link_icon.html %}](https://travail-emploi.gouv.fr/IMG/pdf/2013-066.pdf){:target="new-tab"}), c’est à dire une condition récurrente qui nuit à leur quotidien. Ces derniers peuvent être variés :
+En France, 24% des personnes âgées entre 15 et 64 ans possèdent au moins un handicap au sens large ({% include link.html text="source" link="https://travail-emploi.gouv.fr/IMG/pdf/2013-066.pdf" %}), c’est à dire une condition récurrente qui nuit à leur quotidien. Ces derniers peuvent être variés :
 
 - Problèmes de dos/cou
 - Problèmes de jambes/pieds
@@ -30,6 +30,6 @@ Je ne sais pas si c’est évident mais aucun des ces handicaps empêche complè
  %}
 *Photo d'Elizabeth Woolner sur Unsplash*
 
-Et si vous faisiez l’expérience numérique avec un handicap ? C’est possible avec ce site proposé par Altan : [https://www.atalan.fr/agissons/fr/ {% include external_link_icon.html %}](https://www.atalan.fr/agissons/fr/){:target="new-tab"}
+Et si vous faisiez l’expérience numérique avec un handicap ? C’est possible avec ce site proposé par Altan : {% include link.html text="https://www.atalan.fr/agissons/fr/" link="https://www.atalan.fr/agissons/fr/" %}
 
 Cela permet de se rendre compte de ce que nous devons faire lorsque nous créons des interfaces web pour rendre leur usage accessible au plus grand nombre.

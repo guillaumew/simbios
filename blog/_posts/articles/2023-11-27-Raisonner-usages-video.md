@@ -13,8 +13,7 @@ Comme on l’a déjà vu, notre consommation numérique ne cesse d’augmenter. 
     url="/assets/img/posts/2023/Q3/croissance_flux_internet"
     alt="Graphique présentant l’évolution du trafic internet de 2009 à 2022."
  %}
-*Source: [Cisco Visual Networking
-Index {% include external_link_icon.html %}](https://twiki.cern.ch/twiki/pub/HEPIX/TechwatchNetwork/HtwNetworkDocuments/white-paper-c11-741490.pdf){:target="new-tab"}.*
+*Source: {% include link.html text="Cisco Visual Networking Index" link="https://twiki.cern.ch/twiki/pub/HEPIX/TechwatchNetwork/HtwNetworkDocuments/white-paper-c11-741490.pdf" %}.*
 
 Or la vidéo représente deux tiers du trafic. Il convient donc de se poser la question : Comment faire pour limiter son empreinte environnementale liée au visionnage des vidéos en ligne ?
 

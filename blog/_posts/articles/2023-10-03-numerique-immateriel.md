@@ -34,4 +34,4 @@ Pour fonctionner, l’électricité est nécessaire. En France, 12% de électric
 
 Avec leur taille colossale, les datacenters ont souvent mauvaise publicité. Mais il n’y en a pas tant que ça, ce qui fait que leur consommation électrique est bien inférieure à celle des terminaux finaux.
 
-Pour approfondir le sujet, je vous invite à consulter [cet article de notre-environnement.gouv.fr {% include external_link_icon.html %}](https://www.notre-environnement.gouv.fr/rapport-sur-l-etat-de-l-environnement/themes-ree/pressions-exercees-par-les-modes-de-production-et-de-consommation/prelevements-de-ressources-naturelles/energie/article/numerique-et-consommation-energetique){:target="new-tab"}.
+Pour approfondir le sujet, je vous invite à consulter {% include link.html text="cet article de notre-environnement.gouv.fr" link="https://www.notre-environnement.gouv.fr/rapport-sur-l-etat-de-l-environnement/themes-ree/pressions-exercees-par-les-modes-de-production-et-de-consommation/prelevements-de-ressources-naturelles/energie/article/numerique-et-consommation-energetique" %}.

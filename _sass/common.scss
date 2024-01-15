@@ -24,6 +24,9 @@ h6 {
 }
 a {
     color: $teal-color;
+    &[href^="http"]::after {
+        content: "⎘";
+    }
 }
 hr{
     border-color:$dark_teal-color;

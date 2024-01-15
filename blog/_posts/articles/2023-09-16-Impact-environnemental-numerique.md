@@ -22,17 +22,21 @@ Le secteur du numérique est responsable d’une large pollution des sols, de l�
  %}
 *Décharge à proximité d’habitations*
 
-De même, le numérique est un gros consommateur d’eau pour l’extraction de minerais. Or, les minerais se trouvent souvent dans des régions à forte tension hydrique ([source](https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2020-dt-consommation-metaux-du-numerique-juin.pdf)). L’eau vient alors à manquer pour la consommation des populations locales ou pour leur agriculture.
+De même, le numérique est un gros consommateur d’eau pour l’extraction de minerais. Or, les minerais se trouvent souvent dans des régions à forte tension hydrique ({% include link.html text="source" link="https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2020-dt-consommation-metaux-du-numerique-juin.pdf" %}). L’eau vient alors à manquer pour la consommation des populations locales ou pour leur agriculture.
 
 ## Le numérique croît de manière exponentielle.
 
-Une autre notion clé quand on parle de l’impact du numérique est son essor. Quand on regarde les chiffres qui quantifient les usages numériques comme le trafic par exemple on remarque qu’ils doublent tous les trois à cinq ans ([source {% include external_link_icon.html %}](https://twiki.cern.ch/twiki/pub/HEPIX/TechwatchNetwork/HtwNetworkDocuments/white-paper-c11-741490.pdf){:target="new-tab"}).
+Une autre notion clé quand on parle de l’impact du numérique est son essor. Quand on regarde les chiffres qui quantifient les usages numériques comme le trafic par exemple on remarque qu’ils doublent tous les trois à cinq ans ({% include link.html text="source" link="https://twiki.cern.ch/twiki/pub/HEPIX/TechwatchNetwork/HtwNetworkDocuments/white-paper-c11-741490.pdf" %}).
+
+
 
 {% include picture.html 
     url="/assets/img/posts/2023/Q3/croissance_flux_internet"
     alt="Graphique présentant l’évolution du trafic internet de 2009 à 2022."
  %}
 
-S’il en allait de même avec les émissions de gaz à effet de serre, le numérique serait responsable d’un tiers des émissions mondiale d’ici 10 ans ! (les autres secteurs ayant globalement stabilisé leurs émissions ces dernières années, [source {% include external_link_icon.html %}](https://theshiftproject.org/wp-content/uploads/2018/11/Rapport-final-v8-WEB.pdf){:target="new-tab"}). Heureusement, les avancées technologiques permettent de limiter les émissions de gaz à effet de serre, mais on est tout de même sur une augmentation de l’ordre de 8% par an ([source {% include external_link_icon.html %}](https://theshiftproject.org/wp-content/uploads/2018/11/Rapport-final-v8-WEB.pdf){:target="new-tab"}).
+S’il en allait de même avec les émissions de gaz à effet de serre, le numérique serait responsable d’un tiers des émissions mondiale d’ici 10 ans ! (les autres secteurs ayant globalement stabilisé leurs émissions ces dernières années, {% include link.html text="source" link="https://theshiftproject.org/wp-content/uploads/2018/11/Rapport-final-v8-WEB.pdf" %}). Heureusement, les avancées technologiques permettent de limiter les émissions de gaz à effet de serre, mais on est tout de même sur une augmentation de l’ordre de 8% par an ({% include link.html text="source" link="https://theshiftproject.org/wp-content/uploads/2018/11/Rapport-final-v8-WEB.pdf" %}).
 
-Mais attendez, les 4% de contribution aux émissions de gaz à effet de serre du numérique datent de 2018. Je n’ai pas d’évaluation plus récente, mais si la projection du Shift Project est correcte, on devrait déjà dépasser les 6% aujourd’hui et peut-être **8% dès 2025** ([source](https://theshiftproject.org/wp-content/uploads/2018/11/Rapport-final-v8-WEB.pdf){:target="new-tab"})…
+Mais attendez, les 4% de contribution aux émissions de gaz à effet de serre du numérique datent de 2018. Je n’ai pas d’évaluation plus récente, mais si la projection du Shift Project est correcte, on devrait déjà dépasser les 6% aujourd’hui et peut-être **8% dès 2025** ({% include link.html text="source" link="https://theshiftproject.org/wp-content/uploads/2018/11/Rapport-final-v8-WEB.pdf" %})…
+
+
