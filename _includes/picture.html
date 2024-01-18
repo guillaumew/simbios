@@ -1,5 +1,9 @@
 <picture {% if include.class %} class="{{include.class}}" {% endif %}>
     <source srcset="{{include.url}}.webp" type="image/webp">
-    <source srcset="{{include.url}}.jpg" type="image/jpg">
-    <img src="{{include.url}}.jpg" alt="{{include.alt}}" title="{{include.alt}}" width="{{include.width}}" {% if include.height %} height="{{include.height}}" {% endif %} loading="lazy">
+    {% assign type = "jpg" %}
+    {% if include.type %}
+        {% assign type=include.type %}
+    {% endif %}
+    <source srcset="{{include.url}}.{{type}}" type="image/{{type}}">
+    <img src="{{include.url}}.{{type}}" alt="{{include.alt}}" title="{{include.alt}}" width="{{include.width}}" {% if include.height %} height="{{include.height}}" {% endif %} loading="lazy">
 </picture>

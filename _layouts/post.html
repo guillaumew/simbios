@@ -8,7 +8,12 @@ layout: page
 	</div>
 	<div class="slider">
 		<div class="markdown post_info">
-			<img src="{{page.image}}">
+			{% include picture.html 
+				url=page.thumb
+				alt=page.title
+				width=200
+				height=200
+			%}
 			<h4>{{page.title}}</h4>
 			<p>Paru le {{ page.date | date: "%d/%m/%Y" }}</p>
 			{% if page.tags %}
