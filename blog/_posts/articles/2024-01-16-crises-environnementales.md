@@ -12,7 +12,7 @@ Il y a plusieurs tentatives de classification des crises envrionnementales. On p
 - l’érosion de la biodiversité
 - la perturbation des cycles de l’azote et du phosphore ({% include link.html link="/blog/2024/01/17/eutrophisation.html" text="voir l'article sur l'eutrophisation" %})
 - le changement d’usage des sols
-- le cycle de l’eau douce
+- le cycle de l’eau douce ({% include link.html link="/blog/2024/01/22/utilisation-eau.html" text="voir l'article sur l'utilisation de l'eau" %})
 - l’introduction d’entités nouvelles dans la biosphère
 - l’acidification des océans
 - l’appauvrissement de la couche d’ozone
@@ -31,7 +31,7 @@ Que l'on suit au travers de 16 catégories d'impact environnemental :
 - Eutrophisation des eaux douces ({% include link.html link="/blog/2024/01/17/eutrophisation.html" text="voir l'article sur l'eutrophisation" %})
 - Eutrophisation marine ({% include link.html link="/blog/2024/01/17/eutrophisation.html" text="voir l'article sur l'eutrophisation" %})
 - Utilisation des sols
-- Utilisation de l'eau
+- Utilisation de l'eau ({% include link.html link="/blog/2024/01/22/utilisation-eau.html" text="voir l'article sur l'utilisation de l'eau" %})
 - Changement climatique
 - Ecotoxicité de l'eau
 - Formation d'ozone photochimique
