@@ -105,7 +105,7 @@ A l'échelle planétaire, il faut faire attention à son empreinte eau. Pour cel
 | 300g de patates    | 85 L          |
 | 60g de riz         | 150 L         |
 
-*Voir l'{% include link.html text="empreinte eau d'autre produits" link="https://www.waterfootprint.org/resources/interactive-tools/product-gallery/" %}.*
+*Voir l'{% include link.html text="empreinte eau d'autres produits" link="https://www.waterfootprint.org/resources/interactive-tools/product-gallery/" %}.*
 
 ## Pour aller plus loin
 
