@@ -78,7 +78,7 @@ Cela représente près de 5% des besoins mondiaux de l'industrie ({% include lin
 
 *Jean-Claude Van Damme, précurseur de la méthode Aware ({% include link.html text="?" link="https://www.youtube.com/watch?v=8ECgLA2MjFo" %}) (en {% include link.html text="2010" link="https://youtu.be/6TrOl1BrgmY?si=JPh0AbSp-E8Ii07y&t=41" %})*
 
-Malheureusement cette utilisation de l'eau a généralement lieu dans des régions qui sont déjà en stress hydrique et aggrave donc une situation qui était déjà délicate. Pour prendre cet effet en compte dans les analyses du cycle de vie, on parle généralement en m³ world eq. Cette unité prend en compte les réserves d'eau et la demande d'eau sur le lieu de prélèvement et traduit cela en un prélèvement normalisé sur Terre. C'est {% include link.html text="la méthode AWARE" link="https://wulca-waterlca.org/aware/what-is-aware/" %}.
+Malheureusement cette utilisation de l'eau a généralement lieu dans des régions qui sont déjà en stress hydrique et aggrave donc une situation qui était déjà délicate. Pour prendre cet effet en compte dans les analyses du cycle de vie, on parle généralement en m³ world eq. Cette unité prend en compte les réserves d'eau et la demande d'eau sur le lieu de prélèvement et traduit cela en un prélèvement normalisé sur Terre. C'est {% include link.html text="la méthode AWARE" link="https://wulca-waterlca.org/aware/what-is-aware/" %} :&nbsp;**A**vailable **WA**ter **RE**maining.
 
 {% include picture.html 
     url="/assets/img/posts/2024/Q1/m-3-world-eq-m-3"
