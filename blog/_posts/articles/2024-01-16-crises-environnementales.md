@@ -10,9 +10,9 @@ Il y a plusieurs tentatives de classification des crises envrionnementales. On p
 
 - le changement climatique
 - l’érosion de la biodiversité
-- la perturbation des cycles de l’azote et du phosphore ({% include link.html link="/blog/2024/01/17/eutrophisation.html" text="voir l'article sur l'eutrophisation" %})
+- la perturbation des cycles de l’azote et du phosphore ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
 - le changement d’usage des sols
-- le cycle de l’eau douce ({% include link.html link="/blog/2024/01/22/utilisation-eau.html" text="voir l'article sur l'utilisation de l'eau" %})
+- le cycle de l’eau douce ([voir l'article sur l'utilisation de l'eau](/blog/2024/01/22/utilisation-eau.html))
 - l’introduction d’entités nouvelles dans la biosphère
 - l’acidification des océans
 - l’appauvrissement de la couche d’ozone
@@ -27,11 +27,11 @@ Que l'on suit au travers de 16 catégories d'impact environnemental :
 - Utilisation des ressources fossiles
 - Utilisation des minerais et des métaux
 - Acidification atmosphérique
-- Eutrophisation terrestre ({% include link.html link="/blog/2024/01/17/eutrophisation.html" text="voir l'article sur l'eutrophisation" %})
-- Eutrophisation des eaux douces ({% include link.html link="/blog/2024/01/17/eutrophisation.html" text="voir l'article sur l'eutrophisation" %})
-- Eutrophisation marine ({% include link.html link="/blog/2024/01/17/eutrophisation.html" text="voir l'article sur l'eutrophisation" %})
+- Eutrophisation terrestre ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
+- Eutrophisation des eaux douces ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
+- Eutrophisation marine ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
 - Utilisation des sols
-- Utilisation de l'eau ({% include link.html link="/blog/2024/01/22/utilisation-eau.html" text="voir l'article sur l'utilisation de l'eau" %})
+- Utilisation de l'eau ([voir l'article sur l'utilisation de l'eau](/blog/2024/01/22/utilisation-eau.html))
 - Changement climatique
 - Ecotoxicité de l'eau
 - Formation d'ozone photochimique

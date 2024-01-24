@@ -190,4 +190,21 @@
   requests: 7
   grade: A
   score: 90
-  
+- path: /blog/2024/01/22/utilisation-eau.html
+  size: 149
+  nodes: 224
+  requests: 9
+  grade: A
+  score: 86
+- path: /blog/2024/01/17/eutrophisation.html
+  size: 120
+  nodes: 143
+  requests: 9
+  grade: A
+  score: 89
+- path: /blog/2024/01/16/crises-environnementales.html
+  size: 79
+  nodes: 131
+  requests: 7
+  grade: A
+  score: 90

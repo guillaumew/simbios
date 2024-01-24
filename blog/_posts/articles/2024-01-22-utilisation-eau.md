@@ -74,7 +74,11 @@ En 2022, une étude relayée par {% include link.html text="nature.com" link="ht
 Le numérique consomme beaucoup d'eau notamment lors de la phase de rafinage du minerais en métaux. Par exemple, la fabrication d'un smartphone nécessite 12 760 L d'eau ({% include link.html link="https://www.watercalculator.org/footprint/the-hidden-water-in-everyday-products/" text="source" %}).
 Cela représente près de 5% des besoins mondiaux de l'industrie ({% include link.html link="https://www.greenit.fr/etude-empreinte-environnementale-du-numerique-mondial/#empreinte" text="source" %}).
 
-Malheureusement cette utilisation de l'eau a généralement lieu dans des régions qui sont déjà en stress hydrique et aggrave donc une situation qui était déjà délicate. Pour prendre cet effet en compte dans les analyses du cycle de vie, on parle généralement en m³ world eq. Cette unité prend en compte les réserves d'eau sur le lieu de consommation et traduit cela en un prélèvement moyen sur Terre. C'est {% include link.html text="la méthode AWARE" link="https://wulca-waterlca.org/aware/what-is-aware/" %}.
+> J'adore l'eau ! Dans 20-30 ans, il n'y en aura plus...
+
+*Jean-Claude Van Damme, précurseur de la méthode Aware ({% include link.html text="?" link="https://www.youtube.com/watch?v=8ECgLA2MjFo" %}) (en {% include link.html text="2010" link="https://youtu.be/6TrOl1BrgmY?si=JPh0AbSp-E8Ii07y&t=41" %})*
+
+Malheureusement cette utilisation de l'eau a généralement lieu dans des régions qui sont déjà en stress hydrique et aggrave donc une situation qui était déjà délicate. Pour prendre cet effet en compte dans les analyses du cycle de vie, on parle généralement en m³ world eq. Cette unité prend en compte les réserves d'eau et la demande d'eau sur le lieu de prélèvement et traduit cela en un prélèvement normalisé sur Terre. C'est {% include link.html text="la méthode AWARE" link="https://wulca-waterlca.org/aware/what-is-aware/" %}.
 
 {% include picture.html 
     url="/assets/img/posts/2024/Q1/m-3-world-eq-m-3"
@@ -106,6 +110,8 @@ A l'échelle planétaire, il faut faire attention à son empreinte eau. Pour cel
 | 60g de riz         | 150 L         |
 
 *Voir l'{% include link.html text="empreinte eau d'autres produits" link="https://www.waterfootprint.org/resources/interactive-tools/product-gallery/" %}.*
+
+Comme souvent (toujours ?) pour l'environnement, la méthode la plus efficace est de faire preuve de sobriété dans son mode de vie. 
 
 ## Pour aller plus loin
 
