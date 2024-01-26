@@ -52,8 +52,10 @@ Malheureusement, malgré un réel intérêt écologique, on peut constater que l
 ## Pour les entreprises
 Simbios est une structure dédiée avant tout pour les entreprises. N'hésitez pas à nous [contacter](/contact.html) pour vous faire accompagner.
 
+Participation au maintien de {% include link.html link="hhttps://www.greenit.fr/ressources/" text="ressources" external=true %} et d'{% include link.html link="https://collectif.greenit.fr/outils.html" text="outils" external=true %} avec {% include link.html link="https://www.greenit.fr/" text="le collectif GreenIT" external=true %}.
+
 ## Pour l'enseignement
-Animations régulières d'atelier de sensibilisation sur le numérique résponsable pour les lycéens et les étudiants de l'enseignement supérieur :
+Animations régulières d'ateliers de sensibilisation sur le numérique résponsable pour les lycéen.ne.s et les étudiant.e.s de l'enseignement supérieur :
 - La Fresque du Numérique
 - La Bataille de la Tech
 
@@ -61,5 +63,3 @@ Animations régulières d'atelier de sensibilisation sur le numérique résponsa
 Animations régulières d'atelier de sensibilisation sur l'impact environnemental du numérique grand publique dans le département.
 - {% include link.html link="https://www.meetup.com/nantesnr/events/" text="Découvrir les événments Nantes Numérique Responsable" external=true %}.
 - {% include link.html link="https://www.billetweb.fr/loire-atlantique-44-atelier-fresque-du-numerique" text="Prochains ateliers la Fresque du Nuémrique" external=true %}.
-
-Participation au maintien de {% include link.html link="hhttps://www.greenit.fr/ressources/" text="ressources" external=true %} et d'{% include link.html link="https://collectif.greenit.fr/outils.html" text="outils" external=true %} avec {% include link.html link="https://www.greenit.fr/" text="le collectif GreenIT" external=true %}.
