@@ -100,7 +100,3 @@ Pour continuer à vos documenter que l'écotoxicité de l'eau, je vous invite à
   - Ce {% include link.html link="https://www.eaudyssee.org/ateliers-ludiques-eau/quizz-sur-leau/" text="quiz interractif sur l'eau" %}.
   - Les {% include link.html text="infographies" link="https://www.eaudyssee.org/infographies-preserver-ressource-eau/" %} sur les gestes indivuels et collectifs à adopter pour maitriser son impact sur la qualité de l'eau.
 - L'article très complet de Wikipedia sur la {% include link.html text="pollution de l'eau" link="https://fr.wikipedia.org/wiki/Pollution_de_l%27eau" %}.
-
-## Remerciements
-
-Un grand merci à {% include link.html text="Stéphane Fourneret" link="https://www.linkedin.com/in/st%C3%A9phane-fourneret-b1750169/" %} pour ses explications et la relecture de cet article.
