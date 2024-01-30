@@ -33,7 +33,7 @@ Que l'on suit au travers de 16 catégories d'impact environnemental :
 - Utilisation des sols
 - Utilisation de l'eau ([voir l'article sur l'utilisation de l'eau](/blog/2024/01/22/utilisation-eau.html))
 - Changement climatique
-- Ecotoxicité de l'eau
+- Ecotoxicité de l'eau ([voir l'article sur l'écotoxicité de l'eau](/blog/2024/01/30/ecotoxicite-eau.html))
 - Formation d'ozone photochimique
 - Radiations ionisantes
 - Toxicité humaine (cancer)

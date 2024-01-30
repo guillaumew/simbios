@@ -125,7 +125,7 @@ Comme souvent (toujours ?) pour l'environnement, la méthode la plus efficace es
 
 ## Pour aller plus loin
 
-Il n'est question ici que de la quantité d'eau disponible. Un autre paramètre à prendre en compte est la qualité de l'eau disponible. Cela sera traité dans un article dédié.
+Il n'est question ici que de la quantité d'eau disponible. Un autre paramètre à prendre en compte est la qualité de l'eau disponible. Cela a été traité dans [cet article dédié](/blog/2024/01/30/ecotoxicite-eau.html).
 
 Pour aller plus loin, je vous invite à :
 - Participer à une {% include link.html link="https://www.billetweb.fr/multi_event.php?multi=u138110" text="Fresque de l'eau" %}.
