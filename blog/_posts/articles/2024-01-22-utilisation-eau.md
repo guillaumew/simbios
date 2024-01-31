@@ -120,7 +120,7 @@ Comme souvent (toujours ?) pour l'environnement, la méthode la plus efficace es
 - Il est nécessaire de revoir notre manière d'aborder l'agriculture
   - Choix de cultures appropriées aux précipitations locales
   - Moindre travail du sol
-- Arrêter la deforrestation
+- Arrêter la déforestation
 - Limiter l'imperméabilisation des sols
 
 ## Pour aller plus loin

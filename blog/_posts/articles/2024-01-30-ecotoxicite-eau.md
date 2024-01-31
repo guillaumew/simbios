@@ -18,11 +18,11 @@ Les activités humaines contaminent l'eau de manières très variées.
 
 Les cours d'eau sont parfois utilisés pour refroidir nos centrales thermiques. L'eau qui est rejetée est la même que celle qui est prélevée, mais avec quelques degrés de plus. Ce changement de température peut avoir de gros effets sur la biodiversité, notamment quand le cours d'eau est naturellement déjà plus chaud que la moyenne.
 
-On sort un peu du cadre de l'ecotoxicité, mais cet usage constitue également une modification du milieu et est donc une pollution.
+On sort un peu du cadre de l'écotoxicité, mais cet usage constitue également une modification du milieu et est donc une pollution.
 
 ### Agriculture
 
-L'agriculture contribue à l'ecotoxocité de l'eau par l'usage de produits phytosanitaires :
+L'agriculture contribue à l'écotoxicité de l'eau par l'usage de produits phytosanitaires :
 - pesticides
 - antifongiques
 - herbicides
