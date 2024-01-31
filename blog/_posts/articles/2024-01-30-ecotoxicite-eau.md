@@ -14,6 +14,12 @@ Nous avions vu une pollution par les nutriments dans l'article sur l'[eutrophisa
 
 Les activités humaines contaminent l'eau de manières très variées.
 
+### Production d'électricité
+
+Les cours d'eau sont parfois utilisés pour refroidir nos centrales thermiques. L'eau qui est rejetée est la même que celle qui est prélevée, mais avec quelques degrés de plus. Ce changement de température peut avoir de gros effets sur la biodiversité, notamment quand le cours d'eau est naturellement déjà plus chaud que la moyenne.
+
+On sort un peu du cadre de l'ecotoxicité, mais cet usage constitue également une modification du milieu et est donc une pollution.
+
 ### Agriculture
 
 L'agriculture contribue à l'ecotoxocité de l'eau par l'usage de produits phytosanitaires :
@@ -23,15 +29,25 @@ L'agriculture contribue à l'ecotoxocité de l'eau par l'usage de produits phyto
 
 Ces produits peuvent ruisseler pour terminer dans les cours d'eau ou bien pénétrer dans le sol et contaminer les réserves souterraines.
 
-### Refroidissement
-
-Les cours d'eau sont parfois utilisés pour refroidir nos centrales thermiques. L'eau qui est rejetée est la même que celle qui est prélevée, mais avec quelques degrés de plus. Ce changement de température peut avoir de gros effets sur la biodiversité, notamment quand le cours d'eau est naturellement déjà plus chaud que la moyenne.
-
 ### Industrie
 
 L'industrie contribue pour beaucoup dans l'écotoxicité de l'eau notamment par le traitement du métal (fonderie, raffinage, extraction...)
 
-En outre, pour subvenir aux besoins des consommateur.trice.s, l'industrie (notamment pharmaceutique, mais pas uniquement) crée des nombreuses nouvelles molécules chimiques qui finissent inéluctablement dans l'environnement. 
+En outre, pour subvenir aux besoins des consommateur.trice.s, l'industrie crée des nombreuses nouvelles molécules chimiques qui finissent inéluctablement dans l'environnement. 
+
+#### Pollution médicamenteuse
+
+L'industrie pharmaceutique qui émet de nouveaux médicaments pour soigner les humains et les animaux. Ces substances finissent dans les déjections. Les stations d'épurations ne savent pas les éliminer. Elles finissent donc dans les cours d'eau.
+
+#### Les PFAS
+
+Les {% include link.html text="substances per- et polyfluoralkylées (PFAS)" link="https://www.anses.fr/fr/content/pfas-des-substances-chimiques-dans-le-collimateur" %} sont utilisées dans :
+- les emballages alimentaires
+- les revêtements anti-adhésifs (en cuisine ou ailleurs)
+- les isolants électriques
+- revêtements impeméabilisants (textile, moquette...)
+
+Les PFAS ont un caractère polluant très persistant. Elles ont des effets documentés sur la biodiversité et la santé humaine (augmentation du cholestérol, cancer, infertilité...)
 
 ### Trafic routier
 
@@ -57,7 +73,7 @@ La limite mondiale est fixée à 1.31.10¹⁴ CTUe d'après le {% include link.h
 
 ## Quel est la place du numérique dans la pollution de l'eau ?
 
-D'après le {% include link.html text="rapport iNum2022" link="https://www.greenit.fr/impacts-environnementaux-du-numerique-en-france/" %} de GreenIT, les usages numériques en France ont engendré 2,63.10¹¹ CTUe.
+D'après le rapport {% include link.html text="Evaluation de l'impact du numérique en France" link="https://librairie.ademe.fr/consommer-autrement/5226-evaluation-de-l-impact-environnemental-du-numerique-en-france-et-analyse-prospective.html" %} de l'ADEME-ARCEP, les usages numériques en France ont engendré 2,63.10¹¹ CTUe.
 
 Comme la France représente environ 1% de la population mondiale, cela signifie que le numérique représente à lui seul **20.7%** de l'écotoxicité aquatique qu'elle pourrait engendrer en restant soutenable.
 
@@ -100,3 +116,8 @@ Pour continuer à vos documenter que l'écotoxicité de l'eau, je vous invite à
   - Ce {% include link.html link="https://www.eaudyssee.org/ateliers-ludiques-eau/quizz-sur-leau/" text="quiz interractif sur l'eau" %}.
   - Les {% include link.html text="infographies" link="https://www.eaudyssee.org/infographies-preserver-ressource-eau/" %} sur les gestes indivuels et collectifs à adopter pour maitriser son impact sur la qualité de l'eau.
 - L'article très complet de Wikipedia sur la {% include link.html text="pollution de l'eau" link="https://fr.wikipedia.org/wiki/Pollution_de_l%27eau" %}.
+- L'article de Raporterre sur {% include link.html link="https://reporterre.net/La-pollution-par-les-medicaments-affecte-toutes-les-rivieres-du-monde" text="la pollution médicamenteuse" %}.
+
+## Remerciements
+
+Un grand merci à {% include link.html text="Stéphane Fourneret" link="https://www.linkedin.com/in/st%C3%A9phane-fourneret-b1750169/" %} pour ses explications et la relecture de cet article.
