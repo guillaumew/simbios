@@ -6,16 +6,16 @@ image: /assets/img/posts/2024/Q1/manque-eau.webp
 thumb: /assets/img/posts/2024/Q1/manque-eau
 ---
 
-En France à l'été 2022, nous avons connu {% include link.html text="une grosse période de sécheresse" link="https://fr.wikipedia.org/wiki/S%C3%A9cheresse_de_2022_en_France" %} :
-- ravaitallement d'un millier de commune par camions citernes
-- mesure de restriction de l'usage de l'eau
+En France l'été 2022, nous avons connu {% include link.html text="une grosse période de sécheresse" link="https://fr.wikipedia.org/wiki/S%C3%A9cheresse_de_2022_en_France" %} :
+- ravitaillement d'un millier de communes par camions citernes
+- mesures de restriction de l'usage de l'eau
 - incendies
 
 Cet été a peut-être permis aux Français.e.s de se rendre de compte que l'eau n'était pas forcément quelque chose qui coulait de source pour nous. 
 
 ## Comment fonctionne le cycle de l'eau ? Quelles sont nos réserves ?
 
-Sur Terre, nous avons majoritairement (97%) de l'eau salée (dans nos mers et océans). Cepdnant nous avons plus souvent besoin d'eau douce. La grande majorité des réserves d'eau douce est inexploitable (glaciers, nappe non renvelable...). Nous ne puisons notre eau que dans les cours d'eau (lacs et rivières) ou dans les nappes renouvelables qui représentent moins de 2% des reserves d'eau douce.
+Sur Terre, nous avons majoritairement (97%) de l'eau salée (dans nos mers et océans). Cependant nous avons plus souvent besoin d'eau douce. La grande majorité des réserves d'eau douce est inexploitable (glaciers, nappes non renvoulables...). Nous ne puisons notre eau que dans les cours d'eau (lacs et rivières) ou dans les nappes renouvelables qui représentent moins de 2% des reserves d'eau douce.
 
 {% include picture.html 
     url="/assets/img/posts/2024/Q1/repartition-eau"
@@ -36,8 +36,8 @@ En France, on distingue principalement 4 usages :
 | Industrie   | 11%          | 90%         |
 | Domestique  | 9%           | 75%         |
 
-- Pour la production d'elctricité, on utilise de de l'eau pour refroidir les réacteurs nucléaires ou thermiques. L'eau est quaisement intégralement restituée au milieu de prélèvement mais elle est plus chaude.
-- En agriculture l'eau est prélevée dans les rivières et les nappes pour les cultutres. L'eau est donc transférée vers les sols et la bioshpère.
+- Pour la production d'électricité, on utilise de de l'eau pour refroidir les réacteurs nucléaires ou thermiques. L'eau est quasiment intégralement restituée au milieu de son prélèvement mais elle est plus chaude.
+- En agriculture l'eau est prélevée dans les rivières et les nappes pour les cultutres. L'eau est donc transférée vers les sols et la biosphère.
 - L'industrie et les usages domestiques complètent les usages de l'eau. L'eau est prélevée dans les nappes (65%) et les cours d'eau (35%). Elle est ensuite restituée dans les rivières. Cela engendre un problème puisque les nappes constituent un réservoir stable, là où les rivières s'écoulent et finissent dans la mer où elle ne sert plus (ou presque) aux besoins humains.
 
 ## Y a-t-il d'autres perturbations du cycle de l'eau ?
@@ -46,9 +46,9 @@ Les activités humaines ont tendance à favoriser le ruissellement. Au lieu d'ê
 
 Comme évoqué plus haut, l'eau des cours d'eau s'écoule rapidement vers les mers et océans et ne constitue donc pas une reserve pérenne pour nos usages.
 
-Le ruisselement et accentué par :
-- l'articifialisation des sols
-- la déforrestation
+Le ruissellement et accentué par :
+- l'artificialisation des sols
+- la déforestation
 - l'assèchement des sols (qui est augmenté par le réchauffement climatique)
 
 {% include picture.html 
@@ -60,18 +60,18 @@ Le ruisselement et accentué par :
 
 Les prélèvements anthropiques de l'eau sont divisés en 3 catégories : 
 - l'eau verte : l'eau de pluie consommée
-- l'eau bleu : l'eau extraite de réserves (nappe ou cours d'eau) et non restituée
+- l'eau bleue : l'eau extraite de réserves (nappes ou cours d'eau) et non restituée
 - l'eau grise : de l'eau qui a été polluée avant d'être restituée
 
 La consommation d'eau pour les besoins humains est de l'ordre de 10 000 Gm³ par an. Cela représente 1 385 m³ par an et par habitant. Evidemment il y a des disparités : par exemple la consommation d'un américain est de 2 842 m³.
 
-La répartition au niveau monde est bien différente de la répartition française mentionnée dans le tableau plus haut. Le gros de la consommation provient de l'agriculture (92%) dont 27% pour la production de céréales, 22% pour la production de viande et 7% pour le lait. L'industrie (4.4%) et les usages domestiques (3.5%) pèsent bien moins lourds. Les données de la consommation d'eau mondiale sont issues de {% include link.html link="https://www.pnas.org/doi/10.1073/pnas.1109936109" text="cette étude" %}.
+La répartition au niveau monde est bien différente de la répartition française mentionnée dans le tableau plus haut. Le gros de la consommation provient de l'agriculture (92%) dont 27% pour la production de céréales, 22% pour la production de viande et 7% pour le lait. L'industrie (4.4%) et les usages domestiques (3.5%) pèsent bien moins lourd. Les données de la consommation d'eau mondiale sont issues de {% include link.html link="https://www.pnas.org/doi/10.1073/pnas.1109936109" text="cette étude" %}.
 
-En 2022, une étude relayée par {% include link.html text="nature.com" link="https://www.nature.com/articles/s43017-022-00287-8.epdf" %} et {% include link.html text="Stockholm Resilience Centre" link="https://www.stockholmresilience.org/research/research-news/2022-04-26-freshwater-boundary-exceeds-safe-limits.html" %} révélait que les prélèvements d'eau verte (donc l'eau de pluie) avaient dépassé la limite planétaire. Quelques mois plus tard, une étude publiée dans {% include link.html text="Science" link="https://www.science.org/doi/10.1126/sciadv.adh2458" %} montraient que la limite planétaire d'eau bleue était également franchie.
+En 2022, une étude relayée par {% include link.html text="nature.com" link="https://www.nature.com/articles/s43017-022-00287-8.epdf" %} et {% include link.html text="Stockholm Resilience Centre" link="https://www.stockholmresilience.org/research/research-news/2022-04-26-freshwater-boundary-exceeds-safe-limits.html" %} révélait que les prélèvements d'eau verte (donc l'eau de pluie) avaient dépassé la limite planétaire. Quelques mois plus tard, une étude publiée dans {% include link.html text="Science" link="https://www.science.org/doi/10.1126/sciadv.adh2458" %} montrait que la limite planétaire d'eau bleue était également franchie.
 
 ## Quel est la place du numérique dans la consommation d'eau ?
 
-Le numérique consomme beaucoup d'eau notamment lors de la phase de rafinage du minerais en métaux. Par exemple, la fabrication d'un smartphone nécessite 12 760 L d'eau ({% include link.html link="https://www.watercalculator.org/footprint/the-hidden-water-in-everyday-products/" text="source" %}).
+Le numérique consomme beaucoup d'eau notamment lors de la phase de raffinage du minerai en métaux. Par exemple, la fabrication d'un smartphone nécessite 12 760 L d'eau ({% include link.html link="https://www.watercalculator.org/footprint/the-hidden-water-in-everyday-products/" text="source" %}).
 Au total, le numérique représente près de 5% des besoins mondiaux de l'industrie ({% include link.html link="https://www.greenit.fr/etude-empreinte-environnementale-du-numerique-mondial/#empreinte" text="source" %}).
 
 > J'adore l'eau ! Dans 20-30 ans, il n'y en aura plus...
@@ -96,7 +96,7 @@ Cette méthode s'est imposée relativement récemment et n'avait malheuresement 
 Pour la consommation locale, on peut diminuer notre consommation d'eau du robinet :
 - Privilégier les douches aux bains. Prendre des douches plus rapides
 - Utiliser des toilettes économes en eau voire des toilettes sèches
-- Privilégier le lave-linge et le lave-vaisselle (en mode) moins consommateur en eau que de laver à la main
+- Privilégier le lave-linge et le lave-vaisselle (en mode éco) moins consommateurs en eau que le lavage manuel
 - Réutiliser de l'eau domestique pour arroser le jardin
 - {% include link.html link="https://www.eaudyssee.org/ateliers-ludiques-eau/infographie-economiser-leau-avec-des-gestes-individuels/" text="voir toutes les idées proposées par Eau'dyssée" %}.
 
@@ -130,7 +130,7 @@ Il n'est question ici que de la quantité d'eau disponible. Un autre paramètre 
 Pour aller plus loin, je vous invite à :
 - Participer à une {% include link.html link="https://www.billetweb.fr/multi_event.php?multi=u138110" text="Fresque de l'eau" %}.
 - Consulter les ressources proposées par l'association {% include link.html link="https://www.eaudyssee.org/" text="Eau'dyssée" %}, dont :
-  - Ce {% include link.html link="https://www.eaudyssee.org/ateliers-ludiques-eau/quizz-sur-leau/" text="quiz interractif sur l'eau" %}.
+  - Ce {% include link.html link="https://www.eaudyssee.org/ateliers-ludiques-eau/quizz-sur-leau/" text="quiz interactif sur l'eau" %}.
   - Cet {% include link.html text="article sur l'empreinte eau" link="https://www.eaudyssee.org/empreinte-eau-explications/" %}.
   - Les {% include link.html text="infographies" link="https://www.eaudyssee.org/infographies-preserver-ressource-eau/" %} sur les gestes indivuels et collectifs à adopter pour maitriser son empreinte eau.
 - Une bibliotèque des {% include link.html text="différentes empreintes eau de biens de consommation" link="https://www.waterfootprint.org/resources/interactive-tools/product-gallery/" %} proposée par Water Footprint Network (en anglais)

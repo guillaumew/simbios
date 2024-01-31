@@ -57,7 +57,7 @@ L'eau qui tombe sur nos routes ou nos sols artificiels se charge des éléments 
 
 Les résidus des incinérateurs d'ordures peuvent participer à l'écotoxicité de l'eau s'ils sont mal gérés.
 
-De même, de nombreux déchets (notamment plastiques ou aussi des mégot de cigarettes) sont laissés dans la nature et finissent par polluer les cours d'eau ou les réserves souterraines.
+De même, de nombreux déchets (notamment plastiques ou aussi des mégots de cigarettes) sont laissés dans la nature et finissent par polluer les cours d'eau ou les réserves souterraines.
 
 {% include picture.html 
     url="/assets/img/posts/2024/Q1/lac-inde"
@@ -85,7 +85,7 @@ Malheureusement, il n'est pas courant d'avoir des données disponibles sur l'éc
 
 #### Dans ses achats
 
-- Consommer des fruits et légumes issus d'une agriculture responsable limitant au maxiumum l'usage de produits phytosanitaires
+- Consommer des fruits et légumes issus d'une agriculture responsable limitant au maximum l'usage de produits phytosanitaires
 - Limiter l'importation de produits issus de pays avec des normes environnementales moindres qu'en Europe
 - **Limiter l'achat de produits nécessitant des métaux** (comme nos terminaux numériques)
 - Limiter les transports routiers et maritimes pour nous et les produits que nous achetons.
@@ -100,7 +100,7 @@ Malheureusement, il n'est pas courant d'avoir des données disponibles sur l'éc
 
 ### A l'échelle collective
 
-- Année après année, les stations d'épuration doivent faire face à de nouveaux polluants. Il est important de prendre en compte ce point de douleur avant de mettre sur le marché une nouvelle molécule.
+- Année après année, les stations d'épuration doivent faire face à de nouveaux polluants. Il est important de prendre en compte cette difficulté avant de mettre sur le marché une nouvelle molécule.
 - Limiter l'artificialisation des sols
 - Revoir notre système d'agriculture
 - Avoir des normes plus strictes au niveau des industries et des centrales thermiques
@@ -110,7 +110,7 @@ Malheureusement, il n'est pas courant d'avoir des données disponibles sur l'éc
 
 Il n'est question ici que de la qualité de l'eau en dehors de l'eutrophisation ([voir l'article dédié à l'eutrophisation](/blog/2024/01/17/eutrophisation.html)). Un autre paramètre à prendre en compte est la quantité de l'eau disponible. Cela a été traité dans [cet article dédié](/blog/2024/01/22/utilisation-eau.html).
 
-Pour continuer à vos documenter que l'écotoxicité de l'eau, je vous invite à :
+Pour continuer à vous documenter sur l'écotoxicité de l'eau, je vous invite à :
 - Participer à une {% include link.html link="https://www.billetweb.fr/multi_event.php?multi=u138110" text="Fresque de l'eau" %}.
 - Consulter les ressources proposées par l'association {% include link.html link="https://www.eaudyssee.org/" text="Eau'dyssée" %}, dont :
   - Ce {% include link.html link="https://www.eaudyssee.org/ateliers-ludiques-eau/quizz-sur-leau/" text="quiz interractif sur l'eau" %}.
