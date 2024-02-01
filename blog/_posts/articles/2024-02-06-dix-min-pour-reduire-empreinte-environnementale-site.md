@@ -1,37 +1,41 @@
 ---
 title: "Dix minutes pour réduire l'empreinte environnementale d'un site"
-description: Nous avons besoin d'eau pour vivre, mais il faut aussi que cette eau soit de bonne qualité.
-tags: ["Crises environnementales", "Eau", "Environnement", "Eco-geste"]
-image: /assets/img/posts/2024/Q1/ecotoxicite-eau.webp
-thumb: /assets/img/posts/2024/Q1/ecotoxicite-eau
+description: Voici dix commandements pour diminuer rapidement l'empreinte environnementale d'un site internet.
+tags: ["Site", "Eco-conception"]
+image: /assets/img/posts/2024/Q1/ecoconception-site.webp
+thumb: /assets/img/posts/2024/Q1/ecoconception-site
 ---
 
-TODO : Intro
+Dans le cadre de mes activités, je suis amené à faire pas mal d’analyses de site. Je me rends compte qu’on fait souvent les mêmes erreurs d’un point de vue écologique…
+Ce sont des points d'améliorations qui peuvent être traités rapidement. 
 
-## La conception tu travailleras
-Quantifier le besoin
-Optimiser le parcours utilisateur
 
-## Les images tu retailleras et compresseras
+## 1 - Les images, tu retailleras et compresseras
 
-## Les ressources externes tu limiteras
+## 2 - Les ressources externes, tu limiteras
 
-## Les ajouts inutiles tu éviteras
+## 3 - Les ajouts inutiles, tu éviteras
 Eliminer les fonctionnalités non essentielles
 
-## Les polices tu modéreras
+## 4 - Les polices standards, tu favoriseras
 Polices standarrd à favoriser
 
-## Les icones tu sélectionneras
+## 5 - Les icones, tu sélectionneras
 
-## Les insertions de contenus dynamiques tu éviteras
+## 6 - Les insertions de contenus dynamiques, tu éviteras
 
-## Les CSS et le javascript tu minifieras
+## 7 - Le javascript, les CSS et le HTML, tu minifieras
 
-## Les tranferts tu opitmiseras
+## 8 - Les fichiers, tu compresseras
+
+## 9 - Le cache, tu géreras
 CDN
 
-## Un plan pour l'avenir tu écriras
+## 10 - Un plan pour l'avenir, tu écriras
+
+### La conception tu travailleras
+Quantifier le besoin
+Optimiser le parcours utilisateur
 
 ### Privilégier le sur-mesure aux CMS
 
