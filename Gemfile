@@ -2,9 +2,12 @@
 
 source "https://rubygems.org"
 
-# gem "jekyll"
+# gem "github-pages", "~> 228", group: :jekyll_plugins
 
-gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "jekyll"
+gem "rake"
+gem "kramdown-parser-gfm"
+
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
