@@ -15,6 +15,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-paginate'
   gem 'jekyll-minifier'
+  gem 'jekyll-responsive-image'
 end
 
 gem "webrick", "~> 1.8"

@@ -1,0 +1,11 @@
+<picture>
+    {% for i in resized %}
+        <source media="(min-width: {{ i.width }}px)" srcset="/{{ i.path }}" type="image/webp" height="{{ i.height}}" width="{{ i.width }}">
+    {% endfor %}
+    {% if default_type == null %}
+        {% assign default_type = "jpg" %}
+    {% endif %}
+    {% assign slice_length = path.size | minus: 4 %}
+    {% assign untyped_path = path | slice: 0, slice_length %}
+    <img src="/{{ untyped_path }}{{default_type}}" alt="{{ alt }}" title="{{ alt }}" loading="lazy">
+</picture>
