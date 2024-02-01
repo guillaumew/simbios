@@ -20,7 +20,6 @@ $dark: $dark_teal-color;
   background-image: linear-gradient($white, $gray 75%);
   border: 1px solid $gray;
   border-bottom: none;
-  animation: float 2s ease-out 2;
   transition: transform 1s ease-out 100ms;
   &:hover, &:active {
     transform: translate(0,15px);
@@ -100,23 +99,4 @@ $dark: $dark_teal-color;
   left: 35%;
   top: 80%;
   border-radius: 50%;
-  animation: scale 2s 2;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes float {
-  50% {
-     transform: translateY(15px);
-  }
 }
