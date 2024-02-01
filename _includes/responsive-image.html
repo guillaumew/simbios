@@ -7,5 +7,8 @@
     {% endif %}
     {% assign slice_length = path.size | minus: 4 %}
     {% assign untyped_path = path | slice: 0, slice_length %}
-    <img src="/{{ untyped_path }}{{default_type}}" alt="{{ alt }}" title="{{ alt }}" loading="lazy">
+    {% if title == null %}
+        {% assign title=alt %}
+    {% endif %}
+    <img src="/{{ untyped_path }}{{default_type}}" alt="{{ alt }}" title="{{ title }}" loading="lazy">
 </picture>

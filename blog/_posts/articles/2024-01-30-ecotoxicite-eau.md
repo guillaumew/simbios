@@ -62,6 +62,7 @@ De même, de nombreux déchets (notamment plastiques ou aussi des mégots de cig
 {% responsive_image 
   path: assets/img/posts/2024/Q1/lac-inde.webp 
   alt: "Photo d'un lac en Inde avec beaucoup de déchets au premier plan." 
+  title: "En plus de gâcher un paysage magnifique, les déchets nuisent largement à l'éco-systéme à à l'homme."
 %}
 
 *Photo de {% include link.html text="Yogendra Singh" link="https://www.pexels.com/fr-fr/photo/dechets-sur-plan-d-eau-2480807/" %}.*

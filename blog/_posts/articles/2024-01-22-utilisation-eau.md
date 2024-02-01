@@ -17,9 +17,10 @@ Cet été a peut-être permis aux Français.e.s de se rendre de compte que l'eau
 
 Sur Terre, nous avons majoritairement (97%) de l'eau salée (dans nos mers et océans). Cependant nous avons plus souvent besoin d'eau douce. La grande majorité des réserves d'eau douce est inexploitable (glaciers, nappes non renvoulables...). Nous ne puisons notre eau que dans les cours d'eau (lacs et rivières) ou dans les nappes renouvelables qui représentent moins de 2% des reserves d'eau douce.
 
-{% include picture.html 
-    url="/assets/img/posts/2024/Q1/repartition-eau"
-    alt="On accède à une proportion minime des eaux existant sur Terre"
+{% responsive_image 
+  path: assets/img/posts/2024/Q1/repartition-eau.webp 
+  title: "On accède à une proportion minime des eaux existant sur Terre." 
+  alt: "Graphiques présentant la répartition des réserves d'eau dans le monde."
 %}
 *Source : Eau'dyssée.*
 
@@ -51,11 +52,6 @@ Le ruissellement et accentué par :
 - la déforestation
 - l'assèchement des sols (qui est augmenté par le réchauffement climatique)
 
-{% include picture.html 
-    url="/assets/img/posts/2024/Q1/dry-soil"
-    alt="Un sol imperméable nuit au cycle de l'eau."
-%}
-
 ## Quelles sont les limites de consommation soutenable ?
 
 Les prélèvements anthropiques de l'eau sont divisés en 3 catégories : 
@@ -80,10 +76,9 @@ Au total, le numérique représente près de 5% des besoins mondiaux de l'indust
 
 Malheureusement cette utilisation de l'eau a généralement lieu dans des régions qui sont déjà en stress hydrique et aggrave donc une situation qui était déjà délicate. Pour prendre cet effet en compte dans les analyses du cycle de vie, on parle généralement en m³ world eq. Cette unité prend en compte les réserves d'eau et la demande d'eau sur le lieu de prélèvement et traduit cela en un prélèvement normalisé sur Terre. C'est {% include link.html text="la méthode AWARE" link="https://wulca-waterlca.org/aware/what-is-aware/" %} :&nbsp;**A**vailable **WA**ter **RE**maining.
 
-{% include picture.html 
-    url="/assets/img/posts/2024/Q1/m-3-world-eq-m-3"
-    alt="Le prélèvement d'un même volume ne compte pas autant en fonction des réserves d'eau."
-    type='png'
+{% responsive_image 
+  path: assets/img/posts/2024/Q1/m-3-world-eq-m-3.webp 
+  alt: "Le prélèvement d'un même volume ne compte pas autant en fonction des réserves d'eau." 
 %}
 *La différence dans le m³ world eq en fonction du lieu de prélèvement ({% include link.html text="source" link="https://www.researchgate.net/figure/AWARE-characterization-factors-for-water-scarcity-footprint-in-m-3-world-eq-m-3-consumed_fig1_317777199" %})*
 
