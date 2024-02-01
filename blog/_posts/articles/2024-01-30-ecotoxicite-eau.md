@@ -59,10 +59,11 @@ Les résidus des incinérateurs d'ordures peuvent participer à l'écotoxicité 
 
 De même, de nombreux déchets (notamment plastiques ou aussi des mégots de cigarettes) sont laissés dans la nature et finissent par polluer les cours d'eau ou les réserves souterraines.
 
-{% include picture.html 
-    url="/assets/img/posts/2024/Q1/lac-inde"
-    alt="Photo d'un lac en Inde avec beaucoup de déchets au premier plan."
+{% responsive_image 
+  path: assets/img/posts/2024/Q1/lac-inde.webp 
+  alt: "Photo d'un lac en Inde avec beaucoup de déchets au premier plan." 
 %}
+
 *Photo de {% include link.html text="Yogendra Singh" link="https://www.pexels.com/fr-fr/photo/dechets-sur-plan-d-eau-2480807/" %}.*
 
 ## Quelles sont les limites soutenables ?

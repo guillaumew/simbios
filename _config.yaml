@@ -47,6 +47,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-minifier
+  - jekyll-responsive-image
 
 paginate: 5
 paginate_path: "/blog/page:num/"
@@ -55,3 +56,15 @@ jekyll-minifier:
   compress_css: false
   uglifier_args:
     harmony: true
+
+responsive_image:
+  template: _includes/responsive-image.html
+  default_quality: 35
+  sizes:
+    - width: 768
+    - width: 480
+    - width: 320
+  strip: true
+  save_to_source: false
+  output_path_format: assets/%{dirname}/%{filename}/%{filename}-%{width}x%{height}.%{extension}
+  
