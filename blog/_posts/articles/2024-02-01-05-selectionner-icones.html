@@ -1,0 +1,82 @@
+---
+title: "Sélectionner les icônes"
+description: Voici un des dix commandements pour diminuer rapidement l'empreinte environnementale d'un site internet.
+tags: ["Site", "Eco-conception"]
+image: /assets/img/posts/2024/Q1/ecoconception-site.webp
+thumb: /assets/img/posts/2024/Q1/ecoconception-site
+hidden: true
+---
+
+		<h2 id="le-problème">Le problème</h2>
+
+<p>Pour intégrer des icônes sur une page web, on a souvent envie d’utiliser des banques d’icônes toutes faites comme FontAwesome. Souvent, on embarque l’ensemble de la banque d’icône au complet dans la page alors qu’on n’en utilise qu’une poignée.</p>
+
+<h2 id="comment-faire-">Comment faire ?</h2>
+
+<p>Les solutions sont proposées de la plus favorable à l’nevironnement à la moins favorable :</p>
+
+<h3 id="privilégier-le-texte">Privilégier le texte</h3>
+
+<p>C’est l’option qui est à la fois la plus écologique et qui permet également de limiter les problème d’accessibilité.</p>
+
+<p>Ex : J’aime l'éco-conception.</p>
+
+<h3 id="choisir-des-symboles-ascii">Choisir des symboles ASCII</h3>
+
+<p>D’un point de vue environnemental, c’est toujours bon. Par contre, c’est peut-être un peu moins pratique d’un point de vue accessibilité. Et cela peu également introduire des disparités en fonction des systèmes d’exploitations.</p>
+
+<p>Ex : J’♥ l'éco-conception.</p>
+
+<h3 id="intégrer-les-icones-directement-dans-le-css">Intégrer les icones directement dans le CSS</h3>
+
+<p>Il est possible d’incorporer directement les icônes dans le CSS avec les propriétés <strong>background-image</strong> et <strong>mask-image</strong>.</p>
+
+<h4>background-image</h4>
+
+<p>L'idée est d'encode le SVG dans une URL, puis de l'utiliser directement en CSS. Voici un outil pour l'{% include link.html text="encodage de SVG" link="https://svgencode.com/" %}.</p>
+
+<p>Exemple :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: justify;
+  background-position: center;
+  width:1em;
+  height:1em;
+  display: inline-block;
+}
+.heart_icon {
+  background-image: url('data:image/svg+xml,%3C%3Fxml version=\'1.0\' encoding=\'utf-8\'%3F%3E%3Csvg width=\'800px\' height=\'800px\' viewBox=\'0 0 24 24\' fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z\' fill=\'%231C274C\'/%3E%3C/svg%3E');
+}
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;J'&lt;span class="icon heart_icon"&gt;&lt;/span&gt; l'écoconception.&lt;/p&gt;
+</code></pre></div></div>
+
+<p>J'<span style="background-size: contain;
+  background-repeat: no-repeat;
+  text-align: justify;
+  background-position: center;
+  width:1em;
+  height:1em;
+  display: inline-block;
+  background-image: url('data:image/svg+xml,%3C%3Fxml version=\'1.0\' encoding=\'utf-8\'%3F%3E%3Csvg width=\'800px\' height=\'800px\' viewBox=\'0 0 24 24\' fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z\' fill=\'%231C274C\'/%3E%3C/svg%3E');
+"></span> l'éco-conception.</p>
+
+<h4>mask-image</h4>
+<p>Attention <strong>mask-image</strong> permet de modifier la couleur de l’icône, mais ce n’est pas compatible avec certains navigateurs, donc il vaut mieux réserver cette technique si le fait que l’image n’apparaisse pas n’est pas incommandant.</p>
+<p>Voir ce {%include link.html link="https://dbushell.com/2024/01/19/svg-icons-with-css-masks/" text="tutoriel" %} en anglais sur les masques.</p>
+
+<h3 id="utiliser-des-bibliothqèes-qui-permettent-de-sélectionner-les-icones">Utiliser des bibliothèques qui permettent de sélectionner les icones</h3>
+
+<p>Des outils comme {% include link.html link="https://icomoon.io/" text="IcoMoon" %} permettent d’avoir un usage quasi identique à FontAwesome. Mais il faut choisir les icônes qui seront utilisées et seules ces dernières seront téléchargées.</p>
+
+<h2 id="ensuite-">Ensuite ?</h2>
+
+<ul>
+  <li>Voir le commandement suivant : <a href="03-eviter-ajouts-inutiles.html">Les ajouts inutiles, tu éviteras</a></li>
+  <li><a href="dix-min-pour-reduire-empreinte-environnementale-site.html">Revenir à la liste de commandements</a></li>
+</ul>
+
+	

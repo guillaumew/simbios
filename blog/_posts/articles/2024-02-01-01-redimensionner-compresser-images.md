@@ -67,3 +67,8 @@ Il existe de nombreux outils pour traiter les images. Je vais en citer quelques 
 - Pour retailler les images en lot, j'utilise {% include link.html link="https://converseen.fasterland.net/" text="Converseen" %}. Cet outil est complet et permet de modifier la taille ainsi que de convertir dans un format plus optimal et même de compresser (pour les formats Webp et Jpg).
 - Pour automatiser le traitement d'image, l'outil le plus utilisé sur le marché est {% include link.html link="https://imagemagick.org/index.php" text="ImageMagick" %}. Il permet de créer des scripts permettant de faire tous les traitements d'images nécessaires de manière automatisée.
 - Pour gérer les images responsives (dont la taille peut varier en fonction de la taille de la fenêtre de l'utilisateur.ice), j'utilie {% include link.html text="jekyll-responsive-image " link="https://github.com/wildlyinaccurate/jekyll-responsive-image" %}. Ca ne vous servira que si vous utilisez Jekyll mais cela permet de tout automatiser.
+
+## Ensuite ?
+
+- Voir le commandement suivant : [les ressources externes, tu limiteras](02-limiter-ressources-externes.html)
+- [Revenir à la liste de commandements](dix-min-pour-reduire-empreinte-environnementale-site.html)

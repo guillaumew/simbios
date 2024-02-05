@@ -9,11 +9,11 @@ thumb: /assets/img/posts/2024/Q1/ecoconception-site
 Dans le cadre de mes activités, je suis amené à faire pas mal d’analyses de site. Je me rends compte qu’on fait souvent les mêmes erreurs d’un point de vue écologique…
 Ce sont des points d'améliorations qui peuvent être traités rapidement. 
 
-1. [Les images, tu redimensionneras et compresseras](1-redimensionner-compresser-images.html)
-2. Les ressources externes, tu limiteras
-3. Les ajouts inutiles, tu éviteras
-4. Les polices standards, tu favoriseras
-5. Les icones, tu sélectionneras
+1. [Les images, tu redimensionneras et compresseras](01-redimensionner-compresser-images.html)
+2. [Les ressources externes, tu limiteras](02-limiter-ressources-externes.html)
+3. [Les ajouts inutiles, tu éviteras](03-eviter-ajouts-inutiles.html)
+4. [Les polices standards, tu favoriseras](04-favoriser-polices-standard)
+5. [Les icones, tu sélectionneras](05-selectionner-icones.html)
 6. Les insertions de contenus dynamiques, tu éviteras
 7. Le javascript, les CSS et le HTML, tu minifieras
 8. Les fichiers, tu compresseras
