@@ -39,6 +39,8 @@ Lorsque le site est prêt, il suffit de faire un
 ``` rake site:publish ```
 pour publier. 
 
+Cela va mettre à jour la branche `gh-pages` avec le build du site.
+
 Attention, cela fonctionne à partir de n'importe quelle branche et ça publie directement en production. A ce stade, il n'y a pas d'environnement tests en dehors de l'environnement local.
 
 Ne pas oublier de publier les modifications sur master (la publication avec rake ne suffit pas)
