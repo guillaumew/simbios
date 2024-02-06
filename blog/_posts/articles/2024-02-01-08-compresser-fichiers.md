@@ -11,14 +11,14 @@ Dans le commandement précédent, on a vu comment [minifier les ressources](07-m
 
 ## Le problème 
 
-La compression des fichiers (GZip, Brotli...) permet de diminuer la taille de ces derniers pour qu'ils utilisent moins de ressources réseau. 
+La compression des fichiers (GZip, Brotli...) permet de diminuer la taille de ces derniers pour qu'ils utilisent moins de ressources réseaux. 
 
 La compression peut nécessiter un peu de ressources côté serveur quand elle est très optimisée, mais elle n'est à faire qu'une seule fois alors qu'elle servira à chaque visite.
 Côté navigateur, la décompression utilise des ressources négligeables.
 
 ## Comment faire ?
 
-Les serveurs Apache et NGINX savent tous les deux compresser les fichiers. C'est même par défaut pour les fichiers HTML sur NGINX. Mais il faut tout de même ajouter quelques paramètres pour que l'ensemble des fichiers soient compresser.
+Les serveurs Apache et NGINX savent tous les deux compresser les fichiers. C'est même par défaut pour les fichiers HTML sur NGINX. Mais il faut tout de même ajouter quelques paramètres pour que l'ensemble des fichiers soient compressés.
 
 - {% include link.html link="https://www.digitalocean.com/community/tutorials/how-to-improve-website-performance-using-gzip-and-nginx-on-ubuntu-20-04" text="Suivre le tutoriel sur NGINX" %}.
 - {% include link.html link="https://ali-dev.medium.com/how-to-setup-caching-gzip-compression-in-apache-web-server-with-htaccess-292a0f689553" text="Suivre le tutoriel sur Apache" %}.

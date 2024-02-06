@@ -6,8 +6,10 @@ image: /assets/img/posts/2024/Q1/ecoconception-site.webp
 thumb: /assets/img/posts/2024/Q1/ecoconception-site
 ---
 
-Dans le cadre de mes activités, je suis amené à faire pas mal d’analyses de site. Je me rends compte qu’on fait souvent les mêmes erreurs d’un point de vue écologique…
+Dans le cadre de mes activités, je suis amené à faire pas mal d’analyses de site. Je me rends compte qu’on fait souvent les mêmes erreurs d’un point de vue performance environnementale...
 Ce sont des points d'améliorations qui peuvent être traités rapidement. 
+
+Retrouvez ces bonnes pratiques lors de ma présentation : {% include link.html text="Dix minutes pour réduire l'empreinte environnementale de son site" link="https://www.meetup.com/fr-FR/humantalks-nantes/events/297919466/" %} (le 13/02/2024 à Nantes).
 
 1. [Les images, tu redimensionneras et compresseras](01-redimensionner-compresser-images.html)
 2. [Les ressources externes, tu limiteras](02-limiter-ressources-externes.html)

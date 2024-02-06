@@ -1,7 +1,7 @@
 ---
 title: "Limitier les ressources externes"
 description: Voici un des dix commandements pour diminuer rapidement l'empreinte environnementale d'un site internet.
-tags: ["Site", "Eco-conception"]
+tags: ["Site", "Eco-conception", "Réseaux sociaux", "Vidéo", "Analytics"]
 image: /assets/img/posts/2024/Q1/ecoconception-site.webp
 thumb: /assets/img/posts/2024/Q1/ecoconception-site
 hidden: true
@@ -9,13 +9,13 @@ hidden: true
 
 ## Le problème 
 
-On a parfois tendance à ajouter des fonctionnalités ou des plugins sans trop considérer leur utilité. Ces dernières peuvent avoir un impact non négligeables.
+On a parfois tendance à ajouter des fonctionnalités ou des plugins sans trop considérer leur utilité. Ces derniers peuvent avoir un impact non négligeable.
 
 ## Quelques exemples
 
 ### Les boutons des réseaux sociaux
 
-Les boutons des réseaux sociaux ne sont clairement pas éco-conçus. Un simple bouton cache généralement une dizaine de requêts et une centaine de Ko transférés.
+Les boutons des réseaux sociaux ne sont clairement pas éco-conçus. Un simple bouton cache généralement une dizaine de requêtes et une centaine de Ko transférés.
 
 Il est pourtant très facile de faire des boutons sur mesure avec des URLs du type :
 
@@ -31,10 +31,15 @@ Cela permet de maîtriser leur impact environnemental mais aussi de les adapter 
 ### Les vidéos 
 
 #### Vidéos en arrière plan
-Il y a depuis quelques années, une mode qui consiste à mettre des vidéos en arrière plan. Cela peut nécessiter des dizaines de Mo de données à transférer et cela consomme pas mal de ressource sur le terminal utilisateur. Pourtant l'intérêt pour les utilisateur.trice.s est faible. Cela peut même perturber la navigation ou nuire au message principal.
+Il y a, depuis quelques années, une mode qui consiste à mettre des vidéos décoratives en arrière plan. Cela peut nécessiter des dizaines de Mo de données à transférer et cela consomme pas mal de ressources sur le terminal utilisateur. Pourtant l'intérêt pour les utilisateur.trice.s est faible. Cela peut même perturber la navigation ou nuire au message principal.
+
+Pour reprendre l'expression d'Aurélien Barrau, j'espère que ce genre de pratique fera bientôt "plouc". 
 
 #### Vidéos en lecture automatique
-De manière générale, il faut laisser l'utilisateur choisir quand il souhaite lancer un contenu vidéo. On peut décider de charger le lecteur à ce moment là également.
+
+De manière générale, il faut laisser l'utilisateur choisir quand il souhaite lancer un contenu vidéo. Les vidéos demandent pas mal de ressources, autant s'assurer que l'internaute est intéressé.e et concentre son attention sur le contenu.
+
+On peut décider de charger le lecteur à ce moment là également.
 
 ### Les outils d'analytics
 Connaissez-vous toutes les fonctionnalités d'un outils aussi complet que Google Analytics ? Probablement que non...

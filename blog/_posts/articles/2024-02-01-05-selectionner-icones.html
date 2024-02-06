@@ -1,19 +1,19 @@
 ---
 title: "Sélectionner les icônes"
 description: Voici un des dix commandements pour diminuer rapidement l'empreinte environnementale d'un site internet.
-tags: ["Site", "Eco-conception"]
+tags: ["Site", "Eco-conception", "Icone", "FontAwesome" , "Icomoon", "SVG"]
 image: /assets/img/posts/2024/Q1/ecoconception-site.webp
 thumb: /assets/img/posts/2024/Q1/ecoconception-site
 hidden: true
 ---
 
-		<h2 id="le-problème">Le problème</h2>
+<h2 id="le-problème">Le problème</h2>
 
 <p>Pour intégrer des icônes sur une page web, on a souvent envie d’utiliser des banques d’icônes toutes faites comme FontAwesome. Souvent, on embarque l’ensemble de la banque d’icône au complet dans la page alors qu’on n’en utilise qu’une poignée.</p>
 
 <h2 id="comment-faire-">Comment faire ?</h2>
 
-<p>Les solutions sont proposées de la plus favorable à l’nevironnement à la moins favorable :</p>
+<p>Les solutions sont proposées ici de la plus favorable à l’environnement à la moins favorable :</p>
 
 <h3 id="privilégier-le-texte">Privilégier le texte</h3>
 
@@ -27,13 +27,13 @@ hidden: true
 
 <p>Ex : J’♥ l'éco-conception.</p>
 
-<h3 id="intégrer-les-icones-directement-dans-le-css">Intégrer les icones directement dans le CSS</h3>
+<h3 id="intégrer-les-icones-directement-dans-le-css">Intégrer les icônes directement dans le CSS</h3>
 
 <p>Il est possible d’incorporer directement les icônes dans le CSS avec les propriétés <strong>background-image</strong> et <strong>mask-image</strong>.</p>
 
 <h4>background-image</h4>
 
-<p>L'idée est d'encode le SVG dans une URL, puis de l'utiliser directement en CSS. Voici un outil pour l'{% include link.html text="encodage de SVG" link="https://svgencode.com/" %}.</p>
+<p>L'idée est d'encoder le SVG dans une URL, puis de l'utiliser directement en CSS. Voici un outil pour l'{% include link.html text="encodage de SVG" link="https://svgencode.com/" %}.</p>
 
 <p>Exemple :</p>
 
@@ -65,12 +65,20 @@ hidden: true
 "></span> l'éco-conception.</p>
 
 <h4>mask-image</h4>
-<p>Attention <strong>mask-image</strong> permet de modifier la couleur de l’icône, mais ce n’est pas compatible avec certains navigateurs, donc il vaut mieux réserver cette technique si le fait que l’image n’apparaisse pas n’est pas incommandant.</p>
+<p>Mask-image a l'avantage de permettre de modifier la couleur de l’icône.</p>
+<p>Mais attention cette propriété n’est pas compatible avec certains navigateurs, donc il vaut mieux réserver cette technique si le fait que l’image n’apparaisse pas n’est pas incommodant ou prévoir un fallback.</p>
 <p>Voir ce {%include link.html link="https://dbushell.com/2024/01/19/svg-icons-with-css-masks/" text="tutoriel" %} en anglais sur les masques.</p>
 
 <h3 id="utiliser-des-bibliothqèes-qui-permettent-de-sélectionner-les-icones">Utiliser des bibliothèques qui permettent de sélectionner les icones</h3>
 
-<p>Des outils comme {% include link.html link="https://icomoon.io/" text="IcoMoon" %} permettent d’avoir un usage quasi identique à FontAwesome. Mais il faut choisir les icônes qui seront utilisées et seules ces dernières seront téléchargées.</p>
+<p>Des outils comme {% include link.html link="https://icomoon.io/" text="IcoMoon" %} permettent d’avoir un usage quasi identique à FontAwesome. Mais ils permettent de choisir les icônes qui seront utilisées et seules ces dernières seront téléchargées.</p>
+
+<p>Exemple :</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;p&gt;J'&lt;span class="icon-heart"&gt;&lt;/span&gt; l'écoconception.&lt;/p&gt;
+</code></pre></div></div>
+<link rel="stylesheet" href="/assets/icomoon/style.css">
+<p>J'<span class="icon-heart"></span> l'écoconception.</p>
 
 <h2 id="ensuite-">Ensuite ?</h2>
 

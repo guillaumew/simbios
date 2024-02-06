@@ -1,7 +1,7 @@
 ---
 title: "Ecrire un plan d'actions environnementales"
 description: Voici un des dix commandements pour diminuer rapidement l'empreinte environnementale d'un site internet.
-tags: ["Site", "Eco-conception"]
+tags: ["Site", "Eco-conception", "Produit"]
 image: /assets/img/posts/2024/Q1/ecoconception-site.webp
 thumb: /assets/img/posts/2024/Q1/ecoconception-site
 hidden: true
@@ -60,7 +60,7 @@ Optimiser le parcours utilisateur consiste à diminuer le temps passé par l'uti
 
 A minima, sonder en observant son entourage utilisant le service est un bon moyen d’identifier les points de friction - situations ou interactions qui contribuent à dégrader l’expérience utilisateur et à ralentir le parcours - des utilisateurs. Les tests utilisateurs permettent d'aller plus en profondeur dans la recherche de ces points de friction.
 
-Le temps passé par l'utilisateur sur son terminal est le deuxième post en termes d'impacts environnementaux.
+Le temps passé par l'utilisateur sur son terminal est le deuxième poste en termes d'impacts environnementaux.
 
 
 *[Revenir à la liste de commandements](dix-min-pour-reduire-empreinte-environnementale-site.html)*

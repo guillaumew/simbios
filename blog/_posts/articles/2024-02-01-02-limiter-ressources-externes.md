@@ -15,15 +15,21 @@ Mais cela force le navigateur à ouvrir un nouvelle connexion HTTP pour chaque d
 
 ## Comment faire ?
 
-L'idéal c'est de n'utiliser de servir avec son propre de domaine l'ensemble des ressources nécessaires.
+L'idéal c'est de servir les fichiers avec son propre de domaine l'ensemble des ressources nécessaires.
 
 Il faut donc tout héberger sur son propre service.
 
-## Et les cookies ?
+### Et le cache multi-site ?
 
-Si vous avez une large utilisation de cookies, il peut être intéressant d'avoir un sous-domaine pour gérer sépareremment les ressrouces externes ne nécessitant pas de cookie.
+Depuis de nombreuses années, {% include link.html text="les navigateurs n'autorisent plus l'emploi partagé du cache entre plusieurs site" link="https://www.stefanjudis.com/notes/say-goodbye-to-resource-caching-across-sites-and-domains/" %}.
+
+Cela pouvait être pratique vu que tout le monde utilise les mêmes bibliothèque, mais cela posait des problèmes de sécurité / confidentialité des données.
+
+### Et les cookies ?
+
+Si vous avez une large utilisation de cookies, il peut être intéressant d'avoir un sous-domaine pour gérer sépareremment les ressources externes ne nécessitant pas de cookie.
 
 ## Ensuite ?
 
 - Voir le commandement suivant : [Les ajouts inutiles, tu éviteras](03-eviter-ajouts-inutiles.html)
-- [Revenir à la liste de commandements](http://127.0.0.1:4000/blog/2024/02/01/dix-min-pour-reduire-empreinte-environnementale-site.html)
+- [Revenir à la liste de commandements](dix-min-pour-reduire-empreinte-environnementale-site.html)

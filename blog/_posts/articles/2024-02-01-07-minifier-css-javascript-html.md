@@ -17,19 +17,19 @@ Dans le code, il y a de nombreux caractères que l'on écrit mais qui servent un
 
 Il est totalement justifié de conserver ces caractères lorsque l'on modifie le code, mais par contre, ces derniers totalement inutiles pour le bon fonctionnement du site.
 
-Il convient donc de les retirer au moment où on sert les fichiers de code (Javascript, CSS, HTML et SVG). C'est ce qu'on appelle la minification.
+Il convient donc de les retirer au moment où l'on sert les fichiers de code (Javascript, CSS, HTML et SVG). C'est ce qu'on appelle la minification.
 
 Exemple de gains de taille :
 
-| Fichier         | Taille non minifié | Taille minifié | Gain   |
-|-----------------|--------------------|----------------|--------|
-| Bootstrap (CSS) | 169.5 ko           | 137.6 ko       | -18.8% |
-| Bootstrap JS    | 120.9 ko           | 49.8 ko        | -58.8% |
-| Cette page HTML | 9.5 ko             | 8.5 ko         | -10.5% |
+| Fichier            | Taille non minifié | Taille minifié | Gain   |
+|--------------------|--------------------|----------------|--------|
+| Bootstrap (CSS)    | 169.5 ko           | 137.6 ko       | -18.8% |
+| Bootstrap JS       | 120.9 ko           | 49.8 ko        | -58.8% |
+| HTML ce cette page | 10.1 ko            | 8.7 ko         | -13.9% |
 
 ## Comment faire ?
 
-Il existe de nombreux outils. Certains en ligne prennent le code et le minifient. D'autres plus pratiques se greffent dans le projet pour minifier les ressources lors du build du site.
+Il existe de nombreux outils. Certains en ligne prennent le code et le minifient. D'autres, plus pratiques, se greffent dans le projet pour minifier les ressources lors du build du site.
 
 Quelques exemples :
 

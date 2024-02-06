@@ -31,11 +31,13 @@ Mais ces formats ne sont pas compatibles avec les anciens navigateurs. Or la ré
 ```
 Les navigateur non compatibles non vont lire que la balise **img** parce qu'ils ne comprennent pas les autres. Les navigateurs récents vont comprendre qu'il faut utiliser le format webp s'ils sont compatibles.
 
-Notez également l'apparition de l'attibut **loading="lazy"** qui permet de ne dire au navigateur de ne télécharger cette image qu'à partir du moment où elle est sur le point d'apparaître à l'écran.
+Notez également l'apparition de l'attibut **loading="lazy"** qui permet de ne dire au navigateur de ne télécharger cette image qu'à partir du moment où elle est sur le point d'apparaître à l'écran. 
+
+On remarquera aussi que la taille de l'image est précisée, ce qui permet au navigateur de réserver l'espace à cet effet et d'éviter que la structure de page change au moment où l'image apparaît. Ceci améliore l'expérience utilisateur et réduit les ressources utilisées par le navigateur pour afficher la page.
 
 ### Trouver la (les ?) bonne taille
 
-Si l'image a une taille fixe sur la page (comme par exemple la vignette de cet article), il suffit de la redimensionner à la cette taille.
+Si l'image a une taille fixe sur la page (comme ma photo sur la page d'accueil), il suffit de la redimensionner à la cette taille.
 
 Si la taille de l'image varie en fonction de la taille de la fenêtre (image responsive). Il y a plusieurs possibilités.
 - On trouve une nouvelle manière d'afficher l'image pour qu'elle ait toujours la même taille. C'est ce qui a été fait pour les vignettes des articles de ce blog. Elles apparaissent toujours en 200x200px.
