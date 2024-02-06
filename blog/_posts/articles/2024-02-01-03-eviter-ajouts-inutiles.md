@@ -41,10 +41,10 @@ Connaissez-vous toutes les fonctionnalités d'un outils aussi complet que Google
 
 Peut-être qu'un outil plus simple sera largement suffisant pour vos besoins :
 - Nombre de requêtes calculées côté serveur
-- {% include link.html text="Plausible Analytics" link="https://plausible.io/lightweight-web-analytics" %}
-- {% include link.html text="Light Analytics" link="https://liteanalytics.com/" %}
-- {% include link.html text="Data Pulse" link="https://datapulse.app/" %}
-- {% include link.html text="Pirsch Analytics" link="https://pirsch.io/fr" %}
+- {% include link.html text="Plausible Analytics" link="https://plausible.io/lightweight-web-analytics" %}.
+- {% include link.html text="Light Analytics" link="https://liteanalytics.com/" %}.
+- {% include link.html text="Data Pulse" link="https://datapulse.app/" %}.
+- {% include link.html text="Pirsch Analytics" link="https://pirsch.io/fr" %}.
 
 ### Autres
 

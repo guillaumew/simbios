@@ -15,7 +15,7 @@ Il convient donc de privilégier des polices présente par défaut sur les syst�
 
 ## Comment faire ?
 
-- Utiliser prioritairement les polices listées sur {% include link.html text="systemfontstack.com" link="https://systemfontstack.com/" %}
+- Utiliser prioritairement les polices listées sur {% include link.html text="systemfontstack.com" link="https://systemfontstack.com/" %}.
 - Limiter le nombre de polices externes : inutile d'avoir une police différente pour chaque paragraphe
 - Optimiser la font en retirant les caractères non utiles (ex : retirer l'alphabet cyrillique si votre site est en français)
 - Veillez à ne pas télécharger plusieurs fois la même police...

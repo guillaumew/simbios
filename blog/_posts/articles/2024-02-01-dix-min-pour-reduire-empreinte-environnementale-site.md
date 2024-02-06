@@ -14,10 +14,10 @@ Ce sont des points d'améliorations qui peuvent être traités rapidement.
 3. [Les ajouts inutiles, tu éviteras](03-eviter-ajouts-inutiles.html)
 4. [Les polices standards, tu favoriseras](04-favoriser-polices-standard)
 5. [Les icones, tu sélectionneras](05-selectionner-icones.html)
-6. Les insertions de contenus dynamiques, tu éviteras
-7. Le javascript, les CSS et le HTML, tu minifieras
-8. Les fichiers, tu compresseras
-9. Le cache, tu géreras
+6. [Les insertions de contenus dynamiques, tu éviteras](06-eviter-insertions-dynamiques.html)
+7. [Le javascript, les CSS et le HTML, tu minifieras](07-minifier-css-javascript-html.html)
+8. [Les fichiers, tu compresseras](08-compresser-fichiers.html)
+9. [Le cache, tu géreras](09-gerer-cache.html)
 10. [Un plan pour l'avenir, tu écriras](10-ecrire-plan-actions-environnementales)
 
 Si jamais vous pensez que 10 commandements ne suffisent pas, je vous recommande la liste des {% include link.html text="115 bonnes pratiques de l'éco-conception web" link="https://github.com/cnumr/best-practices?tab=readme-ov-file" %} proposée par le collectif GreenIt.fr.
