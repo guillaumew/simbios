@@ -19,6 +19,14 @@ layout: page
 			{% if page.tags %}
 			{% include tags_list.html tags=page.tags %}
 			{% endif %}
+			<div>
+				<p>Partager cet article :</p>
+				{% for social in site.data.social %}
+					{% capture url_path %}{{social.url}}{{site.url}}{{page.url}}{% endcapture %}
+					{% capture icon %}<span class="{{social.name}} social_icons inner-center"></span>{% endcapture %}
+					{% include link.html link=url_path text=icon class="social_link outer-center" %}
+				{% endfor %}
+			</div>
 		</div>
 	</div>
 </div>

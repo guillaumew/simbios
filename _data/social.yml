@@ -1,0 +1,6 @@
+- name: linkedin
+  url: https://www.linkedin.com/sharing/share-offsite/?url=
+- name: twitter
+  url: https://twitter.com/intent/tweet?url=
+- name: facebook
+  url: https://www.facebook.com/sharer/sharer.php?u=
