@@ -1,0 +1,28 @@
+@media (prefers-color-scheme: dark) {
+    body{
+        color: $dark_white-color!important;
+        button, .button {
+            background-color: #303134;
+        }
+        .content-wrapper{
+            background: $dark_teal-color;
+        }
+        hr{
+            border-color:$dark_white-color;
+        }
+        h1, h2, h3, h4, h5, h6,a {
+            color: $light_teal-color;
+        }
+        .form {
+            input[type], textarea {
+                background: #303134;
+                color: $dark_white-color;
+                border-color: grey;
+            }
+        }
+        img {
+            filter: grayscale(20%);
+            background-color: #FFF2;
+        }
+    }
+}

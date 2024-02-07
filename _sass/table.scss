@@ -12,12 +12,23 @@ table {
 		padding: 12px 15px;
 	}
 	tbody tr {
-    border-bottom: 1px solid #dddddd;
-    &:nth-of-type(even){
-    	background-color: $dark_white-color;
-    }
-    &:last-of-type {
+		border-bottom: 1px solid #dddddd;
+		&:nth-of-type(even){
+			background-color: $dark_white-color;
+		}
+		&:last-of-type {
 	    border-bottom: 2px solid $teal-color;
+		}
+	}
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		table {
+			tbody tr {
+				&:nth-of-type(even){
+					background-color: #303134;
+				}
+			}
 		}
 	}
 }

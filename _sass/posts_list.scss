@@ -64,3 +64,13 @@
 		max-height: 200px;
 	}	
 }
+
+@media (prefers-color-scheme: dark) {
+	.post_summary{
+		a{
+			p {
+				color: $dark_white-color;
+			}
+		}
+	}
+}
