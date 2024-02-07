@@ -10,8 +10,11 @@
         hr{
             border-color:$dark_white-color;
         }
-        h1, h2, h3, h4, h5, h6,a {
+        h1, h2, h3, h4, h5, h6 {
             color: $light_teal-color;
+        }
+        a {
+            color: lighten($teal-color, 50%);
         }
         .form {
             input[type], textarea {
