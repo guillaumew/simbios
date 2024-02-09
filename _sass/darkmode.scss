@@ -2,7 +2,14 @@
     body{
         color: $dark_white-color!important;
         .header-container {
-            background-image: linear-gradient($teal-color 4em, $dark_teal-color 75%);
+            background-image: linear-gradient($teal-color 4em, $dark_teal-color 100%);
+        }
+        .home-menu {
+            background-color: $teal-color;
+            box-shadow: none;
+            #menuToggle ul {
+                background-color: rgba($teal-color,.9);
+            }
         }
         button, .button {
             background-color: $input_darkmode-color;
