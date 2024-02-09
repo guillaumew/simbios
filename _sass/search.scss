@@ -57,10 +57,23 @@
             background-color: rgba($teal-color,.1);
         }
         a {
-            color: black;
+            color: $dark_teal-color;
             text-decoration: none;
             padding: 0 5px;
             display: inline-flex;
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        .search-bar, #search-input, #results-container {
+            background-color: $input_darkmode-color;
+            color: $dark_white-color;
+            border-color: grey;
+            li a {
+                color: $dark_white-color;
+            }
         }
     }
 }

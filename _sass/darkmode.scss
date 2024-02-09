@@ -1,8 +1,11 @@
 @media (prefers-color-scheme: dark) {
     body{
         color: $dark_white-color!important;
+        .header-container {
+            background-image: linear-gradient($teal-color 4em, $dark_teal-color 75%);
+        }
         button, .button {
-            background-color: #303134;
+            background-color: $input_darkmode-color;
         }
         .content-wrapper{
             background: $dark_teal-color;
@@ -18,7 +21,7 @@
         }
         .form {
             input[type], textarea {
-                background: #303134;
+                background: $input_darkmode-color;
                 color: $dark_white-color;
                 border-color: grey;
             }
