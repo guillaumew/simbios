@@ -8,7 +8,7 @@ hidden: true
 ---
 
 ## Le problème 
-On voit souvent des sites qui utilisent les images telles qu'elles ont été trouvées ou fournies. C'est comme cela qu'on trouve des images d'utlre haute qualité et de taille importante qui sont utilisée comme miniatures par exemple.
+On voit souvent des sites qui utilisent les images telles qu'elles ont été trouvées ou fournies. C'est comme cela qu'on trouve des images d'utlra haute qualité et de tailles importantes qui sont utilisées comme miniatures par exemple.
 
 Cela demande plus de ressources réseaux pour transférer les images et plus de ressources CPU pour les afficher.
 
