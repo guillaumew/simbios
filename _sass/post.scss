@@ -27,6 +27,17 @@
 		line-height: 1em;
 	}
 }
+@media (prefers-color-scheme: dark) {
+    body {
+		.markdown {
+			code {
+				background-color: $input_darkmode-color;
+				color: $dark_white-color;
+				border:none;
+			}
+		}
+	}
+}
 
 .slider{
 	display: block;
