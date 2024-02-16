@@ -9,7 +9,13 @@ thumb: /assets/img/posts/2024/Q1/ecoconception-site
 Dans le cadre de mes activités, je suis amené à faire pas mal d’analyses de site. Je me rends compte qu’on fait souvent les mêmes erreurs d’un point de vue performance environnementale...
 Ce sont des points d'améliorations qui peuvent être traités rapidement. 
 
-Retrouvez ces bonnes pratiques lors de ma présentation : {% include link.html text="Dix minutes pour réduire l'empreinte environnementale de son site" link="https://www.meetup.com/fr-FR/humantalks-nantes/events/297919466/" %} (le 13/02/2024 à Nantes).
+Retrouvez ces bonnes pratiques lors de ma présentation : [Trente minutes pour réduire l'empreinte environnementale de son site](/formations/30min-reduire-empreinte-environnemental-site.html)
+
+{% responsive_image 
+  path: assets/img/posts/2024/Q1/humpan_talk_daveo.webp 
+  alt: "La conférence présentée aux Human Talks de Nantes en févirer 2024" 
+%}
+*La conférence présentée aux Human Talks de Nantes en févirer 2024*
 
 1. [Les images, tu redimensionneras et compresseras](01-redimensionner-compresser-images.html)
 2. [Les ressources externes, tu limiteras](02-limiter-ressources-externes.html)

@@ -3,6 +3,9 @@ collections:
     relative_directory: "sensibilisations"
     output: true
     permalink: /services/sensibilisation/:path.html
+  formations:
+    relative_directory: "formations"
+    output: true
 
 defaults:
   - scope:
