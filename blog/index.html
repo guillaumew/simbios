@@ -13,7 +13,7 @@ description: Un article par semaine sur le numérique responsble
 			<div class="grid">
 				<div class="grid-item outer-center" style="--medium:25%">
 					{% if post.thumb %}
-					{% include picture.html url=post.thumb alt=post.title class="thumbnail inner-center" %}
+					{% include picture.html url=post.thumb alt=post.title class="thumbnail inner-center" width="200" height="200" %}
 					{% else %}
 					<img src="{{post.image}}" class="thumbnail inner-center">
 					{% endif %}
