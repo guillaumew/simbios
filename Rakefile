@@ -2,12 +2,51 @@ require "rubygems"
 require "tmpdir"
 require "bundler/setup"
 require "jekyll"
+require 'json'
 
 # Indiquez le nom de votre dépôt
 GITHUB_REPONAME = "guillaumew/simbios"
 ENV["JEKYLL_ENV"] = "production"
 
 namespace :site do
+  desc "test"
+  task :test do
+=begin    
+  Dir.chdir "_site" 
+  files = Rake::FileList["**/*.html"] do |f1|
+      fl.exclude("~*")
+      fl.exclude do |f|
+        `git ls-files #{f}`.empty?
+      end
+    end
+    puts files 
+=end
+  ARGV.each { |a| task a.to_sym do ; end }
+  puts "Message : #{ARGV[1]}"
+  end
+
+  desc "Calcul des ecoindex des pages publiées"
+  task :ecoindex do 
+    ARGV.each { |a| task a.to_sym do ; end }
+    file_path = "/tmp/ecoindex-cli/output/simbios.fr/#{ARGV[1]}/results.json"
+    if(File.exist?(file_path)) then
+      f = File.read(file_path)
+      ecoscores = JSON.parse(f)
+      output = ""
+      ecoscores.each { |row|
+        path = row['url'][18..-1]
+        if(path[-1..-1] != "/")
+          then path = "#{path}.html"
+        end
+        output = "#{output}- path: #{path}\n  score: #{row['score']}\n  grade: #{row['grade']}\n  size: #{row['size'].round}\n  nodes: #{row['nodes']}\n  requests: #{row['requests']}\n"
+      }
+      File.write('_data/ecoindex.yml', output)
+      puts "Ecodindexes successfully updated"
+    else
+      puts "File not found"
+    end
+  end
+
   desc "Génération des fichiers du site"
   task :generate do
     Jekyll::Site.new(Jekyll.configuration({
