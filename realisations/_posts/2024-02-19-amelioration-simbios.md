@@ -49,7 +49,7 @@ Comme l'ensemble du code est utile, on peut maintenant regarder quelles sont les
 - **Contact** : la partie en bas de page avec la possibilité d'envoyer un message et de me suivre de manière variée
 - **Footer** : la partie en bleu tout en bas de page avec les mentions légales et les stats de la page.
 - **Analytics** : l'outil qui permet d'avoir des statistiques de fréquentation sur le site
-- **SEO** : l'ensemble des données pour que les moteurs de recherches ou réseaux sociaux puisse répertorier le site.
+- **SEO** : l'ensemble des données pour que les moteurs de recherches ou réseaux sociaux puissent répertorier le site.
 - **Darkmode** : le CSS pour accepter le mode sombre si l'option est choisie sur le navigateur.
 
 {% responsive_image 
@@ -59,13 +59,13 @@ Comme l'ensemble du code est utile, on peut maintenant regarder quelles sont les
   title: "Répartition de la taille de la page d'accueil simbios.fr par fonctionnalité"
 %}
 
-Si l'aspect général est toujours ce qui pèse le plus lourd, on voit maintenant que le contenu texte est maintenant clairement visible avec par exemple la partie contact qui malgés l'absence d'image et icône approche les 10% de la page.
+Si l'aspect général est toujours ce qui pèse le plus lourd, on voit maintenant que le contenu texte est maintenant clairement visible avec par exemple la partie contact qui malgrés l'absence d'image et icône approche les 10% de la page.
 
-Les icônes de la partie service et ma photo de profil font de ces sections les sections les plus importantes. On voit également que la partie SEO n'est pas négligeable avec 7% de la taille totale de la page.
+Les icônes de la partie services et ma photo de profil font de ces sections les sections les plus importantes. On voit également que la partie SEO n'est pas négligeable avec 7% de la taille totale de la page.
 
 ## La suite ?
 
-On ne peut maintenant plus réellement envisager de réduction de la taille de la page sans retirer du contenu ou des fonctionnalités. Je pourrais décider de gagner quelques kilo en retirant les icônes de la partie service pour mettre de chiffres par exemple, ou décider de sortir la partie contact et d'imposer de cliquer sur le lien proposé dans le menu.
+On ne peut maintenant plus réellement envisager de réduction de la taille de la page sans retirer du contenu ou des fonctionnalités. Je pourrais décider de gagner quelques kilos en retirant les icônes de la partie service pour mettre de chiffres par exemple, ou décider de sortir la partie contact et d'imposer de cliquer sur le lien proposé dans le menu.
 
 A l'heure actuelle, je ne pense pas faire ces choix. Je pense au contraire que la page d'accueil va s'étoffer davantage de contenus. Je pense qu'elle est arrivée à son point le plus bas en terme de taille.
 
