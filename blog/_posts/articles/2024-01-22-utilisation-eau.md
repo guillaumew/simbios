@@ -15,7 +15,7 @@ Cet été a peut-être permis aux Français.e.s de se rendre de compte que l'eau
 
 ## Comment fonctionne le cycle de l'eau ? Quelles sont nos réserves ?
 
-Sur Terre, nous avons majoritairement (97%) de l'eau salée (dans nos mers et océans). Cependant nous avons plus souvent besoin d'eau douce. La grande majorité des réserves d'eau douce est inexploitable (glaciers, nappes non renvoulables...). Nous ne puisons notre eau que dans les cours d'eau (lacs et rivières) ou dans les nappes renouvelables qui représentent moins de 2% des reserves d'eau douce.
+Sur Terre, nous avons majoritairement (97%) de l'eau salée (dans nos mers et océans). Cependant nous avons plus souvent besoin d'eau douce. La grande majorité des réserves d'eau douce est inexploitable (glaciers, nappes non renouvelables...). Nous ne puisons notre eau que dans les cours d'eau (lacs et rivières) ou dans les nappes renouvelables qui représentent moins de 2% des reserves d'eau douce.
 
 {% responsive_image 
   path: assets/img/posts/2024/Q1/repartition-eau.webp 
@@ -47,7 +47,7 @@ Les activités humaines ont tendance à favoriser le ruissellement. Au lieu d'ê
 
 Comme évoqué plus haut, l'eau des cours d'eau s'écoule rapidement vers les mers et océans et ne constitue donc pas une reserve pérenne pour nos usages.
 
-Le ruissellement et accentué par :
+Le ruissellement est accentué par :
 - l'artificialisation des sols
 - la déforestation
 - l'assèchement des sols (qui est augmenté par le réchauffement climatique)
