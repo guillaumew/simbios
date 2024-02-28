@@ -5,7 +5,7 @@ layout: home
 css: home.css
 ---
 
-<div class="content services">
+<div class="content services" role="contentinfo" aria-label="Section pour présenter les services proposés par Simbios">
     <h2 class="is-center">La réduction de l'impact environnemental des entreprises en 5 étapes</h2>
 
     <div class="grid">
@@ -23,7 +23,7 @@ css: home.css
     </div>
 </div>
 
-<div class="ribbon content grid">
+<div class="ribbon content grid" role="contentinfo" aria-label="Section pour présenter Guillaume Wolf">
     <div class="content-box is-center grid-item outer-center" style="--medium:40%;">
         {% include picture.html url="/assets/img/guillaume-wolf" alt="Photo de Guillaume Wolf" class="inner-center" width="256" height="256" %}
     </div>
@@ -33,7 +33,7 @@ css: home.css
     </div>
 </div>
 
-<div class="content">
+<div class="content" role="contentinfo" aria-label="Section pour rester en contact avec Simbios">
     <h2 class="is-center">Restons en contact</h2>
 
     <div class="grid">
@@ -50,9 +50,9 @@ css: home.css
 
             <form id="sib-form" class="form" action="https://59649dec.sibforms.com/serve/MUIFAIVKgZCXcDONDGgLvCM8zx9fcjOj13WOdwL3SUtjFs7yEJC9cghtOQ-P5l32bXvnEM6sGvC8R05rZ7GyRl8LVltuJUbAMnW1gihzsa9LBw74_0EFrmG6m7k-MU8fbbQ1gTzdIpk2nPcv61xcw4JTuVt-xJ4eVGJV_SYZyFwqGboE_SmmUypUJBcvavpXGqWY2GRssjyjIeJd" method="POST">
                 <fieldset>
-                    <label for="email">
+                    <label for="EMAIL">
                         Votre email
-                        <input id="EMAIL" name="EMAIL" type="email" placeholder="nom@domaine.com" autocomplete="on" data-required="true" required>
+                        <input id="EMAIL" name="EMAIL" type="email" placeholder="nom@domaine.com" autocomplete="on" data-required="true" required aria-required="true">
                     </label>
                     <div class="social">
                         <button type="submit" class="button">S'inscrire</button>
@@ -65,10 +65,10 @@ css: home.css
             <h4>Retrouvez-moi</h4>
             <div class="grid">
                 <div class="social">
-                    {% include link.html text="LinkedIn" link="https://www.linkedin.com/in/guillaumewolf/" class="button" %}
+                    {% include link.html text="LinkedIn" link="https://www.linkedin.com/in/guillaumewolf/" class="button" aria-role="button" %}
                 </div>
                 <div class="social">
-                    {% include link.html text="Malt" link="https://www.malt.fr/profile/guillaumewolf1" class="button" %}
+                    {% include link.html text="Malt" link="https://www.malt.fr/profile/guillaumewolf1" class="button" aria-role="button" %}
                 </div> 
             </div>
         </div>

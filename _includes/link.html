@@ -1,1 +1,1 @@
-<a href="{{include.link}}" {% if include.class %}class="{{include.class}}" {% endif %} target="new-tab" rel="noopener noreferrer">{{include.text}}</a>
+<a href="{{include.link}}" {% if include.class %}class="{{include.class}}" {% endif %} target="new-tab" rel="noopener noreferrer" {% if include.aria-role %}role="{{include.aria-role}}" {% endif %} aria-label="{{include.text}} (s'ouvre dans un nouveau tab)">{{include.text}}</a>
