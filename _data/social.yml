@@ -1,6 +1,9 @@
 - name: linkedin
   url: https://www.linkedin.com/sharing/share-offsite/?url=
+  link_label: Partager sur LinkedIn (s'ouvre dans un nouvel onglet)
 - name: twitter
   url: https://twitter.com/intent/tweet?url=
+  link_label: Partager sur Twitter (s'ouvre dans un nouvel onglet)
 - name: facebook
   url: https://www.facebook.com/sharer/sharer.php?u=
+  link_label: Partager sur Facebook (s'ouvre dans un nouvel onglet)

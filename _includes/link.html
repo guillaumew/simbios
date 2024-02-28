@@ -1,1 +1,6 @@
-<a href="{{include.link}}" {% if include.class %}class="{{include.class}}" {% endif %} target="new-tab" rel="noopener noreferrer" {% if include.aria-role %}role="{{include.aria-role}}" {% endif %} aria-label="{{include.text}} (s'ouvre dans un nouveau tab)">{{include.text}}</a>
+{% if include.aria-label %}
+{% assign aria-label=include.aria-label %}
+{% else %}
+{% assign aria-label=include.text | append: " (s'ouvre dans un nouveau tab)" %}
+{% endif %}
+<a href="{{include.link}}" {% if include.class %}class="{{include.class}}" {% endif %} target="new-tab" rel="noopener noreferrer" {% if include.aria-role %}role="{{include.aria-role}}" {% endif %} aria-label="{{aria-label}}">{{include.text}}</a>
