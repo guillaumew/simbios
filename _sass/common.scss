@@ -36,6 +36,10 @@ hr{
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
  */
+ .off-screen {
+    position: absolute;
+    top: -2em;
+ }
 .content-box {
     padding: 1em;
 }
