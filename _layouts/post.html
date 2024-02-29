@@ -5,7 +5,7 @@ layout: page
 <div class="over-content">
 	<div class="content markdown column-content" id="maincontent">
 		{% if page.podcast %}
-		<audio controls src="{{page.podcast}}"></audio>
+		<audio controls src="{{page.podcast}}" preload="none"></audio>
 		{% endif %}
 		{{ content}}
 	</div>

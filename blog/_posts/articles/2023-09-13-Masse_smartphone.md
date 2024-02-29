@@ -4,6 +4,7 @@ description: Un smartphone pèse bien pour lourd sur l'environnement que dans vo
 tags: ["Smartphones", "Extraction", "Metaux", "Raffinage", "Environnement"]
 image: /assets/img/posts/2023/Q3/thumb-masse_smartphone.webp
 thumb: /assets/img/posts/2023/Q3/thumb-masse_smartphone
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65e0aad3b8456c00169228ae/media.mp3
 ---
 
 On ne s’en rend pas compte, mais quand on répond à un appel téléphonique, nous réalisons une petite prouesse physique en soulevant plus de 200 kg.
