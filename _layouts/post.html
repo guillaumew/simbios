@@ -4,6 +4,9 @@ layout: page
 
 <div class="over-content">
 	<div class="content markdown column-content" id="maincontent">
+		{% if page.podcast %}
+		<audio controls src="{{page.podcast}}"></audio>
+		{% endif %}
 		{{ content}}
 	</div>
 	<div class="slider">

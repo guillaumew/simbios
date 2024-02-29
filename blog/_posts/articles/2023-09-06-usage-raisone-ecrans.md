@@ -4,6 +4,7 @@ description: L'utilisation du numérique peut être considéré comme une activi
 tags: ["Numérique responsable", "Eco-geste", "Smartphone"]
 image: /assets/img/posts/2023/Q3/thumb-ecran_ecole.webp
 thumb: /assets/img/posts/2023/Q3/thumb-ecran_ecole
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65e09091aba05e0016aa3622/media.mp3
 ---
 
 Je vous propose un petit jeu : essayez d'estimer combien de temps vous passez sur votre téléphone chaque jour.

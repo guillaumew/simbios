@@ -4,6 +4,7 @@ description: Une personne sur 6 en France ne peut pas utiliser les outils numér
 tags: ["Illectronisme", "Inclusion", "Numérique Responsable"]
 image: /assets/img/posts/2023/Q3/thumb-fracture_numerique.webp
 thumb: /assets/img/posts/2023/Q3/thumb-fracture_numerique
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65e0817cef8f000017ae7003/media.mp3
 ---
 
 C’est quoi la fracture numérique ?
