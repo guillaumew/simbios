@@ -39,6 +39,8 @@ Lancer le calcul de l'éco-index avec le [eco-index-cli](https://github.com/cnum
 Lancer Docker
 Dans un terminal (pas de VS code) :
 
+``` alias ecoindex-cli="docker run -it --rm --add-host=host.docker.internal:host-gateway -v /tmp/ecoindex-cli:/tmp/ecoindex-cli vvatelot/ecoindex-cli:latest ecoindex-cli" ```
+
 ``` ecoindex-cli analyze --url https://simbios.fr --recursive --export-format json ```
 
 Répondre Oui (Y) deux fois.
