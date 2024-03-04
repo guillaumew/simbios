@@ -1,0 +1,29 @@
+---
+title: Réduire l'empreinte de son entreprise
+description: La réduction de l'impact environnemental des entreprises en 5 étapes
+css: services.css
+permalink: /services/
+---
+
+<div class="grid content">
+    {% assign sorted_services = site.services | sort: 'order'  %}
+    {% for service in sorted_services %}
+    <div class="content-box grid-item service" icon_utf8="{{service.order}}" style="{{ service.grid_sizes }}">
+        <div class="content-subhead outer-center">
+            <h2 class="innder-center">
+                {% if service.short_title %}
+                {{ service.short_title }}
+                {% else %}
+                {{service.title}}
+                {% endif %}
+            </h2>
+        </div>
+        <p>
+            {{service.long_description}}
+        </p>
+        <div class="is-center cta">
+            <a href="{{service.url}}" class="button">En savoir plus</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>

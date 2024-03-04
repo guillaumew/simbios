@@ -9,15 +9,22 @@ css: home.css
     <h2 class="is-center">La réduction de l'impact environnemental des entreprises en 5 étapes</h2>
 
     <div class="grid">
-        {% for service in site.data.services %}
+        {% assign sorted_services = site.services | sort: 'order'  %}
+        {% for service in sorted_services %}
         <div class="content-box grid-item service {{service.icon}}" style="{{ service.grid_sizes }}">
-            <h3 class="content-subhead">
-                {{service.name}}
-            </h3>
+            <div class="content-subhead outer-center">
+                <h3 class="innder-center">
+                    {% if service.short_title %}
+                    {{ service.short_title }}
+                    {% else %}
+                    {{service.title}}
+                    {% endif %}
+                </h3>
+            </div>
             <p>
-                {{service.description}}
+                {{service.long_description}}
             </p>
-            <a href="{{service.link}}" aria-label="{{service.name}} : en savoir plus">En savoir plus</a>
+            <a href="{{service.url}}" aria-label="{{service.name}} : en savoir plus">En savoir plus</a>
         </div>
         {% endfor %}
     </div>

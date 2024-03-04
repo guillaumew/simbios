@@ -1,7 +1,13 @@
 ---
 description: Avant toute démarche de réduction, il est important de mesurer l'impact environnemental effectif 
 title: "Etat des lieux avec une Analyse du Cycle de Vie (ACV)"
+short_title: Etat des lieux
 layout: markdown
+long_description: Mesure de l'empreinte environnementale du service (site, application, produit, entreprise). Analyse du cycle de vie (ACV). Mise en évidence des points les plus impactants.
+order: 2
+icon_utf8: 📊
+icon: tachometer_icon
+grid_sizes: --medium:50%; --large:20%;
 ---
 
 Vous savez maintenant que le numérique possède un impact enivronnemental. Vous souhaitez passer à l'action, mais vous ne savez pas forcément comment ou quelles sont les actions qui ont le plus d'impact. C'est normal, les impacts environnementaux proviennent de sources diverses et ont des impacts variés (émissions de gaz à effet de serre, consommation d'eau, pollutions des sols, de l'air...)

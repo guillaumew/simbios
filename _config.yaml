@@ -1,7 +1,9 @@
 collections:
+  services:
+    output: true
   sensibilisations:
     relative_directory: "sensibilisations"
-    output: true
+    output: false
     permalink: /services/sensibilisation/:path.html
   formations:
     relative_directory: "formations"

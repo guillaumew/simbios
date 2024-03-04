@@ -1,7 +1,13 @@
 ---
 description: On planfie l'ensemble de la stratégie de réduction de l'empreinte environnementale
 title: "Stratégie de réduction"
+short_title: Stratégie
 layout: markdown
+long_description: Mise en place d'objectifs de réduction de l'empreinte environnementale ainsi que d'un plan d'actions à mener pour y parvenir.
+order: 3
+icon_utf8:  📉
+icon: chart_icon
+grid_sizes: --medium:33%; --large:20%;
 ---
 
 ## Pré-requis

@@ -1,7 +1,13 @@
 ---
 title: Communication sur les efforts de transition
+short_title: Communication
 description: Les mots justes pour ne pas se faire épingler par le Green-washing
 layout: markdown
+long_description: Communication sur les progrès réalisés (en interne comme en externe).
+order: 5
+icon_utf8: 💬
+icon: communication_icon
+grid_sizes: --medium:33%; --large:20%;
 ---
 
 ## Communication interne
