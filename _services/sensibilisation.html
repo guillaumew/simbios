@@ -1,6 +1,7 @@
 ---
 description: Comprendre l'impact environnemental du numérique et plus encore !
 title: Sensibilisation
+short_title: Sensibilisation
 css: sensibilisations.css
 permalink: /services/sensibilisation/
 long_description: Ateliers collaboratifs de sensibilisation sur l'impact environnemental du numérique (comme la Fresque du Numérique) ainsi que sur le numérique responsable (accessibilité, inclusion...).
@@ -8,6 +9,7 @@ order: 1
 icon_utf8: 🎓
 icon: graduation_hat_icon
 grid_sizes: --medium:50%; --large:20%;
+layout: service
 ---
 <div class="content sensibilisation">
 	<p>La première étape avant de considérer la mise en place de la sobriété, c'est de comprendre en quoi les usages numériques ont un impact sur l'environnement.</p>
@@ -38,20 +40,13 @@ grid_sizes: --medium:50%; --large:20%;
 			</div>
 			<div class="grid-item image_container" style="--medium:33.3333%;">
 				{% if sensibilisation.image.type == "jpg" %}
-				{% include picture.html url=sensibilisation.image.url alt=sensibilisation.image.alt width="320" %}
+				{% include picture.html url=sensibilisation.image.url alt=sensibilisation.image.alt %}
 				{% else %}
-				<img src="{{sensibilisation.image.url}}" width="320" alt="{{sensibilisation.image.alt}}" loading="lazy">
+				<img src="{{sensibilisation.image.url}}" alt="{{sensibilisation.image.alt}}" loading="lazy">
 				{% endif %}
 			</div>
 		</div>
 	</div>
 {% endfor %}
-
-	
-	<hr>
-	<div class="column-content">
-		<h2 class="is-center">N'hésitez pas à nous contacter si un de ces ateliers vous intéresse ! </h2>
-		{% include contact_form.html %}
-	</div>
 	
 </div>

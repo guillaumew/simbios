@@ -3,14 +3,14 @@ title: Réduire l'empreinte de son entreprise
 description: La réduction de l'impact environnemental des entreprises en 5 étapes
 css: services.css
 permalink: /services/
+layout: service
 ---
-
-<div class="grid content">
+<div class="grid ">
     {% assign sorted_services = site.services | sort: 'order'  %}
     {% for service in sorted_services %}
-    <div class="content-box grid-item service" icon_utf8="{{service.order}}" style="{{ service.grid_sizes }}">
+    <div class="content-box grid-item service" icon_utf8="{{service.order}}" style="--small:100%;--medium:50%; --large:33%;">
         <div class="content-subhead outer-center">
-            <h2 class="innder-center">
+            <h2 class="inner-center">
                 {% if service.short_title %}
                 {{ service.short_title }}
                 {% else %}

@@ -2,7 +2,7 @@
 description: Avant toute démarche de réduction, il est important de mesurer l'impact environnemental effectif 
 title: "Etat des lieux avec une Analyse du Cycle de Vie (ACV)"
 short_title: Etat des lieux
-layout: markdown
+layout: service
 long_description: Mesure de l'empreinte environnementale du service (site, application, produit, entreprise). Analyse du cycle de vie (ACV). Mise en évidence des points les plus impactants.
 order: 2
 icon_utf8: 📊
@@ -54,12 +54,3 @@ Enfin, on pourra travailler sur l'approche optimale de communication des résult
 ## Mise en place d'une stratégie de réduction
 
 Maintenant que l'on connait les coûts environnementaux du champ étudié, il est possible de bâtir une stratégie de réduction de l'empreinte. [On voit cela dans l'étape suivante](/services/strategie_reduction.html).
-
----
-
-
-
-
-## Commencer votre analyse du cycle de vie
-
-{% include contact_form.html %}

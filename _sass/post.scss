@@ -39,41 +39,8 @@
 	}
 }
 
-.slider{
-	display: block;
-	padding: 1em;
-	border-top: solid $dark_teal-color 1px;
-	text-align: center;
-
-}
 audio {
 	margin: auto;
 	display: block;
 }
 
-@media (min-width: 1000px) {
-	.over-content{
-		display: flex;
-		max-width: 1000px;
-		margin: auto;
-		.slider{
-			width: 200px;
-			display: inline-block;
-			padding: 1em 0 0 0;
-			border: none;
-			.chip{
-				font-size: 12px;
-				margin-bottom: 5px;
-				padding: 0 6px;
-			}
-		}
-		.slider .post_info{
-			position: sticky;
-			top: 5em;
-			padding-bottom: 2em;
-		}
-		.content {
-			display: inline-block;
-		}
-	}
-}

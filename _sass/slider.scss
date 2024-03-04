@@ -1,0 +1,36 @@
+.slider{
+	display: block;
+	padding: 0 2em;
+	border-top: solid $dark_teal-color 1px;
+    .active {
+        color: $teal-color;
+    }
+}
+
+@media (min-width: 1000px) {
+	.over-content{
+		display: flex;
+		max-width: 1000px;
+		margin: auto;
+		.slider{
+			width: 200px;
+			display: inline-block;
+			padding: 1em 0 0 0;
+			border: none;
+			margin:0;
+			.chip{
+				font-size: 12px;
+				margin-bottom: 5px;
+				padding: 0 6px;
+			}
+		}
+		.slider .post_info{
+			position: sticky;
+			top: 5em;
+			padding: 1em 1em 2em;
+		}
+		.content {
+			display: inline-block;
+		}
+	}
+}

@@ -2,7 +2,7 @@
 title: Actions de réduction de l'empreinte environnementale
 short_title: Réduction
 description: Des opération effectives avec une prise de recul pour mesurer l'impact réel
-layout: markdown
+layout: service
 long_description: Application du plan d'actions. Formation des équipes. Pilotage et suivi des tâches. Mesure de l'amélioration effective.
 order: 4
 icon_utf8: 🚧

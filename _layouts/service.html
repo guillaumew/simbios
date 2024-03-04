@@ -1,0 +1,38 @@
+---
+layout: page
+css: markdown
+---
+
+<div class="over-content">
+    <div class="slider column-content">
+        <div class="markdown post_info">
+            <h2>Tous les services :</h2>
+            <ol>
+                {% assign sorted_services = site.services | sort: 'order'  %}
+                {% for service in sorted_services %}
+                <li>
+                    {% if page.url == service.url %}
+                        <b class="active">
+                            {{ service.short_title }}
+                        </b>
+                    {% else %}
+                    <a href="{{service.url}}" title="{{service.title}}">
+                        {{ service.short_title }}
+                    </a>
+                    {% endif %}
+                    
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
+        
+        
+    </div>
+	<div class="content markdown column-content" id="maincontent">
+        {{content}}
+        <hr>
+        <h2>Intéressé.e ? Prenons contact !</h2>
+
+        {% include contact_form.html %}
+    </div>
+</div>
