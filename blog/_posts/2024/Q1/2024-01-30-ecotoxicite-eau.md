@@ -73,7 +73,18 @@ Pour mesurer l'écotoxicité de l'eau, on se base sur un indicateur qui s'exprim
 
 La limite mondiale est fixée à 1.31.10¹⁴ CTUe d'après le {% include link.html text="JRC (Joint Research Centre)" link="https://publications.jrc.ec.europa.eu/repository/" %} de la Commission Européenne.
 
-## Quel est la place du numérique dans la pollution de l'eau ?
+## Quelle est la place du numérique dans la pollution de l'eau ?
+
+L'extraction et le raffinage de métaux nécessaires à la fabrication du matériel numérique participent beaucoup à l'ecotoxicité de l'eau :
+- la matière extraite peuvent réagir avec l'air ou l'eau et produire des substances toxiques et/ou acides
+- l'eau utilisée pour le raffinage ainsi que les déchets miniers chargés tous deux de matières chimiques nocives sont déversés dans la nature
+
+{% responsive_image 
+  path: assets/img/posts/2024/Q1/mine-cuivre.webp 
+  alt: "Vue aérienne du désastre écopaysager de la mine de cuivre abandonnée de Levikha (Russie)." 
+%}
+*Photo d'une ancienne mine de cuivre en Russie et de son impact sur la forêt avoisinante (crédit : Vasily Iakovlev)*
+
 
 D'après le rapport {% include link.html text="Evaluation de l'impact du numérique en France" link="https://librairie.ademe.fr/consommer-autrement/5226-evaluation-de-l-impact-environnemental-du-numerique-en-france-et-analyse-prospective.html" %} de l'ADEME-ARCEP, les usages numériques en France ont engendré 2,63.10¹¹ CTUe.
 

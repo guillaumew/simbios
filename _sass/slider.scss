@@ -1,10 +1,13 @@
 .slider{
 	display: block;
-	padding: 0 2em;
+	padding: 0 1em;
 	border-top: solid $dark_teal-color 1px;
     .active {
         color: $teal-color;
     }
+	.post_info {
+		padding-top: 1em;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -21,13 +24,16 @@
 			.chip{
 				font-size: 12px;
 				margin-bottom: 5px;
-				padding: 0 6px;
+				padding: 2px 6px;
 			}
-		}
-		.slider .post_info{
-			position: sticky;
-			top: 5em;
-			padding: 1em 1em 2em;
+			.slider_info{
+				position: sticky;
+				top: 5em;
+				padding-top: 0em;
+			}
+			.services_info {
+				padding: 0em 1em 2em;
+			}
 		}
 		.content {
 			display: inline-block;

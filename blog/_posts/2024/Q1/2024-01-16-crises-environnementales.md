@@ -14,7 +14,7 @@ Il y a plusieurs tentatives de classification des crises envrionnementales. On p
 - le changement d’usage des sols
 - le cycle de l’eau douce ([voir l'article sur l'utilisation de l'eau](/blog/2024/01/22/utilisation-eau.html))
 - l’introduction d’entités nouvelles dans la biosphère
-- l’acidification des océans
+- l’acidification des océans ([voir l'article sur l'acidification](/blog/2024/03/05/acidification.html))
 - l’appauvrissement de la couche d’ozone
 - l’augmentation de la présence d’aérosols dans l’atmosphère
 
@@ -26,7 +26,7 @@ Dans les analyses de cycle de vie, on se penche sur les trois dommages principau
 Que l'on suit au travers de 16 catégories d'impact environnemental :
 - Utilisation des ressources fossiles
 - Utilisation des minerais et des métaux
-- Acidification atmosphérique
+- Acidification atmosphérique ([voir l'article sur l'acidification](/blog/2024/03/05/acidification.html))
 - Eutrophisation terrestre ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
 - Eutrophisation des eaux douces ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
 - Eutrophisation marine ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
