@@ -64,9 +64,9 @@ Une des principales conséquences de l'acidification atmosphérique est l'appari
 Ces pluies ont des effets catastophiques sur les écosystèmes sur lesquels elles tombent :
 - dégradations des forêts
 - altération des sols
-- polution des nappes phréatiques
+- pollution des nappes phréatiques
 - acidification des cours d'eau ce qui entraîne la disparition des espèces animales les plus sensibles
-- corosion des matériaux (bâtiments)
+- corrosion des matériaux (bâtiments)
 
 ### L'acidification des océans
 
