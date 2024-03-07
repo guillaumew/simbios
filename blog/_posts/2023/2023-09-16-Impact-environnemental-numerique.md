@@ -1,9 +1,10 @@
 ---
 title: L'impact du numérique sur l'environnement
-description: Le numérique pèse sur l'environnement au delà de se contribution au changement climatique
+description: Le numérique pèse sur l'environnement au delà de sa contribution au changement climatique
 tags: ["Climat", "Environnement", "Pollution", "Eau"]
 image: /assets/img/posts/2023/Q3/thumb-decharge.webp
 thumb: /assets/img/posts/2023/Q3/thumb-decharge
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65e99854b26e600016b09236/media.mp3
 ---
 
 Quand on parle de l’impact environnemental du numérique, il y a un chiffre qui fait souvent régir. Il s’agit de la contribution aux gaz à effet de serre du numérique : 4% ([source](https://theshiftproject.org/wp-content/uploads/2018/11/Rapport-final-v8-WEB.pdf)).
