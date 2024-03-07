@@ -4,6 +4,7 @@ description: Terminaux, serveurs, infrastructures réseaux... ce qui fait foncti
 tags: ["Numérique Responsable", "Electricité", "Terminaux", "Data Centers", "Réseaux", "Serveurs"]
 image: /assets/img/posts/2023/Q4/thumb-materiel.webp
 thumb: /assets/img/posts/2023/Q4/thumb-materiel
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65e9b5cbb26e600016b4dffa/media.mp3
 ---
 
 Quand on pense au numérique, on pense souvent à immatériel. Pour dire qu’on est passé à une solution numérique on entend parfois : “On a dématérialisé tel service”. Cependant, les services numériques ont bel et bien de matériels pour fonctionner. On peut les ranger dans trois catégories :

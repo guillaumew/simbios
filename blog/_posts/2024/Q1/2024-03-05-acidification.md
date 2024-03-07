@@ -84,6 +84,8 @@ Or les coraux abritent {% include link.html text="quelque 25% de la vie marine" 
 %}
 *Un quart de la vie maritime est abritée par les coraux qui souffrent de l'acidification des océans*
 
+On inclut généralement l'acidiciation des océans dans les considérations du dérèglement climatique. Quand on parle des conséquences de l'acidification atomsphérique, on réfère généralement plutôt aux pluies acides.
+
 ## Quelles sont les limites soutenables ?
 
 Tous les acides n'ayant pas le même impact, il a fallu trouver un indicateur commun. De manière assez natuelle c'est la quantité equivalente en ions hydrogène (H⁺) qui a été retenue puisqu'il s'agit de la défnition de l'acidité (la concentration en H⁺ permet notamment d'obtenir le pH)

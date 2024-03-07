@@ -4,6 +4,7 @@ description: Quels sont les réels engagements environnementaux d'Apple ?
 tags: ["Apple", "Climat", "Smartwatch", "Neutralité Carbone", "Green Washing"]
 image: /assets/img/posts/2023/Q4/thumb-apple-smatwatch.webp
 thumb: /assets/img/posts/2023/Q4/thumb-apple-smatwatch
+podcast : https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65e9dce57be81800186e03d0/media.mp3
 ---
 
 En septembre 2023, Apple a annoncé le lancement de ses premiers produits neutres en carbone à grands renforts de communication (dont une vidéo avec l’actrice Octavia Spencer).
