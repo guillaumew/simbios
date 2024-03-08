@@ -35,9 +35,11 @@ namespace :site do
       output = ""
       ecoscores.each { |row|
         path = row['url'][18..-1]
+=begin
         if(path[-1..-1] != "/")
           then path = "#{path}.html"
         end
+=end
         output = "#{output}- path: #{path}\n  score: #{row['score']}\n  grade: #{row['grade']}\n  size: #{row['size'].round}\n  nodes: #{row['nodes']}\n  requests: #{row['requests']}\n"
       }
       File.write('_data/ecoindex.yml', output)
