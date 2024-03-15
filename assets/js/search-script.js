@@ -12,3 +12,8 @@ SimpleJekyllSearch({
   limit: 5,
   noResultsText: 'Aucun résultat pour cette recherche.'
 });
+
+document.getElementById("cross").addEventListener("click", function(){
+  document.getElementById("search-input").value="";
+  document.getElementById("results-container").innerHTML="";
+});
