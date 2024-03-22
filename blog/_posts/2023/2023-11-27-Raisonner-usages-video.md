@@ -4,6 +4,7 @@ description: Comment réduire la quantité de données nécessaires pour la vid�
 tags: ["Vidéo", "Eco-geste", "Réseaux", "Qualité"]
 image: /assets/img/posts/2023/Q4/thumb-video_quality.webp
 thumb: /assets/img/posts/2023/Q4/thumb-video_quality
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65fc0807cce2030016fac3ab/media.mp3
 ---
 
 ## Les usagages vidéos occupent l'essentiel du trafic

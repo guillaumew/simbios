@@ -4,6 +4,7 @@ description: Comment la loi nous permet de facilement connaître la durabilité 
 tags: ["Achat", "Eco-geste", "Smartphone", "Ordinateurs", "Réparabilité"]
 image: /assets/img/posts/2023/Q4/thumb-reparation.webp
 thumb: /assets/img/posts/2023/Q4/thumb-reparation
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65fc0ad4e60d00001641b9ce/media.mp3
 ---
 
 La fabrication des terminaux numériques est de loin ce qui pèse le plus lourd dans la balance écologique du secteur numérique.

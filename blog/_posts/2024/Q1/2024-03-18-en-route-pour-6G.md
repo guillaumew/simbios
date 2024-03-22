@@ -8,17 +8,17 @@ thumb: /assets/img/posts/2024/Q1/empty-phone
 
 Neuf états, dont la France et les Etats-Unis, ont signé un {% include link.html text="accord sur les principes pour le développement de la 6G" link="https://presse.economie.gouv.fr/6g-la-france-et-ses-partenaires-internationaux-saccordent-sur-des-principes-communs-pour-le-developpement-dune-technologie-securisee-interoperable-et-resiliente/" %}.
 
-Cet accord propose une projection sur une hypothétique technologie future sans que l'on sache encore vraiment à quoi cela pourrait servir. Pour être honnêtes, on a des idées sur les usages de la 5G, mais encore très peu d'applications effectives. On parle de médecine, de réalité virtuelle et augmentée... mais ce ne sont pas des usages très peu répandus.
+Cet accord propose une projection sur une hypothétique technologie future sans que l'on sache encore vraiment à quoi cela pourrait servir. Pour être honnêtes, on a des idées sur les usages de la 5G, mais encore très peu d'applications effectives. On parle de médecine, de réalité virtuelle et augmentée... mais ce sont des usages très peu répandus.
 
 Pour preuve au deuxième trimestre 2023, {% include link.html text="seuls 13% des clients mobiles étaient passés sur une offre 5G" link="https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/observatoire-des-marches-des-communications-electroniques-en-france/t2-2023.html" %}. Pourtant, cette technologie est disponible depuis début 2021.
 
 ## L'impact environnemental d'un nouveau réseau
 
-### Changements de téléphones mobile
+### Changements de téléphones mobiles
 
 On ne le répètera jamais assez, mais la principale source d'impacts environnementaux du numérique provient de la fabrication des terminaux. La mise en place d'un nouveau réseau rend les téléphones existants obsolètes.
 
-Les personnes les plus tech savvy seront prêtes à prendre un nouveau téléphone quand bien même leur téléphone actuel leur convient. Les personnes qui attendront d'arrvier à leur renouvellement naturel de téléphone auront beaucoup plus de mal à valoriser leur ancien appreil qui risque de se retrouver au recyclacle plutôt que sur les marchés de seconde main.
+Les personnes les plus tech savvy seront prêtes à prendre un nouveau téléphone quand bien même leur téléphone actuel leur convient. Les personnes qui attendront d'arriver à leur renouvellement naturel de téléphone auront beaucoup plus de mal à valoriser leur ancien appareil qui risque de se retrouver au recyclacle plutôt que sur les marchés de seconde main.
 
 C'est là le plus grand problème d'un nouveau réseau.
 
@@ -32,7 +32,7 @@ Outre les coûts financiers et environnement de la construction des nouvelles an
 
 ### Amélioration de l'efficacité énergétique
 
-L'{% include link.html text="Arcep a publié une étude comparant les impacts énergétiques entre un scénarios consolidation du réseau 4G et développement du réseau 5G" link="https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/environnement-140122.html" %}. Cette étude prouvait une large amélioration dans les zones denses avec la 5G et une amélioration modeste dans les zones les moins denses.
+L'{% include link.html text="Arcep a publié une étude comparant les impacts énergétiques entre un scénario consolidation du réseau 4G et développement du réseau 5G" link="https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/environnement-140122.html" %}. Cette étude prouvait une large amélioration dans les zones denses avec la 5G et une amélioration modeste dans les zones les moins denses.
 
 Mais cette étude s'est réalisée sur un périmètre de consommation constant. Elle ne sera valable que si nous ne développons pas de nouveaux usages. Or, on le sait c'est l'objectif principal de la mise en place d'un nouveau réseau...
 

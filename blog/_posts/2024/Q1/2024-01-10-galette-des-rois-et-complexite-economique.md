@@ -4,6 +4,7 @@ description: Comment la complexité de l'organisation économique mondiale nuit 
 tags: ["Galette des rois", "ACV", "Environnement", "Adam Smith", "Economie"]
 image: /assets/img/posts/2024/Q1/thumb-galette.webp
 thumb: /assets/img/posts/2024/Q1/thumb-galette
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65fc2bd58c676f00168a1e62/media.mp3
 ---
 
 Comme chaque année, j'ai fait ma galette des rois "maison". Cette année, je suis allé un cran plus loin en préparant également mes propres pâtes feuilletées (j'ai été un peu contraint à cause des intolérances alimentaires familiales).

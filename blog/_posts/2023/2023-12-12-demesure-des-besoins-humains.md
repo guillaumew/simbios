@@ -4,6 +4,7 @@ description: Pour la croissance des activités humaines nous utilisons de plus e
 tags: ["Ressources", "Environnement", "Bagger", "Machine", "Charbon", "Mine"]
 image: /assets/img/posts/2023/Q4/thumb-bagger-eiffel.webp
 thumb: /assets/img/posts/2023/Q4/thumb-bagger-eiffel
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65fc0f71365a7b00177f6022/media.mp3
 ---
 
 Comme nous l'avons vu dans l'[article sur la masse des terminaux numériques](/blog/2023/09/13/Masse_smartphone.html), la production des appareils electroniques nécessite la mobilisation d'énormément de ressources (notamment pour extraire et traiter les métaux rares.)

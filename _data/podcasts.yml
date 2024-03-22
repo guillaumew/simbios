@@ -1,0 +1,15 @@
+- name: Spotify
+  link: https://open.spotify.com/show/6evVmsMQGR9Awsk6YqNMxY
+  id: spotify
+- name: Amazon Music
+  link: https://music.amazon.com/podcasts/18e2acc7-2406-4543-9008-abd425baeec1/le-num%C3%A9rique-et-l'environnement
+  id: amazon
+- name: Deezer
+  link: https://www.deezer.com/show/1000722432
+  id: deezer
+- name: Apple Podcasts
+  link: https://podcasts.apple.com/fr/podcast/le-num%C3%A9rique-et-lenvironnement/id1733822934
+  id: apple
+- name: Google Podcasts
+  link: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5hY2FzdC5jb20vcHVibGljL3Nob3dzL2xlLW51bWVyaXF1ZS1ldC1sZW52aXJvbm5lbWVudA
+  id: google

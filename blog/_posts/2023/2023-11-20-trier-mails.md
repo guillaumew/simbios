@@ -3,6 +3,8 @@ title: Faire la différence en triant ses mails
 description: Quel est l'impact effectif de notre boîte mail sur l'environnement ?
 tags: ["Mails", "Eco-geste"]
 image: /assets/img/posts/2023/Q4/thumb-mails.webp
+thumb: /assets/img/posts/2023/Q4/thumb-mails
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65fbf9b7e60d0000163f1d11/media.mp3
 ---
 
 « Je fais attention à mon usage numérique : je trie mes mails. »

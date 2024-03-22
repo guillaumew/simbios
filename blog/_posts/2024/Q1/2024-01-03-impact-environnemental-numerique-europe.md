@@ -4,6 +4,7 @@ description: Au delà du climat, les usages numériques en Europe sont responsab
 tags: ["Numérique", "Climat", "Environnement", "Europe", "Ecotoxicité", "Ressources", "Particules"]
 image: /assets/img/posts/2024/Q1/thumb-eu-num.webp
 thumb: /assets/img/posts/2024/Q1/thumb-eu-num
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65fc276dcce2030016ffd7f6/media.mp3
 ---
 
 Les problèmes environnementaux sont loin de pouvoir se résumer au seul changement climatique.
