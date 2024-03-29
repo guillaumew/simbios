@@ -4,6 +4,7 @@ description: L'eau est nécessaire à la vie. On savait qu'elle était rare dans
 tags: ["Crises environnementales", "Eau", "Environnement", "Agriculture"]
 image: /assets/img/posts/2024/Q1/manque-eau.webp
 thumb: /assets/img/posts/2024/Q1/manque-eau
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6606c524ed90110016bdf0d9/media.mp3
 ---
 
 En France l'été 2022, nous avons connu {% include link.html text="une grosse période de sécheresse" link="https://fr.wikipedia.org/wiki/S%C3%A9cheresse_de_2022_en_France" %} :

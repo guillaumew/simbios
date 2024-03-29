@@ -4,6 +4,7 @@ description: Comment les pratiques agricoles et les rejets industriels et urbain
 tags: ["Crises environnementales", "Agriculture", "Environnement", "Eau", "Eutrophisation"]
 image: /assets/img/posts/2024/Q1/thumb-eutrophisation.webp
 thumb: /assets/img/posts/2024/Q1/thumb-eutrophisation
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6606bf0d28320a0015b84f4b/media.mp3
 ---
 
 Les problèmes environnementaux ne se réduisent pas uniquement au climat ! Cette semaine intéressons-nous à l'eutrophisation
@@ -14,7 +15,7 @@ L'eutrophisation, c'est l'accumulation de nutriments dans un écosystème. Dans 
 
 ## C'est quoi le problème ?
 
-Ces nutriments vont permettre une prolifération de plantes et d'algues. Cette croissance excessive va perturber l'équilibre de la biodiversité et réduire la qualité de l'eau. Mais risque surtout une asphyxie de l'écosystème aquatique en consommant tout le dioxygène disponible. 
+Ces nutriments vont permettre une prolifération de plantes et d'algues. Cette croissance excessive va perturber l'équilibre de la biodiversité et réduire la qualité de l'eau. On risque même une asphyxie de l'écosystème aquatique en consommant tout le dioxygène disponible. 
 Dans les cas les plus importants, cela peut conduire à un assèchement du milieu.
 
 {% include picture.html 

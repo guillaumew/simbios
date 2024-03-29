@@ -4,6 +4,7 @@ description: Nous avons besoin d'eau pour vivre, mais il faut aussi que cette ea
 tags: ["Crises environnementales", "Eau", "Environnement", "Eco-geste"]
 image: /assets/img/posts/2024/Q1/ecotoxicite-eau.webp
 thumb: /assets/img/posts/2024/Q1/ecotoxicite-eau
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6606ccce3919470016c7d1ff/media.mp3
 ---
 
 Nous avions vu dans l'article précédent comment les [activités humaines perturbent le cycle de l'eau](/blog/2024/01/22/utilisation-eau.html). A ces problématiques de quantité d'eau disponible viennent aussi s'ajouter des problèmes de qualité de l'eau.

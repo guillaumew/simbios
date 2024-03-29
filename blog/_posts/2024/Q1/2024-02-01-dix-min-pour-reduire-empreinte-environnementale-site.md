@@ -1,5 +1,5 @@
 ---
-title: "Dix minutes pour réduire l'empreinte environnementale d'un site"
+title: "Trente minutes pour réduire l'empreinte environnementale d'un site"
 description: Voici dix commandements pour diminuer rapidement l'empreinte environnementale d'un site internet.
 tags: ["Site", "Eco-conception"]
 image: /assets/img/posts/2024/Q1/ecoconception-site.webp
@@ -10,12 +10,6 @@ Dans le cadre de mes activités, je suis amené à faire pas mal d’analyses de
 Ce sont des points d'améliorations qui peuvent être traités rapidement. 
 
 Retrouvez ces bonnes pratiques lors de ma présentation : [Trente minutes pour réduire l'empreinte environnementale de son site](/formations/30min-reduire-empreinte-environnemental-site.html)
-
-{% responsive_image 
-  path: assets/img/posts/2024/Q1/humpan_talk_daveo.webp 
-  alt: "La conférence présentée aux Human Talks de Nantes en févirer 2024" 
-%}
-*La conférence présentée aux Human Talks de Nantes en févirer 2024*
 
 1. [Les images, tu redimensionneras et compresseras](01-redimensionner-compresser-images.html)
 2. [Les ressources externes, tu limiteras](02-limiter-ressources-externes.html)
@@ -29,3 +23,9 @@ Retrouvez ces bonnes pratiques lors de ma présentation : [Trente minutes pour r
 10. [Un plan pour l'avenir, tu écriras](10-ecrire-plan-actions-environnementales)
 
 Si jamais vous pensez que 10 commandements ne suffisent pas, je vous recommande la liste des {% include link.html text="115 bonnes pratiques de l'éco-conception web" link="https://github.com/cnumr/best-practices?tab=readme-ov-file" %} proposée par le collectif GreenIt.fr.
+
+{% responsive_image 
+  path: assets/img/posts/2024/Q1/humpan_talk_daveo.webp 
+  alt: "La conférence présentée aux Human Talks de Nantes en févirer 2024" 
+%}
+*La conférence présentée aux Human Talks de Nantes en févirer 2024*
