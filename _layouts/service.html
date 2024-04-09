@@ -7,7 +7,7 @@ css: markdown
     <div class="slider column-content">
         <div class="markdown services_info slider_info">
             <h2>Tous les services :</h2>
-            <ol>
+            <ol start="0">
                 {% assign sorted_services = site.services | sort: 'order'  %}
                 {% for service in sorted_services %}
                 <li>

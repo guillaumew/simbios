@@ -4,6 +4,7 @@ description: "Comment faire pour profiter pleinement de la journée mondiale du 
 tags: ["Eco-geste", "Environnement"]
 image: /assets/img/posts/2024/Q1/DCD-square.webp
 thumb: /assets/img/posts/2024/Q1/DCD-square
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/66152b95ecab3b001609f91b/media.mp3
 ---
 Le 16 mars 2024, c'est la journée mondiale du nettoyage numérique, appelée plus généralement en anglais {% include link.html link="https://digital-cleanup-day.fr/" text="Digital Cleanup Day" %}.
 

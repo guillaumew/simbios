@@ -4,27 +4,16 @@ short_title: Réduction
 description: Des opération effectives avec une prise de recul pour mesurer l'impact réel
 layout: service
 long_description: Application du plan d'actions. Formation des équipes. Pilotage et suivi des tâches. Mesure de l'amélioration effective.
-order: 4
+order: 5
 icon_utf8: 🚧
 icon: people_icon
-grid_sizes: --medium:33%; --large:20%;
+grid_sizes: --medium:33%; --large:25%;
 
 ---
 
 ## Plan d'actions en main
 
 Après une [Analyse du Cycle de vie](/services/analyse_cycle_vie.html), nous avons établi un [plan d'actions](/services/strategie_reduction.md) pour réduire l'empreinte environnementale. Nous assurons le suivi de ce plan d'action, mais nous pouvons également intervenir directement sur plusieurs points.
-
-## Formations
-
-Voici quelques formations proposées :
-
-| Nom | Type | Durée | Nombre de participant.e.s |
-|-----|------|-------|---------------------------|
-{% for formation in site.formations %}| [{{ formation.title }}]({{formation.url}}) | {{formation.type}} | {{ formation.duration}} | {{ formation.effectif }} |
-{% endfor %}
-
-N'hésitez pas à nous solliciter pour qu'on créer une formation sur-mesure en fonction de vos besoins.
 
 ## Eco-conception des services
 

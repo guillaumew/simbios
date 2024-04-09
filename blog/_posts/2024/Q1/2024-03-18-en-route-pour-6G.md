@@ -4,6 +4,7 @@ description: "La 5G étant encore loin d'être déployée, les états commencent
 tags: ["Réseaux", "Environnement", "5G", "6G", "Mobile"]
 image: /assets/img/posts/2024/Q1/empty-phone.webp
 thumb: /assets/img/posts/2024/Q1/empty-phone
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/66152e2c2178ca0016904e80/media.mp3
 ---
 
 Neuf états, dont la France et les Etats-Unis, ont signé un {% include link.html text="accord sur les principes pour le développement de la 6G" link="https://presse.economie.gouv.fr/6g-la-france-et-ses-partenaires-internationaux-saccordent-sur-des-principes-communs-pour-le-developpement-dune-technologie-securisee-interoperable-et-resiliente/" %}.

@@ -4,6 +4,7 @@ description: "Une bataille contre les émissions de gaz nocifs pour l'environnem
 tags: ["Crises environnementales", "Environnement", "Pluie acide", "Acidification", "Océans"]
 image: /assets/img/posts/2024/Q1/thumb-acidification.webp
 thumb: /assets/img/posts/2024/Q1/thumb-acidification
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/66150eae67103f001700e12d/media.mp3
 ---
 
 Cette semaine on continue de s'intéresser aux [crises environnementales](/blog/2024/01/16/crises-environnementales.html) et on va rester dans les problématiques proches de l'eau avec l'acidification. 
@@ -14,22 +15,22 @@ On parle beaucoup du dérèglement climatique et de ses conséquences dont l'une
 
 Quand les activités humaines acidifient directment l'eau comme c'est le cas dans les drainage miniers, on entre plutôt dans l'[écotoxicité de l'eau](/blog/2024/01/30/ecotoxicite-eau.html)
 
-On s'intéresse ici uniquement aux rejets atomosphériques anthropiques qui se transforment en acide en réagissant ultérieurement avec l'eau.
+On s'intéresse ici uniquement aux rejets atmosphériques anthropiques qui se transforment en acide en réagissant ultérieurement avec l'eau.
 
 ## Quelles sont les causes de l'acidification ?
 
-L'acidification atmosphérique est liée aux émlissions de gaz :
-- dioxyde de soufre (S0<sub>2</sub>)
+L'acidification atmosphérique est liée aux émissions de gaz :
+- dioxyde de soufre (SO<sub>2</sub>)
 - oxydes d'azote (NO<sub>x</sub>)
 - dioxyde de carbone (CO<sub>2</sub>)
-- amoniques (NH<sub>3</sub>)
+- ammoniaques (NH<sub>3</sub>)
 - acide chlorhydrique (HCl)
 
 Ces gaz ont tendance à réagir avec l'eau (H<sub>2</sub>0) pour former des acides. Par exemple : 
 
 *SO<sub>2</sub> + H<sub>2</sub>0 = H<sub>2</sub>SO<sub>3</sub> (acide sulfureux)*
 
-Les émissions de gaz à potentiels acidifants sont d'origines diverses.
+Les émissions de gaz à potentiels acidifiants sont d'origines diverses.
 
 ### Combustion des ressources fossiles
 
@@ -70,7 +71,7 @@ Ces pluies ont des effets catastophiques sur les écosystèmes sur lesquels elle
 
 ### L'acidification des océans
 
-Depuis l'ère industrielle (milieu du XIXê siècle), l'eau des océans est devenue {% include link.html text="30% plus acide" link="https://www.cbd.int/doc/publications/cbd-ts-46-fr.pdf" %} sous l'effet des émissions humaines (principalement le dioxyde de carbone).
+Depuis l'ère industrielle (milieu du XIXe siècle), l'eau des océans est devenue {% include link.html text="30% plus acide" link="https://www.cbd.int/doc/publications/cbd-ts-46-fr.pdf" %} sous l'effet des émissions humaines (principalement le dioxyde de carbone).
 
 En effet, le dioxyde de carbone se dissout dans les mers et océans ce qui a pour effet d'engendrer des réactions chimiques qui acidifient l'eau.
 

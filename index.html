@@ -6,7 +6,7 @@ css: home.css
 ---
 
 <div class="content services" role="contentinfo" aria-label="Section pour présenter les services proposés par Simbios">
-    <h2 class="is-center">La réduction de l'impact environnemental des entreprises en 5 étapes</h2>
+    <h2 class="is-center">Les différents services proposés pour vous accompagner dans votre démarche environnementale</h2>
 
     <div class="grid">
         {% assign sorted_services = site.services | sort: 'order'  %}
@@ -24,7 +24,7 @@ css: home.css
             <p>
                 {{service.long_description}}
             </p>
-            <a href="{{service.url}}" aria-label="{{service.name}} : en savoir plus">En savoir plus</a>
+            <a href="{{service.url}}" aria-label="{{service.title}} : en savoir plus">En savoir plus</a>
         </div>
         {% endfor %}
     </div>

@@ -4,6 +4,7 @@ description: Remettre en question les normes sociales pour rendre la transition 
 tags: ["Plaisir", "Consommation", "Sens", "Philosophie"]
 image: /assets/img/posts/2024/Q1/richesse-humaine.webp
 thumb: /assets/img/posts/2024/Q1/richesse-humaine
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6615074e9dd3d0001613d7d5/media.mp3
 ---
 ## Expérience de pensée
 

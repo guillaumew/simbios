@@ -7,7 +7,7 @@ long_description: Mise en place d'objectifs de réduction de l'empreinte environ
 order: 3
 icon_utf8:  📉
 icon: chart_icon
-grid_sizes: --medium:33%; --large:20%;
+grid_sizes: --medium:50%; --large:25%;
 ---
 
 ## Pré-requis

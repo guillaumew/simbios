@@ -3,13 +3,16 @@ title: Podcasts
 description: Ecouter les articles de Simbios sur votre application préférée
 layout: markdown
 ---
-<h2>Ecouter Simbios en podcast</h2>
-<div class="column-content grid">
-    <div class="grid-item" style="--small:100%;--medium:50%">
+<div class="column-content grid content">
+    <div class="grid-item is-center" style="--small:100%;--medium:50%">
+        {% include picture.html 
+            url="/assets/img/podcasts"
+            alt="Le visuel du podcast \"Numérique et environnement\" : un arbre sur lequel pousse des smartphones."
+         %}
         Toutes les semaines, une information de quelques minutes sur le numérique responsable et l'environnement.
     </div>
     <div class="grid-item" style="--small:100%;--medium:50%">
-        Retrouvez nous sur :
+        Retrouvez-nous sur :
         <ul>
             {% for podcast in site.data.podcasts %}
             <li>
