@@ -4,6 +4,7 @@ description: "Est-il possible de maintenir une croissance économique tout en re
 tags: ["Environnement", "Croissance", "PIB", "Economie", "Sobriété"]
 image: /assets/img/posts/2024/Q1/green-growth.webp
 thumb: /assets/img/posts/2024/Q1/green-growth
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/661554409505bc00163e0ebc/media.mp3
 ---
 
 Une question qui agite parfois les spécialistes de la transition écologique est la possibilité de résoudre la question des limites planétaires avec des solutions techniques sans avoir à changer notre mode de vie.
@@ -99,7 +100,7 @@ Aujourd'hui, {% include link.html text="la grande majorité de la production él
 Nous avons besoin de modifier l'ensemble de nos centrales pour opter pour des solutions bas carbone. Il s'agit d'un défi de le réaliser avant que le réchauffement ne soit trop important. Il est probable que nous rencontrerions de nouvelles difficultés lorsque nous aurons une majorité de l'electricité d'origine renouvelable ou nucléaire.
 
 Quelques technologies émergentes semblent intéressantes mais ne sont pas encore au point :
-- la fission nucléaire
+- la fusion nucléaire
 - nouvelle génération de réacteurs nucléaires permettant d'utiliser comme combustible les dechets de nos centrales actuelles
 
 #### Transport

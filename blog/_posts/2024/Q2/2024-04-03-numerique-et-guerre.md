@@ -4,6 +4,7 @@ description: "Ne fermons pas les yeux sur les horreurs dont est responsable notr
 tags: ["Environnement", "Guerre", "Cobalt", "RDC", "Sobriété"]
 image: /assets/img/posts/2024/Q2/thumb-congo.webp
 thumb: /assets/img/posts/2024/Q2/thumb-congo
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/66155cfcdd3b8b00171c7da4/media.mp3
 ---
 ## Besoins en métaux
 
