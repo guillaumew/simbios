@@ -1,15 +1,15 @@
 ---
-title: Introduction au nuémrique responsable
-description: En cours d'élaboration
-duration: 2 jours
-type: Formation
-effectif: 4-8
+title: Coder un site de manière éco-responsable
+description: Une demie journée pour réduire l'empreinte environnementale d'un site
+duration: 4 heures
+type: Atelier
+effectif: 2-6
 layout: formation
 
 ---
-Cette formation doit permettre de :
-- Connaître les pilliers d'une démarche numérique responsable
-- Définir une stratégie numérique responsable
-- Bâtir un plan d'actions hiérarchisé 
-- Mettre en place des objectifs mesurés 
-- Comprendre la logique d’une analyse du cycle de vie d'un service numérique
+
+Dans cet atelier nous allons partir d'un petit site statique réel. On va rapidement analyser le code (HTML, CSS, javascript) ainsi que son score environnemental : l’éco-index.
+
+Puis par une série de petites optimisations rapides, les participant.e.s vont eux-même améliorer l’éco-index de ce site et donc son empreinte environnementale. 
+
+Cet atelier technique est destiné aux développeur.se.s qui agissent sur la partie Front. Les points abordés sont faciles d'accès même pour des personnes qui n'ont pas l'habitude de manipuler du HTML, CSS, javascript.

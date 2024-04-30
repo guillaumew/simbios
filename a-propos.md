@@ -61,5 +61,5 @@ Animations régulières d'ateliers de sensibilisation sur le numérique réspons
 
 ## Grand public
 Animations régulières d'atelier de sensibilisation sur l'impact environnemental du numérique grand publique dans le département.
-- {% include link.html link="https://www.meetup.com/nantesnr/events/" text="Découvrir les événments Nantes Numérique Responsable" external=true %}.
+- {% include link.html link="https://www.linkedin.com/company/nantes-num%C3%A9rique-responsable/" text="Découvrir les événments Nantes Numérique Responsable" external=true %}.
 - {% include link.html link="https://www.billetweb.fr/loire-atlantique-44-atelier-fresque-du-numerique" text="Prochains ateliers la Fresque du Nuémrique" external=true %}.
