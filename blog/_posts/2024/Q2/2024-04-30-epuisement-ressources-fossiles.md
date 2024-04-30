@@ -2,8 +2,8 @@
 title: "Les crises environnementales : l'épuisement des ressources fossiles"
 description: "L'humanité utilise beaucoup de ressources fossiles pour fonctionner et ces dernières sont de plus en plus difficile à extraire !"
 tags: ["Environnement", "Crises environnementales", "Fossile", "Gaz", "Pétrole", "Charbon"]
-image: /assets/img/posts/2024/Q2/thumb-jo.webp
-thumb: /assets/img/posts/2024/Q2/thumb-jo
+image: /assets/img/posts/2024/Q2/fossil-fuel.webp
+thumb: /assets/img/posts/2024/Q2/fossil-fuel
 podcast: null
 ---
 
