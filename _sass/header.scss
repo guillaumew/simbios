@@ -10,7 +10,7 @@
     padding-top: 3.75em;
     .header {
         /* absolute center .splash within .splash-container */
-        width: 80%;
+        width: 90%;
         height: min-content;
         margin: auto;
         top: 0; left: 0; bottom: 0; right: 0;
@@ -19,16 +19,17 @@
             max-width: 100%;
         }
         .header-head {
-            font-size: 2em;
+            font-size: 1.75em;
             font-weight: bold;
             color: white;
             padding: 1em 1.6em;
             line-height: 1em;
+            overflow-wrap: break-word;
         }
         .header-subhead {
             color: white;
             letter-spacing: 0.05em;
-            font-size: 1.5em;
+            font-size: 1.2em;
         }
     }
 }
