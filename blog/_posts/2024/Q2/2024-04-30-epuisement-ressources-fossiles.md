@@ -4,7 +4,7 @@ description: "L'humanité utilise beaucoup de ressources fossiles pour fonctionn
 tags: ["Environnement", "Crises environnementales", "Fossile", "Gaz", "Pétrole", "Charbon"]
 image: /assets/img/posts/2024/Q2/fossil-fuel.webp
 thumb: /assets/img/posts/2024/Q2/fossil-fuel
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6630ba75224e900013aeca9a/media.mp3
 ---
 
 ## De quoi s’agit-il ?
