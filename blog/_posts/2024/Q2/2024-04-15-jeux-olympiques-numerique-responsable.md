@@ -19,7 +19,7 @@ On y voit donc 5 engagements clés :
 2. 100 % des équipements achetés auront une seconde vie
 3. Eco-conception des applications grand public
 4. Sensibilisation des collaborateurs et de l’écosystème de Paris 2024
-5. Des critères numériques responsable pour 100 % des appels d’offre technologiques
+5. Des critères numérique responsable pour 100 % des appels d’offre technologiques
 
 De manière générale, on voit une démarche très vertueuse. Mais voyons ce que cela donne pour l’éco-conception des services grand public.
 
@@ -52,7 +52,7 @@ Pour faire plus simple : il y a trop de contenus, trop d’images et d’animat
 
 ### Il faut faire le travail technique là où cela pèse le plus
 
-C’est ce qui a été réalisé pour le CSS. 100 ko de CSS pour cette page, cela me semble être tout à fait raisonnable. On aurait peut-être pu réduire le nombre de fichier, mais c’est déjà du pinaillage.
+C’est ce qui a été réalisé pour le CSS. 100 ko de CSS pour cette page, cela me semble être tout à fait raisonnable. On aurait peut-être pu réduire le nombre de fichiers, mais c’est déjà du pinaillage.
 
 De même vu le nombre et la taille des images, je trouve que le travail technique à ce niveau est plutôt réussi (8,6 Mo)
 
@@ -61,6 +61,6 @@ Pourquoi la même démarche n’a-t-elle pas réalisée pour le javascript ? 12
 ## Conclusion
 
 Merci beaucoup à l’organisation des jeux de prendre l’impact environnemental du numérique en compte. La démarche est louable et certaines actions semblent réellement permettre de réduire le bilan de ces jeux.
-J’aurais toutefois apprécié que la démarche inclue également une sobriété dans les fonctionnalités. La réduction du nombre et de la taille de certains écrans mis à disposition va dans ce sens. La page d’accueil devrait être le symbole de cette sobriété. Cela aurait également permis de créer un précédent avec une page sobre et efficace pour un site à très forte visibilité et affluence… 
+J’aurais toutefois apprécié que la démarche inclut également une sobriété dans les fonctionnalités. La réduction du nombre et de la taille de certains écrans mis à disposition va dans ce sens. La page d’accueil devrait être le symbole de cette sobriété. Cela aurait également permis de créer un précédent avec une page sobre et efficace pour un site à très forte visibilité et affluence… 
 
 En réalité, j’espère qu’un jour on trouvera qu’une page aussi riche que la page d’accueil des JO sera ringarde...
