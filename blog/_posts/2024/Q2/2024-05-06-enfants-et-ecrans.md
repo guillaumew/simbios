@@ -11,7 +11,7 @@ podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6638d396d8
 ## Quels sont les usages ?
 
 ### Equipements numériques
-D'apèrs le {% include link.html link="https://www.economie.gouv.fr/cge/barometre-numerique-2022" text="baromètre du numérique 2022" %}, les foyers français sont équipés en moyenne de 10 appareils numériques avec écrans :
+D'après le {% include link.html link="https://www.economie.gouv.fr/cge/barometre-numerique-2022" text="baromètre du numérique 2022" %}, les foyers français sont équipés en moyenne de 10 appareils numériques avec écrans :
 
 | Equipement       | Appareils par foyer |
 |------------------|------|
@@ -22,7 +22,7 @@ D'apèrs le {% include link.html link="https://www.economie.gouv.fr/cge/barometr
 | Console de jeu   | 1.07 |
 | Montre connectée | 0.71 |
 
-Les enfants ont donc un accès aisés aux écrans et en ont des usages importants. 
+Les enfants ont donc un accès aisé aux écrans et en ont des usages importants. 
 
 ### Durée d'exposition aux écrans
 Selon l'étude {% include link.html text="INCA 3" link="https://www.data.gouv.fr/fr/datasets/donnees-de-consommations-et-habitudes-alimentaires-de-letude-inca-3/" %} conduite par l'ANSES, voici la durée d'exposition aux écrans :
@@ -48,11 +48,11 @@ Enquête INSV/MGEN 2020 : Le sommeil des français en 2020
 
 Cela peut s'expliquer par :
 - Usages tardifs des écrans qui repousse l'heure du coucher (source : {% include link.html link="https://asso-generationnumerique.fr/wp-content/uploads/2022/02/Enquete-pratiques-nume%CC%81riques-2022.pdf" text="Les pratiques numériques des 11-18 ans" %}, Génération Numérique)
-- Consutlation de l'heure ou de notification sur le smartphone (éveil cognitif)
+- Consultation de l'heure ou de notification sur le smartphone (éveil cognitif)
 
 ### La sédentarité
 
-De même, il est prouvé que l'exposition aux écrans conduit à des situations de sédentarité qui peuvent être préoccupantes. La sédentarité conduit à un manque d’activité physique d'où découlent de nombreux problèmes : obésité, trouble cardiaques…
+De même, il est prouvé que l'exposition aux écrans conduit à des situations de sédentarité qui peuvent être préoccupantes. La sédentarité conduit à un manque d’activité physique d'où découlent de nombreux problèmes : obésité, troubles cardiaques…
 
 {% include link.html text="Les études de l'ANSES" link="https://www.anses.fr/fr/content/inactivit%C3%A9-physique-et-s%C3%A9dentarit%C3%A9-chez-les-jeunes-l%E2%80%99anses-alerte-les-pouvoirs-publics" %} montrent comment les écrans conduisent à la sédentarité.
 
@@ -66,7 +66,7 @@ De même, il est prouvé que l'exposition aux écrans conduit à des situations 
 
 ### Problèmes de vue
 
-Aucune étude ne semble avoir réussi à correctement lier l'exposition aux écran à la myopie ({% include link.html link="https://pubmed.ncbi.nlm.nih.gov/34625399/" text="source" %}). 
+Aucune étude ne semble avoir réussi à correctement lier l'exposition aux écrans à la myopie ({% include link.html link="https://pubmed.ncbi.nlm.nih.gov/34625399/" text="source" %}). 
 
 Toutefois, l'usage intérieur des écrans réduit les activités extérieures et l'exposition à la lumière naturelle qui permet de contrer le développement de la myopie ({% include link.html link="https://pubmed.ncbi.nlm.nih.gov/31430758/" text="source" %}).
 
@@ -79,9 +79,9 @@ Certains enfants ont des usages des écrans qui sont nocifs :
 - L’utilisation abusive des réseaux sociaux  peut aggraver les situations avec des risques existants (dépression, anxiété…)
 - Il est actuellement difficile de maîtriser les contenus (violence, pornographie…) auxquels les enfants ont accès ce qui peut les exposer  à des risques sur leur équilibre.
 
-### Problèmes sans preuves scientiques
+### Problèmes sans preuve scientique
 
-Il existent des effets néfastes à surveiller même si les effets ne sont pas encore prouvés scientifiquement : 
+Il existe des effets néfastes à surveiller même si les effets ne sont pas encore prouvés scientifiquement : 
 - problèmes liés à l’exposition aux ondes électromagnétiques
 - problèmes liés à la présence de substances reconnues comme perturbateurs endocriniens
 - conséquences sur le neurodéveloppement des enfants
@@ -98,7 +98,7 @@ La commission a listé les mesures existantes visant à protéger les enfants de
 
 ## Recommandations
 
-Afin de protéger les enfants des effets néfaste des écrans, la commission a ensuite proposé une série de 29 recommandations catégorisées autour de six axes :
+Afin de protéger les enfants des effets néfastes des écrans, la commission a ensuite proposé une série de 29 recommandations catégorisées autour de six axes :
 - interdire les conceptions addictogènes
 - protéger plutôt que contrôler les enfants
 - organiser une progression des usages numériques
@@ -112,14 +112,14 @@ européen
 - Organiser une prise en main progressive des téléphones :
   - pas de téléphone avant 11 ans
   - à partir de 11 ans, téléphone sans internet
-  - à partir de 13 ans, téléphone connecté, sans aux réseaux sociaux ni aux contenus illégaux
+  - à partir de 13 ans, téléphone connecté, sans accès aux réseaux sociaux ni aux contenus illégaux
   - à partir de 15 ans, accès aux réseaux sociaux éthiques
 - Renforcer l’éducation à la santé, et spécifiquement :
   - aux enjeux du sommeil.et assumer en conséquence d’ouvrir la réflexion pour une meilleure
 adaptation des organisations scolaires aux besoins physiologiques des jeunes
   - aux risques liés à la sédentarité et à l’insuffisance d’activité physique, et en conséquence mieux
 mobiliser les cours d’éducation physique et sportive pour un suivi renforcé des enfants
-  - aux risques concernant la vue en multipliant les occasions de temps en extérieu
+  - aux risques concernant la vue en multipliant les occasions de temps en extérieur
 
 ## Aller plus loin
 
