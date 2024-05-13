@@ -4,6 +4,7 @@ description: Une formation générale pour comprendre les principaux leviers de 
 duration: 1 jour
 type: Formation
 effectif: 4-8
+public: ["Tout public"]
 layout: formation
 
 ---

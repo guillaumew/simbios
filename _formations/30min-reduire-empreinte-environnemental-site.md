@@ -5,6 +5,7 @@ duration: 30 minutes
 type: Conférence
 effectif: 4-100
 image: /assets/img/posts/2024/Q1/humpan_talk_daveo.webp
+public: ["Dev"]
 layout: formation
 
 ---

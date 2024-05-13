@@ -1,9 +1,10 @@
 ---
 title: Chef de projet & Product Owner responsable
-description: Une formation générale pour comprendre les principaux leviers de l'eco-conception
+description: Une formation dédiée aux chef.fe de projet / produit pour agir dans leur quotiduen pour réduire l'impact de leur service
 duration: 1 jour
 type: Formation
 effectif: 4-8
+public: ["Product Owner", "Designer"]
 layout: formation
 
 ---

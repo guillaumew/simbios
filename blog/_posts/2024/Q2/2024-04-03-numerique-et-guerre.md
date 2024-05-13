@@ -20,7 +20,8 @@ Parmi les métaux nécessaires pour le numérique on trouve notamment le cobalt 
 
 {% responsive_image 
   path: assets/img/posts/2024/Q2/cobalt.webp 
-  alt: "Fragments purs de cobalt" 
+  alt: "Fragments purs de cobalt"
+  default_type: "jpeg" 
 %}
 *Cobalt pur*
 

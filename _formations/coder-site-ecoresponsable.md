@@ -4,6 +4,7 @@ description: Une demie journée pour réduire l'empreinte environnementale d'un 
 duration: 4 heures
 type: Atelier
 effectif: 2-6
+public: ["Dev"]
 layout: formation
 
 ---

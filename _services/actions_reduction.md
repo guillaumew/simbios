@@ -13,7 +13,7 @@ grid_sizes: --medium:33%; --large:25%;
 
 ## Plan d'actions en main
 
-Après une [Analyse du Cycle de vie](/services/analyse_cycle_vie.html), nous avons établi un [plan d'actions](/services/strategie_reduction.md) pour réduire l'empreinte environnementale. Nous assurons le suivi de ce plan d'action, mais nous pouvons également intervenir directement sur plusieurs points.
+Après une [Analyse du Cycle de vie](/services/analyse_cycle_vie.html), nous avons établi un [plan d'actions](/services/strategie_reduction.html) pour réduire l'empreinte environnementale. Nous assurons le suivi de ce plan d'action, mais nous pouvons également intervenir directement sur plusieurs points.
 
 ## Eco-conception des services
 

@@ -4,6 +4,7 @@ description: En cours d'élaboration
 duration: 2 jours
 type: Formation
 effectif: 4-8
+public: ["Tout public"]
 layout: formation
 
 ---
