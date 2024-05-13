@@ -3,7 +3,7 @@ title: Communication sur les efforts de transition
 short_title: Communication
 description: Les mots justes pour ne pas se faire épingler par le Green-washing
 layout: service
-long_description: Communication sur les progrès réalisés (en interne comme en externe).
+long_description: Communication sur les progrès réalisés (en interne comme en externe). Labelisation numérique responsable.
 order: 6
 icon_utf8: 💬
 icon: communication_icon
