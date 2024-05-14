@@ -5,7 +5,7 @@ layout: markdown
 css: false
 ---
 
-# Propriété
+## Propriété
 
 Le site simbios.fr est la propriété de Simbios, une société à actions simplifiée au capîtal social de 1 000 €.
 - Adresse du siège : 35, rue Jean-Baptiste Robert 44230 Saint-Sébastien-sur-Loire
@@ -14,12 +14,12 @@ Le site simbios.fr est la propriété de Simbios, une société à actions simpl
 - Président: Guillaume Wolf
 - Contact: contact@simbios.fr
 
-# Hébergement
+## Hébergement
 
 Ce site est hébergé par Github pages, un service de la société GitHub (88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA).
 Il est diffusé via le CDN Cloudflare (101 TOWNSEND ST, 99404 SAN FRANCISO).
 
-# Données personnelles
+## Données personnelles
 
 Aucune information personnelle n'est collectée à votre insu. Ce site n'utilise pas de cookies.
 
@@ -29,7 +29,7 @@ Elles ne font l'objet d'aucune cession à des tiers. Simbios traite les informat
 
 Conformément à la loi « Informatique et Libertés » n°78-17 du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification et d'opposition aux données personnelles vous concernant. Pour l'exercer, il suffit de nous en faire la demande par écrit : contact@simbios.fr
 
-# Droit d'auteur
+## Droit d'auteur
 
 L'ensemble du contenu du présent site Internet, y compris nom de domaine, marques, logo, texte… est la propriété de la société Simbios, il est protégé par les lois en vigueur de la législation française sur la propriété intellectuelle.
 

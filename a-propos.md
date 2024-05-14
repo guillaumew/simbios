@@ -5,7 +5,7 @@ layout: markdown
 css: apropos.css
 ---
 
-# C'est quoi ce nom ?
+## C'est quoi ce nom ?
 Simbios est une variation du substentif "Symbiose" que l'on peut définir par "association mutuellement bénéfique et durable entre deux organismes". 
 
 {% include simbios_name.html %}
@@ -16,7 +16,7 @@ Simbios est une variation du substentif "Symbiose" que l'on peut définir par "a
 
 **Le nom Simbios symbolise l'harmonie possible et nécessaire entre l'environnement et le numérique grâce à la sobriété.**
 
-# Pourquoi ce logo ?
+## Pourquoi ce logo ?
 
 ![Logo de simbios](/assets/icons/android-chrome-192x192.png){:width="256" height="256" loading="lazy"}
 
@@ -29,7 +29,7 @@ Le logo symbolyse les mêmes valeurs que le nom Simbios.
 
 
 
-# C'est qui ?
+## C'est qui ?
 Simbios est une société localisée à Nantes et créée par Guillaume Wolf.
 {% include picture.html 
     url="/assets/img/guillaume-wolf"
@@ -39,7 +39,7 @@ Simbios est une société localisée à Nantes et créée par Guillaume Wolf.
 %}
 {% include guillaume.html %}
 
-# Pourquoi ?
+## Pourquoi ?
 Le numérique propose des possibilités incroyables. Il constitue un atout indispensable à la transition écologique en permettant l'émergence de technologie plus propres (comme les énergies renouvelables) et en optimisant les efforts dans la construction, les transports et l'industrie.
 
 Cependant, les usages les plus massifs du numériques sont loin de cet idéal. Souvent considéré comme vertueux car immateriel, on use et on abuse de ses fonctionalités sans limites.
@@ -48,18 +48,18 @@ Or, le numérique est loin d'être immatériel. Si les externalités qu'il engen
 
 Malheureusement, malgré un réel intérêt écologique, on peut constater que la majorité des professionnels du numérique ne connaissent pas les impacts environnementaux engendrés par leur secteur... ce qui les conduits à prendre des décisions qui vont contre leurs principes.
 
-# Pour qui ?
-## Pour les entreprises
+## Pour qui ?
+### Pour les entreprises
 Simbios est une structure dédiée avant tout pour les entreprises. N'hésitez pas à nous [contacter](/contact.html) pour vous faire accompagner.
 
 Participation au maintien de {% include link.html link="hhttps://www.greenit.fr/ressources/" text="ressources" external=true %} et d'{% include link.html link="https://collectif.greenit.fr/outils.html" text="outils" external=true %} avec {% include link.html link="https://www.greenit.fr/" text="le collectif GreenIT" external=true %}.
 
-## Pour l'enseignement
+### Pour l'enseignement
 Animations régulières d'ateliers de sensibilisation sur le numérique résponsable pour les lycéen.ne.s et les étudiant.e.s de l'enseignement supérieur :
 - La Fresque du Numérique
 - La Bataille de la Tech
 
-## Grand public
+### Grand public
 Animations régulières d'atelier de sensibilisation sur l'impact environnemental du numérique grand publique dans le département.
 - {% include link.html link="https://www.linkedin.com/company/nantes-num%C3%A9rique-responsable/" text="Découvrir les événments Nantes Numérique Responsable" external=true %}.
 - {% include link.html link="https://www.billetweb.fr/loire-atlantique-44-atelier-fresque-du-numerique" text="Prochains ateliers la Fresque du Nuémrique" external=true %}.

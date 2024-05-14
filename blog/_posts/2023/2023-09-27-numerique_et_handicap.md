@@ -30,6 +30,6 @@ Je ne sais pas si c’est évident mais aucun des ces handicaps empêche complè
  %}
 *Photo d'Elizabeth Woolner sur Unsplash*
 
-Et si vous faisiez l’expérience numérique avec un handicap ? C’est possible avec ce site proposé par Altan : {% include link.html text="https://www.atalan.fr/agissons/fr/" link="https://www.atalan.fr/agissons/fr/" %}
+Et si vous faisiez l’expérience numérique avec un handicap ? C’est possible avec {% include link.html text="ce site proposé par Altan" link="https://www.atalan.fr/agissons/fr/" %}.
 
 Cela permet de se rendre compte de ce que nous devons faire lorsque nous créons des interfaces web pour rendre leur usage accessible au plus grand nombre.

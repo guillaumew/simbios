@@ -56,6 +56,3 @@ Le rôle d'un chef de projet est crucial pour intégrer les principes de durabil
 
 Il est responsable de la planification, de la coordination et de la mise en œuvre des projets en veillant à ce que les meilleures pratiques d'éco-conception soient appliquées à chaque étape. Pour créer des solutions durables qui répondent aux besoins tout en préservant l'environnement.
 
----
-# Intéressé.e ? Prenons contact !
-{% include contact_form.html %}

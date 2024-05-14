@@ -88,9 +88,9 @@ Il est donc intéressant de vérifier jusqu’à quel niveau vous êtes prêt.e 
  %}
 
 Voici comment faire sur les différentes plateformes : 
-- **Netflix** : {% include link.html text="https://help.netflix.com/fr/node/87" link="https://help.netflix.com/fr/node/87" external=true %}.
-- **Youtube** : {% include link.html text="https://support.google.com/youtube/answer/91449" link="https://support.google.com/youtube/answer/91449" external=true %}.
-- **Disney+** : {% include link.html text="https://help.disneyplus.com/fr/article/disneyplus-data-usage" link="https://help.disneyplus.com/fr/article/disneyplus-data-usage" external=true %}.
-- **Hulu** : {% include link.html text="https://help.hulu.com/s/article/video-quality-settings" link="https://help.hulu.com/s/article/video-quality-settings" external=true %}.
+- **Netflix** : {% include link.html text="Comment contrôler la quantité de données utilisée par Netflix" link="https://help.netflix.com/fr/node/87" external=true %}.
+- **Youtube** : {% include link.html text="Change the quality of your video" link="https://support.google.com/youtube/answer/91449" external=true %}.
+- **Disney+** : {% include link.html text="La gestion des données et la qualité du streaming sur Disney+" link="https://help.disneyplus.com/fr/article/disneyplus-data-usage" external=true %}.
+- **Hulu** : {% include link.html text="Manage video quality and data usage" link="https://help.hulu.com/s/article/video-quality-settings" external=true %}.
 - **Tik Tok** : Il y a un mode économiseur de données disponible dans les « Paramètres et confidentialité ».
 - **Amazon Prime** : je n’ai pas trouvé la documentation officielle, mais cela fonctionne comme sur Netflix
