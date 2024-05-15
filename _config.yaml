@@ -1,13 +1,15 @@
 collections:
   services:
     output: true
+    permalink: /services/:path
   sensibilisations:
     relative_directory: "sensibilisations"
     output: false
-    permalink: /services/sensibilisation/:path.html
+    permalink: /services/sensibilisation/:path
   formations:
     relative_directory: "formations"
     output: true
+    permalink: /formations/:path
 
 defaults:
   - scope:
@@ -17,6 +19,7 @@ defaults:
       layout: "post"
       css: "markdown.css"
       image: "/assets/img/simbios-black.svg"
+      permalink: :categories/:year/:month/:day/:title
   - scope:
       path: ""
     values:

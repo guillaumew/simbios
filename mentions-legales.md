@@ -3,6 +3,7 @@ title: Mentions légales
 description: " "
 layout: markdown
 css: false
+permalink: mentions-legales
 ---
 
 ## Propriété

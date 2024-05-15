@@ -4,7 +4,7 @@ description: "Whatsapp, Discord, Teams, Slack... Y a-t-il une différence d'impa
 tags: ["Greenspector", "Messagerie", "Environnement"]
 image: /assets/img/posts/2024/Q2/messageries.webp
 thumb: /assets/img/posts/2024/Q2/messageries
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/664478908570c00012b10d09/media.mp3
 ---
 
 Greenspector a récemment publié une étude comparative entre différentes applications de messagerie :

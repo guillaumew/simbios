@@ -3,6 +3,7 @@ title: Simbios ? Qu'est-ce que c'est ?
 description: "Simbios propose des conseils pour réduire l'impact environnemental du Numérique."
 layout: markdown
 css: apropos.css
+permalink: a-propos
 ---
 
 ## C'est quoi ce nom ?
