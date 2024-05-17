@@ -8,7 +8,7 @@ thumb: /assets/img/posts/2024/Q1/thumb-planete
 
 Il y a plusieurs tentatives de classification des crises envrionnementales. On parle souvent des {% include link.html text="neuf limites planétaires" link="https://www.notre-environnement.gouv.fr/themes/societe/article/limites-planetaires" %} :
 
-- le changement climatique
+- le changement climatique ([voir l'article sur le changement climatique](/blog/2024/05/15/changement-climatique))
 - l’érosion de la biodiversité
 - la perturbation des cycles de l’azote et du phosphore ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
 - le changement d’usage des sols
@@ -32,7 +32,7 @@ Que l'on suit au travers de 16 catégories d'impact environnemental :
 - Eutrophisation marine ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
 - Utilisation des sols
 - Utilisation de l'eau ([voir l'article sur l'utilisation de l'eau](/blog/2024/01/22/utilisation-eau.html))
-- Changement climatique
+- Changement climatique ([voir l'article sur le changement climatique](/blog/2024/05/15/changement-climatique))
 - Ecotoxicité de l'eau ([voir l'article sur l'écotoxicité de l'eau](/blog/2024/01/30/ecotoxicite-eau.html))
 - Formation d'ozone photochimique
 - Radiations ionisantes

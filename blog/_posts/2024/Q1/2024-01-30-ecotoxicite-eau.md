@@ -6,12 +6,13 @@ image: /assets/img/posts/2024/Q1/ecotoxicite-eau.webp
 thumb: /assets/img/posts/2024/Q1/ecotoxicite-eau
 podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6606ccce3919470016c7d1ff/media.mp3
 ---
+Je vous propose un nouveau volet sur les [crises environnementales](/blog/2024/01/16/crises-environnementales) : on va parler cette fois-ci de l'eco-toxicité de l'eau.
 
-Nous avions vu dans l'article précédent comment les [activités humaines perturbent le cycle de l'eau](/blog/2024/01/22/utilisation-eau.html). A ces problématiques de quantité d'eau disponible viennent aussi s'ajouter des problèmes de qualité de l'eau.
+Nous avions vu dans l'article précédent comment les [activités humaines perturbent le cycle de l'eau](/blog/2024/01/22/utilisation-eau). A ces problématiques de quantité d'eau disponible viennent aussi s'ajouter des problèmes de qualité de l'eau.
 
 ## Comment l'humanité pollue-t-elle l'eau ?
 
-Nous avions vu une pollution par les nutriments dans l'article sur l'[eutrophisation](/blog/2024/01/17/eutrophisation.html). L'écotoxicité de l'eau s'intéresse donc aux autres types de pollutions aquatiques.
+Nous avions vu une pollution par les nutriments dans l'article sur l'[eutrophisation](/blog/2024/01/17/eutrophisation). L'écotoxicité de l'eau s'intéresse donc aux autres types de pollutions aquatiques.
 
 Les activités humaines contaminent l'eau de manières très variées.
 

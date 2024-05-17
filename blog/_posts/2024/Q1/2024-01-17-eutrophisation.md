@@ -7,7 +7,8 @@ thumb: /assets/img/posts/2024/Q1/thumb-eutrophisation
 podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6606bf0d28320a0015b84f4b/media.mp3
 ---
 
-Les problèmes environnementaux ne se réduisent pas uniquement au climat ! Cette semaine intéressons-nous à l'eutrophisation
+Les problèmes environnementaux ne se réduisent pas uniquement au climat ! Je vous propose un premier volet sur les [crises environnementales](/blog/2024/01/16/crises-environnementales) : on va parler cette fois-ci de l'eutrophisation.
+
 
 ## Mais de quoi s'agit-il ?
 

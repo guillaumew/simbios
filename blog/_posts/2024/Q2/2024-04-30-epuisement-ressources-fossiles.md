@@ -7,6 +7,8 @@ thumb: /assets/img/posts/2024/Q2/fossil-fuel
 podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6630ba75224e900013aeca9a/media.mp3
 ---
 
+Je vous propose un nouveau volet sur les [crises environnementales](/blog/2024/01/16/crises-environnementales) : on va parler cette fois-ci de l'épuisement des ressources fossiles.
+
 ## De quoi s’agit-il ?
 
 Les ressources fossiles correspondent au :
@@ -49,7 +51,7 @@ Les usages sont listés plus haut. Voici leur répartition à l’échelle mond
 
 On ne va pas parler ici des problèmes issus de la combustion des énergies fossiles. Ces derniers sont traités dans les crises environnementales dédiées :
 
-- dérèglement climatique (article à venir)
+- [changement climatique](/blog/2024/05/15/changement-climatique)
 - [acidification atmosphérique](/blog/2024/03/05/acidification.html)
 - particules (article à venir)
 
