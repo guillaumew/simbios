@@ -4,8 +4,7 @@ description: "Nos activités perturbent le climat, augmentant la température mo
 tags: ["Crises environnementales", "Fossile", "Climat"]
 image: /assets/img/posts/2024/Q2/thumb-climat.webp
 thumb: /assets/img/posts/2024/Q2/thumb-climat
-podcast: null
-published: true
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/664c57382cecde0012c6f5d7/media.mp3
 ---
 
 Dans cette série sur les [crises environnementales](/blog/2024/01/16/crises-environnementales), nous arrivons à la crise la plus notoire : le changement climatique.
@@ -56,7 +55,7 @@ La hausse du niveau de l'océan est très lente. Dans un scénario optimiste ave
 Cette augmentation du niveau de la mer provoquera la migration de nombreuses personnes.
 
 #### Mise en danger de la vie océanique
-La biodiversité marine est mise en danger par le réchauffement climatique. Cela affecte particulièrement les coraux qui sont sensibles à la température de l'eau.Avec une hausse de 2°C de la température de l'eau, on estime que 99% des récifs coralliens disparaîtront ({% include link.html text="source" link="https://www.un.org/fr/climatechange/science/climate-issues/ocean-impacts" %}).
+La biodiversité marine est mise en danger par le réchauffement climatique. Cela affecte particulièrement les coraux qui sont sensibles à la température de l'eau. Avec une hausse de 2°C de la température de l'eau, on estime que 99% des récifs coralliens disparaîtront ({% include link.html text="source" link="https://www.un.org/fr/climatechange/science/climate-issues/ocean-impacts" %}).
 
 A cela s'ajoute également l'[acidification](/blog/2024/03/05/acidification) provoquée également par les émissions de dioxyde de carbone. L'acidification des océans est particulièrement problématique pour les créatures à coquille ou à squelette calcaire comme certaines espèces de plancton qui sont à la base de la chaîne alimentaire. Leur disparition menace donc l'ensemble des espèces marines.
 
@@ -112,7 +111,7 @@ Les émissions d'ozone proviennent indirectement de la combustion des hydrocarbu
 
 ### Quantifier les impacts des différents gaz
 
-Nous avons vu que différents gaz sont en jeu dans l'effet de serre additionnel. Ces derniers n'ont pas le même apport. Par exemple une molécule de méthane possède un potentiel de réchauffement bien plus important qu'une molécule de dioxyde de carbone (0,37 mWm<sup>-2</sup>ppb<sup>-1</sup> vs 0,014 pour le CO<sub>2</sub>). Par contre, la molécule de méthane est moins stable de l'atmosphère et disparaîtra rapidement (en une dizaine d'années), là où le dioxyde de carbone va rester plusieurs centaines d'années dans l'atmosphère.
+Nous avons vu que différents gaz sont en jeu dans l'effet de serre additionnel. Ces derniers n'ont pas le même apport. Par exemple une molécule de méthane possède un potentiel de réchauffement bien plus important qu'une molécule de dioxyde de carbone (0,37 mWm<sup>-2</sup>ppb<sup>-1</sup> contre 0,014 pour le CO<sub>2</sub>). Par contre, la molécule de méthane est moins stable de l'atmosphère et disparaîtra rapidement (en une dizaine d'années), là où le dioxyde de carbone va rester plusieurs centaines d'années dans l'atmosphère.
 
 Pour comparer les différents gaz, il a été décidé de comparer leur contribution à l'effet de serre sur une période de 100 ans. Comme le dioxyde de carbone est le principal acteur, tous les autres gaz sont comparés à lui. Pour quantifier la quantité de gaz on utilise leur masse. On quantifie donc l'impact sur le dérèglement climatique en kg C0<sub>2</sub> eq. 
 
@@ -144,10 +143,10 @@ L'idée qui repose derrière est qu'on vous attribue l'empreinte carbone des pro
 
 ## Où en sommes-nous ?
 
-### L'accord de Paris
+### L'accord de Paris (2015)
 Depuis 1850, nous avons émis près de 2 500 GtCO<sub>2</sub>eq. Cela a conduit à un réchauffement moyen de 1,2°C de la planète (source {% include link.html link="https://report.ipcc.ch/ar6/wg1/IPCC_AR6_WGI_FullReport.pdf" text="6e rapport du GIEC groupe 1" %}, p28).
 
-Selon l'accord de Paris ({% include link.html text="COP21" link="https://unfccc.int/fr/a-propos-des-ndcs/l-accord-de-paris" %}), 195 nations se sont engagées à rester sous un réchauffement à 2°C. Ce réchauffement sera atteint avec 3500 GtCO<sub>2</sub>eq. Cela signifie qu'il nous reste 1 000 GtCO<sub>2</sub>eq qu'on peut émettre.
+Selon l'accord de Paris ({% include link.html text="COP21" link="https://unfccc.int/fr/a-propos-des-ndcs/l-accord-de-paris" %}), 195 nations se sont engagées à rester sous un réchauffement à 2°C. Ce réchauffement sera atteint avec 3500 GtCO<sub>2</sub>eq. Cela signifie (modulo quelques simplificiations) qu'il nous reste 1 000 GtCO<sub>2</sub>eq qu'on peut émettre.
 
 Nous émettons aujourd'hui un peu plus de 40 GtCO<sub>2</sub>eq par an (source {% include link.html link="https://report.ipcc.ch/ar6/wg1/IPCC_AR6_WGI_FullReport.pdf" text="6e rapport du GIEC groupe 1" %}, p88). A ce rythme nous aurons donc franchi le seuil des +2°C en 25 ans.
 
@@ -194,7 +193,7 @@ En France, d'après {% include link.html link="https://www.arcep.fr/uploads/tx_g
 
 *Part des émissions de gaz à effet de serre en France*
 
-On note que l'énergie décarbonnée en France permet de considérable réduire la part utilisation du secteur numérique français.
+On note que l'énergie décarbonnée en France permet de considérablement réduire l'impact climatique à l'utilisation du secteur numérique français.
 
 ## Que peut-on faire ?
 
@@ -211,7 +210,9 @@ Quelques exemples :
 - prendre un contrat d'énergies renouvelables pour l'électricité
 - réduire les achats plaisirs ou peu utiles
 
-A vous de trouver ce qui vous convient !
+A vous de trouver les gestes qui vous conviennent !
+
+Si vous cherchez une base de données pour découvrir les ordres de grandeurs d'empreintes carbone dans le vie de tous les jours, je vous invite à utiliser {% include link.html link="https://impactco2.fr/" text="Impact CO<sub>2</sub>" %}. Pour aller plus loin dans les détails, vous pouvez utiliser la {% include link.html text="Base Empreinte" link="https://base-empreinte.ademe.fr/donnees/jeu-donnees" %} de l'ADEME (nécessite de se créer un compte gratuit).
 
 ### Pour le numérique
 
@@ -228,6 +229,7 @@ Ensuite, viennent nos usages numériques. Lorsque nous utilisons nos terminaux n
 
 ## Pour en apprendre plus sur le climat
 
+- Lire l'article {% include link.html link="https://www.notre-environnement.gouv.fr/themes/climat/article/les-emissions-de-gaz-a-effet-de-serre-et-l-empreinte-carbone" text="Les émissions de gaz à effet de serre et l’empreinte carbone" %} de notre-environnement.gouv.fr.
 - Vous pouvez participer à une {%include link.html link="https://fresqueduclimat.org/inscription-atelier/" text="Fresque du climat" %} pour mieux connaître les mécanismes du dérèglement climatique.
 - Pour mieux appréhender les ordres de grandeurs je vous invite à participer à un atelier {% include link.html text="2 tonnes" link="https://www.2tonnes.org/atelier" %} ou {% include link.html link="https://www.nosviesbascarbone.org/participer-a-un-atelier/" text="Inventons nos vies bas carbone" %}.
 - Le {% include link.html text="blog de Jean-Marc Jancovici" link="https://jancovici.com/category/changement-climatique/" %} possède des dizaines d'articles passionnants sur le sujet. 
