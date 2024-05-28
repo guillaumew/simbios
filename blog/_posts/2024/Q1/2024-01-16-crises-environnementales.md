@@ -25,7 +25,7 @@ Dans les analyses de cycle de vie, on se penche sur les trois dommages principau
 
 Que l'on suit au travers de 16 catégories d'impact environnemental :
 - Utilisation des ressources fossiles ([voir l'article sur l'usage des ressources fossiles](/blog/2024/04/30/epuisement-ressources-fossiles))
-- Utilisation des minerais et des métaux
+- Utilisation des minerais et des métaux ([voir l'article sur l'utilisation des minerais et des métaux](/blog/2024/05/27/utilisation-des-metaux))
 - Acidification atmosphérique ([voir l'article sur l'acidification](/blog/2024/03/05/acidification.html))
 - Eutrophisation terrestre ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
 - Eutrophisation des eaux douces ([voir l'article sur l'eutrophisation](/blog/2024/01/17/eutrophisation.html))
