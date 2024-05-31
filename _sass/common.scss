@@ -39,6 +39,15 @@ hr{
  .off-screen {
     position: absolute;
     top: -2em;
+    &:focus{
+        top: 5px;
+        color: white;
+        z-index: 10;
+        border: 1px white solid;
+        background: #1116;
+        left: 30%;
+        padding: 5px;
+    }
  }
 .content-box {
     padding: 1em;
