@@ -11,7 +11,7 @@ Dans cette série sur les [crises environnementales](/blog/2024/01/16/crises-env
 
 ## Quel est le problème ?
 
-Nous avons besoins de métaux pour fabriquer beaucoup des produits qui servent aux activités humaines. On ne parle pas uniquement des métaux rares, mais de l'ensemble des métaux.
+Nous avons besoin de métaux pour fabriquer beaucoup des produits qui servent aux activités humaines. On ne parle pas uniquement des métaux rares, mais de l'ensemble des métaux.
 
 Il suffit alors de jeter un coup d'œil sur le tableau de Mendeleïev pour se rendre compte que presque tous les éléments qui existent sont des métaux (dans ce contexte les métalloïdes sont considérés comme des métaux).
 
@@ -21,7 +21,7 @@ Il suffit alors de jeter un coup d'œil sur le tableau de Mendeleïev pour se re
 %}
 *Répartition des métaux dans le tableau périodique des éléments ({% include link.html text="source : Wikipedia" link="https://fr.wikipedia.org/wiki/M%C3%A9tal" %}).*
 
-Le problème, c'est que ces matériaux ne se renouvellent pas. Nous avons donc des réserves limitées de métaux. Nos usages sont assez importants pour provoquer des pénuries.
+Le problème est que ces matériaux ne se renouvellent pas. Nous avons donc des réserves limitées de métaux. Nos usages sont assez importants pour provoquer des pénuries.
 
 Le risque de pénuries est accru par la répartition très inégale des métaux à travers le monde. Par exemple, si l'Afrique du Sud venait à se couper du monde économique (guerre, décision politique...), nous n'aurions plus accès à l'indium (adieu les écrans tactiles).
 {% responsive_image 
@@ -36,7 +36,7 @@ Ainsi, en prenant en compte l'importance économique de chacun des métaux et le
 - le lithium
 - le titane
 - le platine
-- le cobalt (on en a déjà parlé de [ce métal et des guerres qu'il provoque](/blog/2024/04/03/numerique-et-guerre))
+- le cobalt (on a déjà parlé de [ce métal et des guerres qu'il provoque](/blog/2024/04/03/numerique-et-guerre))
 - le nickel
 
 ## Terres rares, métaux rares, matériaux critiques... petit lexique
@@ -45,24 +45,24 @@ Ainsi, en prenant en compte l'importance économique de chacun des métaux et le
 Il s'agit d'une liste de matériaux jugés critiques par la commission européenne. Il ne s'agit pas forcément de métaux (même si l'essentiel des matériaux cités en sont). Ces derniers ne sont pas forcément rares. Par exemple, l'aluminium est jugé critique alors qu'il n'est pas rare. 
 
 ### Les terres rares
-Il s'agit de 17 métaux aux propriétés proches : Scandium, Yttrium et les 15 lanthanides. Malgré leur nom, ces métaux relativement répandus dans la croûte terrestre. En réalité, on les qualifie de "rares" car ils sont extrêmement difficiles à extraire et à raffiner. 
+Il s'agit de 17 métaux aux propriétés proches : Scandium, Yttrium et les 15 lanthanides. Au delà de leur appellation, ces métaux sont relativement répandus dans la croûte terrestre. En réalité, on les qualifie de "rares" car ils sont extrêmement difficiles à extraire et à raffiner. 
 {% include link.html link="https://www.vie-publique.fr/parole-dexpert/289457-terres-rares-quels-enjeux-pour-la-france-et-leurope" text="En savoir plus sur les terres rares" %}
 
 ### Les métaux précieux, rares ou stratégiques
 Il n'y a pas réellement de classification officielle pour ces métaux, même si on y fait souvent référence. En fonction du contexte, on peut donc parler de métaux différents. Voici deux exemples :
-- L'or est définitivement un métal précieux. Il est nécessaire pour la fabrication de nombreux objets électronique. Mais pour le moment son approvisionnement semble relativement sécurisé. On ne parle donc généralement pas de métal rare.
-- Le cuivre est un cas à part. On en trouve encore des quantités importantes dans la croûte terrestre, mais ses usages sont très importants et touchent à presque tous les secteurs. Il est donc jugé stratégique sans être pour autant rare ou précieux.
+- L'or est définitivement un métal précieux. Il est nécessaire pour la fabrication de nombreux objets électroniques. Mais pour le moment son approvisionnement semble relativement sécurisé. On ne parle donc généralement pas de métal rare.
+- Le cuivre est un cas à part. On en trouve encore des quantités importantes dans la croûte terrestre, mais ses usages sont très importants et touchent presque tous les secteurs. Il est donc jugé stratégique sans être pour autant rare ou précieux.
 - l'uranium (ou les actinides de manière générale) est un cas particulier puisqu'ils sont utilisés comme "combustibles".
 
 Pour en savoir plus, je vous invite à consulter {% include link.html link="https://www.mineralinfo.fr/fr/securite-des-approvisionnements-pour-leconomie/substances-critiques-strategiques" text="le portail français des ressources minérales non énergétiques" %}
 
 ## Comment quantifie-t-on l'utilisation des métaux ?
 
-Quand on parle de l'utilisation de métaux, on pense à l'ensemble des métaux qui existent. Ils sont donc utilisés pour la fabrication de presque tous les objets du quotidien (si ces derniers ne contiennent pas de métal, les machines qui les ont fabriqués en ont très probablement).
+Quand on parle de l'utilisation de métaux, on pense à l'ensemble des métaux qui existent. Ils sont donc utilisés pour la fabrication de presque tous les objets du quotidien (si ces derniers ne contiennent pas de métal, les machines qui les ont fabriqués en sont très probablement pourvues).
 
 Toutefois, on s'intéresse principalement aux métaux qui peuvent venir à manquer dans les prochaines années. On s'intéresse donc très peu aux usages du fer ou du silicium bien que ces derniers soient très largement utilisés dans nos activités.
 
-Il existe deux plusieurs méthodes pour quantifier l'usage des différents métaux. Je vais en décrire deux.
+Il existe plusieurs méthodes pour quantifier l'usage des différents métaux. Je vais en décrire deux.
 
 ### MIPS : apport de matière par unité de service
 
@@ -86,7 +86,7 @@ Pour aller plus loin, je vous invite à consulter directement la {% include link
 
 ### ADP : Potentiel d'épuisement de ressources abiotiques 
 
-On préférera utiliser une méthode sur l'épuisement des ressources abiotiques (= non vivantes). Parmi ces dernières, c'est la méthode CML-IA qui a fait le consensus. De manière générale, l'idée est de regarder l'exploitation annuelle de matériau et de les confronter aux gisements existants (abondance, facilité d'exploitation, pérennité...).
+On préférera utiliser une méthode sur l'épuisement des ressources abiotiques (= non vivantes). Parmi ces dernières, c'est la méthode CML-IA qui a fait le consensus. De manière générale, l'idée est de regarder l'exploitation annuelle de matériaux et de les confronter aux gisements existants (abondance, facilité d'exploitation, pérennité...).
 
 Pour comparer les différents métaux, on a décidé de tout comparer à l'antimoine qui est un des métaux les plus rares. On parle donc en kg Sb eq.
 
@@ -110,7 +110,7 @@ Les métaux sont utilisés par :
 - l'agriculture (borates dans les engrais)
 - la défense
 
-## Et le recyclage dans tous ça ?
+## Et le recyclage dans tous cela ?
 
 On le sait, les métaux peuvent normalement facilement se recycler. Je dis normalement, puisqu'il existe plusieurs barrières qui rendent le recyclage des métaux rares inefficaces.
 
@@ -120,8 +120,8 @@ Pour recycler, il faut d'abord correctement collecter les déchets afin qu'ils s
 
 Les déchets non collectés finissent au mieux dans un incinérateur pour produire de l'énergie, au pire ils sont jetés dans la nature et polluent leur environnement.
 
-### Difficulté d'isoler les métaux
-Les métaux rares sont souvent utilisés pour fabriquer des objets technologiques très complexes. Nos smartphones en sont un très bon exemple. Ses composants sont ultra-miniaturisés ce qui rend le recyclage très difficile. Comment faire pour séparer et isolé tous les matériaux qui le composent ?
+### Difficulté pour isoler les métaux
+Les métaux rares sont souvent utilisés pour fabriquer des objets technologiques très complexes. Nos smartphones en sont un très bon exemple. Ses composants sont ultra-miniaturisés ce qui rend le recyclage très difficile. Comment faire pour séparer et isoler tous les matériaux qui le composent ?
 
 Il existe des procédés qui permettent de séparer les métaux, mais ces derniers sont coûteux d'un point de vue économique et sont donc réservés aux métaux les plus rentables (Or, Argent, Platine, Cuivre).
 
@@ -142,7 +142,7 @@ Pour en savoir plus, je vous invite à lire cet article : {% include link.html l
 
 ### Le Japon
 
-Le Japon a bien compris l'importance de l'approvisionnement en métaux rares depuis plusieurs années. Ils ont donc mis en place des actions pour limiter leur dépendance, notamment celle à la Chine.
+Le Japon a bien compris l'importance de l'approvisionnement en métaux rares depuis plusieurs années. Il a donc mis en place des actions pour limiter leur dépendance, notamment celle à la Chine.
 
 Le pays a donc investi massivement dans la recherche publique pour améliorer les techniques de recyclage des objets électroniques. Le but est notamment de parvenir à récupérer les terres rares.
 
@@ -152,7 +152,7 @@ En collaboration avec le secteur privé, le pays a mis en place des "mines urbai
 
 ### L'Union Européenne
 
-L'Union Européenne a publié en mars 2023 le {% include link.html text="Critical Raw Material Act" link="https://ec.europa.eu/commission/presscorner/detail/fr/ip_23_1661" %}. Ce texte via à :
+L'Union Européenne a publié en mars 2023 le {% include link.html text="Critical Raw Material Act" link="https://ec.europa.eu/commission/presscorner/detail/fr/ip_23_1661" %}. Ce texte vise à :
 - mieux exploiter les ressources minières européennes
 - sécuriser au maximum l'approvisionnement en matériaux
 - développer le recyclage et les certifications RSE
@@ -192,7 +192,7 @@ On voit bien qu'en 10 ans, nous allons multiplier nos usages par 4, 6 10 !!!
 
 ### Limite planétaire
 
-Le {% include link.html text="JRC (Joint Research Centre)" link="https://www.sciencedirect.com/science/article/pii/S0301479720306186#tbl3" %} européen impose une limite planétaire pérenne à 219 kt Sb eq par an. Il faut donc qu'on arrive à moins de 32 g Sb eq par habitant (si la population reste stable).
+Le {% include link.html text="JRC (Joint Research Centre)" link="https://www.sciencedirect.com/science/article/pii/S0301479720306186#tbl3" %} européen impose une limite planétaire pérenne à 219 kt Sb eq par an. Il faut donc arriver à moins de 32 g Sb eq par habitant (si la population reste stable).
 
 32 g Sb eq, cela correspond environ à la fabrication de 4 ordinateurs portables (source {% include link.html text="Base Impact ADEME" link="https://base-empreinte.ademe.fr/documentation/base-impact" %})
 
@@ -203,9 +203,9 @@ Le {% include link.html text="JRC (Joint Research Centre)" link="https://www.sci
 D'après le rapport {% include link.html link="https://www.greenit.fr/etude-empreinte-environnementale-du-numerique-mondial/" text="Empreinte environnementale du numérique mondial" %} (2019) du collectif GreenIT.fr, le numérique mondial nécessite 22 millions de kg Sb eq annuellement pour fonctionner. Cela correspond à environ 10 % de la limite pérenne proposée par le JRC.
 
 10 % de la limite planétaire pour le numérique, cela peut sembler acceptable. Mais il faut prendre en compte :
-- les usages croissants en métaux dans l'énergie et le transport pour faire face à la crise climatique. On a vu plus au qu'on s'attend à devoir en utiliser 4 à 10 fois plus !
-- la croissance exponentielle du secteur numérique qui contribue
-- la situation géopolitique actuelle est déjà tendue pour sécuriser l'approvisionnement à ces métaux. Si les usages continuent de croître, cela ne peut qu'empirer.
+- les usages croissants en métaux dans l'énergie et le transport pour faire face à la crise climatique. On a vu plus haut qu'on s'attend à devoir en utiliser 4 à 10 fois plus !
+- la croissance exponentielle du secteur numérique qui va nécessiter des métaux toujours plus spécifiques
+- la situation géopolitique actuelle est déjà tendue pour sécuriser l'approvisionnement de ces métaux. Si les usages continuent de croître, cela ne peut qu'empirer.
 
 Cet impact est très majoritairement (75%) dû à la fabrication de nos terminaux (smartphones, ordinateurs, téléviseurs...) 
 
@@ -235,7 +235,7 @@ Il convient donc d'être attentifs à nos usages et de privilégier la sobriét�
 ### Dans le numérique
 
 Le numérique possède une très large empreinte sur la consommation des métaux. Il convient donc d'être vigilent, surtout que certains gestes assez faciles peuvent avoir un impact très important.
-- **Valoriser le matériel inutilisé** : si vous avez des terminaux numériques inutilisés, il faut absolument les valoriser. Vous pouvez les vendre en l'état, les faire reconditionner ou les recycler. Cela permettra soit de limiter la production de nouveaux terminaux, soit d'accéder à des matériaux recycler. Plus de détail sur comment faire dans mon article sur le [Digital Cleanup Day](/blog/2024/03/12/digital-cleanup)
+- **Valoriser le matériel inutilisé** : si vous avez des terminaux numériques inutilisés, il faut absolument les valoriser. Vous pouvez les vendre en l'état, les faire reconditionner ou les recycler. Cela permettra soit de limiter la production de nouveaux terminaux, soit d'accéder à des matériaux recyclés. Plus de détail sur comment faire dans mon article sur le [Digital Cleanup Day](/blog/2024/03/12/digital-cleanup)
 - **Limiter l'achat de terminaux** : Pour limiter d'ajouter une pression sur les métaux rares, le mieux est d'éviter de produire des terminaux. 
   - Il faut prendre soin de vos appareils pour qu'ils durent le plus longtemps (housse, coque, protection d'écran)
   - Vous n'avez peut-être pas besoin d'un 2e smartphone (dual sim ?) ou d'une montre connectée
@@ -243,7 +243,7 @@ Le numérique possède une très large empreinte sur la consommation des métaux
 
 ## Pour aller plus loin
 
-J'ai mis de nombreuses ressources tout au long de cet article. Voici les principales : 
+J ai fait appel à de nombreuses sources tout au long. Voici les principales : 
 
 - {% include link.html link="https://commission.europa.eu/system/files/2023-05/grow_mp_2023_en.pdf" text="DG GROW" %} de la Commision Européenne
 - {% include link.html link="https://www.vie-publique.fr/parole-dexpert/289457-terres-rares-quels-enjeux-pour-la-france-et-leurope" text="Terres rares : quels enjeux pour la France et l'Europe ? " %} de Vie Publique
