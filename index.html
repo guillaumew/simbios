@@ -50,7 +50,7 @@ css: home.css
         </div>
 
         <div class="content-box grid-item" style="--medium:40%;">
-            <h4>Newsletter</h4>
+            <h3>Newsletter</h3>
             <div>
                 Un email par mois sur le numérique responsable et l'environnement.
             </div>
@@ -62,20 +62,20 @@ css: home.css
                         <input id="EMAIL" name="EMAIL" type="email" placeholder="nom@domaine.com" autocomplete="on" data-required="true" required aria-required="true">
                     </label>
                     <div class="social">
-                        <button type="submit" class="button">S'inscrire</button>
+                        <button type="submit" class="button" aria-label="S'inscrire à la newsletter">S'inscrire</button>
                     </div>
                     <input type="hidden" name="locale" value="fr">
                     <input type="hidden" name="html_type" value="simple">
                 </fieldset>
             </form>
 
-            <h4>Retrouvez-moi</h4>
+            <h3>Retrouvez-moi</h3>
             <div class="grid">
                 <div class="social">
-                    {% include link.html text="LinkedIn" link="https://www.linkedin.com/in/guillaumewolf/" class="button" aria-role="button" %}
+                    {% include link.html text="LinkedIn" link="https://www.linkedin.com/in/guillaumewolf/" class="button" aria-role="button" aria-label="Consulter mon profil LinkedIn" %}
                 </div>
                 <div class="social">
-                    {% include link.html text="Malt" link="https://www.malt.fr/profile/guillaumewolf1" class="button" aria-role="button" %}
+                    {% include link.html text="Malt" link="https://www.malt.fr/profile/guillaumewolf1" class="button" aria-role="button" aria-label="Consulter mon profil Malt" %}
                 </div> 
             </div>
         </div>
