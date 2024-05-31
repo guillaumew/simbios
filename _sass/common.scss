@@ -8,6 +8,9 @@
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
+html {
+    scroll-padding-top: 4em;
+}
 body {
     line-height: 1.7em;
     color: $dark_teal-color;
