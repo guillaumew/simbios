@@ -1,27 +1,27 @@
 
-<div class="home-menu" role="menu">
+<div class="home-menu">
     <a href="/" aria-label="Retour à la page d'accueil">
         <div class="logo simbios_logo"> </div>
         <span class="heading">SIMBIOS</span>
     </a>
     <div id="menuToggle">
-        <input type="checkbox" name="Montrer le menu" title="Afficher/cacher le menu">
+        <input type="checkbox" name="Montrer le menu" title="Afficher/cacher le menu" aria-controls="menu">
         <span></span>
         <span></span>
         <span></span> 
-        <ul class="menu-list">
-            <li class="menu-item">
-                <a href="/services/">
+        <ul class="menu-list" role="menu" id="menu">
+            <li class="menu-item" role="presentation">
+                <a href="/services/" role="menuitem">
                     Services
                 </a>
             </li>
-            <li class="menu-item">
-                <a href="/blog/">
+            <li class="menu-item" role="presentation">
+                <a href="/blog/" role="menuitem">
                     Blog
                 </a>
             </li>
-            <li class="menu-item">
-                <a href="/contact.html">
+            <li class="menu-item" role="presentation">
+                <a href="/contact" role="menuitem">
                     Contact
                 </a>
             </li>
