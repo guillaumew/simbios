@@ -1,0 +1,99 @@
+.home_chart{
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    border: 1px solid $teal-color;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba($teal-color,0.15);
+    .scroll {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+    }
+    .phase {
+        background-color: rgba($teal-color,0.75);
+        height: 30px;
+        margin-bottom: 5px;
+        position: relative;
+        a {
+            color: white;
+            overflow: hidden;
+            position: absolute;
+            line-height: 30px;
+            height: 30px;
+            width: 100%;
+        }
+        &:after {
+            position: relative;
+            display: block;
+            left: 100%;
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-width: 15px;
+            border-color: transparent transparent transparent rgba($teal-color,0.75);
+        }
+        &:hover {
+            background-color: $teal-color;
+            &::after {
+                border-color: transparent transparent transparent $teal-color;
+            }
+        }
+    }
+    .avant-projet {
+        left:0;
+        width:8.33%;
+        width: calc(8.33% - 15px);
+    }
+    .sensibilisation {
+        left:0%;
+        width: 50%;
+        width: calc(50% - 15px);
+    }
+    .etat-des-lieux{
+        left:8.33%;
+        width:33.33%;
+        width: calc(33.33% - 15px);
+    }
+    .stratégie{
+        left:41.66%;
+        width:8.33%;
+        width: calc(8.33% - 15px);
+    }
+    .réduction{
+        left:50%;
+        width:41.33%;
+        width: calc(41.33% - 15px);
+    }
+    .formation{
+        left:50%;
+        width:50%;
+        width: calc(50% - 15px);
+    }
+    .communication {
+        left: 91.66%;
+        width: 8.33%;
+        width: calc(8.33% - 15px);
+    }
+    .timeline {
+        width: 100%;
+        height: 25px;
+        .left {
+            text-align: left;
+            left:0;
+        }
+        .center {
+            text-align: center;
+            left:50%;
+        }
+        .right {
+            text-align: right;
+            right:0;
+        }
+        span {
+            position: absolute;
+        }
+    }
+}

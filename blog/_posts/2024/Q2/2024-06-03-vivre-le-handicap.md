@@ -4,12 +4,12 @@ description: "Mettons-nous dans la peau d'une personne avec un handicap qui la f
 tags: ["Numérique responsable", "Cécité", "Clavier", "Accessibilité"]
 image: /assets/img/posts/2024/Q2/guillaume-blind-folded.webp
 thumb: /assets/img/posts/2024/Q2/guillaume-blind-folded
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/665eccf36e20900012d28694/media.mp3
 ---
 
 Dans un [article précédent](/blog/2023/09/27/numerique_et_handicap), nous avions déjà parlé des différents handicaps qui pouvaient nuire à l'usage d'outils numériques. Je vous y avais alors invité à faire l'expérience d'une navigation web avec handicap sur une {% include link.html link="https://www.atalan.fr/agissons/fr/" text="interface qui simule plusieurs handicaps" %}.
 
-J'ai eu la chance d'aller un cran plus loin grâce à un atelier immersif proposé par l'{% include link.html link="https://aciah-linux.org/" text="ICIAH" %}. L'ICIAH (Accessibilité, Communication, Information, Accompagnement du Handicap) est une association qui a pour objectif d'aider les personnes à accéder aux outils numériques.
+J'ai eu la chance d'aller un cran plus loin grâce à un atelier immersif proposé par l'{% include link.html link="https://aciah-linux.org/" text="ACIAH" %}. L'ACIAH (Accessibilité, Communication, Information, Accompagnement du Handicap) est une association qui a pour objectif d'aider les personnes à accéder aux outils numériques.
 
 Nous allons donc réaliser des opérations très simples avec des contraintes :
 - d'abord sans la souris (difficile à utiliser avec certains handicaps moteurs comme la maladie de Parkison)
@@ -21,7 +21,7 @@ Les opérations simples consistent :
 - rédiger et enregistrer un document
 - consulter une page web
 
-Pour faciliter la navigation au clavier, nous allons utiliser un lecteur d'écran ({% include link.html text="Orca" link="https://help.gnome.org/users/orca/stable/index.html.fr" %} dans notre cas). L'ICIAH nous a également proposé sa version de Linux avec des outils permettant de pouvoir utiliser l'ordinateur plus facilement sans écran et sans souris.
+Pour faciliter la navigation au clavier, nous allons utiliser un lecteur d'écran ({% include link.html text="Orca" link="https://help.gnome.org/users/orca/stable/index.html.fr" %} dans notre cas). L'ACIAH nous a également proposé sa version de Linux avec des outils permettant de pouvoir utiliser l'ordinateur plus facilement sans écran et sans souris.
 
 Voici quelques-une de mes impressions :
 
