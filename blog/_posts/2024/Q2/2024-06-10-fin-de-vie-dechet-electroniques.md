@@ -4,7 +4,7 @@ description: "Voici éléments chiffrés de la fin de vie de nos équipements nu
 tags: ["Fin de vie", "Recyclage", "Réutilisation", "Déchets"]
 image: /assets/img/posts/2024/Q2/thumb-broken-phone.webp
 thumb: /assets/img/posts/2024/Q2/thumb-broken-phone
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/66705d089e45e1a3116cb5e6/media.mp3
 ---
 
 Il n'existe malheureusement pas de données exhaustives et fiables sur la fin de vie des déchets numériques, mais on trouve plus facilement des rapports sur l'ensemble des déchets electriques et électroniques (DEEE) que j'appellerai déchets électroniques par la suite.
@@ -45,13 +45,36 @@ L'objectif de collecte des appareils électronique est de 65% (ce ratio est calc
 
 Les déchets électroniques peuvent être traités de plusieurs manières. On peut :
 
-| Traitement                             | Part des DEEE |
-|----------------------------------------|---------------|
-| Préparation en vue d'une réutilisation |  1.3 % |
-| Réutilisation des pièces / comporants  |  0.5 % |
-| Recyclage matière                      | 75.2 % |
-| Valorisation énergétique (incénration) |  9.8 % |
-| Elimination (enfouissement)            | 13.3 % |
+<table>
+<thead>
+<tr>
+  <th scope="col">Traitement</th>
+  <th scope="col">Part des DEEE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Préparation en vue d'une réutilisation</td>
+  <td>1.3 %</td>
+</tr>
+<tr>
+  <td>Réutilisation des pièces / composants </td>
+  <td>0.5 %</td>
+</tr>
+<tr>
+  <td>Recyclage matière </td>
+  <td>75.2 %</td>
+</tr>
+<tr>
+  <td>Valorisation énergétique (incinération)</td>
+  <td>9.8 %</td>
+</tr>
+<tr>
+  <td>Elimination (enfouissement)  </td>
+  <td>13.3 %</td>
+</tr>
+</tbody>
+</table>
 
 *Portion (en masse) des déchets électroniques traités en France en 2020 (source {% include link.html link="https://librairie.ademe.fr/dechets-economie-circulaire/5191-equipements-electriques-et-electroniques-donnees-2020.html" text="ADEME" %})*
 

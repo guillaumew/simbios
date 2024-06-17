@@ -24,6 +24,9 @@ h4,
 h5,
 h6 {
     color: $teal-color;
+    &:focus, &:target{
+        border: 1px solid $teal-color;
+    }
 }
 a {
     color: $teal-color;

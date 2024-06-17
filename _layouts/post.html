@@ -18,7 +18,7 @@ layout: page
 				width=200
 				height=200
 			%}
-			<h4>{{page.title}}</h4>
+			<h2>{{page.title}}</h2>
 			<p>Paru le {{ page.date | date: "%d/%m/%Y" }}</p>
 			{% if page.tags %}
 			{% include tags_list.html tags=page.tags %}
@@ -27,7 +27,7 @@ layout: page
 				<p>Partager cet article :</p>
 				{% for social in site.data.social %}
 					{% capture url_path %}{{social.url}}{{site.url}}{{page.url}}{% endcapture %}
-					{% capture icon %}<span class="{{social.name}} social_icons inner-center"></span>{% endcapture %}
+					{% capture icon %}<span class="{{social.name}} social_icons inner-center" role="img" aria-label="{{social.link_label}}"></span>{% endcapture %}
 					{% include link.html link=url_path text=icon class="social_link outer-center" aria-label=social.link_label %}
 				{% endfor %}
 			</div>
