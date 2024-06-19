@@ -37,7 +37,9 @@ Pour l'ensemble des applications, le mode sombre permet d'économiser entre 21% 
 - l'écran est ce qui consomme le plus d'énergie dans un smartphone
 - le mode sombre a un impact significatif
 
-Je vous invite donc à tester ce mode proposé sur Android et iOS ainsi que sur tous les navigateurs modernes. D'ailleurs, ce site est compatible avec le mode sombre.
+Je vous invite donc à tester ce mode proposé sur Android et iOS ainsi que sur tous les navigateurs modernes. D'ailleurs, ce site est compatible avec le mode sombre. 
+
+Pour aller plus loin, je vous invite à lire cet [article sur le mode sombre](/blog/2024/06/18/mode-sombre).
 
 ## Rétro-compatibilité
 
