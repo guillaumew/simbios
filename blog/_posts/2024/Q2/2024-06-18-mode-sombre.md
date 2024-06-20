@@ -4,7 +4,7 @@ description: "Comment économiser jusqu'à 35% de batterie sur un simple paramé
 tags: ["Paramétrage", "Electricité", "Eco-geste", "Sombre"]
 image: /assets/img/posts/2024/Q2/thumb-darkmode.webp
 thumb: /assets/img/posts/2024/Q2/thumb-darkmode
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/66744c428fbce3001224ef74/media.mp3
 ---
 
 ## A quoi correspond le mode sombre ?
@@ -13,7 +13,7 @@ La plupart des smartphones et des navigateurs proposent un mode de fonctionnemen
 
 Ce mode de fonctionnement s'appelle généralement le mode sombre ou dark mode ou peut porter des noms similaires (dark theme, smart dark).
 
-Les applications ou site internet qui ont fait l'effort de supporter cette fonctionnaltié doivent donc privilégier des fonds sombres voire noir.
+Les applications ou site internet qui ont fait l'effort de supporter cette fonctionnaltié doivent donc privilégier des fonds sombres voire noirs.
 
 {% responsive_image 
   path: assets/img/posts/2024/Q2/dark-light.webp 
@@ -25,7 +25,7 @@ Les applications ou site internet qui ont fait l'effort de supporter cette fonct
 
 ### S'adapter à la luminosité ambiante
 
-Le mode sombre permet de limiter la luimière provenant de son écran (un fond d'écran sombre émet moins de lumière qu'un fond blanc). Cela peut s'avérer confortable dans des environnements où il y a peu de lumière ambiante.
+Le mode sombre permet de limiter la lumière provenant de son écran (un fond d'écran sombre émet moins de lumière qu'un fond blanc). Cela peut s'avérer confortable dans des environnements où il y a peu de lumière ambiante.
 
 ### Une lisibilité généralement plus difficile 
 
@@ -40,7 +40,7 @@ Dans certains cas, cela permet même d'améliorer la facilité de lecture. Toute
 
 Pour afficher des couleurs sur l'écran, ce dernier doivent envoyer de la lumière, mais pour afficher du noir, il suffit de ne pas envoyer de lumière, ce qui ne consomme donc pas d'énergie. En proposant une interface composée majoritairement de noire, on fait donc des économies d'énergie.
 
-Comme on l'a vu dans [l'article sur l'impact environnemental des messageries](/blog/2024/05/13/ecoconception-services-messagerie), utiliser le mode sombre permet de diminuer jusqu'à 35% la consomation d'énergie de votre smartphone. Cela dépend évidemment des applications utilisées, mais il s'agit là d'un gain significatif.
+Comme on l'a vu dans [l'article sur l'impact environnemental des messageries](/blog/2024/05/13/ecoconception-services-messagerie), utiliser le mode sombre permet de diminuer jusqu'à 35% la consommation d'énergie de votre smartphone. Cela dépend évidemment des applications utilisées, mais il s'agit là d'un gain significatif.
 
 Si vous n'êtes pas gêné par la lecture en mode sombre, je vous invite donc vivement à utiliser le mode sombre !
 
