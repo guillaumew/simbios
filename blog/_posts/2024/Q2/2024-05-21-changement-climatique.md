@@ -97,7 +97,7 @@ Le méthane provient :
 - de la déforestation
 
 ### Halocarbures
-Les halocarbures étaient originellement utilisés comme propulseurs dans les aérosols, mais depuis la prise de conscience du problème "du trou dans la couche d'ozone", cette utilisation a été interdite ({% include link.html link="https://fr.wikipedia.org/wiki/Protocole_de_Montr%C3%A9al" text="Protocole de Montréal" %}).
+Les halocarbures étaient originellement utilisés comme propulseurs dans les aérosols, mais depuis la prise de conscience du problème "du (trou dans la couche d'ozone)[/blog/2024/06/25/depletion-ozone-stratospherique]", cette utilisation a été interdite ({% include link.html link="https://fr.wikipedia.org/wiki/Protocole_de_Montr%C3%A9al" text="Protocole de Montréal" %}).
 
 Aujourd'hui, les halocarbures sont principalement utilisés comme des gaz réfrigérants. Leurs émissions proviennent donc de fuites. Certains procédés industriels comme la fabrication de certains composants pour nos terminaux numériques émettent également des halocarbures.
 
