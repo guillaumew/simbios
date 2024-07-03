@@ -32,11 +32,6 @@ Le logo en haut à gauche comporte un lien qui permet de revenir sur la page d'a
 
 En revanche, j'ai mentionné explicitement ce fonctionnement dans le nom accessible du lien ("retour à la page d'accueil"). L'outil y voit une incohérence, mais je pense qu'il s'agit encore d'un faux positif.
 
-#### Ecoindex
-
-En bas de page, au niveau de l'écoindex, on voit également une différence. Le nom accessible ne contient pas le score de la page.
-Il y a donc une perte d'information à ce niveau. Cela ne me semble pas être un problème critique, mais il faudra corriger cette anomalie.
-
 ### Text alternatif redondant
 
 Sur la page de présentation des articles de blog, j'utilise le titre de l'article comme texte alternatif pour les images qui représentent les articles. Cela fait doublon avec le titre qui est déjà présent à côté.

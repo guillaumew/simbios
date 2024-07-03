@@ -7,19 +7,18 @@
                         </div>
                 </div>
                 <div class="grid-item grid footer-item" style="--small:100%;--medium:30%;">
-                        <a href="/a-propos" class="grid-item" style="--small:30%;--medium:100%;">A propos</a>
-                        <a href="/mentions-legales" class="grid-item" style="--small:40%;--medium:100%;">Mentions légales</a>
-                        <a href="/accessibilite" class="grid-item" style="--small:40%;--medium:100%;">Accessibilité</a>
-                        <a href="/contact" class="grid-item" style="--small:30%;--medium:100%;">Contact</a>
+                        <a href="/a-propos" class="grid-item" style="--small:50%;--medium:100%;">A propos</a>
+                        <a href="/mentions-legales" class="grid-item" style="--small:50%;--medium:100%;">Mentions légales</a>
+                        <a href="/accessibilite" class="grid-item" style="--small:50%;--medium:100%;">Accessibilité</a>
+                        <a href="/contact" class="grid-item" style="--small:50%;--medium:100%;">Contact</a>
                 </div>
         </div>
         <div class="ecoindex">
                 Score environnemental de la page :
-                <a href="https://bff.ecoindex.fr/redirect/?url=https%3A%2F%2Fsimbios.fr{{ page.url }}" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l'analyse de l'ecoindex de cette page dans un nouvel onglet">
-                        {% assign ecoindex = site.data.ecoindex | where: 'path', page.url | first %}
+                {% assign ecoindex = site.data.ecoindex | where: 'path', page.url | first %}
+                <a href="https://bff.ecoindex.fr/redirect/?url=https%3A%2F%2Fsimbios.fr{{ page.url }}" target="_blank" rel="noopener noreferrer" aria-label="{% if ecoindex %}Ecoindex {{ecoindex.grade }} : {{ ecoindex.score }}/100. {% endif %}Ouvrir l'analyse de l'ecoindex de cette page dans un nouvel onglet">
                         {% if ecoindex %}
-                        Ecoindex {{ecoindex.grade }} :
-                        {{ ecoindex.score }}/100
+                        Ecoindex {{ecoindex.grade }} : {{ ecoindex.score }}/100
                         {% else %}
                         Ecoindex A
                         {% endif %} 
@@ -32,5 +31,5 @@
                 </div>
                 {% endif %}
         </div>
-        <div>{{ site.time | date:"%Y" }} Simbios ©</div>
+        <div class="footer-item">{{ site.time | date:"%Y" }} Simbios ©</div>
 </footer>
