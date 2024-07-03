@@ -4,7 +4,7 @@ description: "Le trou dans la couche d'ozone : une crise avortée ?"
 tags: ["Crises environnementales", "Ozone", "CFC", "HCFC"]
 image: /assets/img/posts/2024/Q2/thumb-ozone.webp
 thumb: /assets/img/posts/2024/Q2/thumb-ozone
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/667ade6554d76294c688b549/media.mp3
 ---
 
 Cet article fait partie de la série sur les [crises environnementales](/blog/2024/01/16/crises-environnementales), il aborde la dépletion de l'ozone stratosphérique, un problème dont vous avez surement déjà entendu parlé sous le nom "Trou de la couche d'ozone".

@@ -3,16 +3,45 @@ title: Déclaration d'accessibilité
 description: Cette déclaration s'applique au site Simbios.fr
 layout: markdown
 permalink: accessibilite
-published : false
+published : true
 ---
 
 ## État de conformité
 
-Le site Simbios est partiellement conforme avec le référentiel général d’amélioration de l’accessibilité (RGAA) version 4.
+La conformité avec le référentiel {% include link.html text="RGAA" link="https://accessibilite.numerique.gouv.fr/" %} n'a pas encore pu être vérifiée. Ce sera un audit intéressant à mener mais qui semble un peu hors d'atteinte pour un site comme celui de Simbios.
+
+Toutefois l'accessibilité de Simbios est testée avec des outils qui automatisent les différentes vérifications :
+- Extention Firefox {% include link.html text="Tanaguru" link="https://www.tanaguru.com/" %} ;
+- {% include link.html text="Wave" link="https://wave.webaim.org/" %}.
 
 ## Résultats des tests
 
-L’audit de conformité réalisé par Simbios révèle que XX% des critères du RGAA version 4 sont respectés.
+Voici la liste des problèmes remontés.
+
+### Incohérence entre le titre d'un lien et l'intitulé visible
+
+Dans la timeline, on peut voir que l'avant projet possède un lien dont le titre est cadrage et financement. L'outil pense qu'il s'agit d'une incohéhence, mais l'avant-projet chez moi correspond au cadrage et au financement du projet.
+
+Il s'agit donc à mon sens d'un faux positif.
+
+### Incohérence entre le nom accessible et l'intitulé visible
+
+#### Retour à la page d'accueil
+
+Le logo en haut à gauche comporte un lien qui permet de revenir sur la page d'accueil. Il s'agit d'une pratique courante qui à mon sens ne nécessite pas d'être explicitée.
+
+En revanche, j'ai mentionné explicitement ce fonctionnement dans le nom accessible du lien ("retour à la page d'accueil"). L'outil y voit une incohérence, mais je pense qu'il s'agit encore d'un faux positif.
+
+#### Ecoindex
+
+En bas de page, au niveau de l'écoindex, on voit également une différence. Le nom accessible ne contient pas le score de la page.
+Il y a donc une perte d'information à ce niveau. Cela ne me semble pas être un problème critique, mais il faudra corriger cette anomalie.
+
+### Text alternatif redondant
+
+Sur la page de présentation des articles de blog, j'utilise le titre de l'article comme texte alternatif pour les images qui représentent les articles. Cela fait doublon avec le titre qui est déjà présent à côté.
+
+Il faut donc trouver une solution pour corriger cela.
 
 
 ## Établissement de cette déclaration d’accessibilité
@@ -34,21 +63,13 @@ Les vérifications de restitution de contenus ont été réalisées sur la base 
 - Orca
 - Firefox
 
-## Outils pour évaluer l’accessibilité
+## Pages du site ayant fait l’objet de la vérification de conformité
 
-- Extention Firefox Tanaguru
-- Extension Chrome Assistant RGAA  ;
-- Extension Chrome Web Developer ;
-- Extension Chrome HeadingsMap ;
-- Extension Chrome ArcToolkit ;
-- Application Colour Contrast Analyser.
+Pour le moment seuls les tests de la home page ont été formalisés. L'idée est de tester une page par structure de page existante.
 
-# Pages du site ayant fait l’objet de la vérification de conformité
-
-- https://simbios.fr
-- https://simbios.fr/contact
-- https://simbios.fr/blog/
-- https://simbios.fr/blog/2024/06/10/fin-de-vie-dechet-electroniques
+- [https://simbios.fr](/)
+- [https://simbios.fr/blog/](/blog/)
+- [https://simbios.fr/contact](/contact)
 
 ## Retour d’information et contact
 

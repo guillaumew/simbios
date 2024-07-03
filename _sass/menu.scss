@@ -90,6 +90,9 @@
                 display: block;
             }
         }
+    ul:focus-within      {
+            transform: none;
+        }
         span {
             display: block;
             width: 33px;
@@ -133,6 +136,9 @@
             &:checked ~ ul {
                 transform: none;
             }
+        }
+        input:focus {
+            opacity: 1;
         }
     }
 }
