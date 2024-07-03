@@ -65,7 +65,7 @@ Les vérifications de restitution de contenus ont été réalisées sur la base 
 
 ## Pages du site ayant fait l’objet de la vérification de conformité
 
-Pour le moment seuls les tests de la home page ont été formalisés. L'idée est de tester une page par structure de page existante.
+Pour le moment seuls les tests de certaines pages ont été formalisés. L'idée est, à terme, de tester une page par structure de page existante.
 
 - [https://simbios.fr](/)
 - [https://simbios.fr/blog/](/blog/)
