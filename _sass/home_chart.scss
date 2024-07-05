@@ -5,7 +5,7 @@
     border: 1px solid $teal-color;
     border-radius: 5px;
     padding: 5px;
-    background-color: rgba($teal-color,0.15);
+    background-color: rgba($teal-color,0.5);
     .scroll {
         overflow: hidden;
         width: 100%;
@@ -18,11 +18,12 @@
         position: relative;
         a {
             color: white;
-            overflow: hidden;
+            overflow: visible;
             position: absolute;
             line-height: 30px;
             height: 30px;
-            width: 100%;
+            width: 200px;
+            z-index: 2;
         }
         &:after {
             position: relative;
@@ -76,6 +77,10 @@
         left: 91.66%;
         width: 8.33%;
         width: calc(8.33% - 15px);
+        a {
+            text-align: right;
+            right: 0;
+        }
     }
     .timeline {
         width: 100%;
