@@ -16,7 +16,7 @@ Il y a plusieurs tentatives de classification des crises envrionnementales. On p
 - l’introduction d’entités nouvelles dans la biosphère
 - l’acidification des océans ([voir l'article sur l'acidification](/blog/2024/03/05/acidification))
 - l’appauvrissement de la couche d’ozone ([voir l'article sur la déplétion de l'ozone stratosphérique](/blog/2024/06/25/depletion-ozone-stratospherique))
-- l’augmentation de la présence d’aérosols dans l’atmosphère
+- l’augmentation de la présence d’aérosols dans l’atmosphère ([voir l'article sur les émissions de particules](/blog/2024/07/10/particules))
 
 Dans les analyses de cycle de vie, on se penche sur les trois dommages principaux : 
 - Disponibilité des ressrouces
@@ -38,7 +38,7 @@ Que l'on suit au travers de 16 catégories d'impact environnemental :
 - Radiations ionisantes
 - Toxicité humaine (cancer)
 - Toxicité humaine (non cancer)
-- Emissions de particules
+- Emissions de particules ([voir l'article sur les émissions de particules](/blog/2024/07/10/particules))
 - Aprauvissement de l'ozone stratosphérique ([voir l'article sur la déplétion de l'ozone stratosphérique](/blog/2024/06/25/depletion-ozone-stratospherique))
 
 On retrouve des éléments des limites planétaires. J'ai tenté de lier comme je pouvais :
