@@ -54,7 +54,7 @@ Les particules sont nocives pour la santé. Leur impact diffère en fonction de 
   - Taille : moins de 0,1 µm 
   - Impact : elles peuvent pénétrer dans le sang et donc dans le corps entier
 
-Ensuite, en fonction de leur composition chimique, l'exposition chronique aux particules peuvent avoir de répercussions sanitaires plus ou moins graves :
+Ensuite, en fonction de leur composition chimique, l'exposition chronique aux particules peut avoir des répercussions sanitaires plus ou moins graves :
 
 - irritations
 - aggravation de problèmes respiratoires existants (asthme, allergies, bronchites...)
@@ -72,11 +72,11 @@ Lorsque l'on parle de l'effet des particules sur le climat, on nomme ces derniè
 
 Comme nous l'avons vu dans l'[article sur le dérèglement climatique](/blog/2024/05/21/changement-climatique), les activités humaines ont tendance à réchauffer notre planète.
 
-Certains aérosols (dits absorbants) vont amplifier ce réchauffement. C'est le cas par exemple de la suie. Mais l'effet le plus important des aérosols est de limiter la quantité d'énergie qui attendra la planète. On parle d'aérosols diffusants (sulfate, carbone organique...). Ces particules réfléchissent une partie des rayonnements solaires. Cet effet est décuplé avec l’interaction des particules avec les nuages.
+Certains aérosols (dits absorbants) vont amplifier ce réchauffement. C'est le cas par exemple de la suie. Mais l'effet le plus important des aérosols est de limiter la quantité d'énergie qui atteindra la planète. On parle d'aérosols diffusants (sulfate, carbone organique...). Ces particules réfléchissent une partie des rayonnements solaires. Cet effet est décuplé avec l’interaction des particules avec les nuages.
 
 Ils vont donc avoir une contribution négative au {% include link.html text="forçage radiatif" link="https://bonpote.com/forcage-radiatif-a-la-base-du-changement-climatique/#Bloc_n%C2%B03_les_aerosols" %} et permettre de limiter le réchauffement climatique.
 
-Bon vu l'effet sur la santé humaine, ce n'est clairement pas une solution pour endiguer le dérèglement climatique (en tout cas, pas les particules que l'on émet actuellement).
+Mais vu l'effet sur la santé humaine, ce n'est clairement pas une solution pour endiguer le dérèglement climatique (en tout cas, pas avec les particules que l'on émet actuellement).
 
 ## Où en sommes-nous ?
 
@@ -100,7 +100,7 @@ Les données en France sont réjouissantes, mais la mesure n'est pas totalement 
 
 C'est pour cela que l'UNEP (Progamme des Nations Unies pour l'Environnement) recommande d'utiliser une méthode de quantification basée sur le nombre de maladies potentielles dues aux émissions de particules.
 
-Concrètement à chaque type d'émission sont associées un nombre potentiel de maladies en fonction :
+Concrètement à chaque type d'émissions est associé un nombre potentiel de maladies en fonction :
 - de la composition
 - de la taille de la particule
 - du lieu d'émission
