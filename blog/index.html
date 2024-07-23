@@ -12,8 +12,12 @@ description: Un article par semaine sur le numérique responsble
 		<a href="{{ post.url }}">
 			<div class="grid">
 				<div class="grid-item outer-center" style="--medium:25%">
+					{% assign alt-image= post.title %}
+					{% if post.alt-image %}
+					{% assign alt-image= post.alt-image %}
+					{% endif %}
 					{% if post.thumb %}
-					{% include picture.html url=post.thumb alt=post.title class="thumbnail inner-center" width="200" height="200" %}
+					{% include picture.html url=post.thumb alt=alt-image class="thumbnail inner-center" width="200" height="200" %}
 					{% else %}
 					<img src="{{post.image}}" class="thumbnail inner-center">
 					{% endif %}

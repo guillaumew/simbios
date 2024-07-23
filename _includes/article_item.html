@@ -3,8 +3,12 @@
     <a href="{{ include.url }}">
         <div class="grid">
             <div class="grid-item outer-center" style="--medium:25%">
+                {% assign alt-image= include.title %}
+                {% if include.alt-image %}
+                {% assign alt-image= include.alt-image %}
+                {% endif %}
                 {% if include.thumb %}
-                {% include picture.html url=include.thumb alt=include.title class="thumbnail inner-center" %}
+                {% include picture.html url=include.thumb alt=alt-image class="thumbnail inner-center" %}
                 {% else %}
                 <img src="{{include.image}}" class="thumbnail inner-center">
                 {% endif %}

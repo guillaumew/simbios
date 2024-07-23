@@ -4,7 +4,7 @@ description: "Les émissions de particules fines ont des conséquences important
 tags: ["Crises environnementales", "Particules", "Aérolsols", "Maladie"]
 image: /assets/img/posts/2024/Q3/thumb-particules.jpg
 thumb: /assets/img/posts/2024/Q3/thumb-particules
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/66968c69c853c8f577e2a9ac/media.mp3
 ---
 
 Cet article fait partie de la série sur les [crises environnementales](/blog/2024/01/16/crises-environnementales), il aborde les émissions de particules.

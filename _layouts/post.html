@@ -12,9 +12,13 @@ layout: page
 	</div>
 	<div class="slider is-center">
 		<div class="markdown slider_info post_info">
+			{% assign alt-image= page.title %}
+			{% if page.alt-image %}
+			{% assign alt-image= page.alt-image %}
+			{% endif %}
 			{% include picture.html 
 				url=page.thumb
-				alt=page.title
+				alt=alt-image
 				width=200
 				height=200
 			%}
