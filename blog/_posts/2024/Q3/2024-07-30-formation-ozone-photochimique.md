@@ -1,5 +1,5 @@
 ---
-title: "Les crises environnementales : la formation d'ozone photchimique"
+title: "Les crises environnementales : la formation d'ozone photochimique"
 description: "L'ozone à basse altitude est néfaste pour la santé humaine et pour les plantes."
 tags: ["Crises environnementales", "Ozone", "Smog"]
 image: /assets/img/posts/2024/Q3/thumb-smog.jpg
@@ -8,7 +8,7 @@ alt-image: "L'effet le plus connu de l'ozone photochimque est la création de sm
 podcast: null
 ---
 
-Cet article fait partie de la série sur les [crises environnementales](/blog/2024/01/16/crises-environnementales), il aborde la formation d'ozone photochimique au niveau de la troposphère.
+Cet article fait partie de la série concernant les [crises environnementales](/blog/2024/01/16/crises-environnementales), il aborde la formation d'ozone photochimique au niveau de la troposphère.
 
 ## Les multiples facettes de l'ozone
 
@@ -25,21 +25,21 @@ Nous avons déjà parlé de l'ozone à plusieurs reprises dans ce blog. Pour pre
 
 ## Quel est le problème ?
 
-L'ozone troposphérique, c'est à dire à moins de 10 km d'altitude est néfaste pour la santé humaine et pour les éco-système. 
+L'ozone troposphérique, c’est-à-dire à moins de 10 km d'altitude est néfaste pour la santé humaine et pour les écosystèmes. 
 
 ### Effets sur la santé humaine
 
 Voici quelques conséquences de l'ozone :
 - irritations des yeux ou des voies respiratoires
 - baisse des performances physiques
-- oedème pulmonaire dans les cas les plus graves
+- œdèmes pulmonaires dans les cas les plus graves
 - hausse du risque de maladies respiratoires 
 
 ### Effets sur les végétaux
 
 Au niveau de la troposphère l'ozone perturbe la photosynthèse des plantes. Pour rappel, la couche d'ozone (à plusieurs dizaines de kilomètres d'altitude) protège des rayonnements ultra-violets qui nuisent également à la photosynthèse. En fonction de l'altitude, l'ozone préserve ou nuit donc à la flore.
 
-Au delà de la photosynthèse, les plantes peuvent également absorber l'ozone, ce qui provoque des dégat visibles sur leur feuille et nuit à leur croissance.
+Au-delà de la photosynthèse, les plantes peuvent également absorber l'ozone, ce qui provoque des dégâts visibles sur leurs feuilles et nuit à leur croissance.
 
 {% responsive_image 
   path: assets/img/posts/2024/Q3/alder_showing_ozone_discolouration.webp 
@@ -49,7 +49,7 @@ Au delà de la photosynthèse, les plantes peuvent également absorber l'ozone, 
 
 ### Formation de smog
 
-La présence d'ozone troposphérique élevée cumulée à la présence de [particules](/blog/2024/07/15/particules) peut provoquer des smogs (ou fumard).
+La présence d'ozone troposphérique élevée cumulée à la présence de [particules](/blog/2024/07/15/particules) peut provoquer des smogs (ou fumards).
 
 Les effets néfastes de l'ozone et des particules sont alors particulièrement importantes.
 
@@ -57,7 +57,7 @@ Les effets néfastes de l'ozone et des particules sont alors particulièrement i
 
 ### Formation d'ozone photochimique
 
-L'essentiel de la pollution par l'ozone résulte de réactions chimiques complexes qui ne se produisent de par forte chaleur.
+L'essentiel de la pollution par l'ozone résulte de réactions chimiques complexes qui ne se produisent que par forte chaleur.
 
 Les activités humaines émettent des gaz précurseurs dont : 
 - les oxydes d'azote (NO et NO<sub>2</sub>) issus de combustions
@@ -65,27 +65,27 @@ Les activités humaines émettent des gaz précurseurs dont :
 
 ### Formation d'ozone directe
 
-Il est question dans cet article d'ozone photochimque, évoquée plus haut. Mais les activités humaines sont aussi responsables de formation directe d'ozone (dans une proportion bien moins importante que l'ozone photochimique).
+Il est question dans cet article d'ozone photochimique, évoquée plus haut. Mais les activités humaines sont aussi responsables de formation directe d'ozone (dans une proportion bien moins importante que l'ozone photochimique).
 
-L'ozone peut se former au niveau des lignes à haute tension ou production par des moteurs électriques.
+L'ozone peut se former au niveau des lignes à haute tension ou produite par des moteurs électriques.
 
 ## Comment mesure-t-on la formation d'ozone photochimique ?
 
-Pour mesurer l'impact des activités humaines sur la formation d'ozone photochimique, nous utilisons le {% include link.html text="modèle ReCiPe" link="https://www.rivm.nl/en/life-cycle-assessment-lca/recipe" %} qui mesure l'ensemble des précurseurs en utilisant l'indicateur kg NMVOC<sub>eq</sub>. NMVOC signigie Composés Organiques Volatils Non Méthane.
+Pour mesurer l'impact des activités humaines sur la formation d'ozone photochimique, nous utilisons le {% include link.html text="modèle ReCiPe" link="https://www.rivm.nl/en/life-cycle-assessment-lca/recipe" %} qui mesure l'ensemble des précurseurs en utilisant l'indicateur kg NMVOC<sub>eq</sub>. NMVOC signifie Composés Organiques Volatils Non Méthane.
 
-| Entité              | NMVOC eq |
+| Entité              | NMVOC <sub>eq</sub> |
 |---------------------|----------|
 | Oxyde d'azote       | 1 kg     |
 | Monoxyde de carbone | 45,6 g   |
 | Acide acétique      | 164 g    |
 
-*Quelques exemples d'impact sur la formation d'ozone photochimique pour un kg d'emission*
+*Quelques exemples d'impact sur la formation d'ozone photochimique pour un kg d’émission*
 
-La limite planétaire proposée par le JRC est de 407 millions de tonnes NMVOC <sub>eq</sub>.
+La limite planétaire proposée par le {% include link.html text="JRC (Joint Research Centre)" link="https://www.sciencedirect.com/science/article/pii/S0301479720306186#tbl3" %} est de 407 millions de tonnes NMVOC <sub>eq</sub>.
 
 ## Où en est-on ?
 
-### En Île de France
+### En Île-de-France
 
 D'après {% include link.html text="AirParif" link="https://www.airparif.fr/surveiller-la-pollution/les-emissions" %}, à Paris, les émissions de COVNM ont largement réduit en passant de près de 15 000 tonnes COVNM en 2005 à moins de 7 000 tonnes COVNM en 2021. On a donc divisé les émissions par 2 en 16 ans.
 
@@ -97,9 +97,9 @@ On a donc divisé nos émissions par presque 5 en moins de 30 ans.
 
 ### En Chine
 
-En Chine, les émissions ont cessé d'augmenter ces dernières années. 
+En Chine, les émissions stagnent ces dernières années. 
 
-| Année | Emissions NMVOC |
+| Année | Émissions NMVOC |
 |-------|-----------------|
 | 1990  | 9,8 Tg          |
 | 2000  | 14,5 Tg         |
@@ -108,29 +108,31 @@ En Chine, les émissions ont cessé d'augmenter ces dernières années.
 | 2015  | 28.4 Tg         |
 | 2017  | 28.5 Tg         |
 
-*Emissions de gaz précurseurs d'ozone troposphérique en Chine ({% include link.html link="https://acp.copernicus.org/articles/19/8897/2019/#&gid=1&pid=1" text="source" %})*
+*Émissions de gaz précurseurs d'ozone troposphérique en Chine ({% include link.html link="https://acp.copernicus.org/articles/19/8897/2019/#&gid=1&pid=1" text="source" %}) en Tg (= 1 million de tonnes)*
+
+Si la {% include link.html text="Chine a la même stratégie qu'avec les émissions de gaz acidifants" link="https://www.statista.com/statistics/282680/china-sulphur-dioxide-emissions/" %}, on peut espérer que leurs émissions de gaz précurseurs d'ozone troposphérique vont largement baisser dans les prochaines années. 
 
 ## Quelle est la place du numérique ?
 
 D'après {% include link.html link="https://www.arcep.fr/uploads/tx_gspublication/etude-numerique-environnement-ademe-arcep-volet02_janv2022.pdf" text="une étude ADEME-ARCEP" %}, le numérique en France est responsable de 42 200 t NMVOC<sub>eq</sub>. 
 
-Deux tiers de cette pollution vient de la fabrication des terminaux.
+Deux tiers de cette pollution viennent de la fabrication des terminaux.
 
 Cela représente moins de 1% de la limite planétaire. On peut donc dire que le numérique a un impact relativement faible sur la formation d'ozone.
 
 ## Que peut-on faire ?
 
-Pour réduire son impact sur la formation d'ozone photochimique, il convient de limiter l'usage de produits solvantés :
+Pour réduire son impact sur la formation d'ozone photochimique, il convient de limiter l'usage de produits solvatés :
 - peintures
 - colles
 - produits pharmaceutiques
 
-Il convient également de limiter les déplacements en véhicules motorisés (surtout les deux-roues).
+Il convient aussi de limiter les déplacements en véhicules motorisés (surtout les deux-roues).
 
 Il faut également limiter la consommation de biens issus de l'industrie :
 - traitement des métaux
 - imprimerie
-- certains produit alimentaires
+- certains produits alimentaires
 
 ## Pour aller plus loin
 
