@@ -35,10 +35,11 @@ Quelques exemples :
 
 - Javascript
   - {% include link.html link="https://minify-js.com/" text="Minify JS" %} (online)
+  - {% include link.html link="https://extendsclass.com/javascript-formatter.html" text="ExtendsClass" %} (online)
   - {% include link.html link="https://www.npmjs.com/package/uglify-js" text="UglifyJS" %} (in build)
 - CSS
   - {% include link.html link="https://www.cleancss.com/css-minify/" text="Clean CSS" %} (online)
-  - {% include link.html link="https://cssnano.co/" text="CSSNano" %} (in build)
+  - {% include link.html link="https://cssnano.github.io/cssnano/" text="CSSNano" %} (in build)
 - HTML
   - {% include link.html link="https://codebeautify.org/minify-html" text="HTML Minifier" %} (online)
   - {% include link.html link="https://www.npmjs.com/package/htmlnano" text="htmlnano" %} (in build)
