@@ -5,7 +5,7 @@ tags: ["Bug", "CrowdStrike", "Microsoft", "Aéroports", "Hopitaux"]
 image: /assets/img/posts/2024/Q3/thumb-airport.jpg
 thumb: /assets/img/posts/2024/Q3/thumb-airport
 alt-image: "Des avions cloués au sol, conséquence la plus visible du bug informatique de CrowdStrike"
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/66aa3824ab1347ecaac2a295/media.mp3
 ---
 
 Vous avez peut-être vu passer l'information. Peut-être même que vous en avez subi les fâcheuses conséquences...

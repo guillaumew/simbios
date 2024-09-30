@@ -5,7 +5,7 @@ tags: ["Crises environnementales", "Ozone", "Smog"]
 image: /assets/img/posts/2024/Q3/thumb-smog.jpg
 thumb: /assets/img/posts/2024/Q3/thumb-smog
 alt-image: "L'effet le plus connu de l'ozone photochimque est la création de smog dévastateur"
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/66aa3b753c23ffff3ab4ebae/media.mp3
 ---
 
 Cet article fait partie de la série concernant les [crises environnementales](/blog/2024/01/16/crises-environnementales), il aborde la formation d'ozone photochimique au niveau de la troposphère.
