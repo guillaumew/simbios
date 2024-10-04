@@ -36,21 +36,79 @@
 }
 
 .content h2{
-    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
+    font-weight: bold;
+    text-align: center;
+    display: block;
 }
 
-.services {
-    h3 {
-        text-align: center;
+.how {
+    .background {
+        width: 100%;
+        margin: 50px 0;
+        background: linear-gradient(90deg,$teal-color 25%, rgba($dark_white-color,.25) 25%, rgba($dark_white-color,.25) 75%,$teal-color 75%);
+        .how-outer {
+            --small:100%; 
+            --medium:50%; 
+            --large:33%;
+            .how-inner{
+                h3 {
+                    color: $dark_white-color;
+                    margin-top: 0;
+                }
+                hr {
+                    color: $dark_white-color;
+                    background: $dark_white-color;
+                    height: 1px;
+                    border: 0;
+                    width: 66%;
+                }
+                background-color: $teal-color;
+                height: 225px;
+                -webkit-box-shadow: 10px 10px 50px 0px rgba($dark_teal-color,.5);
+                -moz-box-shadow: 10px 10px 50px 0px rgba($dark_teal-color,.5);
+                box-shadow: 10px 10px 50px 0px rgba($dark_teal-color,.5);
+
+            }
+        }
     }
-    .service {
-        background-size: contain;
-        background-repeat: no-repeat;
+    
+}
+
+.why {
+    ul {
         text-align: left;
-        background-position: center;
+    }
+    h3 {
+        color: #0d3444;
+    }
+    h4, p, a {
+        color: $dark_teal-color;
+        margin: 0.1em;
+    }
+    p {
+        font-size: 0.9em;
+        line-height: 1em;
+    }
+    .why-item {
+        height: 100%;
+        border-radius: 5px;
+        svg {
+            margin-left: 25%;
+            width:50%;
+            fill: #0d3444;
+        }
+    }
+    .firm {
+        background-color: #be97c6; 
+    }
+    .planet {
+        background-color: #ace4aa; 
+    }
+    .people {
+        background-color: #e3b23c; 
     }
 }
 

@@ -7,7 +7,7 @@ long_description: Communication sur les progrès réalisés (en interne comme en
 order: 6
 icon_utf8: 💬
 icon: communication_icon
-grid_sizes: --medium:33%; --large:25%;
+grid_sizes: --small:100%; --medium:50%; --large:33%;
 ---
 
 ## Communication interne

@@ -5,7 +5,7 @@ tags: ["Crises environnementales", "Terres", "Sols", "Érosion", "Perméabilité
 image: /assets/img/posts/2024/Q3/thumb-deforestation.jpg
 thumb: /assets/img/posts/2024/Q3/thumb-deforestation
 alt-image: "D'un côté une forêt pleine de vie, de l'autre, du bois arraché au sol... séparés par une route"
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/66fcf616cb6b8e9ccc62ec87/media.mp3
 ---
 
 Cet article fait partie de la série concernant les [crises environnementales](/blog/2024/01/16/crises-environnementales), il aborde les effets de changement d'affectation des sols et de la qualité environnementale des terres.
@@ -31,9 +31,9 @@ Lorsque l'on décide de transformer une forêt en terres agricoles, on détruit 
 
 D'ailleurs, c'est le changement d'utilisation des terres qui est la principale source de la perte de la biodiversité ({% include link.html text="source" link="https://biodiversite.gouv.fr/les-5-pressions-responsables-de-leffondrement-de-la-biodiversite" %}).
 
-### Perméabilité de l'eau
+### Perméabilité des sols
 
-La perméabilité des sols permet à l'eau de s'infiltrer plutôt que de ruisseler. Cela vient accélérer le [cycle de l'eau](/blog/2024/01/22/utilisation-eau) et augmente le risque d’inondations.
+La perméabilité des sols permet à l'eau de s'infiltrer plutôt que de ruisseler. Cela vient accélérer le [cycle de l'eau](/blog/2024/01/22/utilisation-eau) et donc nuit à nos potentiels usages. De plus, les sols imperméables permettent à l'eau de rester en surface ce qui augmente le risque d’inondations.
 
 ### Stockage de l'eau
 
@@ -64,9 +64,9 @@ Toutefois, cette mesure bénéficie d'un consensus qui est relativement récent.
 
 ### Mesure orientée problème
 
-Une mesure proposée par le Stockholm Resilience Centre qui est à l'origine des Neuf limites planétaires, consiste à comparer la surface qu'occupent les forêts à l'échelle mondiale. On compare cette surface avec la surface qu'occupaient les forêts en 1700 et on obtient un pourcentage. Cette mesure se concentre principalement sur les forêts puisque ce sont des dernières qui sont le principal moteur de la biodiversité. 
+Une mesure proposée par le Stockholm Resilience Centre qui est à l'origine des Neuf limites planétaires, consiste à comparer la surface qu'occupent les forêts à l'échelle mondiale. On compare cette surface avec la surface qu'occupaient les forêts en 1700 et on obtient un pourcentage. Cette mesure se concentre principalement sur les forêts puisque ce sont ces dernières qui sont le principal moteur de la biodiversité. 
 
-Les mesures sont réalisées grâce à des prises de vues satellites. On différencie les alors les forêts en fonction du climat de la région où elles se trouvent : 
+Les mesures sont réalisées grâce à des prises de vues satellites. On différencie alors les forêts en fonction du climat de la région où elles se trouvent : 
 
 - boréales
 - tempérées
@@ -108,17 +108,17 @@ Un {% include link.html text="effort est réalisé pour réduire l'artificialisa
 
 ### L'empreinte écologique des imports français
 
-Au-delà de ce qu'il se passe sur notre territoire, nous sommes aussi responsables de l'empreinte au sol des biens que nous importons.
+Au-delà de ce qui se passe sur notre territoire, nous sommes aussi responsables de l'empreinte au sol des biens que nous importons.
 
-La France importe de larges quantités de papier, bois ou huile de palme qui sont souvent issus de la déforestation. {% include link.html text="D'après WWF" link="https://www.wwf.fr/sites/default/files/doc-2018-11/20181107_Rapport_Synthe%CC%80se_De%CC%81forestation_Importe%CC%81e_France_WWF-min.pdf" %}, les importations françaises sont responsables de plus de 15 millions d'hectares de forêts soit plus du quart de la superficie du pays.
+La France importe de larges quantités de papier, bois ou huile de palme qui sont souvent issues de la déforestation. {% include link.html text="D'après WWF" link="https://www.wwf.fr/sites/default/files/doc-2018-11/20181107_Rapport_Synthe%CC%80se_De%CC%81forestation_Importe%CC%81e_France_WWF-min.pdf" %}, les importations françaises sont responsables de plus de 15 millions d'hectares de forêts soit plus du quart de la superficie du pays.
 
 Pour limiter cet impact indirect, le ministère de l’Écologie a mis en place un {% include link.html text="une stratégie de lutte contre la déforestation importée" link="https://www.ecologie.gouv.fr/sites/default/files/documents/2018.11.14_SNDI_0.pdf" %}.
 
 ## Quelle est la place du numérique ?
 
-Le numérique vient apporter également sa contribution dans les changements d'usages de sols. Comme souvent dans les impacts environnementaux du numérique, c'est principalement la phase d'extraction et de raffinage qui en est la cause.
+Le numérique vient apporter également sa contribution dans les changements d'usages de sols. Comme souvent dans les impacts environnementaux du numérique, c'est principalement les phases d'extraction et de raffinage qui en sont les causes.
 
-Certains espaces naturels sont sacrifiés, dès lors qu'ils contiennent [quelque métal rare](/blog/2024/05/27/utilisation-des-metaux) indispensable à la fabrication de nos terminaux. L'implatation d'une mine vient directement détruire des forêts ou des terres agricoles (qui seront donc elles-mêmes délocalisées sur d'autres territoires naturelle). 
+Certains espaces naturels sont sacrifiés, dès lors qu'ils contiennent [quelque métal rare](/blog/2024/05/27/utilisation-des-metaux) indispensable à la fabrication de nos terminaux. L'implatation d'une mine vient directement détruire des forêts ou des terres agricoles (qui seront donc elles-mêmes délocalisées sur d'autres territoires naturels). 
 
 L'activité minière détruit la couche végétale ainsi que la couche de terre fertile. Elle ne laisse généralement aucune végétation derrière elle, même après la fin de son exploitation.
 
@@ -147,7 +147,7 @@ Comme on l'a vu l'essentiel de l'impact est dû à l'agriculture. Il convient do
 
 ### Habitation / jardin
 
-Vous pouvez également avoir un impact en essayant de limiter votre empreinte sol de votre habitation. Un immeuble prendra moins d'espace au sol par habitant qu'une maison individuelle.
+Vous pouvez également avoir un impact en essayant de limiter l'empreinte sol de votre habitation. Un immeuble prendra moins d'espace au sol par habitant qu'une maison individuelle.
 
 Si vous optez pour une maison, vous pouvez vous assurer de maximiser la perméabilité des surfaces non bâties.
 

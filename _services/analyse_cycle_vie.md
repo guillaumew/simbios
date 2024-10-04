@@ -7,7 +7,7 @@ long_description: Mesure de l'empreinte environnementale du service (site, appli
 order: 2
 icon_utf8: 📊
 icon: tachometer_icon
-grid_sizes: --medium:50%; --large:37%;
+grid_sizes: --small:100%; --medium:100%; --large:50%;
 ---
 
 Vous savez maintenant que le numérique possède un impact enivronnemental. Vous souhaitez passer à l'action, mais vous ne savez pas forcément comment ou quelles sont les actions qui ont le plus d'impact. C'est normal, les impacts environnementaux proviennent de sources diverses et ont des impacts variés (émissions de gaz à effet de serre, consommation d'eau, pollutions des sols, de l'air...)

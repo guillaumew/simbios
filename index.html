@@ -5,31 +5,113 @@ layout: home
 css: home.css
 ---
 
-<div class="content services" role="contentinfo" aria-label="Section pour présenter les services proposés par Simbios">
-    <h2 class="is-center">Un accompagnement complet dans votre démarche Green IT.</h2>
-    <h3> Les services </h3>
+<div class="content why" role="contentinfo" aria-label="Pourquoi vouloir diminuer l'empreinte environnementale du numérique ?">
+    <h2>Pourquoi ?</h2>
+    <div class="is-center">Diminuer l'empreinte environnementale du numérique possède plusieurs bénéfices</div>
     <div class="grid">
-        {% assign sorted_services = site.services | sort: 'order'  %}
-        {% for service in sorted_services %}
-        <div class="content-box grid-item service {{service.icon}}" style="{{ service.grid_sizes }}">
-            <div class="content-subhead outer-center">
-                <h4 class="innder-center">
-                    {% if service.short_title %}
-                    {{ service.short_title }}
-                    {% else %}
-                    {{service.title}}
-                    {% endif %}
-                </h4>
-            </div>
-            <p>
-                {{service.long_description}}
-            </p>
-            <a href="{{service.url}}" aria-label="{{service.title}} : en savoir plus">En savoir plus</a>
+        <div class="grid-item content-box" style="--small:100%; --medium:33%; --large:33%;">
+            <div class="content-box firm why-item">
+                <h3 class="is-center">Pour son entreprise</h3>
+                <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><path d="M8 2v4H4v42h11v-9h4v9h11V6h-4V2Zm2 8h2v2h-2Zm4 0h2v2h-2Zm4 0h2v2h-2Zm4 0h2v2h-2Zm10 4v4h2v2h-2v2h2v2h-2v2h2v2h-2v2h2v2h-2v2h2v2h-2v2h2v2h-2v2h2v2h-2v4h14V14Zm-22 1h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm14 3h2v2h-2Zm4 0h2v2h-2Zm-30 3h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm14 1h2v2h-2Zm4 0h2v2h-2Zm-4 4h2v2h-2Zm4 0h2v2h-2Zm-30 1h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm14 3h2v2h-2Zm4 0h2v2h-2Zm-30 3h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm14 1h2v2h-2Zm4 0h2v2h-2Zm-4 4h2v2h-2Zm4 0h2v2h-2Zm-30 1h2v5h-2Zm12 0h2v5h-2Zm14 3h2v2h-2Zm4 0h2v2h-2Z"/></svg>
+                <div>
+                    <h4>Répondre aux obligations légales</h4>
+                    <p>Vous ou vos clients êtes ou serez concernés par la {% include link.html text="loi REEN" link="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044327272" %} ou la {% include link.html text="CSRD" link="https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en" %}</p>
+                </div>
+                <div>
+                    <h4>S'ouvrir au marché</h4>
+                    <p>Vos clients peuvent être sensibles à votre démarche environnementale</p>
+                </div>
+                <div>
+                    <h4>Pour la marque employeur</h4>
+                    <p>Les entreprises avec un engagement sincère sont toujours plus attrayantes</p>
+                </div>
+            </div>   
         </div>
-        {% endfor %}
+        <div class="grid-item content-box" style="--small:100%; --medium:33%; --large:33%;">
+            <div class="content-box planet why-item">
+                <h3 class="is-center">Pour la planète</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve"><path d="M491.9 156.3A257 257 0 0 0 399 43.7 254.9 254.9 0 0 0 256 0 255.4 255.4 0 0 0 43.7 112.8 254.9 254.9 0 0 0 0 256a255.2 255.2 0 0 0 112.9 212.3A255 255 0 0 0 256 512a255.3 255.3 0 0 0 212.3-112.9A255 255 0 0 0 512 256c0-35.3-7.2-69-20.1-99.7zM298.7 344.6c-10 14-2.1 35.3-13.7 47.5-11.7 12.2-17.5 8.4-25 25.7-.9 2.2-13.6 30.7-17.2 21.7 3.3 8.2.3 15.9-9.3 15.9-9.5 0 1.7 7.9-7.5 10.1-2.7.8-3 6.3-1.8 13.5-7-1-14-2.3-20.7-4a342 342 0 0 1-14.4-72.5c-.2-31.4-6.6-19-22-42.2-10.4-15.7-19.5-32.7-19-51.8-.1 3.4 20.2-48.7 5.5-38.7-17.8 12-21-16.8-38.2-19.2-8.7-1.3-6.2-10.9-16-9.3-9 1.4-19.2-7.7-26-12.7-4.3-3.1-12.5-49-19.3-48.8-9.5 0 7.4 32 4 32.7-4.3.8-10.7-15.5-15.2-29.6A226 226 0 0 1 169.2 48.2l2-.2c12.4-1.5 48.9-15.8 59-4.7 4.4 4.6-55 26.2-56.8 35.4-1.1 6 14.7 5 16 5 16 1-4.6 17 5.1 19.7 14.6 3.9 29-62.1 40.2-28.5 4.6 13.6 24.1-10.3 25.5 6.4 1.4 17.5 17.4 22-12.5 26.7-27.4 4.4-5.4 15.6-23.3 25-17 8.9-31.9 13-43.9 29-13.4 17.8-14.6 17.3-19.9 39.2-2.8 11.8-17.2-8.1-11.6-15.7-2 2.6-18.8-5.7-20.5-1.4-3.3 8.3-12.2 3.8-19.2 8.8-9 6.3-17.5 26.5-8.6 36 7 7.7 31.3-16.3 32.7-8.2 1 6.3-8.7 10.8-7.6 17 1.5 9 16.3-2.6 16.3 4.5 0 4.5-6 29.3 7.1 24.6 7-2.5 9 2.9 13.4 1.7 6.1-1.5 9.7-15.8 17-14.7 8.7 1.2 21.8 5.2 30.5 7.7 14.2 4.1 13.5 16 30 18.6 16.8 2.5 10.2 17.7 8 26.1-1.7 7.3 78.7-1.3 50.6 38.4zm93.6-218.7s15 .2 18.1-.3c3.2-.5 3-8 3-9.5 0-1.6-8.5-5.5-6.4-6.5 2-1 7.4-2.5 9-3.6l4.5-3.8c6.5 7 12.6 14.3 18.2 22l-2.9 2.3c-2 2-8.4-.7-8.4-.7l-8.4 9-4 9.6s-9.6 4.7-13.9 5.2c-4.2.5-11.2-3.3-12.3-5-1-1.6 3.5-18.7 3.5-18.7zm71.2 217.8c-1.3 3.1-2.7 6.3-4.2 9.4a67 67 0 0 0-4.3-11.2c-3-5.3-7.2-11.7-1.9-24.7 5.4-13-3-29.1-7.2-33.4-4.2-4.4-4.2-7.6 0-14 4.2-6.6-1-8.7-5.3-8.7-4.2 0-7.4-7.6-12.7-6.5-5.3 1-25.6 6.4-33.1 5.4-7.5-1.1-31.3-24-31.3-29.5 0-5.4 1-26 3.1-29.3 2.2-3.3 14-18 18.2-24.5 4.2-6.5 10.6-15 16-16 5.3-1 29.7-5.1 37-7.2 7.4-2 6.4 2 8.5 6.2l4.3.6a28 28 0 0 1 11.9 5.5 224.5 224.5 0 0 1 1 177.9z"/></svg>
+                <div>
+                    <h4>Lutter contre le dérèglement climatique</h4>
+                    <p>Le numérique contribue à hauteur de <a href="/blog/2023/09/16/impact-environnemental-numerique">6-7% aux émissions de gaz à effet de serre mondiales</a>.</p>
+                </div>
+                <div>
+                    <h4>Prévenir de la pénurie de ressources</h4>
+                    <p>Les <a href="/blog/2024/05/27/utilisation-des-metaux">métaux rares</a> sont indispensables à la fabrication de nos équipements numériques.</p>
+                </div>
+                <div>
+                    <h4>Préserver l'eau et la biodiversité</h4>
+                    <p>Au-delà du climat, les <a href="/blog/2024/01/16/crises-environnementales">impacts environnementaux sont nombreux</a>.</p>
+                </div> 
+            </div> 
+        </div>
+        <div class="grid-item content-box" style="--small:100%; --medium:33%; --large:33%;">
+            <div class="content-box people why-item">
+                <h3 class="is-center">Pour les humains</h3>
+                <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve"><path class="st0" d="M78.6 119a41.4 41.4 0 1 0 0-82.9 41.4 41.4 0 0 0 0 82.8zM255.7 228.7h.6a28.6 28.6 0 0 0 0-57.2h-.6a28.6 28.6 0 0 0 0 57.2zM433.4 119a41.4 41.4 0 1 0 0-82.9 41.4 41.4 0 0 0 0 82.8z"/><path class="st0" d="M470.1 138.6H415.4a56.2 56.2 0 0 0-50 30.6l-33.5 98a8.1 8.1 0 0 1-12.8 2.2l-20.8-18c-6.2-5.8-14.4-9-22.9-9h-38.8c-8.5 0-16.7 3.2-23 9l-20.7 18A8 8 0 0 1 180 267l-33.4-98a56.2 56.2 0 0 0-50-30.5H41.8c-20 0-41.9 21.8-41.9 41.9v139.2c0 10 8.1 18.1 18.2 18.1h12.6l7 118.8c0 10.6 8.6 19.3 19.3 19.3h42.2c10.7 0 19.4-8.7 19.4-19.3l6.9-118.8-.1-84.7a2.9 2.9 0 0 1 5.5-1.3l26.6 65.4a22.5 22.5 0 0 0 35.2 6.2l25.4-18.7c.9-.8 2.1-1 3.2-.5a3 3 0 0 1 1.7 2.6l.1 73.5 4.8 82.2c0 7.4 6 13.4 13.4 13.4h29.2c7.4 0 13.4-6 13.4-13.4l4.8-82.2v-73.5a3 3 0 0 1 1.8-2.6 3 3 0 0 1 3.2.5l25.4 18.7a22.5 22.5 0 0 0 35.2-6.2l26.6-65.4a2.9 2.9 0 0 1 5.5 1.3v84.7l6.8 118.8c0 10.6 8.7 19.3 19.4 19.3h42.2c10.7 0 19.3-8.7 19.3-19.3l7-118.8h12.6c10 0 18.2-8 18.2-18.1V180.5c0-20.1-21.8-42-41.9-42z"/></svg>
+                <div>
+                    <h4>Contre la guerre</h4>
+                    <p>L'extraction de certains métaux contribue à nourir des <a href="/blog/2024/04/03/numerique-et-guerre">conflits armés</a>.</p>
+                </div>
+                <div>
+                    <h4>Limiter l'exploitation des personnes</h4>
+                    <p>Travail d'enfants, expositions à des substances chimiques, surcharge...</p>
+                </div>
+                <div>
+                    <h4>Accès à l'eau</h4>
+                    <p>Les exploitations de minerais utilisent beaucoup d'eau privant ainsi les popluations locales.</p>
+                </div> 
+            </div>
+        </div>
     </div>
-    <h3>Le cycle GreenIT classique</h3>
-    {% include home_chart.html %}
+</div>
+
+<div class="content how ribbon is-center" role="contentinfo" aria-label="Comment diminuer l'empreinte environnementale du numérique ?">
+    <h2>Comment ?</h2>
+    <p>Un accompagnement sur l'ensemble de la démarche d'éco-conception. <a href="/services/">Voir tous les services proposés</a>
+    <div class="background outer-center grid">
+        <div class="audit inner-center how-outer grid-item content-box">
+            <div class="content-box how-inner outer-center">
+                <div class="inner-center">
+                    <h3>Audit du service numérique</h3>
+                    <hr>
+                    <p>A moyen d'une Analyse du Cycle de Vie (ACV)</p>
+                    <a href="/services/analyse_cycle_vie">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="conseil inner-center how-outer grid-item content-box">
+            <div class="content-box how-inner outer-center">
+                <div class="inner-center">
+                    <h3>Conseils</h3>
+                    <hr>
+                    <p>L'expertise pour un impact maximal et mesuré</p>
+                    <a href="/services/strategie_reduction">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="formation inner-center how-outer grid-item content-box">
+            <div class="content-box how-inner outer-center">
+                <div class="inner-center">
+                    <h3>Formation</h3>
+                    <hr>
+                    <p>Pour que toute l'équipe puisse participer avec lse bons outils</p>
+                    <a href="/services/formation">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="content cost" role="contentinfo" aria-label="Combien ça coûte ?">
+    <h2>C'est cher ?</h2>
+    <div class="is-center column-content content-box">De multiples initiatives permettent de fincancer tout ou partie de votre démarche Numérique Responsable. <a href="/services/financement#financement">En savoir plus</a></div>
+    <div class="is-center">
+        {% responsive_image 
+            path: assets/img/financements.webp
+            alt: "OPCO Atlas, Région Pays de la Loire, BPI France et ADEME"
+        %}
+    </div>
 </div>
 
 <div class="ribbon content grid" role="contentinfo" aria-label="Section pour présenter Guillaume Wolf">
@@ -39,6 +121,7 @@ css: home.css
     <div class="content-box grid-item" style="--medium:60%;">
         <h2>Guillaume Wolf</h2>
         {% include guillaume.html %}
+        <p>Vous pouvez me faire confiance !</p>
     </div>
 </div>
 
@@ -54,7 +137,7 @@ css: home.css
         <div class="content-box grid-item" style="--medium:40%;">
             <h3>Newsletter</h3>
             <div>
-                Un email par mois sur le numérique responsable et l'environnement.
+                Un email par trimestre sur le numérique responsable et l'environnement.
             </div>
 
             <form id="sib-form" class="form" action="https://59649dec.sibforms.com/serve/MUIFAIVKgZCXcDONDGgLvCM8zx9fcjOj13WOdwL3SUtjFs7yEJC9cghtOQ-P5l32bXvnEM6sGvC8R05rZ7GyRl8LVltuJUbAMnW1gihzsa9LBw74_0EFrmG6m7k-MU8fbbQ1gTzdIpk2nPcv61xcw4JTuVt-xJ4eVGJV_SYZyFwqGboE_SmmUypUJBcvavpXGqWY2GRssjyjIeJd" method="POST">
@@ -77,7 +160,7 @@ css: home.css
                     {% include link.html text="LinkedIn" link="https://www.linkedin.com/in/guillaumewolf/" class="button" aria-role="button" aria-label="Consulter mon profil LinkedIn" %}
                 </div>
                 <div class="social">
-                    {% include link.html text="Malt" link="https://www.malt.fr/profile/guillaumewolf1" class="button" aria-role="button" aria-label="Consulter mon profil Malt" %}
+                    <a href="/podcasts" class="button" aria-role="button" aria-label="Consulter mon profil Malt">Podcast</a>
                 </div> 
             </div>
         </div>

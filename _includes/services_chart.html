@@ -1,9 +1,9 @@
-<div class="home_chart">
+<div class="services_chart">
     <div class="scroll">
         {% assign sorted_services = site.services | sort: 'order'  %}
         {% for service in sorted_services %}
         <div class="phase {{service.short_title | slugify }}">
-            <a href="{{service.url}}" title="{{service.title}}">
+            <a href="#{{service.short_title}}" title="{{service.title}}">
                 {{service.short_title }}
             </a>
         </div>
