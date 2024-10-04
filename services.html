@@ -6,24 +6,34 @@ permalink: /services/
 layout: service
 ---
 <div class="grid ">
-    {% assign sorted_services = site.services | sort: 'order'  %}
-    {% for service in sorted_services %}
-    <div class="content-box grid-item service" icon_utf8="{{service.order}}" style="--small:100%;--medium:50%; --large:33%;">
-        <div class="content-subhead outer-center">
-            <h2 class="inner-center">
-                {% if service.short_title %}
-                {{ service.short_title }}
-                {% else %}
-                {{service.title}}
-                {% endif %}
-            </h2>
-        </div>
-        <p>
-            {{service.long_description}}
-        </p>
-        <div class="is-center cta">
-            <a href="{{service.url}}" class="button">En savoir plus</a>
+    <div class="content-box">
+        <h2>Le cycle Green IT classique</h2>
+        <p>De manière génrale, l'éco-conception fonctionne par cycles d'environ une année.</p>
+        <p>Après une phase de cadrage et de préparation du financement, on amorce un audit du service afin d'en définir un plan d'actions. Ces actions sont suivies et appuyées par la formation des équipes sur les sujets adéquats.</p>
+        <p>On finit par la valorisation de la démarche (interne et externe).</p>
+        {% include services_chart.html %}
+    </div>
+    <div  class="content-box">
+        <h2> Les services </h2>
+        <div class="grid">
+            {% assign sorted_services = site.services | sort: 'order'  %}
+            {% for service in sorted_services %}
+            <div class="content-box grid-item service {{service.icon}}" style="{{ service.grid_sizes }}" id="{{service.short_title}}">
+                <div class="content-subhead outer-center">
+                    <h3 class="innder-center">
+                        {% if service.short_title %}
+                        {{ service.short_title }}
+                        {% else %}
+                        {{service.title}}
+                        {% endif %}
+                    </h3>
+                </div>
+                <p>
+                    {{service.long_description}}
+                </p>
+                <a href="{{service.url}}" aria-label="{{service.title}} : en savoir plus">En savoir plus</a>
+            </div>
+            {% endfor %}
         </div>
     </div>
-    {% endfor %}
 </div>

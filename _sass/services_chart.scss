@@ -1,4 +1,4 @@
-.home_chart{
+.services_chart{
     width: 100%;
     position: relative;
     overflow: auto;
@@ -45,8 +45,8 @@
     }
     .avant-projet {
         left:0;
-        width:8.33%;
-        width: calc(8.33% - 15px);
+        width:15%;
+        width: calc(15% - 15px);
     }
     .sensibilisation {
         left:0%;
@@ -60,8 +60,8 @@
     }
     .stratégie{
         left:41.66%;
-        width:8.33%;
-        width: calc(8.33% - 15px);
+        width:15%;
+        width: calc(15% - 15px);
     }
     .réduction{
         left:50%;
@@ -74,9 +74,9 @@
         width: calc(50% - 15px);
     }
     .communication {
-        left: 91.66%;
-        width: 8.33%;
-        width: calc(8.33% - 15px);
+        left: 85%;
+        width: 15%;
+        width: calc(15% - 15px);
         a {
             text-align: right;
             right: 0;

@@ -7,7 +7,7 @@ long_description: Apprendre pour mieux gérer les actions de réductions de l'im
 order: 4
 icon_utf8: 🎓
 icon: graduation_hat_icon
-grid_sizes: --medium:33%; --large:25%;
+grid_sizes: --small:100%; --medium:50%; --large:33%;
 
 ---
 

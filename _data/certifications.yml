@@ -4,12 +4,16 @@
   by: GreenIT
 - name: Fresque du Numérique
   url: https://www.fresquedunumerique.org/parcours.html
-  level: Animateur expérimenté (membre du collectif pro)
+  level: Formateur
   by: Fresque du Numérique 
 - name: Fresque du Climat
   url: https://climatefresk.org/support/fr/parcours/
-  level: Ceinture jaune
+  level: Ceinture orange
 - name: Green Software for Practitionners (LFC131)
   url: https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/ac3c8906-3a6b-423b-b8bd-01d1e5fa34f1-guillaume-guillaume-2ad5d25d-2a6a-4c1c-b71f-3f407eb0b7e5-certificate.pdf
   by: Green Software Foundation
+  level: null
+- name: Ambassadeur RSE 
+  url: https://entreprises.nantesmetropole.fr/agir-ensemble/ambassadeurs/guillaume-wolf/
+  by: Nantes métropole
   level: null

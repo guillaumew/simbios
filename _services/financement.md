@@ -7,7 +7,7 @@ long_description: Bien cerner le besoin pour lancer un projet adapté et vérifi
 order: 0
 icon_utf8: €
 icon: money_icon
-grid_sizes: --medium:50%; --large:26%;
+grid_sizes: --small:100%; --medium:50%; --large:50%;
 
 ---
 ## Cadrage

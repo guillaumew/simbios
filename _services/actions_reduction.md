@@ -7,7 +7,7 @@ long_description: Application du plan d'actions. Eco-conception des services num
 order: 5
 icon_utf8: 🚧
 icon: people_icon
-grid_sizes: --medium:33%; --large:25%;
+grid_sizes: --small:100%; --medium:50%; --large:33%;
 
 ---
 
