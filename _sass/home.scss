@@ -95,21 +95,26 @@
     .why-item {
         height: 100%;
         border-radius: 5px;
+        text-align: center;
         svg {
-            margin-left: 25%;
             width:50%;
+            max-width: 200px;
             fill: #0d3444;
         }
     }
     .firm {
-        background-color: #be97c6; 
+        background-color: #BFD7EA; 
     }
     .planet {
-        background-color: #ace4aa; 
+        background-color: #91AEC1; 
     }
     .people {
-        background-color: #e3b23c; 
+        background-color: #76A8BC; 
     }
+}
+.cost img {
+    background-color: transparent;
+    filter:none;
 }
 
 .social {
