@@ -24,12 +24,9 @@ layout: service
 		<h2>{{ sensibilisation.title}}</h2>
 		<div class="grid">
 			<div class="grid-item" style="--medium:66.666%;">
-				{{ sensibilisation.content | markdownify }}
-				{% if sensibilisation.link %}
 				<p>
-					{% include link.html text="En savoir plus" link=sensibilisation.link %}
+					{{ sensibilisation.summary }}
 				</p>
-				{% endif %}
 				<div class="les_plus">
 					<span class="thumb_up">👍</span>
 					<ul>
@@ -38,9 +35,14 @@ layout: service
 						{% endfor %}
 					</ul>
 				</div>
+				{% if sensibilisation.url %}
+				<p>
+					<a href="{{sensibilisation.url}}">En savoir plus</a>
+				</p>
+				{% endif %}
 			</div>
 			<div class="grid-item image_container" style="--medium:33.3333%;">
-				{% if sensibilisation.image.type == "jpg" %}
+				{% if sensibilisation.image.type %}
 				{% include picture.html url=sensibilisation.image.url alt=sensibilisation.image.alt %}
 				{% else %}
 				<img src="{{sensibilisation.image.url}}" alt="{{sensibilisation.image.alt}}" loading="lazy">

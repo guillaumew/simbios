@@ -4,7 +4,7 @@ collections:
     permalink: /services/:path
   sensibilisations:
     relative_directory: "sensibilisations"
-    output: false
+    output: true
     permalink: /services/sensibilisation/:path
   formations:
     relative_directory: "formations"
@@ -27,6 +27,11 @@ defaults:
       css: "markdown.css"
       description: "Pour réduire l'impact environnemental du numérique"
       image: "/assets/img/simbios-black.svg"
+  - scope:
+      path: ""
+      type: "sensibilisations"
+    values:
+      layout: "service"
 sass:
   style: compressed
   
