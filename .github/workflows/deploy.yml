@@ -18,5 +18,7 @@ jobs:
     name: deploy site
     runs-on: ubuntu-latest
     steps:
+    - name: Install Jekyll
+      run: bundle install
     - name: Deploy
       run: rake site:publish
