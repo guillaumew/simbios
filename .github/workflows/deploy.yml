@@ -18,6 +18,7 @@ jobs:
     name: deploy site
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v4
     - name: Install Jekyll
       run: bundle install
     - name: Deploy
