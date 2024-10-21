@@ -133,7 +133,12 @@ button {
     margin:auto;
 }
 
-
+@view-transition {
+    navigation: auto;
+}
+.home-menu {
+    view-transition-name: --persist-nav;
+}
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
