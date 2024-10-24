@@ -21,7 +21,7 @@ namespace :site do
     file_path = "/tmp/ecoindex-cli/output/simbios.fr/#{ARGV[1]}/results.json"
     if(File.exist?(file_path)) then
       f = File.read(file_path)
-      ecoscores = JSON.parse(f)
+      ecoscores = JSON.parse(f).sort_by { |hash| hash['url'] }
       output = ""
       ecoscores.each { |row|
         path = row['url'][18..-1]
