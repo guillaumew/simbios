@@ -3,6 +3,8 @@ table {
     margin: 25px 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     width:100%;
+	display: block;
+    overflow-x: auto;
     text-align: center;
     thead tr {
 	    background-color: $teal-color;
@@ -11,13 +13,15 @@ table {
 	th,dt {
 		padding: 12px 15px;
 	}
-	tbody tr {
-		border-bottom: 1px solid #dddddd;
-		&:nth-of-type(even){
-			background-color: $dark_white-color;
-		}
-		&:last-of-type {
-	    border-bottom: 2px solid $teal-color;
+	tbody {
+		tr {
+			border-bottom: 1px solid #dddddd;
+			&:nth-of-type(even){
+				background-color: $dark_white-color;
+			}
+			&:last-of-type {
+			border-bottom: 2px solid $teal-color;
+			}
 		}
 	}
 }

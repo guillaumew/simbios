@@ -26,8 +26,9 @@ Ce site se veut exemplaire par rapport à ce qui peut être réalisé en terme d
 
 ## Diagnostic
 
-### Eco-index
-L'ensemble des pages est testé par l'outil eco-index. Vous pouvez retrouver les statistiques en bas de page. Toutes les pages possèdent un score d'au moins 80/100.
+### EcoIndex
+
+L'ensemble des pages est testé par l'outil EcoIndex. Vous pouvez retrouver les statistiques en bas de page. Toutes les pages possèdent un score d'au moins 80/100. Plus d'informations disponibles sur la page de la [déclaration environnementale](/declaration-environnementale).
 
 ### RGESN
 Audit à réaliser.
