@@ -4,6 +4,7 @@ description: Cette déclaration s'applique au site Simbios.fr
 layout: markdown
 permalink: accessibilite
 published : true
+toc: true
 ---
 
 ## État de conformité
@@ -26,22 +27,15 @@ Il s'agit donc à mon sens d'un faux positif.
 
 ### Incohérence entre le nom accessible et l'intitulé visible
 
-#### Retour à la page d'accueil
-
 Le logo en haut à gauche comporte un lien qui permet de revenir sur la page d'accueil. Il s'agit d'une pratique courante qui à mon sens ne nécessite pas d'être explicitée.
 
 En revanche, j'ai mentionné explicitement ce fonctionnement dans le nom accessible du lien ("retour à la page d'accueil"). L'outil y voit une incohérence, mais je pense qu'il s'agit encore d'un faux positif.
 
-### Text alternatif redondant
-
-Sur la page de présentation des articles de blog, j'utilise le titre de l'article comme texte alternatif pour les images qui représentent les articles. Cela fait doublon avec le titre qui est déjà présent à côté.
-
-Il faut donc trouver une solution pour corriger cela.
-
 
 ## Établissement de cette déclaration d’accessibilité
 
-Cette déclaration a été établie en juillet 2024.
+- Cette déclaration a été établie en juillet 2024.
+- Elle a été mise à jour en octobre 2024 (correction d'un problème)
 
 
 ## Technologies utilisées pour la réalisation du site

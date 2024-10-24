@@ -4,6 +4,7 @@ description: Cette déclaration s'applique au site Simbios.fr
 layout: markdown
 permalink: declaration-environnementale
 published : true
+toc : true
 ---
 
 ## Niveau d'écoconception du site web

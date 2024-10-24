@@ -4,6 +4,7 @@ description: Cette déclaration s'applique au site Simbios.fr
 layout: markdown
 permalink: declaration-ecoconception
 published : true
+toc: true
 ---
 
 ## Raison d'être de ce service

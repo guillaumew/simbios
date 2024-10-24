@@ -4,5 +4,10 @@ layout: page
 
 
 <div class="content markdown column-content" id="maincontent">
-    {{content}}
+    {% assign toc_content = content | toc_only | strip %}
+        {% if toc_content != '' %}
+            <h2>Sommaire</h2>
+            {{ toc_content }}
+        {% endif %}
+    {{ content }}
 </div>
