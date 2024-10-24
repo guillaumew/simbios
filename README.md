@@ -41,7 +41,7 @@ Dans un terminal (pas de VS code) :
 
 ``` alias ecoindex-cli="docker run -it --rm --add-host=host.docker.internal:host-gateway -v /tmp/ecoindex-cli:/tmp/ecoindex-cli vvatelot/ecoindex-cli:latest ecoindex-cli" ```
 
-``` ecoindex-cli analyze --url https://simbios.fr --recursive --export-format json ```
+``` ecoindex-cli analyze --sitemap https://simbios.fr/sitemap.xml --export-format json ```
 
 Répondre Oui (Y) deux fois.
 

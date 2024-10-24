@@ -11,18 +11,8 @@ ENV["JEKYLL_ENV"] = "production"
 namespace :site do
   desc "test"
   task :test do
-=begin    
-  Dir.chdir "_site" 
-  files = Rake::FileList["**/*.html"] do |f1|
-      fl.exclude("~*")
-      fl.exclude do |f|
-        `git ls-files #{f}`.empty?
-      end
-    end
-    puts files 
-=end
-  ARGV.each { |a| task a.to_sym do ; end }
-  puts "Message : #{ARGV[1]}"
+    sh "alias ecoindex-cli=\"docker run -it --rm --add-host=host.docker.internal:host-gateway -v /tmp/ecoindex-cli:/tmp/ecoindex-cli vvatelot/ecoindex-cli:latest ecoindex-cli\""
+    sh "ecoindex-cli analyze --url https://simbios.fr --recursive --export-format json"
   end
 
   desc "Calcul des ecoindex des pages publiées"
@@ -35,11 +25,6 @@ namespace :site do
       output = ""
       ecoscores.each { |row|
         path = row['url'][18..-1]
-=begin
-        if(path[-1..-1] != "/")
-          then path = "#{path}.html"
-        end
-=end
         output = "#{output}- path: #{path}\n  score: #{row['score']}\n  grade: #{row['grade']}\n  size: #{row['size'].round}\n  nodes: #{row['nodes']}\n  requests: #{row['requests']}\n"
       }
       File.write('_data/ecoindex.yml', output)
