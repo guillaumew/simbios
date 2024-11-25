@@ -9,11 +9,6 @@ podcast : https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/65e9dce57
 
 En septembre 2023, Apple a annoncé le lancement de ses premiers produits neutres en carbone à grands renforts de communication (dont une vidéo avec l’actrice Octavia Spencer).
 
-{% include picture.html 
-    url="/assets/img/posts/2023/Q4/apple-smatwatch"
-    alt="Apple bsmartwatch neutre en carbone ?."
- %}
-
 Mais qu’en est-il réellement des engagements environnementaux pour la compagnie de Cupertino ?
 
 
