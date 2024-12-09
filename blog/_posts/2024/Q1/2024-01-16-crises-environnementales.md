@@ -35,7 +35,7 @@ Que l'on suit au travers de 16 catégories d'impact environnemental :
 - [Changement climatique](/blog/2024/05/21/changement-climatique)
 - [Ecotoxicité de l'eau ](/blog/2024/01/30/ecotoxicite-eau)
 - [Formation d'ozone photochimique](/blog/2024/07/30/formation-ozone-photochimique)
-- Radiations ionisantes
+- [Radiations ionisantes](/blog/2024/12/09/radiations-ionisantes)
 - Toxicité humaine (cancer)
 - Toxicité humaine (non cancer)
 - [Emissions de particules](/blog/2024/07/10/particules)
