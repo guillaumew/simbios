@@ -1,7 +1,7 @@
 ---
 title: "Les crises environnementales : les radiations ionisantes"
 description: "Certaines radiations peuvent être nocives voire mortelles pour les organismes vivants"
-tags: ["Crises environnementales", "Nucléaire", "Uranium", "Electro-magnétisme"]
+tags: ["Crises environnementales", "Nucléaire", "Cancer", "Electro-magnétisme", "Radon"]
 image: /assets/img/posts/2024/Q4/thumb-nuclear.jpg
 thumb: /assets/img/posts/2024/Q4/thumb-nuclear
 alt-image: "Une centrale nucléaire émet des radiations ionisantes"
