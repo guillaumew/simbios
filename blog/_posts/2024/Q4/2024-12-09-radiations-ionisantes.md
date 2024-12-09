@@ -5,7 +5,7 @@ tags: ["Crises environnementales", "Nucléaire", "Cancer", "Electro-magnétisme"
 image: /assets/img/posts/2024/Q4/thumb-nuclear.jpg
 thumb: /assets/img/posts/2024/Q4/thumb-nuclear
 alt-image: "Une centrale nucléaire émet des radiations ionisantes"
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6757165ae417dbfb2112f52a/media.mp3
 ---
 
 Cet article fait partie de la série concernant les [crises environnementales](/blog/2024/01/16/crises-environnementales), il aborde les impacts des radiations ionisantes.
@@ -59,7 +59,7 @@ Dans tous les cas de figures, le bénéfice des actes médicaux est largement su
 
 ### Les usages nucléaires
 
-Les usages nucléaires (notamment la production d'électricité) exposent relativement peu les Français·es aux radiations ionisantes. Nous sommes toutefois légèrement exposés aux radiations suite à des usages nucléaires. Même des dizaines d'années après, nous sommes toujours exposésaux radiations des essais nucléaires et à l'accident de Tchernobyl. 
+Les usages nucléaires (notamment la production d'électricité) exposent relativement peu les Français·es aux radiations ionisantes. Nous sommes toutefois légèrement exposés aux radiations suite à des usages nucléaires. Même des dizaines d'années après, nous sommes toujours exposés aux radiations des essais nucléaires et à l'accident de Tchernobyl. 
 
 ## Où en est-on ?
 
@@ -114,7 +114,7 @@ Si nos usages numériques n'ont que très peu d'incidence sur notre exposition a
 
 *La {% include link.html link="https://www.irsn.fr/savoir-comprendre/environnement/cartographie-potentiel-radon-formations-geologiques" text="carte de l'exposition au radon en France" %} (source IRSN): la Bretagne et les montagnes sont les plus impactées.*
 
-## Determinez votre exposition
+## Déterminez votre exposition
 
 Pour savoir où vous en êtes, l'IRSN propose un outil qui permet de calculer en 2 min votre exposition personnelle aux radiations en fonction de votre lieu d'habitation et de vos modes de vie.
 
