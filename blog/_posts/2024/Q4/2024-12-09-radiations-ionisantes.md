@@ -20,7 +20,7 @@ On différencie généralement les rayonnements en fonction de leur fréquence. 
 
 Au-delà d'un certaine quantité, les radiations ionisantes peuvent altérer le fonctionnement des organes et tissus. Cela peut se manifester par des rougeurs, la perte de cheveux ou encore des brûlures.
 
-Sur le long terme, des radiations mêmes suffisamment faibles pour ne pas déclencher les symptômes mentionnés plus haut augmentent les risques de cancers ou cataractes notamment pour les personnes les plus jeunes.
+Sur le long terme, des radiations même suffisamment faibles pour ne pas déclencher les symptômes mentionnés plus haut augmentent les risques de cancers ou cataractes notamment pour les personnes les plus jeunes.
 
 ## Comment mesure-t-on les radiations ionisantes ?
 
@@ -28,7 +28,7 @@ Il existe trois unités pour mesurer les radiations ionisantes.
 
 - Le Becquerel (Bq) mesure l'activité radioactive et donc le rayonnement ionisant induit.
 - le Gray (Gy) mesure la dose absorbée (par la matière ou l'humain)
-- le Sievert (Sv) mesure impact du rayonnement sur le vivant (une dose absorbée sur la main ou dans le cerveau n'ont pas le même impact)
+- le Sievert (Sv) mesure l'impact du rayonnement sur le vivant (une dose absorbée sur la main n'a pas le même impact que dans le cerveau)
 
 L'IRSN (Institut de Radioprotection et de Sûreté Nucléaire) propose une {% include link.html text="belle analogie avec des pommes" link="https://www.irsn.fr/savoir-comprendre/dialogue-pedagogie/unites-mesure" %}.
 
@@ -85,7 +85,7 @@ En fonction de nos modes de vie, nous pouvons avoir une exposition très différ
 
 *Tableau résumant l'{% include link.html text="exposition moyenne en France" link="https://www.irsn.fr/savoir-comprendre/sante/lexposition-moyenne-francais-facteurs-variation" %} selon l'IRSN*
 
-Les installations nucléaires (centrales et industries) ont peu d'impacts sur l'exposition française moyenne. Cela ne dépasse pas 0,001 mSV/an pour les personnes habitants proches d'une installation. 
+Les installations nucléaires (centrales et industries) ont peu d'impacts sur l'exposition française moyenne. Cela ne dépasse pas 0,001 mSV/an pour les personnes habitants proche d'une installation. 
 
 Concrètement nous sommes essentiellement exposés à des radiations naturelles (plus de 2/3 des radiations moyennes). La part artificielle est quasiment exclusivement destinée à des soins médicaux.
 
@@ -99,7 +99,7 @@ D'après {% include link.html link="https://www.arcep.fr/uploads/tx_gspublicatio
 
 ## Que peut-on faire ?
 
-Si nos usages numériques n'ont que très peu d'incidence sur notre exposition aux radiations ionisantes, il existe tout de même de facteurs à risque :
+Si nos usages numériques n'ont que très peu d'incidence sur notre exposition aux radiations ionisantes, il existe tout de même des facteurs à risque :
 
 - le tabagisme : inhalation de substances radioactives dans l'organisme
 - l'avion : plus grande exposition au rayonnement cosmique ({% include link.html link="https://www.sievert-system.org/#Calcul" text="évaluer la dose de radiations d'un vol" %})
