@@ -1,3 +1,5 @@
+@use 'colors' as v;
+
 table {
     border-collapse: collapse;
     margin: 0 auto;
@@ -6,7 +8,7 @@ table {
     overflow-x: auto;
     text-align: center;
     thead tr {
-	    background-color: $teal-color;
+	    background-color: v.$teal-color;
 	    color: #ffffff;
 	}
 	th,dt {
@@ -16,10 +18,10 @@ table {
 		tr {
 			border-bottom: 1px solid #dddddd;
 			&:nth-of-type(even){
-				background-color: $dark_white-color;
+				background-color: v.$dark_white-color;
 			}
 			&:last-of-type {
-			border-bottom: 2px solid $teal-color;
+			border-bottom: 2px solid v.$teal-color;
 			}
 		}
 		td {

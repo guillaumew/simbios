@@ -62,6 +62,7 @@ plugins:
   - jekyll-minifier
   - jekyll-responsive-image
   - jekyll-toc
+  - jekyll-polyglot
 
 paginate: 5
 paginate_path: "/blog/page:num/"
@@ -82,3 +83,7 @@ responsive_image:
   save_to_source: true
   output_path_format: assets/%{dirname}/%{filename}/%{filename}-%{width}x%{height}.%{extension}
   
+languages: ["fr"]
+default_lang: "fr"
+exclude_from_localization: ["assets", "realisations", "blog", "public", "_sass"]
+parallel_localization: true

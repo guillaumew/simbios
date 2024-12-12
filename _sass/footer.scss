@@ -1,10 +1,12 @@
+@use "colors" as v;
+
 .footer {
-    background: $teal-color;
+    background: v.$teal-color;
     width: 100%;
     margin-top: auto;
     color: white;
     a {
-        color: $dark_white-color;
+        color: v.$dark_white-color;
     }
     .simbios_logo {
         height: 80%;
@@ -26,7 +28,7 @@
 
 .fixed_footer{
     padding-top: 500px;
-    background-color: $teal-color;
+    background-color: v.$teal-color;
     position: fixed;
     z-index: -1;
     bottom: 0;

@@ -1,5 +1,2 @@
----
----
-@import "colors";
-@import "apropos";
-@import "quotes"
+@use "apropos";
+@use "quotes";

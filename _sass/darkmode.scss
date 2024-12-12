@@ -1,35 +1,37 @@
+@use "colors" as v;
+
 @media (prefers-color-scheme: dark) {
     body{
-        color: $dark_white-color!important;
+        color: v.$dark_white-color!important;
         .header-container {
-            background-image: linear-gradient($teal-color 4em, $dark_teal-color 100%);
+            background-image: linear-gradient(v.$teal-color 4em, v.$dark_teal-color 100%);
         }
         .home-menu {
-            background-color: $teal-color;
+            background-color: v.$teal-color;
             box-shadow: none;
             #menuToggle ul {
-                background-color: rgba($teal-color,.9);
+                background-color: rgba(v.$teal-color,.9);
             }
         }
         button, .button {
-            background-color: $input_darkmode-color;
+            background-color: v.$input_darkmode-color;
         }
         .content-wrapper{
-            background: $dark_teal-color;
+            background: v.$dark_teal-color;
         }
         hr{
-            border-color:$dark_white-color;
+            border-color:v.$dark_white-color;
         }
         h1, h2, h3, h4, h5, h6 {
-            color: $very_light_teal-color;
+            color: v.$very_light_teal-color;
         }
         a {
-            color: $very_light_teal-color;
+            color: v.$very_light_teal-color;
         }
         .form {
             input[type], textarea {
-                background: $input_darkmode-color;
-                color: $dark_white-color;
+                background: v.$input_darkmode-color;
+                color: v.$dark_white-color;
                 border-color: grey;
             }
         }

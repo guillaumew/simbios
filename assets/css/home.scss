@@ -1,7 +1,2 @@
----
----
-
-@import "colors";
-@import "home";
-@import "ribbon";
-@import "services_chart";
+@use "home";
+@use "services_chart";
