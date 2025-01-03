@@ -86,4 +86,4 @@ responsive_image:
 languages: ["fr"]
 default_lang: "fr"
 exclude_from_localization: ["assets", "realisations", "blog", "public", "_sass"]
-parallel_localization: true
+parallel_localization: false
