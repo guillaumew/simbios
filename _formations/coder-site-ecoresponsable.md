@@ -1,8 +1,11 @@
 ---
 title: Coder un site de manière éco-responsable
+title-en: Develop an environmental friendly website
 description: Une demie journée pour réduire l'empreinte environnementale d'un site
 duration: 4 heures
+duration-en: 4 hours
 type: Atelier
+type-en: Workshop
 effectif: 2-6
 public: ["Dev"]
 layout: formation

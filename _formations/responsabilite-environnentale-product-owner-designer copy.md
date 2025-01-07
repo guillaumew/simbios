@@ -1,8 +1,11 @@
 ---
 title: Le coût environnemental des page web avec effet wahou
+title-en: The Environmental Cost of Web Pages with Wow Effects
 description: Comment concevoir un site qui donne envie, mais en pensant à l'environnement. 
 duration: 2 heures
+duration-en: 2 hours
 type: Atelier
+type-en: Workshop
 effectif: 4-8
 public: ["Product Owner", "Designer"]
 layout: formation

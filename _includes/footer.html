@@ -3,21 +3,21 @@
                 <div class="grid-item grid" style="--small:100%;--medium:70%;">
                         <div class="grid-item simbios_logo footer-item" style="--small:25%;--medium:43%;"></div>
                         <div class="grid-item content-box footer-item" style="--small:75%;--medium:57%;">
-                                Simbios aide les entreprises et les particuliers à réduire l'empreinte environnementale de leurs activités numériques.
+                                {{ site.data.translations[page.lang].footer.content }}
                         </div>
                 </div>
                 <div class="grid-item grid footer-item" style="--small:100%;--medium:30%;">
-                        <a href="/a-propos" class="grid-item" style="--small:50%;--medium:100%;">A propos</a>
-                        <a href="/mentions-legales" class="grid-item" style="--small:50%;--medium:100%;">Mentions légales</a>
-                        <a href="/accessibilite" class="grid-item" style="--small:50%;--medium:100%;">Accessibilité</a>
-                        <a href="/declaration-ecoconception" class="grid-item" style="--small:50%;--medium:100%;">Ecoconception</a>
-                        <a href="/contact" class="grid-item" style="--small:50%;--medium:100%;">Contact</a>
+                        <a href="/a-propos" class="grid-item" style="--small:50%;--medium:100%;">{{ site.data.translations[page.lang].footer.a_propos }}</a>
+                        <a href="/mentions-legales" class="grid-item" style="--small:50%;--medium:100%;">{{ site.data.translations[page.lang].footer.legal }}</a>
+                        <a href="/accessibilite" class="grid-item" style="--small:50%;--medium:100%;">{{ site.data.translations[page.lang].footer.accessibility }}</a>
+                        <a href="/declaration-ecoconception" class="grid-item" style="--small:50%;--medium:100%;">{{ site.data.translations[page.lang].footer.ecoconception }}</a>
+                        <a href="/{{ site.data.translations[page.lang].url }}contact" class="grid-item" style="--small:50%;--medium:100%;">{{ site.data.translations[page.lang].footer.contact }}</a>
                 </div>
         </div>
         <div class="ecoindex">
-                Score environnemental de la page :
+                {{ site.data.translations[page.lang].footer.ecoindex.title }}
                 {% assign ecoindex = site.data.ecoindex | where: 'path', page.url | first %}
-                <a href="https://bff.ecoindex.fr/redirect/?url=https%3A%2F%2Fsimbios.fr{{ page.url }}" target="_blank" rel="noopener noreferrer" aria-label="{% if ecoindex %}Ecoindex {{ecoindex.grade }} : {{ ecoindex.score }}/100. {% endif %}Ouvrir l'analyse de l'ecoindex de cette page dans un nouvel onglet">
+                <a href="https://bff.ecoindex.fr/redirect/?url=https%3A%2F%2Fsimbios.fr{{ page.url }}" target="_blank" rel="noopener noreferrer" aria-label="{% if ecoindex %}Ecoindex {{ecoindex.grade }} : {{ ecoindex.score }}/100. {% endif %} {{ site.data.translations[page.lang].footer.ecoindex.aria_link }}">
                         {% if ecoindex %}
                         Ecoindex {{ecoindex.grade }} : {{ ecoindex.score }}/100
                         {% else %}
@@ -26,9 +26,9 @@
                 </a>
                 {% if ecoindex %}
                 <div class="page_stats">
-                        Taille : {{ ecoindex.size}} ko |
-                        DOM: {{ ecoindex.nodes}} noeuds | 
-                        {{ ecoindex.requests}} requêtes
+                        {{ site.data.translations[page.lang].footer.ecoindex.size }} {{ ecoindex.size}} ko |
+                        {{ site.data.translations[page.lang].footer.ecoindex.dom }} {{ ecoindex.nodes}} {{ site.data.translations[page.lang].footer.ecoindex.nodes }} | 
+                        {{ ecoindex.requests}} {{ site.data.translations[page.lang].footer.ecoindex.requests }}
                 </div>
                 {% endif %}
         </div>

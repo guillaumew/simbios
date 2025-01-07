@@ -6,9 +6,9 @@ css: markdown
 <div class="over-content">
     <div class="slider column-content">
         <div class="markdown services_info slider_info">
-            <h2>Tous les services :</h2>
+            <h2>{{ site.data.translations[page.lang].services.all_title }}</h2>
             <ol start="0">
-                {% assign sorted_services = site.services | sort: 'order'  %}
+                {% assign sorted_services = site.services | sort: 'order' | where: "lang", page.lang %}
                 {% for service in sorted_services %}
                 <li>
                     {% if page.url == service.url %}
@@ -31,7 +31,7 @@ css: markdown
 	<div class="content markdown column-content" id="maincontent">
         {{content}}
         <hr>
-        <h2>Intéressé.e ? Prenons contact !</h2>
+        <h2>{{ site.data.translations[page.lang].services.contact }}</h2>
 
         {% include contact_form.html %}
     </div>

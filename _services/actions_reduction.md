@@ -1,7 +1,8 @@
 ---
 title: Actions de réduction de l'empreinte environnementale
 short_title: Réduction
-description: Des opération effectives avec une prise de recul pour mesurer l'impact réel
+class: reduction
+description: Des opérations effectives avec une prise de recul pour mesurer l'impact réel
 layout: service
 long_description: Application du plan d'actions. Eco-conception des services numériques. Politique d'achats responsables. Pilotage et suivi des tâches. Mesure de l'amélioration effective.
 order: 5

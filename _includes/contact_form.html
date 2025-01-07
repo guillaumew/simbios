@@ -4,20 +4,20 @@
     method="POST"
     >
     <fieldset aria-label="Envoyer un message à Simbios">
-        <input type="hidden" name="_next" value="{{site.url}}/message_envoye.html">
+        <input type="hidden" name="_next" value="{{site.url}}/{{ site.data.translations[page.lang].url }}message_envoye.html">
         <input type="hidden" name="_subject" value="Nouveau message sur le formulaire de contact">
         <input type="hidden" name="_captcha" value="false">
         <label for="email">
-            Votre email
-            <input id="email" name="email" type="email" placeholder="nom@domaine.com" autocomplete="on" data-required="true" required aria-required="true">
+            {{ site.data.translations[page.lang].contact.email }}
+            <input id="email" name="email" type="email" placeholder="{{ site.data.translations[page.lang].contact.email_placeholder }}" autocomplete="on" data-required="true" required aria-required="true">
         </label>
 
         <label for="message">
-            Votre message
-            <textarea id="message" name="message" placeholder="Bonjour,..." data-required="true" required aria-required="true"></textarea>
+            {{ site.data.translations[page.lang].contact.message }}
+            <textarea id="message" name="message" placeholder="{{ site.data.translations[page.lang].contact.message_placeholder }}" data-required="true" required aria-required="true"></textarea>
         </label>
         <div class="social">
-            <button type="submit" class="button" aria-label="Envoyer le message">Envoyer</button>
+            <button type="submit" class="button" aria-label="{{ site.data.translations[page.lang].contact.send_aria }}">{{ site.data.translations[page.lang].contact.send }}</button>
         </div>
     </fieldset>
 </form>

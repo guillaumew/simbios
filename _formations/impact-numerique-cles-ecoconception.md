@@ -1,8 +1,11 @@
 ---
 title: Impact du numérique & concepts clés d'éco-conception
+title-en: IImpact of Digital Technology & Key Concepts of Eco-design
 description: Une formation générale pour comprendre les principaux leviers de l'eco-conception
 duration: 1 jour
+duration-en: 1 day
 type: Formation
+type-en: Training
 effectif: 4-8
 public: ["Tout public"]
 layout: formation

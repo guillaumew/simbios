@@ -1,6 +1,7 @@
 ---
 title: Communication sur les efforts de transition
 short_title: Communication
+class: communication
 description: Les mots justes pour ne pas se faire épingler par le Green-washing
 layout: service
 long_description: Communication sur les progrès réalisés (en interne comme en externe). Labelisation numérique responsable.
