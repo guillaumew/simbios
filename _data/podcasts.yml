@@ -13,3 +13,5 @@
 - name: Google Podcasts
   link: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5hY2FzdC5jb20vcHVibGljL3Nob3dzL2xlLW51bWVyaXF1ZS1ldC1sZW52aXJvbm5lbWVudA
   id: google
+- name: Episodes.fm
+  link: https://episodes.fm/launch?platform=audible&showId=1733822934

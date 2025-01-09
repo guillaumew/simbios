@@ -5,7 +5,7 @@ tags: ["Logiciel", "Obsolescence", "GAFAM", "Android", "Google", "Open Source"]
 image: /assets/img/posts/2025/Q1/thumb-update-phone.jpg
 thumb: /assets/img/posts/2025/Q1/thumb-update-phone
 alt-image: "Un smartphone en mode recovery"
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/677f9939e83bfb002ddfc5ea/media.mp3
 ---
 
 ## Contexte
@@ -20,13 +20,13 @@ Cela peut poser plusieurs problèmes.
 - Je ne bénéficie pas des nouvelles fonctionnalités proposées sur les nouvelles versions d'Android. Autant vous dire que je ne suis pas du tout impacté... en réalité, je ne saurais même pas dire quelles sont ces nouvelles fonctionnalités.
 - Les applications vont progressivement arrêter le support des anciennes versions des systèmes d'exploitation. Je vais donc soit devoir rester sur de vieilles versions d'applications, voire même ne pas pouvoir installer certaines applications.
 
-Pour le moment, j'étais relativement épargné par ces problèmes et j'étais pleinement satisfait du fonctionnement de mon smartphone. Ce dont j'étais moins satisfait, c'est l'usage que j'avais. Comme beaucoup de gens, j'ai tendance à sortir mon téléphone dès que j'ai quelques secondes d'inaction. Incapable de changer cette habitude que je juge pourtant néfaste, j'ai progressivement désinstallé toutes les applications de divertissement. Mais il reste toujours Youtube qui ne peut pas être désinstallé comme les autres applications.
+Pour le moment, j'étais relativement épargné par ces problèmes et j'étais pleinement satisfait du fonctionnement de mon smartphone. Ce dont j'étais moins satisfait, c'est l'usage que j'en avais. Comme beaucoup de gens, j'ai tendance à sortir mon téléphone dès que j'ai quelques secondes d'inaction. Incapable de changer cette habitude que je juge pourtant néfaste, j'ai progressivement désinstallé toutes les applications de divertissement. Mais il reste toujours Youtube qui ne peut pas être désinstallé comme les autres applications.
 
 ## Objectifs
 
 Quitte à devoir faire des opérations avancées sur mon téléphone pour pouvoir retirer Youtube (que je suis a priori incapable de m’empêcher d'ouvrir), je vais en profiter pour mettre à jour Android.
 
-Il existe pas mal d'initiative comme {% include link.html link="https://grapheneos.org/" text="GrapheneOS" %}, {% include link.html  link="https://calyxos.org/" text="CalyxOS" %} ou {% include link.html  link="https://www.ubuntu-touch.io/" text="Ubuntu Touch" %}. Mais ces OS ne fonctionnent  que sur une poignée de terminaux. Seuls {% include link.html  text="/e/OS" link="https://e.foundation/e-os/" %} et {% include link.html  text="LineageOS" link="https://lineageos.org/" %} proposent un support étendu (qui inclut mon OnePlus 5T).
+Il existe pas mal d'initiatives comme {% include link.html link="https://grapheneos.org/" text="GrapheneOS" %}, {% include link.html  link="https://calyxos.org/" text="CalyxOS" %} ou {% include link.html  link="https://www.ubuntu-touch.io/" text="Ubuntu Touch" %}. Mais ces OS ne fonctionnent  que sur une poignée de terminaux. Seuls {% include link.html  text="/e/OS" link="https://e.foundation/e-os/" %} et {% include link.html  text="LineageOS" link="https://lineageos.org/" %} proposent un support étendu (qui inclut mon OnePlus 5T).
 
 J'ai opté pour Lineage parce qu'il m'a été recommandé, mais honnêtement je n'avais pas vraiment d'argument pour aller dans un sens ou dans l'autre. Cependant, je me suis également rendu compte qu'il était possible d'utiliser ces OS pour "déGoogliser" mon smartphone. Je me dis que c'est une bonne occasion pour tester un monde sans Google.
 
@@ -42,7 +42,7 @@ Une fois le nouvel OS installé, il faut donc rétablir les applications ou tout
 
 ### Gestionnaire d'applications
 
-C'est donc parti pour installer un nouveau catalogue d'application. Après quelques tentatives je décide d'installer {% include link.html link="https://f-droid.org/fr/" text="F-Droid" %} pour avoir accès à des applications open source. Mais j'ai également dû installer {% include link.html link="https://gitlab.com/AuroraOSS/AuroraStore" text="Aurora Store" %} pour installer les applications d'éditeurs dont je ne peux pas me passer (Whatsapp, Slack, Discord...)
+C'est donc parti pour installer un nouveau catalogue d'applications. Après quelques tentatives je décide d'installer {% include link.html link="https://f-droid.org/fr/" text="F-Droid" %} pour avoir accès à des applications open source. Mais j'ai également dû installer {% include link.html link="https://gitlab.com/AuroraOSS/AuroraStore" text="Aurora Store" %} pour installer les applications d'éditeurs dont je ne peux pas me passer (Whatsapp, Slack, Discord...)
 
 ### Navigateur
 
