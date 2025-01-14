@@ -1,20 +1,18 @@
-@use 'colors' as v;
-
 .services_chart{
     width: 100%;
     position: relative;
     overflow: auto;
-    border: 1px solid v.$teal-color;
+    border: 1px solid $teal-color;
     border-radius: 5px;
     padding: 5px;
-    background-color: rgba(v.$teal-color,0.5);
+    background-color: rgba($teal-color,0.5);
     .scroll {
         overflow: hidden;
         width: 100%;
         position: relative;
     }
     .phase {
-        background-color: rgba(v.$teal-color,0.75);
+        background-color: rgba($teal-color,0.75);
         height: 30px;
         margin-bottom: 5px;
         position: relative;
@@ -36,12 +34,12 @@
             height: 0px;
             border-style: solid;
             border-width: 15px;
-            border-color: transparent transparent transparent rgba(v.$teal-color,0.75);
+            border-color: transparent transparent transparent rgba($teal-color,0.75);
         }
         &:hover {
-            background-color: v.$teal-color;
+            background-color: $teal-color;
             &::after {
-                border-color: transparent transparent transparent v.$teal-color;
+                border-color: transparent transparent transparent $teal-color;
             }
         }
     }

@@ -1,8 +1,6 @@
-@use 'colors' as v;
-
 .chip {
     display: inline-block;
-    background: v.$light_teal-color;
+    background: $light_teal-color;
     padding: 2px 12px;
     margin-bottom: 12px;;
     border-radius: 32px;

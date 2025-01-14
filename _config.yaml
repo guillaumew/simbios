@@ -62,7 +62,6 @@ plugins:
   - jekyll-minifier
   - jekyll-responsive-image
   - jekyll-toc
-  - jekyll-polyglot
 
 paginate: 5
 paginate_path: "/blog/page:num/"
@@ -86,4 +85,3 @@ responsive_image:
 languages: ["fr"]
 default_lang: "fr"
 exclude_from_localization: ["assets", "realisations", "blog", "public", "_sass"]
-parallel_localization: false

@@ -1,5 +1,3 @@
-@use 'colors' as v;
-
 .markdown {
 	p{
 		width:100%
@@ -33,8 +31,8 @@
     body {
 		.markdown {
 			code {
-				background-color: v.$input_darkmode-color;
-				color: v.$dark_white-color;
+				background-color: $input_darkmode-color;
+				color: $dark_white-color;
 				border:none;
 			}
 		}

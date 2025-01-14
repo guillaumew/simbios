@@ -1,9 +1,7 @@
-@use "colors" as v;
-
 .under-menu{
     width: 100%;
     height: 3.75em;
-    background-color: v.$light_teal-color;
+    background-color: $light_teal-color;
     position: fixed;
 }
 
@@ -50,28 +48,28 @@
     .background {
         width: 100%;
         margin: 50px 0;
-        background: linear-gradient(90deg,v.$teal-color 25%, rgba(v.$dark_white-color,.25) 25%, rgba(v.$dark_white-color,.25) 75%,v.$teal-color 75%);
+        background: linear-gradient(90deg,$teal-color 25%, rgba($dark_white-color,.25) 25%, rgba($dark_white-color,.25) 75%,$teal-color 75%);
         .how-outer {
             --small:100%; 
             --medium:50%; 
             --large:33%;
             .how-inner{
                 h3 {
-                    color: v.$dark_white-color;
+                    color: $dark_white-color;
                     margin-top: 0;
                 }
                 hr {
-                    color: v.$dark_white-color;
-                    background: v.$dark_white-color;
+                    color: $dark_white-color;
+                    background: $dark_white-color;
                     height: 1px;
                     border: 0;
                     width: 66%;
                 }
-                background-color: v.$teal-color;
+                background-color: $teal-color;
                 height: 225px;
-                -webkit-box-shadow: 10px 10px 50px 0px rgba(v.$dark_teal-color,.5);
-                -moz-box-shadow: 10px 10px 50px 0px rgba(v.$dark_teal-color,.5);
-                box-shadow: 10px 10px 50px 0px rgba(v.$dark_teal-color,.5);
+                -webkit-box-shadow: 10px 10px 50px 0px rgba($dark_teal-color,.5);
+                -moz-box-shadow: 10px 10px 50px 0px rgba($dark_teal-color,.5);
+                box-shadow: 10px 10px 50px 0px rgba($dark_teal-color,.5);
 
             }
         }
@@ -87,7 +85,7 @@
         color: #0d3444;
     }
     h4, p, a {
-        color: v.$dark_teal-color;
+        color: $dark_teal-color;
         margin: 0.1em;
     }
     p {
@@ -130,23 +128,6 @@
         margin-bottom: 5px;
         text-align: center;
         padding: .5em 0;
-    }
-}
-
-.ribbon {
-    background: $teal-color;
-    color: white;
-    h2{
-        color: white;
-    }
-    a {
-        color: $dark_white-color;
-    }
-    .content-head{
-        color: white;
-    }
-    img {
-        border-radius: 128px;
     }
 }
 

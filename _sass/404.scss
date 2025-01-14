@@ -1,8 +1,6 @@
-@use "colors" as v;
-
-$white: v.$light_teal-color;
-$gray: v.$teal-color;
-$dark: v.$dark_teal-color;
+$white: $light_teal-color;
+$gray: $teal-color;
+$dark: $dark_teal-color;
 
 .container {
   margin: 0 auto;

@@ -17,7 +17,6 @@ group :jekyll_plugins do
   gem 'jekyll-minifier'
   gem 'jekyll-responsive-image'
   gem 'jekyll-toc'
-  gem "jekyll-polyglot"
 end
 
 gem "webrick", "~> 1.8"

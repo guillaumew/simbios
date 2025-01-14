@@ -1,11 +1,12 @@
---- 
---- 
+---
+---
 
-@use "normalize";
-@use "grid";
-@use "darkmode";
-@use "common";
-@use "menu";
-@use "header";
-@use "footer";
-@use "form";
+@import "normalize";
+@import "grid";
+@import "colors";
+@import "darkmode";
+@import "common";
+@import "menu";
+@import "header";
+@import "footer";
+@import "form";

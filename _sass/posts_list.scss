@@ -1,20 +1,18 @@
-@use 'colors' as v;
-
 .post_summary{
 	margin-bottom: 1em;
 	position: relative;
 	&.realisations{
 		.corner-ribbon{
-			background-color: v.$dark_teal-color;
+			background-color: $dark_teal-color;
 			&:before{
 				content: "Réalisation"
 			}
 		}
 		h2{
-			color: v.$dark_teal-color;
+			color: $dark_teal-color;
 		}
 		.chip{
-			background: v.$dark_teal-color;
+			background: $dark_teal-color;
 		}
 	}
 	.corner-ribbon-wrapper {
@@ -41,7 +39,7 @@
 		  color: #fff;
 		}
 		.blog{
-			background-color: v.$light_teal-color;
+			background-color: $light_teal-color;
 			&:before{
 				content: "Article"
 			}
@@ -58,7 +56,7 @@
 	a{
 		text-decoration: none;
 		p {
-			color: v.$dark_teal-color;
+			color: $dark_teal-color;
 		}
 	}
 	.thumbnail{
@@ -71,7 +69,7 @@
 	.post_summary{
 		a{
 			p {
-				color: v.$dark_white-color;
+				color: $dark_white-color;
 			}
 		}
 	}
