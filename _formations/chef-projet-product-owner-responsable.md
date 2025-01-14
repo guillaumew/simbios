@@ -1,8 +1,11 @@
 ---
 title: Chef de projet & Product Owner responsable
+title-en: Sustainable Project Manager and Product Owner
 description: Une formation dédiée aux chef.fe de projet / produit pour agir dans leur quotiduen pour réduire l'impact de leur service
 duration: 1 jour
+duration-en: 1 day
 type: Formation
+type-en: Training
 effectif: 4-8
 public: ["Product Owner", "Designer"]
 layout: formation

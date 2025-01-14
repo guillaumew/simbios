@@ -4,6 +4,122 @@ layout: default
 
 {% include splash.html %}
 <main class="content-wrapper" id="maincontent">
-    {{ content }}
+    <div class="content why" role="contentinfo" aria-label="{{ site.data.translations[page.lang].home_page.why.aria_section }}">
+        <h2>{{ site.data.translations[page.lang].home_page.why.title }}</h2>
+        <div class="is-center">{{ site.data.translations[page.lang].home_page.why.subtitle }}</div>
+        <div class="grid">
+            <div class="grid-item content-box" style="--small:100%; --medium:33%; --large:33%;">
+                <div class="content-box firm why-item">
+                    <h3 class="is-center">{{ site.data.translations[page.lang].home_page.why.company.title }}</h3>
+                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><path d="M8 2v4H4v42h11v-9h4v9h11V6h-4V2Zm2 8h2v2h-2Zm4 0h2v2h-2Zm4 0h2v2h-2Zm4 0h2v2h-2Zm10 4v4h2v2h-2v2h2v2h-2v2h2v2h-2v2h2v2h-2v2h2v2h-2v2h2v2h-2v2h2v2h-2v4h14V14Zm-22 1h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm14 3h2v2h-2Zm4 0h2v2h-2Zm-30 3h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm14 1h2v2h-2Zm4 0h2v2h-2Zm-4 4h2v2h-2Zm4 0h2v2h-2Zm-30 1h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm14 3h2v2h-2Zm4 0h2v2h-2Zm-30 3h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm4 0h2v4h-2Zm14 1h2v2h-2Zm4 0h2v2h-2Zm-4 4h2v2h-2Zm4 0h2v2h-2Zm-30 1h2v5h-2Zm12 0h2v5h-2Zm14 3h2v2h-2Zm4 0h2v2h-2Z"/></svg>
+                    {% for reason in site.data.translations[page.lang].home_page.why.company.reasons %}
+                    <div>
+                        <h4>{{ reason.title }}</h4>
+                        <p>{{ reason.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>   
+            </div>
+            <div class="grid-item content-box" style="--small:100%; --medium:33%; --large:33%;">
+                <div class="content-box planet why-item">
+                    <h3 class="is-center">{{ site.data.translations[page.lang].home_page.why.planet.title }}</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve"><path d="M492 156a257 257 0 0 0-93-112A255 255 0 0 0 256 0 255 255 0 0 0 44 113 255 255 0 0 0 0 256a255 255 0 0 0 113 212 255 255 0 0 0 143 44 255 255 0 0 0 212-113 255 255 0 0 0 44-143c0-35-7-69-20-100zM299 345c-10 14-2 35-14 47s-17 9-25 26c-1 2-14 31-17 22 3 8 0 15-9 15-10 0 1 8-8 10-3 1-3 7-2 14l-21-4a342 342 0 0 1-14-72c0-32-7-19-22-43a91 91 0 0 1-19-51c0 3 20-49 6-39-18 12-21-17-39-19-8-2-6-11-16-10-9 2-19-7-26-12-4-3-12-49-19-49-9 0 7 32 4 33-4 0-11-16-15-30A226 226 0 0 1 169 48h2c13-1 49-16 59-5 5 5-55 27-57 36-1 6 15 5 16 5 16 1-4 17 5 19 15 4 29-62 41-28 4 14 24-10 25 6 2 18 18 22-12 27-28 4-6 16-24 25-17 9-32 13-44 29-13 18-14 17-19 39-3 12-18-8-12-15-2 2-19-6-21-2-3 8-12 4-19 9-9 6-17 26-8 36 7 8 31-16 32-8 1 6-8 11-7 17 1 9 16-3 16 4 0 5-6 30 7 25 7-3 9 3 14 2 6-2 9-16 17-15s21 5 30 8c14 4 14 16 30 18 17 3 10 18 8 26s79-1 51 39zm93-219h18c4-1 3-8 3-10 0-1-8-5-6-6l9-4 5-4 18 22-3 3c-2 2-9-1-9-1l-8 9-4 9s-10 5-14 6c-4 0-11-4-12-5-1-2 3-19 3-19zm71 218-4 9a67 67 0 0 0-4-11c-3-5-7-12-2-25s-3-29-7-33c-4-5-4-8 0-14 4-7-1-9-5-9-5 0-8-7-13-6s-26 6-33 5c-8-1-32-24-32-29 0-6 1-26 4-30l18-24c4-7 10-15 16-16l37-7c7-2 6 2 8 6h5a28 28 0 0 1 11 6 225 225 0 0 1 1 178z"/></svg>
+                    {% for reason in site.data.translations[page.lang].home_page.why.planet.reasons %}
+                    <div>
+                        <h4>{{ reason.title }}</h4>
+                        <p>{{ reason.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div> 
+            </div>
+            <div class="grid-item content-box" style="--small:100%; --medium:33%; --large:33%;">
+                <div class="content-box people why-item">
+                    <h3 class="is-center">{{ site.data.translations[page.lang].home_page.why.humans.title }}</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve"><path class="st0" d="M79 119a41 41 0 1 0 0-83 41 41 0 0 0 0 83zm177 110a29 29 0 0 0 0-58 29 29 0 0 0 0 58zm177-110a41 41 0 1 0 0-83 41 41 0 0 0 0 83z"/><path class="st0" d="M470 139h-55a56 56 0 0 0-50 30l-33 98a8 8 0 0 1-13 2l-21-18c-6-5-14-9-23-9h-38c-9 0-17 4-23 9l-21 18a8 8 0 0 1-13-2l-33-98a56 56 0 0 0-50-30H42c-20 0-42 21-42 41v140c0 10 8 18 18 18h13l7 119c0 10 8 19 19 19h42c11 0 20-9 20-19l6-119v-85a3 3 0 0 1 6-1l27 65a23 23 0 0 0 35 6l25-18 3-1a3 3 0 0 1 2 3v73l5 82c0 8 6 14 13 14h29c8 0 14-6 14-14l5-82v-73a3 3 0 0 1 1-3 3 3 0 0 1 4 1l25 18a23 23 0 0 0 35-6l27-65a3 3 0 0 1 5 1v85l7 119c0 10 9 19 20 19h42c10 0 19-9 19-19l7-119h13c10 0 18-8 18-18V181c0-21-22-42-42-42z"/></svg>
+                    {% for reason in site.data.translations[page.lang].home_page.why.humans.reasons %}
+                    <div>
+                        <h4>{{ reason.title }}</h4>
+                        <p>{{ reason.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content how ribbon is-center" role="contentinfo" aria-label="{{ site.data.translations[page.lang].home_page.how.aria_section }}">
+        <h2>{{ site.data.translations[page.lang].home_page.how.title }}</h2>
+        <p>{{ site.data.translations[page.lang].home_page.how.subtitle }} <a href="/{{ site.data.translations[page.lang].url }}services/">{{ site.data.translations[page.lang].home_page.how.services.title }}</a></p>
+        <div class="background outer-center grid">
+            {% for service in site.data.translations[page.lang].home_page.how.services.list %}
+            <div class="{{service.class}} inner-center how-outer grid-item content-box">
+                <div class="content-box how-inner outer-center">
+                    <div class="inner-center">
+                        <h3>{{service.title}}</h3>
+                        <hr>
+                        <p>{{service.description}}</p>
+                        <a href="{{service.url}}">{{ site.data.translations[page.lang].home_page.how.services.more }}</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+        
+    <div class="content cost" role="contentinfo" aria-label="{{ site.data.translations[page.lang].home_page.costs.aria_section }}">
+        <h2>{{ site.data.translations[page.lang].home_page.costs.title }}</h2>
+        <div class="is-center column-content content-box">{{ site.data.translations[page.lang].home_page.costs.subtitle }} <a href="{{ site.data.translations[page.lang].home_page.costs.link.url }}">{{ site.data.translations[page.lang].home_page.costs.link.label }}</a></div>
+        <div class="is-center">
+            <picture>
+                <source media="(min-width: 768px)" srcset="/assets/img/financements/financements-768x191.avif" type="image/avif" height="191" width="768">
+                <source media="(min-width: 768px)" srcset="/assets/img/financements/financements-768x191.webp" type="image/webp" height="191" width="768">
+                <source media="(min-width: 480px)" srcset="/assets/img/financements/financements-480x119.avif" type="image/avif" height="119" width="480">            
+                <source media="(min-width: 480px)" srcset="/assets/img/financements/financements-480x119.webp" type="image/webp" height="119" width="480">
+                <source media="(min-width: 320px)" srcset="/assets/img/financements/financements-320x79.avif" type="image/avif" height="79" width="320">
+                <source media="(min-width: 320px)" srcset="/assets/img/financements/financements-320x79.webp" type="image/webp" height="79" width="320">    
+            <img src="/assets/img/financements.jpg" alt="{{ site.data.translations[page.lang].home_page.costs.logos_alt }}" title="{{ site.data.translations[page.lang].home_page.costs.logos_alt }}" loading="lazy">
+        </picture>
+        </div>
+    </div>
+    
+    <div class="ribbon content grid" role="contentinfo" aria-label="{{ site.data.translations[page.lang].home_page.guillaume.aria_section }}">
+        <div class="content-box is-center grid-item outer-center" style="--medium:40%;">
+            {% include picture.html url="/assets/img/guillaume-wolf" alt="{{ site.data.translations[page.lang].home_page.guillaume.photo_alt }}" class="inner-center" width="256" height="256" %}
+        </div>
+        <div class="content-box grid-item" style="--medium:60%;">
+            <h2>Guillaume Wolf</h2>
+            {% if page.lang == "en" %}
+                {% include guillaume-en.html %}
+            {% else %}
+                {% include guillaume.html %}
+            {% endif %}
+            <p>{{ site.data.translations[page.lang].home_page.guillaume.trust }}</p>
+        </div>
+    </div>
+    
+    <div class="content" role="contentinfo" aria-label="{{ site.data.translations[page.lang].home_page.contact.aria_section }}">
+        <h2 class="is-center">{{ site.data.translations[page.lang].home_page.contact.title }}</h2>
+    
+        <div class="grid">
+            <div class="content-box grid-item" style="--medium:60%;">
+                <h3>{{ site.data.translations[page.lang].home_page.contact.email }}</h3>
+                {% include contact_form.html %}
+            </div>
+    
+            <div class="content-box grid-item" style="--medium:40%;">
+
+                <h3>{{ site.data.translations[page.lang].home_page.contact.findme }}</h3>
+                <div class="grid">
+                    <div class="social">
+                        {% include link.html text="LinkedIn" link="https://www.linkedin.com/in/guillaumewolf/" class="button" aria-role="button" aria-label="Consulter mon profil LinkedIn" %}
+                    </div>
+                    <div class="social">
+                        <a href="/podcasts" class="button" aria-label="{{ site.data.translations[page.lang].home_page.contact.podcast }}">Podcast</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    
+    </div>
     {% include footer.html %}
 </main>

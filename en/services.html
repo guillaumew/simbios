@@ -1,0 +1,43 @@
+---
+title: Let's reduce the digital environmental footprint of your organization
+description: The different steps to implement environmental impact reduction
+permalink: /en/services/
+layout: markdown
+css: services.css
+layout: service
+lang: en
+locale: en_US
+---
+
+<div class="grid ">
+    <div class="content-box">
+        <h2>The usual Green IT cycle</h2>
+        <p>In general, eco-design works in cycles of about one year.</p>
+        <p>After a phase of planning and preparing the funding, an audit of the service is initiated to define an action plan. These actions are monitored and supported by training the teams on the relevant topics.</p>
+        <p>The cycle concludes with the valorization of the approach (internally and externally).</p>
+        {% include services_chart.html %}
+    </div>
+    <div  class="content-box">
+        <h2> Les services </h2>
+        <div class="grid">
+            {% assign sorted_services = site.services | sort: 'order' | where: "lang", page.lang %}
+            {% for service in sorted_services %}
+            <div class="content-box grid-item service {{service.icon}}" style="{{ service.grid_sizes }}" id="{{service.short_title}}">
+                <div class="content-subhead outer-center">
+                    <h3 class="innder-center">
+                        {% if service.short_title %}
+                        {{ service.short_title }}
+                        {% else %}
+                        {{service.title}}
+                        {% endif %}
+                    </h3>
+                </div>
+                <p>
+                    {{service.long_description}}
+                </p>
+                <a href="{{service.url}}" aria-label="{{service.title}} : en savoir plus">Learn more</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

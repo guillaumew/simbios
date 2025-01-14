@@ -1,8 +1,11 @@
 ---
 title: Introduction au numérique responsable
-description: Comprendre et appréhender les enjeux sociaux et environnementaux du numérique
-duration: 1 jours
+title-en: Introduction to Responsible Digital Technology.
+description: En cours d'élaboration
+duration: 2 jours
+duration-en: 2 days
 type: Formation
+type-en: Training
 effectif: 4-12
 public: ["Tout public"]
 layout: formation

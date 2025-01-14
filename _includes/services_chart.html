@@ -1,17 +1,17 @@
 <div class="services_chart">
     <div class="scroll">
-        {% assign sorted_services = site.services | sort: 'order'  %}
+        {% assign sorted_services = site.services | sort: 'order'  | where: "lang", page.lang %}
         {% for service in sorted_services %}
-        <div class="phase {{service.short_title | slugify }}">
+        <div class="phase {{service.class | slugify }}">
             <a href="#{{service.short_title}}" title="{{service.title}}">
                 {{service.short_title }}
             </a>
         </div>
         {% endfor %}
         <div class="timeline">
-            <span class="left">0 mois</span>
-            <span class="center">6 mois</span>
-            <span class="right">12 mois</span>
+            <span class="left">0{{ site.data.translations[page.lang].services.month }}</span>
+            <span class="center">6{{ site.data.translations[page.lang].services.month }}</span>
+            <span class="right">12{{ site.data.translations[page.lang].services.month }}</span>
         </div>
     </div>
 </div>

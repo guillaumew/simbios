@@ -1,6 +1,7 @@
 ---
 title: Cadrage et financement
 short_title: Avant-projet
+class: cadrage
 description: Pour un projet adapté avec un coût financier maîtrisé
 layout: service
 long_description: Bien cerner le besoin pour lancer un projet adapté et vérifier s'il existe des aides pour réduire les coûts liés à la réduction de l'impact environnemtal (jusqu'à 80% pris en charge !)

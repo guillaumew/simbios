@@ -16,6 +16,8 @@ defaults:
       path: ""
       type: "posts"
     values:
+      lang: "fr"
+      locale: "fr_FR"
       layout: "post"
       css: "markdown.css"
       image: "/assets/img/simbios-black.svg"
@@ -23,6 +25,7 @@ defaults:
   - scope:
       path: ""
     values:
+      lang: "fr"
       layout: "page"
       css: "markdown.css"
       description: "Pour réduire l'impact environnemental du numérique"
@@ -36,7 +39,6 @@ sass:
   style: compressed
   
 domain: simbios.fr
-url: https://simbios.fr
 baseurl:
 
 title: Simbios
@@ -52,7 +54,6 @@ social:
     - https://www.linkedin.com/in/guillaumewolf
     - https://twitter.com/geeyom
     - https://github.com/guillaumew
-locale: 'fr_FR'
 
 plugins:
   - jekyll-paginate

@@ -1,6 +1,7 @@
 ---
 title: Formation
 short_title: Formation
+class: formation
 description: Apprendre pour mieux gérer les actions de réductions de l'impact environnemental
 layout: service
 long_description: Apprendre pour mieux gérer les actions de réductions de l'impact environnemental

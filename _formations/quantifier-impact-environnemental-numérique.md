@@ -1,8 +1,11 @@
 ---
 title: Quantifier l'impact environnemental du numérique
+title-en: Quantifying the Environmental Impact of Digital Technology
 description: Le numérique a des impacts environnementaux divers qui peuvent être quantifiés grâce à l'Analyse du Cycle de Vie. Nous allons en faire le décryptage. 
 duration: 1h30
+duration-en: 1h30
 type: Conférence
+type-en: Presentation
 effectif: 4-100
 public: ["Tout public"]
 layout: formation

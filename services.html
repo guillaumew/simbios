@@ -16,7 +16,7 @@ layout: service
     <div  class="content-box">
         <h2> Les services </h2>
         <div class="grid">
-            {% assign sorted_services = site.services | sort: 'order'  %}
+            {% assign sorted_services = site.services | sort: 'order' | where: "lang", page.lang %}
             {% for service in sorted_services %}
             <div class="content-box grid-item service {{service.icon}}" style="{{ service.grid_sizes }}" id="{{service.short_title}}">
                 <div class="content-subhead outer-center">

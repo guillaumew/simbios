@@ -1,29 +1,40 @@
 
 <div class="home-menu">
-    <a href="/" aria-label="Retour à la page d'accueil">
+    <a href="/{{ site.data.translations[page.lang].url }}" aria-label="{{ site.data.translations[page.lang].menu.back_home }}">
         <div class="logo simbios_logo"> </div>
         <span class="heading">SIMBIOS</span>
     </a>
     <div id="menuToggle">
-        <input type="checkbox" name="Montrer le menu" title="Afficher/cacher le menu" aria-controls="menu" tabindex="-1">
+        <input type="checkbox" name="{{ site.data.translations[page.lang].menu.menu_hint }}" title="{{ site.data.translations[page.lang].menu.menu_toggle }}" aria-controls="menu" tabindex="-1">
         <span></span>
         <span></span>
         <span></span> 
         <ul class="menu-list" role="menu" id="menu">
             <li class="menu-item" role="presentation">
-                <a href="/services/" role="menuitem">
-                    Services
+                <a href="/{{ site.data.translations[page.lang].url }}services/" role="menuitem">
+                    {{ site.data.translations[page.lang].menu.services }}
                 </a>
             </li>
             <li class="menu-item" role="presentation">
                 <a href="/blog/" role="menuitem">
-                    Blog
+                    {{ site.data.translations[page.lang].menu.blog }}
                 </a>
             </li>
             <li class="menu-item" role="presentation">
-                <a href="/contact" role="menuitem">
-                    Contact
+                <a href="/{{ site.data.translations[page.lang].url }}contact" role="menuitem">
+                    {{ site.data.translations[page.lang].menu.contact }}
                 </a>
+            </li>
+            <li class="menu-item" role="presentation">
+                {% if page.lang =='en' %}
+                <a href="/" role="menuitem" class="button lang-button">
+                    FR
+                </a>
+                {% else %}
+                <a href="/en/" role="menuitem" class="button lang-button">
+                    EN
+                </a>
+                {% endif %}
             </li>
         </ul>
     </div>

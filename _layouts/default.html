@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="{{page.lang}}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,7 @@
     {% feed_meta %}
 </head>
 <body>
-<a href="#maincontent" class="off-screen" aria-label="Aller au contenu principal">Aller au contenu principal</a> 
+<a href="#maincontent" class="off-screen" aria-label="{{ site.data.translations[page.lang].main_content }}">{{ site.data.translations[page.lang].main_content }}</a> 
 
 {% include menu.html %}
 {{ content }}

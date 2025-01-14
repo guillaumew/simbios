@@ -2,6 +2,7 @@
 description: Avant toute démarche de réduction, il est important de mesurer l'impact environnemental effectif 
 title: "Etat des lieux avec une Analyse du Cycle de Vie (ACV)"
 short_title: Etat des lieux
+class: audit
 layout: service
 long_description: Mesure de l'empreinte environnementale du service (site, application, produit, entreprise). Analyse du cycle de vie (ACV). Mise en évidence des points les plus impactants.
 order: 2

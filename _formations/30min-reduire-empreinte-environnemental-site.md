@@ -1,8 +1,11 @@
 ---
 title: 30 minutes pour réduire l'empreinte environnementale d'un site
+title-en: 30 minutes to reduce the environmental footprint of a website
 description: On entre dans le code HTML d'un site et on applique des optimisations rapides et efficaces
 duration: 30 minutes
+duration-en: 30 minutes
 type: Conférence
+type-en: Presentation
 effectif: 4-100
 image: /assets/img/posts/2024/Q1/humpan_talk_daveo.webp
 public: ["Dev"]

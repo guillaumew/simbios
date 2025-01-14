@@ -1,0 +1,218 @@
+fr:
+  url: ""
+  main_content: Aller au contenu principal
+  splash:
+    subtitle: Réduire l'impact environnemental du numérique
+    aria_description: Présentation de Simbios (logo et tagline)
+  menu:
+    services: Services
+    blog: Blog
+    contact: Contact
+    menu_hint: Montrer le menu
+    menu_toggle: Afficher/cacher le menu
+    back_home: Retour à la page d'accueil
+  footer:
+    content: Simbios aide les entreprises et les particuliers à réduire l'empreinte environnementale de leurs activités numériques.
+    a_propos: A propos
+    legal: Mentions légales
+    accessibility: Accessibilité
+    ecoconception: Ecoconception
+    contact: Contact
+    ecoindex:
+      title: "Score environnemental de la page :"
+      aria_link: Ouvrir l'analyse de l'ecoindex de cette page dans un nouvel onglet
+      size: "Taille :"
+      dom: "DOM :" 
+      nodes: noeuds
+      requests: requêtes
+  home_page:
+    why:
+      aria_section: Pourquoi vouloir diminuer l'empreinte environnementale du numérique ?
+      title: Pourquoi ?
+      subtitle: Diminuer l'empreinte environnementale du numérique possède plusieurs bénéfices
+      company:
+        title: Pour son entreprise
+        reasons:
+          - title: Répondre aux obligations légales
+            description: Vous ou vos clients êtes ou serez concernés par la loi REEN ou la CSRD
+          - title: S'ouvrir au marché
+            description: Vos clients peuvent être sensibles à votre démarche environnementale
+          - title: Pour la marque employeur
+            description: Les entreprises avec un engagement sincère sont toujours plus attrayantes
+      planet:
+        title: Pour la planète
+        reasons:
+          - title: Lutter contre le dérèglement climatique
+            description: Le numérique contribue à hauteur de 6-7% aux émissions de gaz à effet de serre mondiales.
+          - title: Prévenir de la pénurie de ressources
+            description: Les métaux rares sont indispensables à la fabrication de nos équipements numériques.
+          - title: Préserver l'eau et la biodiversité
+            description: Au-delà du climat, les impacts environnementaux sont nombreux.
+      humans:
+        title: Pour les humains
+        reasons:
+          - title: Contre la guerre
+            description: L'extraction de certains métaux contribue à nourrir des conflits armés.
+          - title: Limiter l'exploitation des personnes
+            description: Travail d'enfants, expositions à des substances chimiques, surcharge...
+          - title: Accès à l'eau
+            description: Les exploitations de minerais utilisent beaucoup d'eau privant ainsi les populations locales.
+    how:
+      aria_section: Comment diminuer l'empreinte environnementale du numérique ?
+      title: Comment ?
+      subtitle: Un accompagnement sur l'ensemble de la démarche d'éco-conception.
+      services: 
+        title: Voir tous les services proposés
+        more: En savoir plus
+        list:
+          - title: Audit du service numérique
+            description: Avec une Analyse du Cycle de Vie (ACV)
+            url: /services/analyse_cycle_vie
+            class: audit
+          - title: Conseils
+            description: L'expertise pour un impact maximal et mesuré
+            url: /services/strategie_reduction
+            class: conseil
+          - title: Formation
+            description: Pour que toute l'équipe puisse participer avec les bons outils
+            url: /services/formation
+            class: formation
+    costs:
+      title: C'est cher ?
+      aria_section: Combien ça coûte ?
+      subtitle: De multiples initiatives permettent de financer tout ou partie de votre démarche Numérique Responsable. 
+      link: 
+        label: En savoir plus
+        url: /services/financement#financement
+      logos_alt: OPCO Atlas, Région Pays de la Loire, BPI France et ADEME
+    guillaume:
+      aria_section: Section pour présenter Guillaume Wolf
+      photo_alt: Photo de Guillaume Wolf
+      trust: Vous pouvez me faire confiance !
+    contact:
+      aria_section: Section pour rester en contact avec Simbios
+      title: Restons en contact
+      email: Envoyer un message
+      findme: Retrouvez-moi
+      podcast: Voir les plateformes de Podcast
+  contact:
+    email: Votre email 
+    email_placeholder: nom@domaine.com
+    message: Votre message 
+    message_placeholder: Bonjour, ...
+    send: Envoyer
+    send_aria: Envoyer le message
+  services:
+    all_title: "Tous les services :"
+    contact: Intéressé.e ? Prenons contact !
+    month: " mois"
+
+
+en:
+  url: "en/"
+  main_content: Skip to main content
+  splash:
+    subtitle: Let's reduce the digital environmental footprint
+    aria_description: Introduction of Simbios (logo and tagline)
+  menu:
+    services: Expertise
+    blog: Blog (FR)
+    contact: Contact
+    menu_hint: Show menu
+    menu_toggle: Hide/show menu
+    back_home: Back to homepage
+  footer:
+    content: Simbios helps organizations to reduce the environmental footprint of their digital activities.
+    a_propos: About (FR)
+    legal: Legal (FR)
+    accessibility: Accessibility (FR)
+    ecoconception: Eco-Design (FR)
+    contact: Contact
+    ecoindex:
+      title: "Eco-score of the page:"
+      aria_link: Open the analysis of this page in a new tab
+      size: "Size:"
+      dom: "DOM:"
+      nodes: nodes
+      requests: requests
+  home_page:
+    why:
+      title: Why?
+      subtitle: There are several advantages with Green IT actions
+      aria_section: Why aim to reduce the environmental footprint of digital technologies?
+      company:
+        title: For your organization
+        reasons:
+          - title: Meeting legal requirements
+            description: You or your clients are or will be affected by the REEN law or the CSRD.
+          - title: Opening up to the market
+            description: Your clients may be sensitive to your environmental approach.
+          - title: Employer branding
+            description: Companies with a sincere commitment are always more attractive.
+      planet:
+        title: For our planet
+        reasons:
+          - title: Fighting climate change
+            description: Digital technology contributes 6-7% of global greenhouse gas emissions.
+          - title: Preventing resource shortages
+            description: Rare metals are essential for the manufacturing of our digital equipment.
+          - title: Preserving water and biodiversity
+            description: Beyond climate, the environmental impacts are numerous.
+      humans:
+        title: For humans
+        reasons:
+          - title: Against war
+            description: The extraction of certain metals contributes to fueling armed conflicts.
+          - title: Limiting exploitation of people
+            description: Child labor, exposure to chemicals, overwork...
+          - title: Access to water
+            description: Mineral extractions use large amounts of water, depriving local populations.
+    how:
+      aria_section: How to reduce the environmental footprint of digital technologies?
+      title: How?
+      subtitle: Support throughout the entire eco-design process.
+      services: 
+        title: See all the services offered
+        more: Learn more (fr)
+        list:
+          - title: Digital service audit
+            description: With a Life Cycle Assessment (LCA)
+            url: /services/analyse_cycle_vie
+            class: audit
+          - title: Consulting
+            description: Expertise for maximum and measured impact
+            url: /services/strategie_reduction
+            class: conseil
+          - title: Training
+            description: So that the entire team can participate with the right tools
+            url: /services/formation
+            class: formation
+    costs:
+      title: Is it expensive?
+      aria_section: How much does it cost?
+      subtitle: Various initiatives allow you to finance all or part of your Responsible Digital approach. 
+      link: 
+        label: Lean more (fr)
+        url: /services/financement#financement
+      logos_alt: OPCO Atlas, Région Pays de la Loire, BPI France and ADEME
+    guillaume:
+      aria_section: Section to present Guillaume Wolf
+      photo_alt: Photo of Guillaume Wolf
+      trust: You can trust me!
+    contact:
+      aria_section: Section to keep contact with Simbios
+      title: Let's stay in touch
+      email: Send a message
+      findme: You'll find me
+      podcast: Check podcasts platforms
+  contact:
+    email: Your email 
+    email_placeholder: name@domain.com
+    message: Your message 
+    message_placeholder: Hello, ...
+    send: Send
+    send_aria: Send message
+  services:
+    all_title: "All services:"
+    contact: "Interested? Drop a message!"
+    month: <sup>th</sup> month
