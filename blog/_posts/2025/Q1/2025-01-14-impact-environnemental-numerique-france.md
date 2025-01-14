@@ -49,7 +49,7 @@ Les impacts environnementaux ne se limitent pas au climat. L'étude de l'ADEME i
 - L'utilisation des métaux ([Késako ?](/blog/2024/05/27/utilisation-des-metaux))
 - Utilisation d’énergies fossiles et nuclaires ([Késako ?](/blog/2024/04/30/epuisement-ressources-fossiles))
 - Changement climatique ([Késako ?](/blog/2024/05/21/changement-climatique))
-- Radiation ionisantes ([Késako ?](/blog/))
+- Radiation ionisantes ([Késako ?](/blog/2024/12/09/radiations-ionisantes))
 - Emissions particules fines ([Késako ?](/blog/2024/07/10/particules))
 - Ecotoxicité ([Késako ?](/blog/2024/01/30/ecotoxicite-eau))
 - Acidification ([Késako ?](/blog/2024/03/05/acidification))
