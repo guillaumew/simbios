@@ -1,6 +1,6 @@
 ---
 title: "L'impact environnemental du numérique en France"
-description: "L'ADEME propose une mise à jour de l'impact environnemental des usages numérique en France."
+description: "L'ADEME propose une mise à jour de l'impact environnemental des usages numériques en France."
 tags: ["ACV", "ADEME", "France", "Environnement", "Datacenter"]
 image: /assets/img/posts/2025/Q1/thumb-impact-num-france.jpg
 thumb: /assets/img/posts/2025/Q1/thumb-impact-num-france
@@ -16,11 +16,11 @@ Cette étude contient un changement méthodologique majeur en ce qui concerne le
 
 **Cela a un impact majeur sur les données finales.**
 
-Par exemple, en 2022, l'ADEME communiquait sur des émissions de gaz è effet de serres totales pour le numérique français de 17 Mt CO<sub>2</sub>eq en 2020. Pour cette même année, avec cette mise à jour méthodologique, on passe à 25 Mt CO<sub>2</sub>eq. Soit près de 50% de plus !!!
+Par exemple, en 2022, l'ADEME communiquait sur des émissions de gaz à effet de serre totales pour le numérique français de 17 Mt CO<sub>2</sub>eq en 2020. Pour cette même année, avec cette mise à jour méthodologique, on passe à 25 Mt CO<sub>2</sub>eq. Soit près de 50% de plus !!!
 
 ## Chiffres clés
 
-### Une augmentation important des gaz à effets de serre
+### Une augmentation importante des gaz à effet de serre
 
 En 2022, le numérique contribuait donc pour 4,4% des émissions de gaz à effet de serre du pays soit 29.5 Mt CO<sub>2</sub>eq. Cela représente 429 kg CO<sub>2</sub>eq par habitant. 
 
@@ -40,7 +40,7 @@ Jusqu'à présent le message des impacts environnementaux du numérique était c
 
 Avec cette nouvelle méthodologie, les datacenters ont une empreinte carbone presque équivalente aux terminaux utilisateurs. De plus, la part des datacenters augmente, notamment avec la démocratisation de l'intelligence artificielle.
 
-Il est d'ailleurs important de préciser qu'en 2022 l'intelligence artificielle n'était pas aussi populaire qu'elle ne l'est aujourd'hui. Il faut donc s'attendre à une augmentation d'autant plus importante des datacenters à l'avenir.
+Il est d'ailleurs important de préciser qu'en 2022 l'intelligence artificielle n'était pas aussi populaire qu'elle l'est aujourd'hui. Il faut donc s'attendre à une augmentation d'autant plus importante des datacenters à l'avenir.
 
 ## Vue panoramique de l'étude
 
@@ -67,7 +67,7 @@ Pour pouvoir les afficher sur un même graphique, je vais utiliser une unité de
 
 Il faut lire ce graphique ainsi : Le numérique en France atteint 50% de la limite planétaire pour le changement climatique. A cela il faudrait également ajouter les contributions des autres secteurs (transport, alimentation, logement...). Sur ces 50%, 21 points sont dus à la fabrication, distribution et fin de vie des terminaux et 4 pts sont dûs à l'utilisation des terminaux.
 
-On constate que les terminaux utilisateurs restent la principale cause d'épuisement des ressources non énergétiques (métaux). Ces derniers nécessitent de beaucoup d'électricité pour fonctionner (utilisation d'énergies fossiles et nucléaire) mais leur utilisation n'a pas beaucoup d'impact sur le climat, car l'électricité française est relativement décarbonée.
+On constate que les terminaux utilisateurs restent la principale cause d'épuisement des ressources non énergétiques (métaux). Ces derniers nécessitent beaucoup d'électricité pour fonctionner (utilisation d'énergies fossiles et nucléaire) mais leur utilisation n'a pas beaucoup d'impact sur le climat, car l'électricité française est relativement décarbonée.
 
 Pour une totale transparence, vous trouverez les données ayant permis d'arriver à ce résultat sur {% include link.html text="cette feuille de calcul partagée" link="https://kdrive.infomaniak.com/app/share/894812/abfd2705-6c52-4fc0-ace9-d37c7a1ff13b" %}.
 
@@ -75,7 +75,7 @@ Pour une totale transparence, vous trouverez les données ayant permis d'arriver
 
 Cette étude risque de bouleverser le monde du Green IT en France.
 
-Elle met en relief la part important des centres de données dans l'empreinte environnementale du numérique en France, alors qu'il s'agissait d'une idée reçue qu'on devait désamorcer lors des formations.
+Elle met en relief la part importante des centres de données dans l'empreinte environnementale du numérique en France, alors qu'il s'agissait d'une idée reçue qu'on devait désamorcer lors des formations.
 
 Cela montre également l'importance de bien faire attention aux hypothèses réalisées. Ces dernières peuvent avoir des effets importants sur les résultats finaux.
 
