@@ -8,7 +8,7 @@ alt-image: "L'indice de durabilité est représenté par un sablier"
 podcast: null
 ---
 
-Je parlais de l'[indice de réparabilité](/blog/2023/12/04/indice-reparabilite) dans un article précédent. Ce dernier a été introduit en 2021 et concerne les objets électroniques au sens large (smartphones, ordinateurs, téléviseurs mais aussi lave-linge et tondeuses à gazon...)
+Je parlais de l'[indice de réparabilité](/blog/2023/12/04/indice-reparabilite) dans un article précédent. Ce dernier a été introduit en 2021 et concerne les objets électroniques au sens large (smartphones, ordinateurs, téléviseurs mais aussi lave-linges et tondeuses à gazon...)
 
 Depuis le 8 janvier, cet indice va progressivement être remplacé par l'{% include link.html text="indice de durabilité" link="https://www.ecologie.gouv.fr/politiques-publiques/indice-durabilite" %}.
 
@@ -42,11 +42,11 @@ Malheureusement, les smartphones ne bénéficieront pas de cette mise à jour, p
 
 Plus d'informations sur {% include link.html link="https://www.halteobsolescence.org/lindice-durabilite-smartphone/" text="cet article de HOP" %} (Halte à l'Obsolescence Programmée).
 
-Pour le moment, il n'y a pas de dates proposées pour les autres catégories de produit (dont les ordinateurs).
+Pour le moment, il n'y a pas de dates proposées pour les autres catégories de produits (dont les ordinateurs).
 
 ## Et c'est important ?
 
-Avoir un produit réparable, c'est bien. Mais c'est encore mieux s'il est plus robuste et qu'il ne tombe pas en panne (ou qu'il tombe moins en panne). Ces critères de fiabilités étaient exactement ce qu'il manquait à l'indice de réparabilité !
+Avoir un produit réparable, c'est bien. Mais c'est encore mieux s'il est plus robuste et qu'il ne tombe pas en panne (ou qu'il tombe moins en panne). Ces critères de fiabilité étaient exactement ce qui manquait à l'indice de réparabilité !
 
 L'indice de durabilité va donc effectivement permettre aux consommateurs d'acheter leurs équipements avec une meilleure transparence. D'ailleurs, comme pour l'indice de réparabilité, vous aurez toujours accès au document complet de durabilité avec les notes pour l'ensemble des critères.
 
