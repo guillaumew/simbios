@@ -5,7 +5,7 @@ tags: ["Réparabilité", "Fiabilité", "Durabilité", "Achat responsable"]
 image: /assets/img/posts/2025/Q1/thumb-durabilite.jpg
 thumb: /assets/img/posts/2025/Q1/thumb-durabilite
 alt-image: "L'indice de durabilité est représenté par un sablier"
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6797b2cbae8b037c91b82b04/media.mp3
 ---
 
 Je parlais de l'[indice de réparabilité](/blog/2023/12/04/indice-reparabilite) dans un article précédent. Ce dernier a été introduit en 2021 et concerne les objets électroniques au sens large (smartphones, ordinateurs, téléviseurs mais aussi lave-linges et tondeuses à gazon...)

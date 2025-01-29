@@ -1,0 +1,13 @@
+---
+title: DATA
+description: Travail en cours
+layout: markdown
+permalink: data.html
+---
+
+<p> Empreinte carbone des services numériques </p>
+<ul>
+{% for item in site.data.impacts %}
+    <li>{{item["Catégorie"]}} : {{item.GWP }} kg CO<sub>2</sub>eq</li>
+{% endfor %}
+</ul>
