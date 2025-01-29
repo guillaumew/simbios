@@ -69,7 +69,7 @@ Les datacenters français consomment 14.6 PJ, on estime qu'ils répondent unique
 
 Il manque donc 6,3 PJ à la consommation électrique dans le rapport de l'ADEME, si on estime que les datacenters consomment la même énergie à usage électrique des terminaux constant. Il s'agit donc de la consommation des datacenters étrangers sollicités par des usages français.
 
-Pour la suite, nous allons considérer que l’ensemble des impacts environnementaux des datacenters sont proportionnels à l’électricité consommée à l’usage (fabrication, fin de vie…). Hypothèse simpliste, mais qui permet d’avoir des ordres de grandeurs.
+Pour la suite, nous allons considérer que l’ensemble des impacts environnementaux des datacenters sont proportionnels à l’électricité consommée à l’usage (fabrication, fin de vie…). Hypothèse simpliste, voire hasardeuse, mais qui permet d’avoir des ordres de grandeurs. A noter qu'en ce point, Hubblo a utilisé une méthode similaire en séparant par type de datacenter (cloud, hyperscale...)
 
 L’étude {% include link.html link="https://www.greenit.fr/empreinte-environnementale-du-numerique-mondial/" text="Green IT monde" %} montre que le numérique mondial consomme 6 800 TWh d’énergie primaire soit 24 480 PJ. 15 % de cette énergie va dans l’usage des datacenters soit 3 672 PJ. Les usages numériques français sollicitant des datacenters étranger utilisent donc 0,17 % des datacenters mondiaux.
 
@@ -80,7 +80,7 @@ On peut donc appliquer ce rapport directement dans les impacts environnementaux 
 | Ensemble des datacenters dans le monde | 14 Mt CO<sub>2</sub>eq | 196 Mt CO<sub>2</sub>eq | 
 | Part des datacenters étrangers sollicités par des usages français | 0.024 Mt CO<sub>2</sub>eq | 0.33 Mt CO<sub>2</sub>eq |
 
-## Révision de la répartation de l'impact carbone du numérique en France
+## Révision de la répartition de l'impact carbone du numérique en France
 
 | Bilan GES            | Terminaux – Fabrication | Terminaux - Usages | Datacenters - Fabrication | Datacenter - Usages | Réseau - Fabrication | Réseau – Usages |
 | -------------------- | ----------------------- | ------------------ | ------------------------- | ---------------------- | ----------------------- | --------------- |
