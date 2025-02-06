@@ -1,9 +1,76 @@
 blockquote {
 	position: relative; 
-    text-align: center;
     padding: 1rem 1.2rem;
-    width: 80%; 
-    margin: 1rem auto 2rem;
+}
+
+blockquote[class^="prompt-"] {
+	margin: 2em 0;
+	display: flex;
+	border-radius: 6px;
+	color: rgba(46, 46, 46, 0.77);
+	padding: .5rem 1rem ;
+	align-items: center;
+	&::before {
+		width: 1.5rem;
+		margin-right: 0.75rem;
+		font-weight: 900;
+		font-size: 1.5em;
+		line-height: 1.5em;
+	}
+}
+
+.prompt-tip {
+	background-color: rgba(123, 247, 144, 0.2);
+	&::before {
+		content:"💡";
+		color: rgb(3, 179, 3);
+	}
+}
+.prompt-info {
+	background-color: rgb(225, 245, 254);
+	&::before {
+		content: "ⓘ";
+		color: rgb(0, 117, 209);
+	}
+}
+.prompt-warning{
+	background-color: rgb(255, 243, 205);
+	&::before {
+		content: "⚠";
+		color: rgb(239, 156, 3);
+	}	
+}
+.prompt-danger{
+	background-color: rgba(248, 215, 218, 0.56);
+	&::before {
+		content: "⚠";
+		color: rgb(205, 2, 2);
+	}	
+}
+
+@media (prefers-color-scheme: dark) {
+	blockquote[class^="prompt-"] {
+		color: $dark_white-color;
+	}
+	.prompt-tip {
+		background-color: rgba(77, 187, 95, 0.2);
+	}
+	.prompt-info {
+		background-color: rgba(7, 59, 104, 0.8);
+	}
+	.prompt-warning{
+		background-color: rgba(90, 69, 3, 0.95);
+	}
+	.prompt-danger{
+		background-color: rgba(86, 28, 8, 0.8);
+
+	}
+}
+
+blockquote:not([class^="prompt-"]) {
+	width: 80%; 
+	margin: 1rem auto 2rem;
+	text-align: center;
 	background:
 		linear-gradient(to right, $teal-color 4px, transparent 4px) 0 100%,
 		linear-gradient(to left, $teal-color 4px, transparent 4px) 100% 0,
