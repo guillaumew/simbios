@@ -1,606 +1,732 @@
 - path: /
-  score: 87.0
+  score: 88.0
   grade: A
   size: 27
-  nodes: 214
+  nodes: 204
   requests: 7
 - path: /a-propos
   score: 89.0
   grade: A
-  size: 22
-  nodes: 161
+  size: 23
+  nodes: 164
   requests: 7
 - path: /accessibilite
-  score: 91.0
+  score: 90.0
   grade: A
-  size: 12
-  nodes: 118
+  size: 13
+  nodes: 140
   requests: 5
 - path: /blog/
   score: 87.0
   grade: A
-  size: 44
-  nodes: 198
+  size: 41
+  nodes: 202
   requests: 10
 - path: /blog/2023/08/21/fracture_numerique
   score: 90.0
   grade: A
-  size: 49
-  nodes: 124
+  size: 50
+  nodes: 127
   requests: 8
 - path: /blog/2023/09/06/usage-raisone-ecrans
   score: 90.0
   grade: A
-  size: 31
-  nodes: 127
+  size: 32
+  nodes: 130
   requests: 7
 - path: /blog/2023/09/13/masse_smartphone
   score: 89.0
   grade: A
-  size: 76
-  nodes: 138
+  size: 77
+  nodes: 141
   requests: 9
 - path: /blog/2023/09/16/impact-environnemental-numerique
   score: 90.0
   grade: A
-  size: 79
-  nodes: 128
+  size: 80
+  nodes: 131
   requests: 8
 - path: /blog/2023/09/27/numerique_et_handicap
+  score: 90.0
+  grade: A
+  size: 35
+  nodes: 124
+  requests: 7
+- path: /blog/2023/10/03/numerique-immateriel
+  score: 90.0
+  grade: A
+  size: 59
+  nodes: 128
+  requests: 8
+- path: /blog/2023/10/09/apple-neutre-carbone
+  score: 90.0
+  grade: A
+  size: 38
+  nodes: 131
+  requests: 7
+- path: /blog/2023/10/16/credits-carbones-climat
+  score: 89.0
+  grade: A
+  size: 85
+  nodes: 143
+  requests: 9
+- path: /blog/2023/10/23/un-ordi-de-12-ans
+  score: 91.0
+  grade: A
+  size: 37
+  nodes: 111
+  requests: 7
+- path: /blog/2023/11/20/trier-mails
   score: 90.0
   grade: A
   size: 34
   nodes: 121
   requests: 7
-- path: /blog/2023/10/03/numerique-immateriel
-  score: 90.0
-  grade: A
-  size: 58
-  nodes: 125
-  requests: 8
-- path: /blog/2023/10/09/apple-neutre-carbone
-  score: 90.0
-  grade: A
-  size: 40
-  nodes: 132
-  requests: 8
-- path: /blog/2023/10/16/credits-carbones-climat
-  score: 89.0
-  grade: A
-  size: 84
-  nodes: 140
-  requests: 9
-- path: /blog/2023/10/23/un-ordi-de-12-ans
-  score: 91.0
-  grade: A
-  size: 36
-  nodes: 108
-  requests: 7
-- path: /blog/2023/11/20/trier-mails
-  score: 90.0
-  grade: A
-  size: 33
-  nodes: 118
-  requests: 7
 - path: /blog/2023/11/27/raisonner-usages-video
   score: 88.0
   grade: A
-  size: 60
-  nodes: 182
+  size: 61
+  nodes: 185
   requests: 9
 - path: /blog/2023/12/04/indice-reparabilite
   score: 90.0
   grade: A
-  size: 23
-  nodes: 142
+  size: 24
+  nodes: 145
   requests: 7
 - path: /blog/2023/12/12/demesure-des-besoins-humains
   score: 89.0
   grade: A
-  size: 70
-  nodes: 150
+  size: 71
+  nodes: 153
   requests: 8
 - path: /blog/2023/12/19/cop-28
   score: 90.0
   grade: A
-  size: 34
-  nodes: 124
+  size: 35
+  nodes: 127
   requests: 7
 - path: /blog/2024/01/03/impact-environnemental-numerique-europe
   score: 90.0
   grade: A
-  size: 31
-  nodes: 143
+  size: 32
+  nodes: 146
   requests: 7
 - path: /blog/2024/01/10/galette-des-rois-et-complexite-economique
   score: 90.0
   grade: A
-  size: 42
-  nodes: 134
+  size: 43
+  nodes: 137
   requests: 9
 - path: /blog/2024/01/16/crises-environnementales
   score: 89.0
   grade: A
-  size: 81
-  nodes: 156
+  size: 82
+  nodes: 160
   requests: 7
 - path: /blog/2024/01/17/eutrophisation
   score: 88.0
   grade: A
-  size: 123
-  nodes: 158
+  size: 124
+  nodes: 161
   requests: 9
 - path: /blog/2024/01/22/utilisation-eau
   score: 85.0
   grade: A
   size: 53
-  nodes: 263
+  nodes: 266
   requests: 8
 - path: /blog/2024/01/30/ecotoxicite-eau
   score: 87.0
   grade: A
-  size: 133
-  nodes: 209
+  size: 134
+  nodes: 212
   requests: 8
 - path: /blog/2024/02/01/01-redimensionner-compresser-images
-  score: 90.0
+  score: 89.0
   grade: A
-  size: 32
-  nodes: 148
+  size: 33
+  nodes: 151
   requests: 7
 - path: /blog/2024/02/01/02-limiter-ressources-externes
   score: 91.0
   grade: A
-  size: 19
-  nodes: 114
+  size: 20
+  nodes: 117
   requests: 6
 - path: /blog/2024/02/01/03-eviter-ajouts-inutiles
   score: 90.0
   grade: A
-  size: 20
-  nodes: 151
+  size: 21
+  nodes: 154
   requests: 6
 - path: /blog/2024/02/01/04-favoriser-polices-standard
   score: 91.0
   grade: A
-  size: 19
-  nodes: 111
+  size: 20
+  nodes: 114
   requests: 6
 - path: /blog/2024/02/01/05-selectionner-icones
   score: 89.0
   grade: A
-  size: 23
-  nodes: 148
+  size: 24
+  nodes: 151
   requests: 8
 - path: /blog/2024/02/01/06-eviter-insertions-dynamiques
   score: 91.0
   grade: A
-  size: 20
-  nodes: 118
+  size: 21
+  nodes: 121
   requests: 6
 - path: /blog/2024/02/01/07-minifier-css-javascript-html
   score: 89.0
   grade: A
-  size: 20
-  nodes: 166
+  size: 21
+  nodes: 169
   requests: 6
 - path: /blog/2024/02/01/08-compresser-fichiers
   score: 91.0
   grade: A
-  size: 19
-  nodes: 118
+  size: 20
+  nodes: 121
   requests: 6
 - path: /blog/2024/02/01/09-gerer-cache
   score: 91.0
   grade: A
-  size: 19
-  nodes: 115
+  size: 20
+  nodes: 118
   requests: 6
 - path: /blog/2024/02/01/10-ecrire-plan-actions-environnementales
   score: 90.0
   grade: A
-  size: 21
-  nodes: 130
+  size: 22
+  nodes: 133
   requests: 6
 - path: /blog/2024/02/01/dix-min-pour-reduire-empreinte-environnementale-site
   score: 90.0
   grade: A
-  size: 41
-  nodes: 127
+  size: 42
+  nodes: 130
   requests: 7
 - path: /blog/2024/02/28/donner-un-sens-transition-ecologique
   score: 89.0
   grade: A
-  size: 91
-  nodes: 155
+  size: 92
+  nodes: 158
   requests: 9
 - path: /blog/2024/03/05/acidification
   score: 85.0
   grade: A
-  size: 137
-  nodes: 247
+  size: 138
+  nodes: 250
   requests: 9
 - path: /blog/2024/03/12/digital-cleanup
   score: 88.0
   grade: A
   size: 23
-  nodes: 195
+  nodes: 198
   requests: 6
 - path: /blog/2024/03/18/en-route-pour-6g
   score: 90.0
   grade: A
-  size: 17
-  nodes: 147
+  size: 18
+  nodes: 150
   requests: 6
 - path: /blog/2024/03/25/croissance-verte
   score: 85.0
   grade: A
-  size: 45
-  nodes: 268
+  size: 47
+  nodes: 271
   requests: 9
 - path: /blog/2024/04/03/numerique-et-guerre
   score: 89.0
   grade: A
-  size: 72
-  nodes: 146
+  size: 78
+  nodes: 149
   requests: 8
 - path: /blog/2024/04/09/csrd-directive-europenne-sociale-environnentale
   score: 89.0
   grade: A
-  size: 18
-  nodes: 172
+  size: 19
+  nodes: 175
   requests: 6
 - path: /blog/2024/04/15/jeux-olympiques-numerique-responsable
   score: 90.0
   grade: A
-  size: 19
-  nodes: 141
+  size: 20
+  nodes: 144
   requests: 6
 - path: /blog/2024/04/30/epuisement-ressources-fossiles
   score: 88.0
   grade: A
-  size: 36
-  nodes: 185
+  size: 37
+  nodes: 188
   requests: 8
 - path: /blog/2024/05/06/enfants-et-ecrans
   score: 86.0
   grade: A
-  size: 20
-  nodes: 244
+  size: 21
+  nodes: 247
   requests: 6
 - path: /blog/2024/05/13/ecoconception-services-messagerie
   score: 89.0
   grade: A
-  size: 19
-  nodes: 178
+  size: 20
+  nodes: 181
   requests: 6
 - path: /blog/2024/05/21/changement-climatique
   score: 80.0
   grade: B
-  size: 42
-  nodes: 389
+  size: 43
+  nodes: 392
   requests: 7
 - path: /blog/2024/05/27/utilisation-des-metaux
   score: 80.0
   grade: B
-  size: 60
-  nodes: 387
+  size: 61
+  nodes: 390
   requests: 8
 - path: /blog/2024/06/03/vivre-le-handicap
   score: 89.0
   grade: A
-  size: 37
-  nodes: 155
+  size: 38
+  nodes: 158
   requests: 7
 - path: /blog/2024/06/10/fin-de-vie-dechet-electroniques
   score: 89.0
   grade: A
-  size: 30
-  nodes: 173
+  size: 31
+  nodes: 176
   requests: 7
 - path: /blog/2024/06/18/mode-sombre
   score: 89.0
   grade: A
-  size: 37
-  nodes: 160
+  size: 38
+  nodes: 163
   requests: 7
 - path: /blog/2024/06/25/depletion-ozone-stratospherique
   score: 89.0
   grade: A
-  size: 27
-  nodes: 168
+  size: 28
+  nodes: 171
   requests: 7
 - path: /blog/2024/07/02/electricite-environnement
   score: 82.0
   grade: A
-  size: 55
-  nodes: 345
+  size: 57
+  nodes: 348
   requests: 10
 - path: /blog/2024/07/09/definition-numerique-responsable
   score: 87.0
   grade: A
-  size: 46
-  nodes: 226
+  size: 47
+  nodes: 229
   requests: 8
 - path: /blog/2024/07/15/particules
   score: 85.0
   grade: A
-  size: 43
-  nodes: 275
+  size: 44
+  nodes: 278
   requests: 8
 - path: /blog/2024/07/21/bug-crowdstrike
   score: 90.0
   grade: A
-  size: 22
-  nodes: 127
+  size: 23
+  nodes: 130
   requests: 6
 - path: /blog/2024/07/30/formation-ozone-photochimique
   score: 86.0
   grade: A
-  size: 44
-  nodes: 245
+  size: 45
+  nodes: 248
   requests: 8
 - path: /blog/2024/09/30/changement-affectaction-sols
   score: 85.0
   grade: A
-  size: 35
-  nodes: 279
+  size: 36
+  nodes: 282
   requests: 7
 - path: /blog/2024/10/20/loi-moore
   score: 90.0
   grade: A
-  size: 44
-  nodes: 139
+  size: 45
+  nodes: 142
   requests: 7
-- path: /blog/page10/
+- path: /blog/2024/12/09/radiations-ionisantes
+  score: 87.0
+  grade: A
+  size: 64
+  nodes: 211
+  requests: 7
+- path: /blog/2025/01/07/mettre-a-jour-vieux-smartphone
   score: 89.0
   grade: A
-  size: 23
-  nodes: 154
+  size: 20
+  nodes: 180
+  requests: 6
+- path: /blog/2025/01/14/impact-environnemental-numerique-france
+  score: 88.0
+  grade: A
+  size: 54
+  nodes: 177
   requests: 8
+- path: /blog/2025/01/16/indice-durabilite
+  score: 90.0
+  grade: A
+  size: 36
+  nodes: 134
+  requests: 7
+- path: /blog/2025/01/27/methodologie-revision-impact-numerique-france
+  score: 86.0
+  grade: A
+  size: 34
+  nodes: 241
+  requests: 7
+- path: /blog/2025/01/27/revision-impact-numerique-france
+  score: 89.0
+  grade: A
+  size: 33
+  nodes: 171
+  requests: 7
+- path: /blog/2025/02/06/impacts-numerique-monde
+  score: 87.0
+  grade: A
+  size: 54
+  nodes: 218
+  requests: 8
+- path: /blog/page10/
+  score: 87.0
+  grade: A
+  size: 36
+  nodes: 203
+  requests: 10
+- path: /blog/page11/
+  score: 88.0
+  grade: A
+  size: 29
+  nodes: 177
+  requests: 9
 - path: /blog/page2/
   score: 87.0
   grade: A
-  size: 39
-  nodes: 199
+  size: 44
+  nodes: 204
   requests: 10
 - path: /blog/page3/
   score: 87.0
   grade: A
-  size: 49
-  nodes: 196
+  size: 42
+  nodes: 203
   requests: 10
 - path: /blog/page4/
   score: 87.0
   grade: A
-  size: 38
-  nodes: 201
+  size: 49
+  nodes: 200
   requests: 10
 - path: /blog/page5/
   score: 87.0
   grade: A
-  size: 47
-  nodes: 195
+  size: 42
+  nodes: 204
   requests: 10
 - path: /blog/page6/
   score: 87.0
   grade: A
-  size: 48
-  nodes: 195
+  size: 51
+  nodes: 201
   requests: 10
 - path: /blog/page7/
   score: 87.0
   grade: A
-  size: 34
-  nodes: 203
+  size: 49
+  nodes: 198
   requests: 10
 - path: /blog/page8/
-  score: 88.0
+  score: 87.0
   grade: A
-  size: 40
-  nodes: 191
+  size: 34
+  nodes: 206
   requests: 10
 - path: /blog/page9/
   score: 87.0
   grade: A
-  size: 36
-  nodes: 200
+  size: 42
+  nodes: 197
   requests: 10
 - path: /blog/search.html
   score: 92.0
   grade: A
-  size: 18
-  nodes: 77
+  size: 20
+  nodes: 80
   requests: 7
 - path: /contact
   score: 92.0
   grade: A
-  size: 11
-  nodes: 84
+  size: 12
+  nodes: 88
+  requests: 5
+- path: /data.html
+  score: 89.0
+  grade: A
+  size: 12
+  nodes: 165
   requests: 5
 - path: /declaration-ecoconception
   score: 91.0
   grade: A
-  size: 12
-  nodes: 105
+  size: 13
+  nodes: 125
   requests: 5
 - path: /declaration-environnementale
-  score: 79.0
+  score: 77.0
   grade: B
-  size: 20
-  nodes: 417
+  size: 22
+  nodes: 464
   requests: 6
+- path: /en/
+  score: 88.0
+  grade: A
+  size: 27
+  nodes: 203
+  requests: 7
+- path: /en/contact
+  score: 92.0
+  grade: A
+  size: 12
+  nodes: 87
+  requests: 5
+- path: /en/message_envoye
+  score: 92.0
+  grade: A
+  size: 10
+  nodes: 89
+  requests: 5
+- path: /en/services/
+  score: 89.0
+  grade: A
+  size: 13
+  nodes: 173
+  requests: 5
+- path: /en/services/assement
+  score: 90.0
+  grade: A
+  size: 13
+  nodes: 142
+  requests: 5
+- path: /en/services/awareness
+  score: 91.0
+  grade: A
+  size: 10
+  nodes: 119
+  requests: 5
+- path: /en/services/communication
+  score: 91.0
+  grade: A
+  size: 13
+  nodes: 114
+  requests: 5
+- path: /en/services/financing
+  score: 91.0
+  grade: A
+  size: 13
+  nodes: 125
+  requests: 5
+- path: /en/services/reduction
+  score: 90.0
+  grade: A
+  size: 13
+  nodes: 137
+  requests: 5
+- path: /en/services/training
+  score: 89.0
+  grade: A
+  size: 12
+  nodes: 167
+  requests: 5
 - path: /formations/30min-reduire-empreinte-environnemental-site
   score: 91.0
   grade: A
-  size: 33
-  nodes: 91
+  size: 34
+  nodes: 94
   requests: 6
 - path: /formations/chef-projet-product-owner-responsable
   score: 91.0
   grade: A
-  size: 11
-  nodes: 95
+  size: 12
+  nodes: 98
   requests: 5
 - path: /formations/coder-site-ecoresponsable
   score: 92.0
   grade: A
-  size: 11
-  nodes: 85
+  size: 12
+  nodes: 88
   requests: 5
 - path: /formations/eco-conception-service-numerique
   score: 92.0
   grade: A
-  size: 11
-  nodes: 83
+  size: 12
+  nodes: 86
   requests: 5
 - path: /formations/impact-numerique-cles-ecoconception
   score: 91.0
   grade: A
-  size: 11
-  nodes: 96
+  size: 12
+  nodes: 99
+  requests: 5
+- path: /formations/introduction-green-it
+  score: 90.0
+  grade: A
+  size: 12
+  nodes: 136
   requests: 5
 - path: /formations/introduction-numerique-responsable
-  score: 92.0
+  score: 90.0
   grade: A
-  size: 11
-  nodes: 89
+  size: 12
+  nodes: 135
   requests: 5
 - path: /formations/quantifier-impact-environnemental-num%C3%A9rique
   score: 92.0
   grade: A
-  size: 11
-  nodes: 85
+  size: 12
+  nodes: 88
   requests: 5
 - path: /formations/responsabilite-environnentale-product-owner-designer
   score: 92.0
   grade: A
-  size: 11
-  nodes: 83
+  size: 12
+  nodes: 86
   requests: 5
 - path: /formations/responsabilite-environnentale-product-owner-designer%20copy
   score: 92.0
   grade: A
-  size: 11
-  nodes: 90
+  size: 12
+  nodes: 93
   requests: 5
 - path: /mentions-legales
   score: 92.0
   grade: A
-  size: 10
-  nodes: 88
+  size: 11
+  nodes: 91
   requests: 5
 - path: /message_envoye
   score: 92.0
   grade: A
-  size: 9
-  nodes: 87
+  size: 10
+  nodes: 90
   requests: 5
 - path: /newsletter_confirmation
   score: 92.0
   grade: A
-  size: 9
-  nodes: 88
+  size: 10
+  nodes: 91
   requests: 5
 - path: /podcasts
   score: 91.0
   grade: A
-  size: 21
-  nodes: 89
+  size: 22
+  nodes: 94
   requests: 6
 - path: /realisations/
   score: 90.0
   grade: A
-  size: 20
-  nodes: 120
+  size: 21
+  nodes: 123
   requests: 7
 - path: /realisations/2023/11/14/simbios
   score: 88.0
   grade: A
-  size: 21
-  nodes: 201
+  size: 22
+  nodes: 204
   requests: 7
 - path: /realisations/2023/11/20/site-diabolos-nantes
   score: 81.0
   grade: A
-  size: 31
-  nodes: 360
+  size: 33
+  nodes: 363
   requests: 8
 - path: /realisations/2024/02/19/amelioration-simbios
   score: 89.0
   grade: A
-  size: 22
-  nodes: 170
+  size: 23
+  nodes: 173
   requests: 7
 - path: /services/
   score: 89.0
   grade: A
   size: 13
-  nodes: 167
+  nodes: 171
   requests: 5
 - path: /services/actions_reduction
   score: 90.0
   grade: A
-  size: 13
-  nodes: 139
+  size: 14
+  nodes: 143
   requests: 5
 - path: /services/analyse_cycle_vie
   score: 90.0
   grade: A
-  size: 13
-  nodes: 140
+  size: 14
+  nodes: 144
   requests: 5
 - path: /services/communication
   score: 91.0
   grade: A
-  size: 12
-  nodes: 111
+  size: 13
+  nodes: 115
   requests: 5
-- path: /services/financement
+- path: /services/en/strategy
   score: 91.0
   grade: A
-  size: 12
-  nodes: 125
+  size: 13
+  nodes: 124
+  requests: 5
+- path: /services/financement
+  score: 90.0
+  grade: A
+  size: 13
+  nodes: 129
   requests: 5
 - path: /services/formation
   score: 89.0
   grade: A
-  size: 12
-  nodes: 168
+  size: 13
+  nodes: 178
   requests: 5
 - path: /services/sensibilisation/
-  score: 89.0
+  score: 88.0
   grade: A
-  size: 30
-  nodes: 170
+  size: 31
+  nodes: 174
   requests: 9
 - path: /services/sensibilisation/bataille_tech
   score: 91.0
   grade: A
-  size: 11
-  nodes: 111
+  size: 12
+  nodes: 115
   requests: 5
 - path: /services/sensibilisation/fresque_du_numerique
   score: 91.0
   grade: A
-  size: 11
-  nodes: 104
+  size: 12
+  nodes: 108
   requests: 5
 - path: /services/sensibilisation/over-connected
   score: 90.0
   grade: A
-  size: 58
-  nodes: 126
+  size: 59
+  nodes: 130
   requests: 6
 - path: /services/sensibilisation/realite_numerique
   score: 91.0
   grade: A
   size: 12
-  nodes: 110
+  nodes: 114
   requests: 5
 - path: /services/strategie_reduction
-  score: 91.0
+  score: 90.0
   grade: A
-  size: 12
-  nodes: 125
+  size: 13
+  nodes: 129
   requests: 5
