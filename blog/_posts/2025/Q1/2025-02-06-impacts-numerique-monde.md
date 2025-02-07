@@ -8,7 +8,7 @@ alt-image: "Un centre de données regroupant l'ensemble des symboles de la Franc
 podcast: null
 ---
 
-Jusqu'à présent l'ensemble des acteurs numérique responsable se basaient sur des études monde qui se basent sur l'année 2019. Une mise à jour des données sur l'impact environnemental du numérique à l'échelle mondiale était vivement attendue. GreenIT.fr vient combler ce manque avec une {% include link.html text="analyse du cycle de vie de l'ensemble des activités numériques mondiales" link="https://greenit.eco/nos-etudes-et-essais/impacts-environnementaux-du-numerique-dans-le-monde-2025/" %}.
+Jusqu'à présent l'ensemble des acteurs du numérique responsable se basaient sur des études monde qui se concerant l'année 2019. Une mise à jour des données sur l'impact environnemental du numérique à l'échelle mondiale était vivement attendue. GreenIT.fr vient combler ce manque avec une {% include link.html text="analyse du cycle de vie de l'ensemble des activités numériques mondiales" link="https://greenit.eco/nos-etudes-et-essais/impacts-environnementaux-du-numerique-dans-le-monde-2025/" %}.
 
 On peut dire que ce rapport est bien fourni ! L'étude propose vraiment beaucoup d'informations. Je vais faire une présentation générale des résultats dans cet article et je proposerai des approfondissements dans des articles séparés.
 
@@ -69,7 +69,7 @@ On notera que la [consommation en eau](/blog/2024/01/22/utilisation-eau) et le [
 
 On a l'habitude de former trois catégories de matériels faisant fonctionner le numérique : les terminaux utilisateurs, les centres de données et les infrastructures réseaux. Pour ces trois catégories, on regarde les impacts de leur fabrication, de leur distribution, de leur utilisation et de leur fin de vie.
 
-Les impacts étant largement concentrés dans la fabrication et l'utilisation, distribution et fin de vie ont été regroupée. L'ensemble des impacts est exprimé en pourcentage de la limite planétaire.
+Les impacts étant largement concentrés dans la fabrication et l'utilisation, distribution et fin de vie ont été regroupées. L'ensemble des impacts est exprimé en pourcentage de la limite planétaire.
 
 {% responsive_image 
   path: "assets/img/posts/2025/Q1/impacts-num-monde-2023.webp"
@@ -101,7 +101,7 @@ Comme toujours, il est impossible de tout prendre en compte parfaitement. Il est
 
 Les quelques limites significatives relevées :
 
-- les données réseau sont issus d'une étude France extrapolée au réseau mondial
+- les données réseau sont issues d'une étude France extrapolée au réseau mondial
 - quelques équipements numériques ne sont pas inclus (imprimantes 3D, terminaux de paiement...)
 - les satellites ne sont pas inclus dans la partie infrastructure réseau
 - dans la phase utilisation, seule la consommation électrique a été prise en compte. La maintenance des appareils n'a pas pu être modélisée (réparation, changement de composant...)
@@ -113,9 +113,9 @@ Toutefois, il faut rester prudent avec ces certitudes tant qu'on n'a rien chiffr
 
 ## Conclusions
 
-Ce rapport vient donner un coup de frais sur les impacts envirionnementaux du numérique. Avec une méthodologie bien formalisée et respectant les principes généraux d'une analyse du cycle de vie, les résultats semblent aussi fiables que l'état de l'art du moment le permet.
+Ce rapport vient donner un coup de fraîcheur sur les impacts envirionnementaux du numérique. Avec une méthodologie bien formalisée et respectant les principes généraux d'une analyse du cycle de vie, les résultats semblent aussi fiables que l'état de l'art du moment le permet.
 
-L'essentiel des impacts environnementaux se déroulant pendant la phase utilisation, il convient de modérer nos usages. En France, même si nos équipements fonctionnent avec une électricité bas-carbone, lors de notre utilisation il est possible voire probable que nous sollicitions des centres de données et du réseaux d'autres pays et dont l'électricité aura des impacts suppérieurs.
+L'essentiel des impacts environnementaux se déroulant pendant la phase utilisation, il convient de modérer nos usages. En France, même si nos équipements fonctionnent avec une électricité bas-carbone, lors de notre utilisation il est possible voire probable que nous sollicitions des centres de données et du réseau d'autres pays et dont l'électricité aura des impacts suppérieurs.
 
 Plus que jamais, il faut questionner nos usages pour en maitriser la croissance. Par exemple, en 2023, les serveurs portant l'intelligence artificielle produisent à eux seuls entre 15 % et 20 % des gaz à effet de serre des centres de données.
 
