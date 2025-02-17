@@ -43,7 +43,7 @@ fr:
         title: Pour la planète
         reasons:
           - title: Lutter contre le dérèglement climatique
-            description: Le numérique contribue à hauteur de 6-7% aux émissions de gaz à effet de serre mondiales.
+            description: Le numérique contribue à hauteur de 3-4 % aux émissions de gaz à effet de serre mondiales.
           - title: Prévenir de la pénurie de ressources
             description: Les métaux rares sont indispensables à la fabrication de nos équipements numériques.
           - title: Préserver l'eau et la biodiversité
@@ -153,7 +153,7 @@ en:
         title: For our planet
         reasons:
           - title: Fighting climate change
-            description: Digital technology contributes 6-7% of global greenhouse gas emissions.
+            description: Digital technology contributes 3-4 % of global greenhouse gas emissions.
           - title: Preventing resource shortages
             description: Rare metals are essential for the manufacturing of our digital equipment.
           - title: Preserving water and biodiversity
