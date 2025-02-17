@@ -114,11 +114,11 @@ layout: default
                         {% include link.html text="LinkedIn" link="https://www.linkedin.com/in/guillaumewolf/" class="button" aria-role="button" aria-label="Consulter mon profil LinkedIn" %}
                     </div>
                     <div class="social">
+                        {% include link.html text="Mastodon" link="https://mastodon.social/@geeyom" class="button" aria-role="button" aria-label="Consulter mon profil Mastodon" rel="me" %}
+                    </div>
+                    <div class="social">
                         <a href="/podcasts" class="button" aria-label="{{ site.data.translations[page.lang].home_page.contact.podcast }}">Podcast</a>
                     </div> 
-                    <div class="social">
-                        <a rel="me" href="https://mastodon.social/@geeyom" target="new-tab" class="button" aria-role="button" aria-label="Consulter mon profil Mastodon">Mastodon</a>
-                    </div>
                 </div>
             </div>
         </div>
