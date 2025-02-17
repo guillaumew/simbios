@@ -5,6 +5,7 @@
     color: white;
     a {
         color: $dark_white-color;
+        min-height: 24px;
     }
     .simbios_logo {
         height: 80%;
@@ -41,8 +42,5 @@
 @media (max-width: 376px) {
     .footer-item {
         font-size: 12px;
-        a {
-            margin: .25em 0;
-        }
     }
 }
