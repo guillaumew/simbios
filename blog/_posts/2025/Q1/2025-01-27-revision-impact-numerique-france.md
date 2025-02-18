@@ -5,17 +5,17 @@ tags: ["ADEME", "ACV", "Datacenter", "France"]
 image: /assets/img/posts/2025/Q1/thumb-revision-impact-num-france.jpg
 thumb: /assets/img/posts/2025/Q1/thumb-revision-impact-num-france
 alt-image: "Un centre de données regroupant l'ensemble des symboles de la France."
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/67b46ac5c19c733995aaef69/media.mp3
 ---
 
 ## La mise à jour de l'étude de l'ADEME
 
 Dans [cet article paru mi-janvier](/blog/2025/01/14/impact-environnemental-numerique-france), je parlais de la mise à jour de l'analyse du cycle de vie du numérique en France par l'ADEME. Le rapport montrait notamment un impact beaucoup plus important pour les centres de données.
 
-On passe ainsi de 16% de l'impact carbonne du numérique français dû aux datacenters à 46% avec le nouveau modèle mis à jour. Cela semble étonnant et cela amène à quelques réflexions sur la méthodologie du rapport de l'ADEME. Il y a deux critiques importantes :
+On passe ainsi de 16% de l'impact carbone du numérique français dû aux datacenters à 46% avec le nouveau modèle mis à jour. Cela semble étonnant et cela amène à quelques réflexions sur la méthodologie du rapport de l'ADEME. Il y a deux critiques importantes :
 
 - l'absence de revue critique formalisée dans le rapport
-- aucun nouvel inventaire n'a été réalisé, les modificications ont été uniquement réalisées sur des modèles projectifs
+- aucun nouvel inventaire n'a été réalisé, les modifications ont été uniquement réalisées sur des modèles projectifs
 
 ## Un modèle et une méthodologie criticable
 
