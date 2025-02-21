@@ -54,6 +54,11 @@
             .lang-button {
                 padding: 0.5em;
                 font-variant-caps: all-petite-caps;
+                background-color: #154f67;
+                border-color: #114256;
+                &:hover{
+                    background-color: #114256;
+                }
             }
         }
     }
