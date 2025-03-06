@@ -11,11 +11,16 @@ Je vous propose un nouveau volet sur les [crises environnementales](/blog/2024/0
 
 ## De quoi s’agit-il ?
 
-Les ressources fossiles correspondent au :
+On commence avec une question épineuse. Qu'entend-on par énergie fossile ? De manière générale on restreint les ressources fossiles au hydrocarbures issues de la methnisation d'êtres vivants. Cela correspond au :
 
 - charbon et ses dérivés (lignite, bitumineux, anthracite…)
 - pétrole 
 - gaz naturel
+
+Mais on ajoute parfois également l'ensemble des ressources énergétiques. Il convient donc d'y ajouter l'uranium qui permet de faire fonctionner les centrales et les bombes nucléaires. 
+
+> Dans cet article, nous parlerons de ressources fossiles ou des ressources énergétiques pour différencier ces deux définitions.
+{: .prompt-info }
 
 L’humanité utilise beaucoup de ressources fossiles pour ses activités. Ces dernières sont majoritairement utilisées pour produire de l’énergie :
 - Chaleur/chauffage
@@ -62,7 +67,7 @@ Cela vient donc alourdir le coût financier et environnemental des ressources fo
 
 ## Où en sommes-nous ?
 
-D’après le {% include link.html text="JRC (Joint Research Centre)" link="https://publications.jrc.ec.europa.eu/repository/" %}, la limite planétaire d’utilisation des ressources fossiles est fixée à 2,24E14 MJ par an. Cela correspond à 5 350 Mtep, soit environ 750 kg équivalent pétrole par personne.
+D’après le {% include link.html text="JRC (Joint Research Centre)" link="https://publications.jrc.ec.europa.eu/repository/" %}, la limite planétaire d’utilisation des ressources énergétiques est fixée à 2,24E14 MJ par an. Cela correspond à 5 350 Mtep, soit environ 750 kg équivalent pétrole par personne.
 
 Quand on regarde les usages effectifs, on voit qu’on dépassait les 10 000 Mtep en 2007. En 2021, on arrive à 150 000 TWh soit plus de {% include link.html text="12 000 Mtep" link="https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=WORLD&fuel=Energy%20supply&indicator=TESbySource" %}. C’est plus de deux fois la limite planétaire.
 
@@ -70,7 +75,7 @@ En France en 2021, nous consommions {% include link.html text="2769 TWh" link="h
 
 ## Quelle est la place du numérique ?
 
-D'après le rapport {% include link.html text="Evaluation de l'impact du numérique en France" link="https://librairie.ademe.fr/consommer-autrement/5226-evaluation-de-l-impact-environnemental-du-numerique-en-france-et-analyse-prospective.html" %} de l'ADEME-ARCEP, le numérique en France contribue à hauteur de 7,96e+11 MJ à l’épuisement des ressources fossiles. Cela correspond à 19,01 Mtep soit 247 kg eq pétrole soit un tiers du budget soutenable.
+D'après le rapport {% include link.html text="Evaluation de l'impact du numérique en France" link="https://librairie.ademe.fr/consommer-autrement/5226-evaluation-de-l-impact-environnemental-du-numerique-en-france-et-analyse-prospective.html" %} de l'ADEME-ARCEP, le numérique en France contribue à hauteur de 7,96e+11 MJ à l’épuisement des ressources énergétiques. Cela correspond à 19,01 Mtep soit 247 kg eq pétrole soit un tiers du budget soutenable.
 
 Sans surprise, l’essentiel de l’usage des ressources fossiles du numérique provient de l’électricité nécessaire à l’utilisation (3/4 des ressources). 
 

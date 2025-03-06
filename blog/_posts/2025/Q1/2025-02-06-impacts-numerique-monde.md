@@ -5,7 +5,7 @@ tags: ["Green IT", "ACV", "Environnement", "Monde"]
 image: /assets/img/posts/2025/Q1/thumb-greenit-acv-monde-2025.jpg
 thumb: /assets/img/posts/2025/Q1/thumb-greenit-acv-monde-2025
 alt-image: "Un centre de données regroupant l'ensemble des symboles de la France."
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/67b841fb86a56284d053d209/media.mp3
 ---
 
 Jusqu'à présent l'ensemble des acteurs du numérique responsable se basaient sur des études monde qui se concerant l'année 2019. Une mise à jour des données sur l'impact environnemental du numérique à l'échelle mondiale était vivement attendue. GreenIT.fr vient combler ce manque avec une {% include link.html text="analyse du cycle de vie de l'ensemble des activités numériques mondiales" link="https://greenit.eco/nos-etudes-et-essais/impacts-environnementaux-du-numerique-dans-le-monde-2025/" %}.
@@ -13,7 +13,7 @@ Jusqu'à présent l'ensemble des acteurs du numérique responsable se basaient s
 On peut dire que ce rapport est bien fourni ! L'étude propose vraiment beaucoup d'informations. Je vais faire une présentation générale des résultats dans cet article et je proposerai des approfondissements dans des articles séparés.
 
 Voici les approfondissements prévus ou publiés :
-- Impacts de l'intelligence artificielle
+- [Impacts de l'intelligence artificielle](/blog/2025/03/04/impacts-intelligence-artificielle)
 - Modélisation du réseau
 - Les équipements utilisateurs
 
