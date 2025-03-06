@@ -5,7 +5,7 @@ tags: ["Intelligence artificielle", "Green IT", "ACV", "Environnement", "Monde"]
 image: /assets/img/posts/2025/Q1/thumb-intelligence-artificielle.jpg
 thumb: /assets/img/posts/2025/Q1/thumb-intelligence-artificielle
 alt-image: "L'image d'un visage ethéré ou artificiel."
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/67c9cea322c74795c306c2ca/media.mp3
 ---
 
 Le rapport GreenIT.fr sur [les impacts environnementaux du numérique dans le monde](/blog/2025/02/06/impacts-numerique-monde) propose un volet sur l'intelligence artificielle. Il s'agit de l'une des rares études qui propose une approche générale en s'appuyant sur une méthodologie sérieuse.
@@ -66,4 +66,4 @@ Et encore ! Cela n'inclut pas la part des équipements nécessaires à faire fon
 
 Les centres de données restent majoritairement constitués de serveurs de stockage (d'où leur nom !). Toutefois, les impacts environnementaux de ces derniers proviennent de sources variées. Les serveurs configurés pour l'intelligence artificielle viennent prendre une place importante avec une part de 18 % des émissions de gaz à effets.
 
-En 2023, les serveurs de l'intelligence artificielle constituent à eux seuls 1 % de la limite planétaire climatique. Chiffre qui sera amené à évoluer rapidement dans les années à venir...
+En 2023, les serveurs de l'intelligence artificielle constituent à eux seuls 1 % de la limite planétaire climatique. Chiffre qui sera amené à évoluer rapidement dans les années à venir...12
