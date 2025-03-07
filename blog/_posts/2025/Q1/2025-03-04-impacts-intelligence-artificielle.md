@@ -60,10 +60,10 @@ On peut mettre ces données en image en les comparant aux limites planétaires p
 
 On se rend compte que les serveurs de l'intelligence artificielle constituaient en 2023 plus de 1 % de la limite planétaire d'émissions de gaz à effet de serre. Cela fait lourd pour un usage encore peu développé. 
 
-Et encore ! Cela n'inclut pas la part des équipements nécessaires à faire fonctionner ces serveurs dans les datacenters (climatisation, réseau, ondulateurs, etc.).Cela n'inclut pas non plus la part des usages de l'intelligence artificielle sur les terminaux utilisteurs et sur les infrastructures réseaux.
+Et encore ! Cela n’inclut pas la part des équipements nécessaires à faire fonctionner ces serveurs dans les datacenters (climatisation, réseau, onduleurs, etc.) .Cela n’inclut pas non plus la part des usages de l’intelligence artificielle sur les terminaux utilisateurs et sur les infrastructures réseaux.
 
 ## Conclusion
 
-Les centres de données restent majoritairement constitués de serveurs de stockage (d'où leur nom !). Toutefois, les impacts environnementaux de ces derniers proviennent de sources variées. Les serveurs configurés pour l'intelligence artificielle viennent prendre une place importante avec une part de 18 % des émissions de gaz à effets.
+Les centres de données restent majoritairement constitués de serveurs de stockage (d'où leur nom !). Toutefois, les impacts environnementaux de ces derniers proviennent de sources variées. Les serveurs configurés pour l'intelligence artificielle viennent prendre une place importante avec une part de 13 % des émissions de gaz à effets.
 
-En 2023, les serveurs de l'intelligence artificielle constituent à eux seuls 1 % de la limite planétaire climatique. Chiffre qui sera amené à évoluer rapidement dans les années à venir...12
+En 2023, les serveurs de l'intelligence artificielle constituent à eux seuls 1 % de la limite planétaire climatique. Chiffre qui sera amené à évoluer rapidement dans les années à venir...
