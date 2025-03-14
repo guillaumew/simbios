@@ -38,7 +38,7 @@ Que l'on suit au travers de 16 catégories d'impact environnemental :
 - [Radiations ionisantes](/blog/2024/12/09/radiations-ionisantes)
 - Toxicité humaine (cancer)
 - Toxicité humaine (non cancer)
-- [Emissions de particules](/blog/2024/07/10/particules)
+- [Emissions de particules](/blog/2024/07/15/particules)
 - [Aprauvissement de l'ozone stratosphérique](/blog/2024/06/25/depletion-ozone-stratospherique)
 
 On retrouve des éléments des limites planétaires. J'ai tenté de lier comme je pouvais :
