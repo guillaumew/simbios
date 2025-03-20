@@ -5,14 +5,14 @@ tags: ["Réseau", "Fixe", "Mobile", "Green IT", "ACV", "Environnement", "Monde"]
 image: /assets/img/posts/2025/Q1/thumb-4G-antenna.jpg
 thumb: /assets/img/posts/2025/Q1/thumb-4G-antenna
 alt-image: "Une antenne réseau mobile"
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/67dbe73813f133b29da5e466/media.mp3
 ---
 
-Le rapport GreenIT.fr sur [les impacts environnementaux du numérique dans le monde](/blog/2025/02/06/impacts-numerique-monde) propose un volet les impacts environnementaux de l'infrastructure réseau. Ce dernier repose en grande partie sur l'étude de l'ADEME {% include link.html link="https://librairie.ademe.fr/industrie-et-production-durable/6789-evaluation-de-l-empreinte-environnementale-de-la-fourniture-d-acces-a-internet-en-france.html" text="Evaluation de l'empreinte environnementale de la fourniture d'accès à internet en France" %} paru en mars 2024.
+Le rapport GreenIT.fr sur [les impacts environnementaux du numérique dans le monde](/blog/2025/02/06/impacts-numerique-monde) propose un volet sur les impacts environnementaux de l'infrastructure réseau. Ce dernier repose en grande partie sur l'étude de l'ADEME {% include link.html link="https://librairie.ademe.fr/industrie-et-production-durable/6789-evaluation-de-l-empreinte-environnementale-de-la-fourniture-d-acces-a-internet-en-france.html" text="Evaluation de l'empreinte environnementale de la fourniture d'accès à internet en France" %} parue en mars 2024.
 
 Je vais m'appuyer sur ces deux rapports pour écrire cet article. Nous aurons ainsi une approche France et Monde.
 
-## l'infrastructure réseau, c'est quoi au juste ?
+## L'infrastructure réseau, c'est quoi au juste ?
 
 Quand vous naviguez sur internet, vous accédez généralement à des fichiers ou des données qui n'existent pas sur votre terminal. Votre appareil doit aller télécharger ces derniers sur des serveurs (dans le cas le plus courant). Pour que cela soit possible, il faut créer un pont qui relie le serveur et le terminal. C'est exactement le rôle de l'infrastructure réseau.
 
@@ -48,11 +48,11 @@ En France, le réseau fixe constitue l'essentiel des impacts environnementaux du
 %}
 *Répartition des impacts du réseau mobile français par catégorie d'équipement, source {% include link.html link="https://librairie.ademe.fr/industrie-et-production-durable/6789-evaluation-de-l-empreinte-environnementale-de-la-fourniture-d-acces-a-internet-en-france.html" text="ADEME" %} (p. 52)*
 
-Dans les deux cas, on voit que 82% à 94% des impacts sont dus au premier relais (accès opérateur pour le réseau fixe et réseau d'accès radio pour le réseau mobile). La part du cœur de réseau (backbone) et sa connexion avec les serveurs comptent pour un part minime des impacts.
+Dans les deux cas, on voit que 82% à 94% des impacts sont dus au premier relais (accès opérateur pour le réseau fixe et réseau d'accès radio pour le réseau mobile). La part du cœur de réseau (backbone) et sa connexion avec les serveurs comptent pour une part minime des impacts.
 
 ## La réelle différence entre le réseau fixe et le réseau mobile
 
-Lorsque l'on s'intéresse aux étapes du cycle de vie nécessaires pour le fonctionnement de l'infrastructure réseau. On note une différence notable entre le réseau mobile et le réseau fixe.
+Lorsque l'on s'intéresse aux étapes du cycle de vie nécessaires pour le fonctionnement de l'infrastructure réseau. On note une différence importante entre le réseau mobile et le réseau fixe.
 
 | Etape du cycle de vie | Réseau Fixe | Réseau mobile |
 |-----------------------|-------------|---------------|
@@ -70,7 +70,7 @@ On peut voir que les étapes de fabrication (fabrication, distribution et instal
 
 ## Modélisation par abonné.e et par quantité de données
 
-La méthode propose une composition des impacts environnementaux par abonnement et par quantité de données consommées. Ainsi, nous avons une partie fixe avec le nombre d'abonnement et une partie variable avec la quantité de données consommées.
+La méthode propose une composition des impacts environnementaux par abonnement et par quantité de données consommées. Ainsi, nous avons une partie fixe avec le nombre d'abonnements et une partie variable avec la quantité de données consommées.
 
 Ainsi en France, un abonnement possède un coût environnemental annuel. Pour le réchauffement climatique :
 - 50,1 kg CO<sub>2</sub> eq pour un abonnement fixe
@@ -114,7 +114,7 @@ Ce poids plus lourd de l'utilisation et donc du Go consommé vient changer la do
 
 ### Au total
 
-Au total dans le monde, le réseau a une empreinte carbone  de 428 millions de tonnes de CO<sub>2</sub> eq dont 39 % est issu du réseau fixe et 61 % du réseau mobile (tendance inversée par rapport à la France)
+Au total dans le monde, le réseau a une empreinte carbone  de 428 millions de tonnes de CO<sub>2</sub> eq dont 39 % sont issus du réseau fixe et 61 % du réseau mobile (tendance inversée par rapport à la France)
 
 Cela constitue :
 - 23 % de l'impact du numérique mondial
@@ -136,7 +136,7 @@ Attention, la box 5G n'a de sens que si votre logement n'est pas encore raccord�
 
 ### Privilégier le réseau fixe 
 
-Ensuite, il convient d'avoir les bons réflexes pour limiter sa consommation de données mobiles. Lorsque vous avez le choix, il est important de passer par un réseau fixe (qui inclut le Wifi). La consommation d'un Go via une connexion fixe a une empreinte carbone 7 fois inférieure par rapport à une connexion mobile. Tous les téléchargements qui peuvent être fait de manière asynchrone doivent passer par le réseau fixe :
+Ensuite, il convient d'avoir les bons réflexes pour limiter sa consommation de données mobiles. Lorsque vous avez le choix, il est important de passer par un réseau fixe (qui inclut le Wifi). La consommation d'un Go via une connexion fixe a une empreinte carbone 7 fois inférieure par rapport à une connexion mobile. Tous les téléchargements qui peuvent être faits de manière asynchrone doivent passer par le réseau fixe :
 - Mises à jour d'applications
 - Sauvegardes
 - Téléchargements de vidéo (avant un trajet en train par exemple)
@@ -145,6 +145,6 @@ En parlant de train, lorsque vous êtes dans le train, même si vous vous connec
 
 ### Questionner ses usages
 
-Enfin, il y a aussi la possibilité le remettre en question ses usages. En transport, un bon livre permet de s'évader avec un impact environnemental limité. 
+Enfin, il y a aussi la possibilité de remettre en question ses usages. En transport, un bon livre permet de s'évader avec un impact environnemental limité. 
 
 Quitte à passer à la médiathèque pour choisir votre livre, vous y trouverez probablement une belle offre de films en DVD (qui ne nécessitent pas de réseau internet pour fonctionner).
