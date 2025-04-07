@@ -1,0 +1,40 @@
+<script>
+    function loadCSSIfNotAlreadyLoadedForSomeReason () {
+    var ss = document.styleSheets;
+    for (var i = 0, max = ss.length; i < max; i++) {
+        if (ss[i].href == "/path/to.css")
+            return;
+    }
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "/assets/css/charts.css";
+
+    document.getElementsByTagName("head")[0].appendChild(link);
+}
+loadCSSIfNotAlreadyLoadedForSomeReason();
+</script>
+<link rel="stylesheet" href="/assets/css/charts.css">
+<table class="chaarts bar" style="--scale: 100">
+	<caption id="caption-1">Caption</caption>
+	<thead class="sr-only">
+		<tr>
+			<td>Element</td>
+			<th scope="col">Time</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Backend</th>
+			<td style="--value: 4">
+				4
+			</td>
+		</tr>
+        <tr>
+			<th scope="row">Fonrtend</th>
+			<td style="--value: 96">
+				96
+			</td>
+		</tr>
+	</tbody>
+</table>
+

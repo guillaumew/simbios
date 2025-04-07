@@ -15,7 +15,7 @@ On peut dire que ce rapport est bien fourni ! L'étude propose vraiment beaucoup
 Voici les approfondissements prévus ou publiés :
 - [Impacts de l'intelligence artificielle](/blog/2025/03/04/impacts-intelligence-artificielle)
 - [Modélisation du réseau](/blog/2025/03/14/impacts-infrastructure-reseau)
-- Les équipements utilisateurs (à venir)
+- [Les équipements utilisateurs](/blog/2025/04/07/terminaux-numeriques-monde)
 
 > Comme l'expliquent les auteurs et autrices de ce rapport, la méthodologie a beaucoup évolué en 5 ans et donc il est dangereux de comparer l'étude sur l'année 2019 et celle de 2023 pour établir une évolution. Nous allons ici faire des comparaisons entre les deux études pour voir **ce qui change au niveau de l'état de l'art des connaissances sur les impacts environnementaux du numérique**.
 {: .prompt-info }
