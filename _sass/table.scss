@@ -1,17 +1,38 @@
-table {
-    border-collapse: collapse;
-    margin: 0 auto;
-    width:100%;
+.table {
+	ul.legend {
+		display: none;
+	}
+	button::before {
+		content: "Afficher en graphique"
+	}
+	table td .data .pielabels {
+		display: none;
+	}
+}
+.chart{
+	table th {
+		z-index: 1;
+	}
+	button::before {
+		content : "Revenir au tableau"
+	}
+}
+
+table:not(.charts-css) {
+	border-collapse: collapse;
+	margin: 0 auto;
+	width:100%;
 	display: block;
-    overflow-x: auto;
-    text-align: center;
-    thead tr {
-	    background-color: $teal-color;
-	    color: #ffffff;
+	overflow-x: auto;
+	text-align: center;
+	thead tr {
+		background-color: $teal-color;
+		color: #ffffff;
+		th,dt {
+			padding: 12px 15px;
+		}
 	}
-	th,dt {
-		padding: 12px 15px;
-	}
+
 	tbody {
 		tr {
 			border-bottom: 1px solid #dddddd;
@@ -27,9 +48,10 @@ table {
 		}
 	}
 }
+
 @media (prefers-color-scheme: dark) {
 	body {
-		table {
+		table:not(.charts-css) {
 			tbody tr {
 				&:nth-of-type(even){
 					background-color: #303134;

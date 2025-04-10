@@ -1,40 +1,66 @@
-<script>
-    function loadCSSIfNotAlreadyLoadedForSomeReason () {
-    var ss = document.styleSheets;
-    for (var i = 0, max = ss.length; i < max; i++) {
-        if (ss[i].href == "/path/to.css")
-            return;
-    }
-    var link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = "/assets/css/charts.css";
-
-    document.getElementsByTagName("head")[0].appendChild(link);
-}
-loadCSSIfNotAlreadyLoadedForSomeReason();
-</script>
-<link rel="stylesheet" href="/assets/css/charts.css">
-<table class="chaarts bar" style="--scale: 100">
-	<caption id="caption-1">Caption</caption>
-	<thead class="sr-only">
-		<tr>
-			<td>Element</td>
-			<th scope="col">Time</th>
-		</tr>
+<div class="table">
+<table class="" id="{{include.id}}">
+	<thead>
+	  <tr>
+		<th scope="col">{{include.label-label}} </th>
+		{% for label in include.data-labels %}
+		<th scope="col"> {{label}}  </th>
+		{% endfor %}
+	  </tr>
 	</thead>
+  
 	<tbody>
+		{% assign start = 0.000000000001 %}
+		{% for data-line in include.data %}
 		<tr>
-			<th scope="row">Backend</th>
-			<td style="--value: 4">
-				4
-			</td>
+			<th scope="row"> {{data-line.name}}</th>
+			{% for d in data-line.data %}
+			<td style="--size: {{ d | plus: 0.000000000001 | divided_by: include.max-size  }}"> <span class="data">{{d}} {{include.data-suffixe}}</span> </td>
+			{% endfor %}
 		</tr>
-        <tr>
-			<th scope="row">Fonrtend</th>
-			<td style="--value: 96">
-				96
-			</td>
-		</tr>
+		{% endfor %}
 	</tbody>
-</table>
+  
+  </table>
+  {% assign nb = include.data-labels | size %}
+  {% if nb>1 %}
+  <ul class="charts-css legend legend-inline legend-rectangle">
+	{% for label in include.data-labels %}
+	<li> {{label}} </li>
+	{% endfor %}
+  </ul>
+  {% endif %}
+  <p>
+	<button class="button" onclick="toggleChart_{{include.id}}()"></button>
+  </p>
+</div>
 
+<script>
+	function loadCSSIfNotAlreadyLoadedForSomeReason () {
+		var ss = document.styleSheets;
+		for (var i = 0, max = ss.length; i < max; i++) {
+			if (ss[i].href == "/path/to.css")
+				return;
+		}
+		var link = document.createElement("link");
+		link.rel = "stylesheet";
+		link.href = "/assets/css/charts.css";
+
+		document.getElementsByTagName("head")[0].appendChild(link);
+	}
+	function toggleChart_{{include.id}}(){
+		var chart=document.getElementById("{{include.id}}");
+		if(chart.getAttribute("class")){
+			chart.removeAttribute("class");
+			chart.parentElement.setAttribute("class", "table");
+			chart.removeAttribute("style");
+		} else {
+			chart.setAttribute("class", "charts-css {{include.type}} {{include.show-data}} show-labels data-center {% if include.spacing %}data-spacing-10{% endif %} labels-align-block-start");
+			loadCSSIfNotAlreadyLoadedForSomeReason();
+			chart.parentElement.setAttribute("class", "chart");
+			{% if include.padding-bottom %}
+			chart.setAttribute("style","padding-bottom: {{include.padding-bottom}};");
+			{% endif %}
+		}
+	}
+</script>

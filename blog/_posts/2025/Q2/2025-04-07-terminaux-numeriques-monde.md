@@ -6,18 +6,68 @@ image: /assets/img/posts/2025/Q2/thumb-terminaux.jpg
 thumb: /assets/img/posts/2025/Q2/thumb-terminaux
 alt-image: "Quelques exemples d'objets connectés"
 podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/67f3ccf6e8676925926c3478/media.mp3
+data1:
+  - name: "Emissions de gaz à effet de serre "
+    data:  [54]
+  - name: "Utilisation de métaux et minéraux"
+    data: [72]
+  - name: "Utilisation de ressources énergétiques"
+    data: [53]
+  - name: "Emissions de particules"
+    data: [52]
+datalabels1: ["Part des terminaux dans les impacts du numérique"]
+data2:
+  - name: "Ordinateurs fixes"
+    data: [ 05.8]
+  - name: "Ordinateurs portables"
+    data: [05.8]
+  - name: "Tablettes"
+    data: [01.9]
+  - name: "Téléphones fixes"
+    data: [01.9]  
+  - name: "Smartphones"
+    data: [09.6]
+  - name: "Moniteurs"
+    data: [01.9] 
+  - name: "Téléviseurs"
+    data: [25]
+  - name: "Imprimantes"
+    data: [07.7]
+  - name: "Consoles de jeu"
+    data: [01.9]  
+  - name: "Vidéoprojecteurs"
+    data: [09.6]
+  - name: "Box TV"
+    data: [05.8]
+  - name: "Enceintes connectées"
+    data: [01.9] 
+  - name: "Objets connectés"
+    data: [21.3] 
+datalabels2: ["Part de l'empreinte carbone des terminaux"]
+data3:
+  - name: "Empreinte carbone"
+    data: [27.8, 1.4, 70.4, 0.5]
+  - name: "Utilisation de métaux"
+    data: [86.1, 0.7, 12.5, 0.7]
+datalabels3: ["Fabrication","Transport","Utilisation","Fin de vie"]
 ---
 
 Comment sommes-nous équipés pour le numérique ? Et quels sont les impacts environnementaux de ces équipements ? Nous allons nous baser sur le rapport GreenIT.fr sur [les impacts environnementaux du numérique dans le monde](/blog/2025/02/06/impacts-numerique-monde) pour répondre à ces questions.
 
 Les équipements utilisateurs génèrent la majorité des impacts environnementaux liés aux activités numériques. Le reste provient des serveurs et du réseau. Les impacts environnementaux des équipements ont lieu soit lors de leur fabrication, soit à cause de l'électricité qu'ils consomment. Le reste des étapes du cycle de vie étant relativement anecdotique.
 
-| Impacts                  | Part des terminaux |
-| ---------------------------------------|------|
-| Emissions de gaz à effet de serre      | 54 % |
-| Utilisation de métaux et minéraux      | 72 % |
-| Utilisation de ressources énergétiques | 53 % |
-| Emissions de particules                | 52 % |
+{% include bar_chart.html 
+  id="chart1" 
+  data=page.data1
+  data-labels=page.datalabels1
+  max-size=72
+  label-label="Impact"
+  data-suffixe="%"
+  padding-bottom="40px"
+  type="column multiple stacked"
+  show-data = "show-data"
+  spacing = true
+%}
 
 ## Equipements considérés
 
@@ -97,10 +147,16 @@ Ces équipements concomment 29,5 millions de kg Sb eq soit 72% des métaux néce
 
 Voici l'empreinte carbone des différents équipements utilisateurs. Cette empreinte carbone inclut la fabrication et l'utilisation du terminal, mais exclut la sollicitation du réseau et des centres de données.
 
-{% responsive_image 
-  path: "assets/img/posts/2025/Q2/empreinte-carbone-terminaux-monde-2025.webp"
-  alt: "Graphique présentant l'empreinte carbone des équipements utilisateurs dans le monde."
-  default_type: "jpg"
+{% include bar_chart.html 
+  id="chart2" 
+  data=page.data2
+  data-labels=page.datalabels2
+  max-size=30
+  label-label="Impact"
+  data-suffixe=" %"
+  type="column"
+  padding-bottom="125px"
+  show-data = "hide-data"
 %}
 
 On constate que les téléviseurs et les objets connectés ont le plus grand impact. Pour les objets connectés, cela est dû à leur nombre. En effet, ils constituent plus de la moitié des équipements utilisateurs. Pour les téléviseurs, c'est leur impact individuel qui est important (grosse consommation et coût de fabrication important).
@@ -113,10 +169,18 @@ A l'échelle mondiale, l'essentiel des impacts environnementaux se déroule au n
 
 En revanche, la fabrication nécessite énormément de métaux ce qui constitue également un impact environnemental majeur.
 
-{% responsive_image 
-  path: "assets/img/posts/2025/Q2/cyclevie-terminaux-monde-2023.webp"
-  alt: "Graphique présentant les impacts des différentes étapes du cycle de vie des équipements numériques utilisateur sur le climat et l'usage des métauxs."
-  default_type: "jpg"
+*Répartition des impacts environnementaux des terminaux numériques dans le monde en fonction de l'étape du cycle de vie*
+{% include bar_chart.html 
+  id="chart3" 
+  data=page.data3
+  data-labels=page.datalabels3
+  max-size=110
+  label-label="Impact"
+  data-suffixe=" %"
+  type="column multiple stacked"
+  show-data = "show-data"
+  spacing = true
+  padding-bottom="10px"
 %}
 
 ## Conclusion

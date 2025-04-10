@@ -1,1492 +1,1177 @@
-
-@charset "UTF-8";
-@layer element, chaarts;
-@property --integer {
-  inherits: false;
+/*
+ * Charts.css v1.1.0 (https://ChartsCSS.org/)
+ * Copyright 2020 Rami Yushuvaev
+ * Licensed under MIT
+ */
+/*
+ * Chart custom properties
+ */
+ @property --color-1 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --color-2 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --color-3 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --color-4 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --color-5 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --color-6 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --color-7 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --color-8 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --color-9 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --color-10 {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --color {
+  syntax: "<color>";
+  inherits: true;
+}
+@property --chart-bg-color {
+  syntax: "<color>";
+  inherits: true;
+}
+@property --aspect-ratio {
+  syntax: "<ratio>";
+  initial-value: auto;
+  inherits: true;
+}
+@property --labels-size {
+  syntax: "<length>";
   initial-value: 0;
-  syntax: "<integer>";
+  inherits: true;
 }
-@layer element {
-  table {
-    border-collapse: collapse;
-    caption-side: top;
-    font-feature-settings: "tnum";
-    inline-size: 100%;
-    margin-block-end: 1.5rem;
-    vertical-align: top;
-  }
-  table > caption:first-child {
-    font-style: italic;
-    margin: 0;
-    padding: 2.5rem 1rem;
-  }
-  th,
-  td {
-    background-color: transparent;
-    padding: 0.5rem 0.75rem;
-    text-align: start;
-  }
-  td {
-    line-height: 1.25;
-    max-inline-size: 100%;
-  }
-  tbody {
-    border: 1px solid hsl(0, 0%, 80%);
-  }
-  thead {
-    border: 1px solid var(--foreground);
-  }
+@property --labels-align-block {
+  syntax: "<string>";
+  inherits: true;
 }
-@layer chaarts {
-  @layer container, bar, pie, line, column, radar;
-  @layer container {
-    .chaarts-container {
-      color-scheme: light;
-      margin: 2rem 0;
-      max-inline-size: 100%;
-      -webkit-overflow-scrolling: touch;
-      overflow-x: auto;
-      overflow-y: hidden;
-      --background-lightness: 100%;
-      --foreground-lightness: 0%;
-      --diff: 4%;
-      --background-lighter: hsl(0deg 0% var(--background-lightness));
-      --background: hsl(0deg 0% calc(var(--background-lightness) - var(--diff)));
-      --foreground: hsl(0deg 0% var(--foreground-lightness));
-      --foreground-lighter: hsl(0deg 0% calc(var(--foreground-lightness) + var(--diff)));
-      --foreground-o-50: hsl(0deg 0% var(--foreground-lightness) / 50%);
-      --foreground-o-25: hsl(0deg 0% var(--foreground-lightness) / 25%);
-      --foreground-o-10: hsl(0deg 0% var(--foreground-lightness) / 10%);
-      --hue: 270;
-      --lightness: 50%;
-      --saturation: 100%;
-      --chaarts-purple: hsl(var(--hue) calc(var(--saturation) / 2) var(--lightness));
-      --chaarts-pink: hsl(calc(var(--hue) + 60) var(--saturation) var(--lightness));
-      --chaarts-blue: hsl(calc(var(--hue) - 60) var(--saturation) var(--lightness));
-      --chaarts-yellow: hsl(40deg var(--saturation) var(--lightness));
-      --chaarts-green: hsl(calc(var(--hue) - 120) var(--saturation) var(--lightness));
-      --chaarts-red: hsl(calc(var(--hue) + 90) var(--saturation) var(--lightness));
-      --chaarts-gray: hsl(0deg 0% var(--lightness));
-      --to-radians: 0.01745329251;
-
-      --enter: cubic-bezier(0, .5, .5, 1);
-      --exit: cubic-bezier(.5, 0, 1, .5);
-      --move: cubic-bezier(.5, 0, .5, 1);
-    }
-    .chaarts-container[tabindex] {
-      --scrollable-background: var(--background-lighter);
-      background: local linear-gradient(to right, var(--scrollable-background) 30%, transparent) 0 0/2.5rem 100% no-repeat, local linear-gradient(to right, transparent, var(--scrollable-background) 70%) 100%/2.5rem 100% no-repeat, scroll radial-gradient(farthest-side at 0% 50%, var(--foreground-o-25), transparent) 0 0/1rem 100% no-repeat, var(--scrollable-background) scroll radial-gradient(farthest-side at 100% 50%, var(--foreground-o-25), transparent) 100%/1rem 100% no-repeat;
-    }
-    @media (min-width: 37.5em) {
-      .chaarts-container {
-        --lightness: 40%;
-      }
-    }
-    html:where([data-theme=dark]) .chaarts-container {
-      color-scheme: dark;
-      --background-lightness: 0%;
-      --foreground-lightness: 100%;
-      --background: hsl(0deg 0% calc(var(--diff) * 5));
-      --foreground-lighter: hsl(0deg 0% calc(var(--foreground-lightness) - var(--diff)));
-    }
-    @media (prefers-color-scheme: dark) {
-      .no-js .chaarts-container, html:where(:not([data-theme=light])) .chaarts-container {
-        color-scheme: dark;
-        --background-lightness: 0%;
-        --foreground-lightness: 100%;
-        --background: hsl(0deg 0% calc(var(--diff) * 5));
-        --foreground-lighter: hsl(0deg 0% calc(var(--foreground-lightness) - var(--diff)));
-      }
-    }
-    @media (prefers-contrast: more) {
-      .chaarts-container {
-        --background-lighter: Canvas;
-        --background: Canvas;
-        --foreground: CanvasText;
-        --foreground-lighter: CanvasText;
-        --chaarts-purple: LinkText;
-        --chaarts-pink: CanvasText;
-        --chaarts-blue: Highlight;
-        --chaarts-yellow: ActiveText;
-        --chaarts-green: InactiveBorder;
-        --chaarts-red: VisitedText;
-        --chaarts-gray: ButtonShadow;
-      }
-    }
-    [dir=rtl] .chaarts-container {
-      --is-rtl: -1;
-    }
-    .chaarts {
-      caption-side: bottom;
-      empty-cells: hide;
-      margin: 1.5em auto;
-      overflow: hidden;
-      padding: 1em;
-    }
-    .chaarts > caption:first-child {
-      background: inherit;
-      font-style: normal;
-      padding: 1rem 0;
-    }
-    .chaarts [role=presentation] {
-      display: none;
-    }
-    .chaarts abbr[title] {
-      border-block-end: 0;
-      font-size: small;
-      font-weight: normal;
-      text-transform: none;
-    }
-    table:not(.chaarts) .sr-only {
-      all: revert;
-    }
-    @media (min-width: 30em) {
-      .chaarts {
-        border-collapse: separate;
-        border-spacing: 0;
-        contain: content;
-      }
-      .chaarts th,
-      .chaarts td {
-        border: 0;
-        padding: 0;
-      }
-      .chaarts th:empty,
-      .chaarts td:empty {
-        display: none !important;
-      }
-    }
-  }
-  @media (min-width: 30em) {
-    @layer bar {
-      .chaarts.bar {
-        --offset: 12.5em;
-      }
-      .chaarts.bar caption {
-        text-align: initial;
-        text-indent: calc(var(--offset) + 1rem);
-      }
-      .chaarts.bar tr {
-        display: grid;
-        grid-auto-rows: 1fr;
-        grid-row-gap: 0.5rem;
-        grid-template-columns: minmax(min-content, var(--offset)) repeat(var(--scale, 100), minmax(0, 1fr)) 10ch;
-        transition: opacity 0.2s var(--move);
-      }
-      .chaarts.bar tr:nth-of-type(1n + 1) {
-        --background: var(--checkers);
-      }
-      .chaarts.bar tr:nth-of-type(2n + 2) {
-        --background: var(--hexagons);
-      }
-      .chaarts.bar tr:nth-of-type(3n + 3) {
-        --background: var(--triangles);
-      }
-      .chaarts.bar tr:nth-of-type(4n + 4) {
-        --background: var(--zig);
-      }
-      .chaarts.bar tr:nth-of-type(5n + 5) {
-        --background: var(--stripes);
-      }
-      .chaarts.bar tr:nth-of-type(6n + 6) {
-        --background: var(--dots);
-      }
-      .chaarts.bar th {
-        grid-column: 1/1;
-        margin: 0.5rem 0 0;
-        padding: 0 1rem 0 0;
-        text-align: end;
-      }
-      .chaarts.bar td {
-        --size: calc(var(--scale, 100) * 100%);
-        --position: calc(var(--value, 0) / var(--scale, 100) * 100%);
-        background: linear-gradient(to right, var(--chaarts-green), var(--chaarts-gray), var(--chaarts-blue), var(--chaarts-purple), var(--chaarts-red)) var(--position) 0% / var(--size) 100%, var(--background) center/contain;
-        background-blend-mode: hard-light;
-        grid-column: 2 / max(2, var(--value, 0));
-        margin: 0.5rem 0 0;
-        position: relative;
-      }
-      .chaarts.bar span {
-        background: inherit;
-        background-clip: text;
-        color: transparent;
-        font-weight: bold;
-        inset-inline-start: 100%;
-        line-height: 1.5;
-        padding-inline-start: 0.5ch;
-        position: absolute;
-      }
-      .chaarts.bar:hover tr {
-        opacity: 0.5;
-      }
-      .chaarts.bar:hover tr:hover {
-        opacity: 1;
-      }
-      @media (min-width: 30em) and (prefers-contrast: more) {
-        .chaarts.bar td {
-          background: var(--chaarts-blue);
-        }
-        .chaarts.bar span {
-          background: var(--background-lighter);
-          background-clip: unset;
-          color: var(--chaarts-blue);
-        }
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(1) td {
-        grid-column: var(--0, 2) / var(--value, 2);
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(2) td {
-        grid-column: var(--1, 2) / var(--value, 2);
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(3) td {
-        grid-column: var(--2, 2) / var(--value, 2);
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(4) td {
-        grid-column: var(--3, 2) / var(--value, 2);
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(5) td {
-        grid-column: var(--4, 2) / var(--value, 2);
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(6) td {
-        grid-column: var(--5, 2) / var(--value, 2);
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(7) td {
-        grid-column: var(--6, 2) / var(--value, 2);
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(8) td {
-        grid-column: var(--7, 2) / var(--value, 2);
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(9) td {
-        grid-column: var(--8, 2) / var(--value, 2);
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(10) td {
-        grid-column: var(--9, 2) / var(--value, 2);
-      }
-      .chaarts.bar.waterfall tr:nth-of-type(11) td {
-        grid-column: var(--10, 2) / var(--value, 2);
-      }
-    }
-    @layer pie {
-      .chaarts.pie {
-        --radius: 32em;
-        margin: 0 auto;
-        padding-block-start: calc(var(--radius) - 2rem);
-        position: relative;
-      }
-      .chaarts.pie tbody {
-        border: 0;
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .chaarts.pie tr {
-        --lt-25: clamp(0, 25 - var(--value), 1);
-        --gt-25: calc(1 - var(--lt-25));
-        --lt-50: clamp(0, 50 - var(--value), 1);
-        --gt-50: calc(1 - var(--lt-50));
-        --lt-75: clamp(0, 75 - var(--value), 1);
-        --gt-75: calc(1 - var(--lt-75));
-        align-items: center;
-        display: flex;
-        flex: 1 1 auto;
-        transition: opacity 0.3s var(--move);
-      }
-      .chaarts.pie tr:nth-of-type(1n + 1) {
-        --background: var(--checkers);
-      }
-      .chaarts.pie tr:nth-of-type(2n + 2) {
-        --background: var(--hexagons);
-      }
-      .chaarts.pie tr:nth-of-type(3n + 3) {
-        --background: var(--triangles);
-      }
-      .chaarts.pie tr:nth-of-type(4n + 4) {
-        --background: var(--zig);
-      }
-      .chaarts.pie tr:nth-of-type(5n + 5) {
-        --background: var(--stripes);
-      }
-      .chaarts.pie tr:nth-of-type(6n + 6) {
-        --background: var(--dots);
-      }
-      .chaarts.pie tr:first-child {
-        --value: var(--1);
-        --position: 0turn;
-      }
-      .chaarts.pie tr:nth-child(2) {
-        --value: var(--2);
-        --position: calc(var(--1) * .01turn);
-      }
-      .chaarts.pie tr:nth-of-type(3n + 3) {
-        --value: var(--3);
-        --position: calc((var(--1) + var(--2)) * .01turn);
-      }
-      .chaarts.pie tr:nth-of-type(4n + 4) {
-        --value: var(--4);
-        --position: calc((var(--1) + var(--3) + var(--2)) * .01turn);
-      }
-      .chaarts.pie tr:nth-of-type(5n + 5) {
-        --value: var(--5);
-        --position: calc((var(--1) + var(--4) + var(--3) + var(--2)) * .01turn);
-      }
-      .chaarts.pie tr:nth-of-type(6n + 6) {
-        --value: var(--6);
-        --position: calc((var(--1) + var(--5) + var(--4) + var(--3) + var(--2)) * .01turn);
-      }
-      .chaarts.pie tr:nth-of-type(7n + 7) {
-        --value: var(--7);
-        --position: calc((var(--1) + var(--6) + var(--5) + var(--4) + var(--3) + var(--2)) * .01turn);
-      }
-      .chaarts.pie [scope=row] {
-        padding-inline-end: 0.5rem;
-      }
-      .chaarts.pie [scope=row]::before {
-        background: var(--color, currentcolor) var(--background);
-        block-size: 1rem;
-        content: "";
-        display: inline-block;
-        inline-size: 1rem;
-        translate: calc(-0.2rem * var(--is-rtl, 1)) 0.1rem 0;
-      }
-      .chaarts.pie td::after,
-      .chaarts.pie td::before {
-        inset-block-start: calc(var(--radius) / 2);
-        inset-inline-start: 50%;
-        position: absolute;
-        transform-origin: center;
-      }
-      [dir=rtl] .chaarts.pie td::after {
-        inset-inline-start: 40%;
-      }
-      .chaarts.pie td::before {
-        --zoom: .75;
-        --part: calc(var(--value) * 3.6);
-        --main-angle: calc(var(--part) - (90 * (var(--gt-25, 0) + var(--gt-50, 0) + var(--gt-75, 0))));
-        --β: calc(var(--main-angle) * var(--to-radians));
-        --α: calc((90 - var(--main-angle)) * var(--to-radians));
-        --pos-B: calc(sin(var(--β)) * 50%);
-        --pos-A: calc(sin(var(--α)) * 50%);
-        --polygon: polygon(
-        		50% 50%,
-        		50% 0%,
-        		100% 0%,
-        		max(50% + var(--pos-B), var(--gt-25, 0) * 100%) calc(50% - var(--pos-A) * var(--lt-25, 1)),
-        		max(50%, var(--gt-25, 0) * 100%) max(50%, var(--gt-25, 0) * 100%),
-        		max(50% + var(--pos-A) * var(--gt-25, 0), var(--gt-50, 0) * 100%) max(50% + var(--pos-B) * var(--gt-25, 0) * var(--lt-50, 0), var(--gt-50, 0) * 100%),
-        		max(0%, var(--lt-50, 0) * 50%) max(50%, var(--gt-50, 0) * 100%),
-        		clamp(0%, 100% * (var(--lt-75, 1)), 50% - var(--pos-B) * var(--gt-50, 0)) calc(50% + var(--pos-A) * var(--gt-50, 0) * var(--lt-75, 1)),
-        		max(0%, var(--lt-75, 0) * 50%) max(0%, var(--lt-75, 0) * 50%),
-        		calc(50% - var(--pos-A) * var(--gt-75, 0)) calc(50% - var(--pos-B) * var(--gt-75, 0))
-        );
-        background: var(--color, currentcolor) var(--background);
-        block-size: var(--radius);
-        border-radius: 50%;
-        clip-path: var(--polygon);
-        content: "";
-        inline-size: var(--radius);
-        transform: translate3d(calc(-50% * var(--is-rtl, 1)), -50%, 0) rotate(var(--position)) scale(var(--zoom));
-        transition: transform 0.2s var(--move);
-      }
-      .chaarts.pie tr:hover td::before {
-        --zoom: .8;
-      }
-      .chaarts.pie td::after {
-        --axis: calc(var(--position) - .25turn + var(--value) * .005turn);
-        --away: calc(var(--radius) / 2 - 1rem);
-        --integer: calc(var(--value));
-        background-color: var(--foreground-lighter);
-        color: var(--background-lighter);
-        content: var(--term) " : " counter(value) " %";
-        counter-reset: value var(--value);
-        opacity: 0;
-        padding: 0.5rem;
-        pointer-events: none;
-        transform: translate3d(-50%, -50%, 0) rotate(var(--axis)) translate(var(--away)) rotate(calc(var(--axis) * -1)) perspective(1000px) rotate3d(1, 0, 0, 45deg);
-        transform-origin: 50% calc(100% + 10px);
-        transition: opacity 0.2s var(--enter), transform 0.2s var(--enter);
-        z-index: 3;
-      }
-      .chaarts.pie tbody:hover tr {
-        opacity: 0.5;
-      }
-      .chaarts.pie tbody:hover tr:hover {
-        opacity: 1;
-      }
-      .chaarts.pie tbody:hover tr:hover td::after {
-        opacity: 1;
-        transform: translate3d(-50%, -50%, 0) rotate(var(--axis)) translate(var(--away)) rotate(calc(var(--axis) * -1)) perspective(1000px) rotate3d(1, 0, 0, 0deg);
-        transition: opacity 0.2s var(--exit), transform 0.2s var(--exit);
-      }
-      .chaarts.pie.donut {
-        --mask: radial-gradient(
-        		circle at 50% calc(50% - 1.5rem),
-        		#0000 0 var(--offset),
-        		#ffff calc(var(--offset) + 1px) 100%
-        );
-        mask-image: var(--mask);
-      }
-      .chaarts.pie.donut td::after {
-        --away: calc(var(--radius) / 2 - 2.5rem);
-      }
-      .chaarts.pie.polar td::before,
-      .chaarts.pie.polar tr:hover td::before {
-        --zoom: 50;
-        transform: translate3d(calc(-50% * var(--is-rtl, 1)), -50%, 0) rotate(var(--position)) scale(calc((var(--zoom) + var(--value) / (100 / var(--zoom))) / 100));
-      }
-      .chaarts.pie.polar td::after {
-        --away: calc((var(--radius) / 2) - ((var(--radius) / 4) * ((100 - var(--value)) / 100)) + 2.5rem);
-      }
-    }
-    @layer line {
-      .chaarts.line {
-        --offset: calc((100% / var(--x)) / 2);
-        --height: calc(32em - 2rem);
-        --bottom: calc(100% - var(--height));
-        padding: var(--height) 0 1rem;
-        position: relative;
-        transition: background 0.3s var(--move), color 0.3s var(--move);
-      }
-      .chaarts.line::after {
-        --scale: calc((100% - (var(--y) * 1px)) / var(--y));
-        background: repeating-linear-gradient(to bottom, var(--scrollable-background) 0 var(--scale), var(--foreground-o-25) calc(var(--scale) + 1px));
-        content: "";
-        inline-size: 100%;
-        inset-block-end: var(--bottom);
-        inset-block-start: 0;
-        position: absolute;
-        z-index: 1;
-      }
-      .chaarts.line tr::before {
-        content: "";
-        position: absolute;
-      }
-      .chaarts.line [scope=row],
-      .chaarts.line thead th:first-child {
-        color: var(--color, currentcolor);
-        text-align: start;
-      }
-      .chaarts.line [style]::before {
-        background: linear-gradient(to top, var(--chaarts-blue), var(--chaarts-red) 75%);
-        clip-path: var(--polygon);
-        content: "";
-        inline-size: 100%;
-        inset-block-end: var(--bottom);
-        inset-block-start: 0;
-        position: absolute;
-        scale: var(--is-rtl, 1) 1;
-        z-index: 2;
-        --polygon: polygon(
-        		0% 100%,
-        		calc((100% / var(--x) * 1)) 100%,
-        		calc((100% / var(--x) * 1)) calc(100% - (var(--1) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 1) + var(--offset)) calc(100% - (var(--1) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 2) + var(--offset)) calc(100% - (var(--2) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 3) + var(--offset)) calc(100% - (var(--3) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 4) + var(--offset)) calc(100% - (var(--4) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 5) + var(--offset)) calc(100% - (var(--5) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 6) + var(--offset)) calc(100% - (var(--6) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 7) + var(--offset)) calc(100% - (var(--7) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 8) + var(--offset)) calc(100% - (var(--8) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 9) + var(--offset)) calc(100% - (var(--9) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 10) + var(--offset)) calc(100% - (var(--10) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 11) + var(--offset)) calc(100% - (var(--11) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 12) + var(--offset)) calc(100% - (var(--12) / var(--y) * 100%)),
-        		100% calc(100% - (var(--12) / var(--y) * 100%)),
-        		100% 100%,
-        		0% 100%
-        );
-      }
-      @media (min-width: 30em) and (prefers-contrast: more) {
-        .chaarts.line [style]::before {
-          background: var(--chaarts-blue);
-        }
-      }
-      .chaarts.line th,
-      .chaarts.line td {
-        background: var(--background-lighter);
-        font-weight: bold;
-        inline-size: calc(100% / var(--x));
-        text-align: center;
-      }
-      .chaarts.line [scope=col]:not(:first-child)::after {
-        background: var(--background-lighter) var(--stripes);
-        background-blend-mode: exclusion;
-        block-size: calc(100% - 4rem);
-        content: "";
-        inline-size: inherit;
-        inset-block-end: 4rem;
-        inset-inline-start: calc(100% / var(--x) * var(--index));
-        mix-blend-mode: soft-light;
-        opacity: 0;
-        position: absolute;
-        transition: opacity 0.3s var(--move);
-        z-index: 3;
-      }
-      html:where([data-theme=dark]) .chaarts.line [scope=col]:not(:first-child)::after {
-        mix-blend-mode: lighten;
-      }
-      @media (min-width: 30em) and (prefers-color-scheme: dark) {
-        .no-js .chaarts.line [scope=col]:not(:first-child)::after, html:where(:not([data-theme=light])) .chaarts.line [scope=col]:not(:first-child)::after {
-          mix-blend-mode: lighten;
-        }
-      }
-      .chaarts.line [scope=col]:nth-child(2)::after {
-        --index: 1;
-      }
-      .chaarts.line [scope=col]:nth-child(3)::after {
-        --index: 2;
-      }
-      .chaarts.line [scope=col]:nth-child(4)::after {
-        --index: 3;
-      }
-      .chaarts.line [scope=col]:nth-child(5)::after {
-        --index: 4;
-      }
-      .chaarts.line [scope=col]:nth-child(6)::after {
-        --index: 5;
-      }
-      .chaarts.line [scope=col]:nth-child(7)::after {
-        --index: 6;
-      }
-      .chaarts.line [scope=col]:nth-child(8)::after {
-        --index: 7;
-      }
-      .chaarts.line [scope=col]:nth-child(9)::after {
-        --index: 8;
-      }
-      .chaarts.line [scope=col]:nth-child(10)::after {
-        --index: 9;
-      }
-      .chaarts.line [scope=col]:nth-child(11)::after {
-        --index: 10;
-      }
-      .chaarts.line [scope=col]:nth-child(12)::after {
-        --index: 11;
-      }
-      .chaarts.line [scope=col]:nth-child(13)::after {
-        --index: 12;
-      }
-      .chaarts.line [scope=col]:hover::after {
-        opacity: 0.75;
-      }
-      .chaarts.line td {
-        --value: var(--1);
-        --term: var(--t-1);
-        line-height: 1.5;
-      }
-      .chaarts.line td::before {
-        block-size: 1.5rem;
-        content: "";
-        inline-size: inherit;
-        position: absolute;
-        translate: calc(-50% * var(--is-rtl, 1)) 0;
-        z-index: 10;
-      }
-      .chaarts.line td::after {
-        --arrow: calc(100% - 0.25rem);
-        --top: calc(var(--height) - (var(--value) / var(--y) * var(--height)));
-        --polygon: polygon(
-        		0% 0%,
-        		100% 0%,
-        		100% var(--arrow),
-        		calc(50% - 0.25rem) var(--arrow),
-        		50% 100%,
-        		calc(50% + 0.25rem) var(--arrow),
-        		0% var(--arrow)
-        );
-        --integer: calc(var(--value));
-        background-color: var(--foreground-lighter);
-        clip-path: var(--polygon);
-        color: var(--background-lighter);
-        content: var(--term) " " var(--year) "\a" counter(value) " " var(--unit);
-        counter-reset: value var(--integer);
-        inset-block-start: var(--top, 0);
-        inset-inline-start: calc(var(--offset) * 3);
-        opacity: 0;
-        padding: 0.5rem;
-        pointer-events: none;
-        position: absolute;
-        transform: translate3d(var(--rtl-offset, -50%), -125%, 0) perspective(1000px) rotate3d(1, 0, 0, 45deg);
-        transform-origin: 50% calc(100% + 10px);
-        transition: opacity 0.2s var(--enter), transform 0.2s var(--enter);
-        white-space: pre;
-        z-index: 5;
-      }
-      [dir=rtl] .chaarts.line td:first-of-type::after {
-        inset-inline-start: var(--offset);
-      }
-      .chaarts.line td + td::after {
-        inset-inline-start: calc(100% / var(--x) * var(--index) + var(--offset));
-      }
-      .chaarts.line td:nth-child(2)::after {
-        --value: var(--1);
-        --term: var(--t-1);
-        --index: 1;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(2)::after {
-        --index: 0;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(3)::after {
-        --value: var(--2);
-        --term: var(--t-2);
-        --index: 2;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(3)::after {
-        --index: 1;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(4)::after {
-        --value: var(--3);
-        --term: var(--t-3);
-        --index: 3;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(4)::after {
-        --index: 2;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(5)::after {
-        --value: var(--4);
-        --term: var(--t-4);
-        --index: 4;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(5)::after {
-        --index: 3;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(6)::after {
-        --value: var(--5);
-        --term: var(--t-5);
-        --index: 5;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(6)::after {
-        --index: 4;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(7)::after {
-        --value: var(--6);
-        --term: var(--t-6);
-        --index: 6;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(7)::after {
-        --index: 5;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(8)::after {
-        --value: var(--7);
-        --term: var(--t-7);
-        --index: 7;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(8)::after {
-        --index: 6;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(9)::after {
-        --value: var(--8);
-        --term: var(--t-8);
-        --index: 8;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(9)::after {
-        --index: 7;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(10)::after {
-        --value: var(--9);
-        --term: var(--t-9);
-        --index: 9;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(10)::after {
-        --index: 8;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(11)::after {
-        --value: var(--10);
-        --term: var(--t-10);
-        --index: 10;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(11)::after {
-        --index: 9;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(12)::after {
-        --value: var(--11);
-        --term: var(--t-11);
-        --index: 11;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(12)::after {
-        --index: 10;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:nth-child(13)::after {
-        --value: var(--12);
-        --term: var(--t-12);
-        --index: 12;
-      }
-      [dir=rtl] .chaarts.line td:nth-child(13)::after {
-        --index: 11;
-        --rtl-offset: -40%;
-      }
-      .chaarts.line td:hover::after {
-        opacity: 1;
-        transform: translate3d(var(--rtl-offset, -50%), -125%, 0) perspective(1000px) rotate3d(1, 0, 0, 0deg);
-        transition: opacity 0.2s var(--exit), transform 0.2s var(--exit);
-      }
-      .chaarts.points [style]::before {
-        background: var(--color, currentcolor) var(--background);
-        scale: var(--is-rtl, 1) 1;
-        transition: opacity 0.3s var(--move);
-        --polygon: polygon(
-        		calc((100% / var(--x) * 1) + var(--offset)) calc(100% - (var(--1) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 2) + var(--offset)) calc(100% - (var(--2) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 3) + var(--offset)) calc(100% - (var(--3) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 4) + var(--offset)) calc(100% - (var(--4) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 5) + var(--offset)) calc(100% - (var(--5) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 6) + var(--offset)) calc(100% - (var(--6) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 7) + var(--offset)) calc(100% - (var(--7) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 8) + var(--offset)) calc(100% - (var(--8) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 9) + var(--offset)) calc(100% - (var(--9) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 10) + var(--offset)) calc(100% - (var(--10) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 11) + var(--offset)) calc(100% - (var(--11) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 12) + var(--offset)) calc(100% - (var(--12) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 13) + var(--offset)) calc(100% - (var(--12) / var(--y) * 100%)),
-        		100% calc(100% - (var(--12) / var(--y) * 100%)),
-        		100% calc((100% + 0.25rem) - (var(--12) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 13) + var(--offset)) calc((100% + 0.25rem) - (var(--12) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 12) + var(--offset)) calc((100% + 0.25rem) - (var(--12) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 11) + var(--offset)) calc((100% + 0.25rem) - (var(--11) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 10) + var(--offset)) calc((100% + 0.25rem) - (var(--10) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 9) + var(--offset)) calc((100% + 0.25rem) - (var(--9) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 8) + var(--offset)) calc((100% + 0.25rem) - (var(--8) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 7) + var(--offset)) calc((100% + 0.25rem) - (var(--7) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 6) + var(--offset)) calc((100% + 0.25rem) - (var(--6) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 5) + var(--offset)) calc((100% + 0.25rem) - (var(--5) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 4) + var(--offset)) calc((100% + 0.25rem) - (var(--4) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 3) + var(--offset)) calc((100% + 0.25rem) - (var(--3) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 2) + var(--offset)) calc((100% + 0.25rem) - (var(--2) / var(--y) * 100%)),
-        		calc((100% / var(--x) * 1) + var(--offset)) calc((100% + 0.25rem) - (var(--1) / var(--y) * 100%))
-        );
-      }
-      .chaarts.points [style] th::before {
-        background: var(--color, currentcolor) var(--background);
-        block-size: 1rem;
-        content: "";
-        display: inline-block;
-        inline-size: 1rem;
-        translate: -0.2rem 0.1rem 0;
-      }
-      .chaarts.points [style] td::before {
-        --size: 1rem;
-        --top: calc(var(--height) - (var(--value) / var(--y) * var(--height)));
-        background: var(--color, currentcolor) var(--background);
-        block-size: var(--size);
-        border: 2px solid var(--background-lighter);
-        border-radius: 50%;
-        box-shadow: 0 0 0.25rem var(--foreground-o-50);
-        content: "";
-        inline-size: var(--size);
-        inset-block-start: var(--top, 100%);
-        inset-inline-start: calc(var(--offset) * 3);
-        position: absolute;
-        transition: opacity 0.3s var(--move), transform 0.3s var(--move);
-        translate: calc(var(--size) / -2) calc(var(--size) / -2) 0;
-        z-index: 4;
-      }
-      .chaarts.points [style] td + td::before {
-        inset-inline-start: calc(100% / var(--x) * var(--index) + var(--offset));
-      }
-      [dir=rtl] .chaarts.points [style] td::before, [dir=rtl] .chaarts.points [style] td + td::before {
-        inset-inline-start: unset;
-      }
-      .chaarts.points [style] td:nth-of-type(2)::before {
-        --value: var(--2);
-        --index: 2;
-      }
-      .chaarts.points [style] td:nth-of-type(3)::before {
-        --value: var(--3);
-        --index: 3;
-      }
-      .chaarts.points [style] td:nth-of-type(4)::before {
-        --value: var(--4);
-        --index: 4;
-      }
-      .chaarts.points [style] td:nth-of-type(5)::before {
-        --value: var(--5);
-        --index: 5;
-      }
-      .chaarts.points [style] td:nth-of-type(6)::before {
-        --value: var(--6);
-        --index: 6;
-      }
-      .chaarts.points [style] td:nth-of-type(7)::before {
-        --value: var(--7);
-        --index: 7;
-      }
-      .chaarts.points [style] td:nth-of-type(8)::before {
-        --value: var(--8);
-        --index: 8;
-      }
-      .chaarts.points [style] td:nth-of-type(9)::before {
-        --value: var(--9);
-        --index: 9;
-      }
-      .chaarts.points [style] td:nth-of-type(10)::before {
-        --value: var(--10);
-        --index: 10;
-      }
-      .chaarts.points [style] td:nth-of-type(11)::before {
-        --value: var(--11);
-        --index: 11;
-      }
-      .chaarts.points [style] td:nth-of-type(12)::before {
-        --value: var(--12);
-        --index: 12;
-      }
-      .chaarts.points [style]:nth-of-type(1n + 1) {
-        --background: var(--checkers);
-      }
-      .chaarts.points [style]:nth-of-type(2n + 2) {
-        --background: var(--hexagons);
-      }
-      .chaarts.points [style]:nth-of-type(3n + 3) {
-        --background: var(--triangles);
-      }
-      .chaarts.points [style]:nth-of-type(4n + 4) {
-        --background: var(--zig);
-      }
-      .chaarts.points [style]:nth-of-type(5n + 5) {
-        --background: var(--stripes);
-      }
-      .chaarts.points [style]:nth-of-type(6n + 6) {
-        --background: var(--dots);
-      }
-      .chaarts.points tbody:hover [style]::before,
-      .chaarts.points tbody:hover [style] td::before {
-        opacity: 0.25;
-      }
-      .chaarts.points tbody:hover [style]:hover::before,
-      .chaarts.points tbody:hover [style]:hover td::before {
-        opacity: 1;
-      }
-      .chaarts.points tbody:hover [style]:hover td::before {
-        scale: 1.25;
-        translate: calc(var(--size) / -2) calc(var(--size) / -2) 0;
-      }
-      .chaarts.points [scope=col]:not(:first-child)::after {
-        mix-blend-mode: multiply;
-      }
-      .chaarts.points [scope=col]:not(:first-child):hover::after {
-        opacity: 0.5;
-      }
-    }
-    @layer column {
-      .chaarts[class*=column] {
-        --gap: 0.5rem;
-        --size: calc(var(--scale, 100) * 100%);
-        --width: calc(64em / var(--y) - 1rem);
-        display: grid;
-        grid-column-gap: var(--gap);
-        max-block-size: 64em;
-        position: relative;
-      }
-      .chaarts[class*=column] td,
-      .chaarts[class*=column] th,
-      .chaarts[class*=column] col {
-        grid-column: 1;
-        margin: 0;
-      }
-      .chaarts[class*=column] tr > * + * {
-        text-align: center;
-      }
-      .chaarts[class*=column] tr,
-      .chaarts[class*=column] tbody,
-      .chaarts[class*=column] thead,
-      .chaarts[class*=column] colgroup {
-        display: contents;
-      }
-      .chaarts[class*=column] caption {
-        grid-column: 1/span var(--y);
-        grid-row: -1;
-      }
-      .chaarts[class*=column] td {
-        --integer: calc(var(--value));
-        grid-row: calc(var(--scale, 100) + 2 - var(--integer)) / -2;
-        pointer-events: none;
-        position: relative;
-        transition: opacity 0.2s var(--move);
-      }
-      .chaarts[class*=column] td:nth-of-type(1) {
-        grid-column: 2;
-      }
-      .chaarts[class*=column] td:nth-of-type(2) {
-        grid-column: 3;
-      }
-      .chaarts[class*=column] td:nth-of-type(3) {
-        grid-column: 4;
-      }
-      .chaarts[class*=column] td:nth-of-type(4) {
-        grid-column: 5;
-      }
-      .chaarts[class*=column] td:nth-of-type(5) {
-        grid-column: 6;
-      }
-      .chaarts[class*=column] td:nth-of-type(6) {
-        grid-column: 7;
-      }
-      .chaarts[class*=column] td:nth-of-type(7) {
-        grid-column: 8;
-      }
-      .chaarts[class*=column] td:nth-of-type(8) {
-        grid-column: 9;
-      }
-      .chaarts[class*=column] td:nth-of-type(9) {
-        grid-column: 10;
-      }
-      .chaarts[class*=column] td:nth-of-type(10) {
-        grid-column: 11;
-      }
-      .chaarts[class*=column] span {
-        background: inherit;
-        background-clip: text;
-        color: transparent;
-        font-weight: bold;
-        inset-block-end: 100%;
-        inset-inline-end: 0;
-        inset-inline-start: 0;
-        line-height: 1.5;
-        pointer-events: auto;
-        position: absolute;
-      }
-      @media (min-width: 30em) and (prefers-contrast: more) {
-        .chaarts[class*=column] span {
-          background: var(--background-lighter);
-          background-clip: unset;
-          color: var(--chaarts-blue);
-        }
-      }
-      .chaarts[class*=column] col {
-        background: var(--background) var(--stripes);
-        background-blend-mode: exclusion;
-        grid-row: 1/-1;
-        mix-blend-mode: color;
-        opacity: 0.25;
-        transition: opacity 0.3s var(--move);
-      }
-      .chaarts[class*=column] col:hover {
-        opacity: 0.5;
-      }
-      .chaarts[class*=column] col:first-of-type {
-        opacity: 0;
-      }
-      .chaarts[class*=column] col:nth-of-type(2),
-      .chaarts[class*=column] thead tr *:nth-of-type(2) {
-        grid-column: 2;
-      }
-      .chaarts[class*=column] col:nth-of-type(3),
-      .chaarts[class*=column] thead tr *:nth-of-type(3) {
-        grid-column: 3;
-      }
-      .chaarts[class*=column] col:nth-of-type(4),
-      .chaarts[class*=column] thead tr *:nth-of-type(4) {
-        grid-column: 4;
-      }
-      .chaarts[class*=column] col:nth-of-type(5),
-      .chaarts[class*=column] thead tr *:nth-of-type(5) {
-        grid-column: 5;
-      }
-      .chaarts[class*=column] col:nth-of-type(6),
-      .chaarts[class*=column] thead tr *:nth-of-type(6) {
-        grid-column: 6;
-      }
-      .chaarts[class*=column] col:nth-of-type(7),
-      .chaarts[class*=column] thead tr *:nth-of-type(7) {
-        grid-column: 7;
-      }
-      .chaarts[class*=column] col:nth-of-type(8),
-      .chaarts[class*=column] thead tr *:nth-of-type(8) {
-        grid-column: 8;
-      }
-      .chaarts[class*=column] col:nth-of-type(9),
-      .chaarts[class*=column] thead tr *:nth-of-type(9) {
-        grid-column: 9;
-      }
-      .chaarts[class*=column] col:nth-of-type(10),
-      .chaarts[class*=column] thead tr *:nth-of-type(10) {
-        grid-column: 10;
-      }
-      .chaarts.column-single {
-        grid-auto-columns: 1fr;
-        grid-template-rows: 2ex repeat(var(--scale, 100), minmax(0, 0.25rem)) minmax(min-content, 2rem);
-      }
-      .chaarts.column-single tbody th {
-        grid-row: -6/-3;
-        line-height: 1;
-      }
-      .chaarts.column-single thead * {
-        grid-row: -2;
-      }
-      .chaarts.column-single td {
-        --position: calc(var(--integer, 0) / var(--scale, 100) * 100%);
-        background: linear-gradient(to top, var(--chaarts-green), var(--chaarts-gray), var(--chaarts-blue), var(--chaarts-purple), var(--chaarts-red)) 0% var(--position) / 100% var(--size), var(--background) center/1rem;
-        background-blend-mode: hard-light;
-      }
-      .chaarts.column-single td:nth-of-type(1n + 1) {
-        --background: var(--checkers);
-      }
-      .chaarts.column-single td:nth-of-type(2n + 2) {
-        --background: var(--hexagons);
-      }
-      .chaarts.column-single td:nth-of-type(3n + 3) {
-        --background: var(--triangles);
-      }
-      .chaarts.column-single td:nth-of-type(4n + 4) {
-        --background: var(--zig);
-      }
-      .chaarts.column-single td:nth-of-type(5n + 5) {
-        --background: var(--stripes);
-      }
-      .chaarts.column-single td:nth-of-type(6n + 6) {
-        --background: var(--dots);
-      }
-      @media (min-width: 30em) and (prefers-contrast: more) {
-        .chaarts.column-single td {
-          background-color: var(--chaarts-blue);
-        }
-      }
-      .chaarts.column-multiple {
-        grid-template-columns: minmax(min-content, 14ch) repeat(calc(var(--y) - 1), 1fr);
-        grid-template-rows: 2ex repeat(var(--scale, 100), minmax(0, 0.25rem)) repeat(2, minmax(min-content, 2rem));
-      }
-      .chaarts.column-multiple span {
-        background-image: none;
-      }
-      .chaarts.column-multiple col:nth-child(odd) {
-        opacity: 0;
-      }
-      .chaarts.column-multiple tbody th {
-        grid-row: -10/span 7;
-      }
-      .chaarts.column-multiple thead tr * {
-        grid-row: -2;
-      }
-      .chaarts.column-multiple col:nth-of-type(2),
-      .chaarts.column-multiple thead tr *:nth-of-type(2) {
-        grid-column: calc(4 - var(--span))/span var(--span);
-      }
-      .chaarts.column-multiple col:nth-of-type(3),
-      .chaarts.column-multiple thead tr *:nth-of-type(3) {
-        grid-column: calc(6 - var(--span))/span var(--span);
-      }
-      .chaarts.column-multiple col:nth-of-type(4),
-      .chaarts.column-multiple thead tr *:nth-of-type(4) {
-        grid-column: calc(8 - var(--span))/span var(--span);
-      }
-      .chaarts.column-multiple col:nth-of-type(5),
-      .chaarts.column-multiple thead tr *:nth-of-type(5) {
-        grid-column: calc(10 - var(--span))/span var(--span);
-      }
-      .chaarts.column-multiple col:nth-of-type(6),
-      .chaarts.column-multiple thead tr *:nth-of-type(6) {
-        grid-column: calc(12 - var(--span))/span var(--span);
-      }
-      .chaarts.column-multiple thead tr + tr * {
-        font-weight: normal;
-        grid-row: -3;
-      }
-      .chaarts.column-multiple thead tr + tr *:nth-of-type(2) {
-        grid-column: 2;
-      }
-      .chaarts.column-multiple thead tr + tr *:nth-of-type(3) {
-        grid-column: 3;
-      }
-      .chaarts.column-multiple thead tr + tr *:nth-of-type(4) {
-        grid-column: 4;
-      }
-      .chaarts.column-multiple thead tr + tr *:nth-of-type(5) {
-        grid-column: 5;
-      }
-      .chaarts.column-multiple thead tr + tr *:nth-of-type(6) {
-        grid-column: 6;
-      }
-      .chaarts.column-multiple thead tr + tr *:nth-of-type(7) {
-        grid-column: 7;
-      }
-      .chaarts.column-multiple thead tr + tr *:nth-of-type(8) {
-        grid-column: 8;
-      }
-      .chaarts.column-multiple thead tr + tr *:nth-of-type(9) {
-        grid-column: 9;
-      }
-      .chaarts.column-multiple thead tr + tr *:nth-of-type(10) {
-        grid-column: 10;
-      }
-      .chaarts.column-multiple thead tr + tr *:nth-of-type(11) {
-        grid-column: 11;
-      }
-      .chaarts.column-multiple td {
-        background-color: var(--chaarts-pink);
-        background-image: var(--zig);
-        grid-row-end: -3;
-      }
-      .chaarts.column-multiple td:nth-of-type(2n + 2) {
-        background: var(--chaarts-blue) var(--triangles);
-      }
-    }
-    @layer radar {
-      .chaarts[class*=radar] {
-        --radius: 12.8em;
-        --unitless-radius: calc(1024 / 16 / 5);
-        --size: calc(var(--radius) / var(--scale));
-        --part: calc(360deg / var(--items));
-        --integer: calc(var(--scale));
-        background-image: repeating-radial-gradient(circle at 50%, var(--foreground-o-25) 0 2px, transparent 0 calc(var(--size) * var(--step))), repeating-radial-gradient(circle at 50%, var(--foreground-o-10) 0 2px, transparent 0 var(--size));
-        block-size: calc(var(--radius) * 2);
-        border: 2px solid;
-        border-radius: 50%;
-        contain: layout;
-        counter-reset: scale var(--integer);
-        inline-size: calc(var(--radius) * 2);
-        margin: 6rem auto 12rem;
-        overflow: visible;
-        position: relative;
-      }
-      .chaarts[class*=radar] caption {
-        background: none;
-        inset-block-end: -10rem;
-        position: absolute;
-      }
-      .chaarts[class*=radar] [scope=col] {
-        --away: calc((var(--radius) * -1) - 50%);
-        background-color: transparent;
-        left: 50%;
-        margin: 0;
-        padding: 0 1rem;
-        position: absolute;
-        top: 50%;
-        transform: translate3d(-50%, -50%, 0) rotate(calc(var(--part) * var(--index, 1))) translate(var(--away)) rotate(calc(var(--part) * var(--index, 1) * -1));
-      }
-      .chaarts[class*=radar] tr > *:nth-of-type(1) {
-        --index: 1;
-      }
-      .chaarts[class*=radar] tr > *:nth-of-type(2) {
-        --index: 2;
-      }
-      .chaarts[class*=radar] tr > *:nth-of-type(3) {
-        --index: 3;
-      }
-      .chaarts[class*=radar] tr > *:nth-of-type(4) {
-        --index: 4;
-      }
-      .chaarts[class*=radar] tr > *:nth-of-type(5) {
-        --index: 5;
-      }
-      .chaarts[class*=radar] tr > *:nth-of-type(6) {
-        --index: 6;
-      }
-      .chaarts[class*=radar] tr > *:nth-of-type(7) {
-        --index: 7;
-      }
-      .chaarts[class*=radar] td {
-        --skew: calc(90deg - var(--part));
-        block-size: 50%;
-        border-block-end: 1px solid var(--chaarts-purple);
-        inline-size: 50%;
-        left: 0;
-        margin: 0;
-        position: absolute;
-        top: 0;
-        transform: rotate(calc(var(--part) * var(--index, 1))) skew(var(--skew));
-        transform-origin: 100% 100%;
-      }
-      .chaarts[class*=radar] td:nth-of-type(1) span {
-        --point: var(--1);
-        --pos: calc(100% - (var(--2) * 100% / (var(--scale) * var(--ratio))));
-      }
-      .chaarts[class*=radar] td:nth-of-type(2) span {
-        --point: var(--2);
-        --pos: calc(100% - (var(--3) * 100% / (var(--scale) * var(--ratio))));
-      }
-      .chaarts[class*=radar] td:nth-of-type(3) span {
-        --point: var(--3);
-        --pos: calc(100% - (var(--4) * 100% / (var(--scale) * var(--ratio))));
-      }
-      .chaarts[class*=radar] td:nth-of-type(4) span {
-        --point: var(--4);
-        --pos: calc(100% - (var(--5) * 100% / (var(--scale) * var(--ratio))));
-      }
-      .chaarts[class*=radar] td:nth-of-type(5) span {
-        --point: var(--5);
-        --pos: calc(100% - (var(--6) * 100% / (var(--scale) * var(--ratio))));
-      }
-      .chaarts[class*=radar] td:nth-of-type(6) span {
-        --point: var(--6);
-        --pos: calc(100% - (var(--7) * 100% / (var(--scale) * var(--ratio))));
-      }
-      .chaarts[class*=radar] td:nth-of-type(7) span {
-        --point: var(--7);
-        --pos: calc(100% - (var(--8) * 100% / (var(--scale) * var(--ratio))));
-      }
-      .chaarts[class*=radar] td::after, .chaarts[class*=radar] td::before {
-        display: none;
-      }
-      .chaarts[class*=radar] span {
-        --opposite: calc(180 - (90 + (90 - (360 / var(--items)))));
-        --angle: calc(var(--opposite) * var(--to-radians));
-        --sin-angle: sin(var(--angle));
-        --hypo: calc(var(--unitless-radius) / var(--sin-angle));
-        --ratio: calc(var(--hypo) / var(--unitless-radius));
-        --polygon: polygon(
-        		100% var(--pos),
-        		calc(100% - (var(--point) * 100% / var(--scale))) 100%,
-        		100% 100%
-        );
-        background: var(--chaarts-purple);
-        block-size: 100%;
-        clip-path: var(--polygon);
-        filter: drop-shadow(0 0 1rem var(--chaarts-purple));
-        inline-size: 100%;
-        position: absolute;
-      }
-      .chaarts.radar [scope=col]::after {
-        color: var(--foreground-lighter);
-        display: block;
-        font-size: small;
-        font-weight: 400;
-      }
-      .chaarts.radar [scope=col]:nth-child(1)::after {
-        --integer: calc(var(--1));
-        content: counter(value) " / " counter(scale);
-        counter-reset: value var(--integer);
-      }
-      .chaarts.radar [scope=col]:nth-child(2)::after {
-        --integer: calc(var(--2));
-        content: counter(value) " / " counter(scale);
-        counter-reset: value var(--integer);
-      }
-      .chaarts.radar [scope=col]:nth-child(3)::after {
-        --integer: calc(var(--3));
-        content: counter(value) " / " counter(scale);
-        counter-reset: value var(--integer);
-      }
-      .chaarts.radar [scope=col]:nth-child(4)::after {
-        --integer: calc(var(--4));
-        content: counter(value) " / " counter(scale);
-        counter-reset: value var(--integer);
-      }
-      .chaarts.radar [scope=col]:nth-child(5)::after {
-        --integer: calc(var(--5));
-        content: counter(value) " / " counter(scale);
-        counter-reset: value var(--integer);
-      }
-      .chaarts.radar [scope=col]:nth-child(6)::after {
-        --integer: calc(var(--6));
-        content: counter(value) " / " counter(scale);
-        counter-reset: value var(--integer);
-      }
-      .chaarts.radar [scope=col]:nth-child(7)::after {
-        --integer: calc(var(--7));
-        content: counter(value) " / " counter(scale);
-        counter-reset: value var(--integer);
-      }
-      .chaarts.radar-multiple {
-        margin-block-end: 12rem;
-      }
-      .chaarts.radar-multiple tbody {
-        columns: var(--areas);
-        vertical-align: bottom;
-      }
-      .chaarts.radar-multiple [scope=row] {
-        block-size: 2rem;
-        bottom: -8rem;
-        left: 1rem;
-        position: absolute;
-      }
-      .chaarts.radar-multiple [scope=row]::before {
-        background: var(--color, currentcolor);
-        block-size: 1rem;
-        content: "";
-        display: inline-block;
-        inline-size: 1rem;
-        margin-inline-end: 0.25rem;
-        translate: 0 0.1rem 0;
-      }
-      .chaarts.radar-multiple tr:nth-child(2) [scope=row] {
-        left: calc(1rem + 100% / var(--areas) * 1);
-      }
-      .chaarts.radar-multiple td {
-        align-items: flex-end;
-        border-color: var(--color, currentcolor);
-        display: flex;
-        justify-content: flex-end;
-        opacity: 0.5;
-        pointer-events: none;
-        z-index: 0;
-      }
-      .chaarts.radar-multiple td::after {
-        color: var(--foreground);
-        display: block;
-        font-size: small;
-        font-weight: 700;
-        inline-size: 100%;
-        text-indent: -0.5rem;
-        transform: skew(calc(var(--skew) * -1)) rotate(calc(var(--part) * var(--index, 1) * -1));
-        transform-origin: 0 0;
-        white-space: nowrap;
-      }
-      .chaarts.radar-multiple td:nth-of-type(1)::after {
-        --integer: calc(var(--1));
-        content: counter(value);
-        counter-reset: value var(--integer);
-        inline-size: calc(var(--1) * 100% / var(--scale));
-      }
-      .chaarts.radar-multiple td:nth-of-type(2)::after {
-        --integer: calc(var(--2));
-        content: counter(value);
-        counter-reset: value var(--integer);
-        inline-size: calc(var(--2) * 100% / var(--scale));
-      }
-      .chaarts.radar-multiple td:nth-of-type(3)::after {
-        --integer: calc(var(--3));
-        content: counter(value);
-        counter-reset: value var(--integer);
-        inline-size: calc(var(--3) * 100% / var(--scale));
-      }
-      .chaarts.radar-multiple td:nth-of-type(4)::after {
-        --integer: calc(var(--4));
-        content: counter(value);
-        counter-reset: value var(--integer);
-        inline-size: calc(var(--4) * 100% / var(--scale));
-      }
-      .chaarts.radar-multiple td:nth-of-type(5)::after {
-        --integer: calc(var(--5));
-        content: counter(value);
-        counter-reset: value var(--integer);
-        inline-size: calc(var(--5) * 100% / var(--scale));
-      }
-      .chaarts.radar-multiple td:nth-of-type(6)::after {
-        --integer: calc(var(--6));
-        content: counter(value);
-        counter-reset: value var(--integer);
-        inline-size: calc(var(--6) * 100% / var(--scale));
-      }
-      .chaarts.radar-multiple td:nth-of-type(7)::after {
-        --integer: calc(var(--7));
-        content: counter(value);
-        counter-reset: value var(--integer);
-        inline-size: calc(var(--7) * 100% / var(--scale));
-      }
-      .chaarts.radar-multiple span {
-        --mask: radial-gradient(circle at bottom right, var(--foreground), var(--foreground-o-50));
-        background: var(--color, currentcolor);
-        mask-image: var(--mask);
-        pointer-events: auto;
-      }
-      @media (min-width: 30em) and (hover: hover) {
-        .chaarts.radar-multiple td {
-          opacity: 0.25;
-          transition: opacity 0.2s var(--move);
-        }
-        .chaarts.radar-multiple td::after {
-          opacity: 0;
-          transition: inherit;
-        }
-        .chaarts.radar-multiple tr:hover td {
-          opacity: 1;
-          z-index: 1;
-        }
-        .chaarts.radar-multiple tr:hover td::after {
-          opacity: inherit;
-        }
-      }
-    }
-  }
+@property --labels-align-inline {
+  syntax: "<string>";
+  inherits: true;
+}
+@property --primary-axis-width {
+  syntax: "<length>";
+  initial-value: 1px;
+  inherits: true;
+}
+@property --secondary-axes-width {
+  syntax: "<length>";
+  initial-value: 1px;
+  inherits: true;
+}
+@property --data-axes-width {
+  syntax: "<length>";
+  initial-value: 1px;
+  inherits: true;
+}
+@property --legend-border-width {
+  syntax: "<length>";
+  initial-value: 1px;
+  inherits: true;
+}
+@property --primary-axis-style {
+  syntax: "<line-style>";
+  initial-value: solid;
+  inherits: true;
+}
+@property --secondary-axes-style {
+  syntax: "<line-style>";
+  initial-value: solid;
+  inherits: true;
+}
+@property --data-axes-style {
+  syntax: "<line-style>";
+  initial-value: solid;
+  inherits: true;
+}
+@property --legend-border-style {
+  syntax: "<line-style>";
+  initial-value: solid;
+  inherits: true;
+}
+@property --primary-axis-color {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --secondary-axes-color {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --data-axes-color {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --legend-border-color {
+  syntax: "<color>";
+  initial-value: transparent;
+  inherits: true;
+}
+@property --start {
+  syntax: "<number>";
+  inherits: true;
+}
+@property --end {
+  syntax: "<number>";
+  inherits: true;
+}
+@property --size {
+  syntax: "<number>";
+  inherits: true;
+}
+@property --line-size {
+  syntax: "<number>";
+  inherits: true;
+}
+/*
+ * Chart wrapper element
+ */
+.charts-css {
+  --color-1: #175873cc;
+  --color-2: #a3c4bccc;
+  --color-3: #ffd942cc;
+  --color-4: rgba(241, 123, 59, 0.75);
+  --color-5: rgba(240, 50, 50, 0.75);
+  --color-6: rgba(255, 92, 127, 0.75);  
+  --color-7: rgba(170, 90, 240, 0.75);
+  --color-8: rgba(76, 174, 80, 0.75);
+  --color-9: rgba(110, 110, 110, 0.75);
+  --color-10: rgba(130, 50, 20, 0.75);
+  --chart-bg-color: rgb(245 245 245);
+  --primary-axis-color: rgba(0 0 0 / 100%);
+  --primary-axis-style: solid;
+  --primary-axis-width: 1px;
+  --secondary-axes-color: rgba(0 0 0 / 15%);
+  --secondary-axes-style: solid;
+  --secondary-axes-width: 1px;
+  --data-axes-color: rgba(0 0 0 / 15%);
+  --data-axes-style: solid;
+  --data-axes-width: 1px;
+  --legend-border-color: rgb(200 200 200);
+  --legend-border-style: solid;
+  --legend-border-width: 1px;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+}
+.charts-css, .charts-css::after, .charts-css::before, .charts-css *, .charts-css *::after, .charts-css *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-/*# sourceMappingURL=chaarts.css.map */
-
-.chaarts.bar {
-  --offset: 12.5em;
+/*
+ * Reset table element
+ */
+table.charts-css {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  overflow: initial;
+  background-color: transparent;
 }
-
-.chaarts.bar caption {
-  text-align: initial;
-  text-indent: calc(var(--offset) + 1rem);
+table.charts-css caption,
+table.charts-css colgroup,
+table.charts-css thead,
+table.charts-css tbody,
+table.charts-css tr,
+table.charts-css th,
+table.charts-css td {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
 }
-
-.chaarts.bar tr {
-  display: grid;
-  grid-auto-rows: 1fr;
-  grid-row-gap: 0.5rem;
-  grid-template-columns: minmax(min-content, var(--offset)) repeat(var(--scale, 100), minmax(0, 1fr)) 10ch;
-  transition: opacity 0.2s var(--move);
+table.charts-css colgroup, table.charts-css thead, table.charts-css tfoot, .charts-css:not(.show-heading) caption, .charts-css.hide-data .data, .charts-css.hide-data .data:not(:focus):not(:focus-within), .charts-css.bar:not(.show-labels) tbody tr th, .charts-css.bar.show-labels tr.hide-label th, .charts-css.bar.show-labels th.hide-label, .charts-css.column:not(.show-labels) tbody tr th, .charts-css.area:not(.show-labels) tbody tr th, .charts-css.line:not(.show-labels) tbody tr th, .charts-css.column.show-labels tr.hide-label th, .charts-css.column.show-labels th.hide-label, .charts-css.area.show-labels tr.hide-label th, .charts-css.area.show-labels th.hide-label, .charts-css.line.show-labels tr.hide-label th, .charts-css.line.show-labels th.hide-label, .charts-css.radial tbody tr, .charts-css.pie tbody tr th, .charts-css.polar tbody tr, .charts-css.radar tbody tr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  white-space: nowrap;
 }
-
-.chaarts.bar tr:nth-of-type(1n + 1) {
-  --background: var(--checkers);
-}
-
-.chaarts.bar tr:nth-of-type(2n + 2) {
-  --background: var(--hexagons);
-}
-
-.chaarts.bar tr:nth-of-type(3n + 3) {
-  --background: var(--triangles);
-}
-
-.chaarts.bar tr:nth-of-type(4n + 4) {
-  --background: var(--zig);
-}
-
-.chaarts.bar tr:nth-of-type(5n + 5) {
-  --background: var(--stripes);
-}
-
-.chaarts.bar tr:nth-of-type(6n + 6) {
-  --background: var(--dots);
-}
-
-.chaarts.bar th {
-  grid-column: 1/1;
-  margin: 0.5rem 0 0;
-  padding: 0 1rem 0 0;
-  text-align: end;
-}
-
-.chaarts.bar td {
-  --size: calc(var(--scale, 100) * 100%);
-  --position: calc(var(--value, 0) / var(--scale, 100) * 100%);
-  background: linear-gradient(to right, var(--chaarts-green), var(--chaarts-gray), var(--chaarts-blue), var(--chaarts-purple), var(--chaarts-red)) var(--position) 0% / var(--size) 100%, var(--background) center/contain;
-  background-blend-mode: hard-light;
-  grid-column: 2 / max(2, var(--value, 0));
-  margin: 0.5rem 0 0;
+table.charts-css tbody {
   position: relative;
 }
 
-.chaarts.bar span {
-  background: inherit;
-  background-clip: text;
-  color: transparent;
-  font-weight: bold;
-  inset-inline-start: 100%;
-  line-height: 1.5;
-  padding-inline-start: 0.5ch;
+/*
+ * Reset list elements
+ */
+ul.charts-css,
+ol.charts-css {
+  list-style-type: none;
+}
+ul.charts-css li,
+ol.charts-css li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*
+ * Chart heading
+ */
+.charts-css.show-heading caption {
+  display: block;
+  width: 100%;
+}
+
+/*
+ * Chart colors
+ */
+.charts-css.bar tbody tr:nth-of-type(10n + 1) td, .charts-css.bar.multiple tbody tr td:nth-of-type(10n + 1), .charts-css.column tbody tr:nth-of-type(10n + 1) td, .charts-css.column.multiple tbody tr td:nth-of-type(10n + 1), .charts-css.area tbody tr td:nth-of-type(10n + 1)::before, .charts-css.line tbody tr td:nth-of-type(10n + 1)::before {
+  background: var(--color, var(--color-1));
+}
+.charts-css.pie tbody tr:nth-of-type(10n + 1) td, .charts-css.pie.multiple tbody tr td:nth-of-type(10n + 1) {
+  --c: var(--color, var(--color-1, transparent));
+}
+.charts-css.bar tbody tr:nth-of-type(10n + 2) td, .charts-css.bar.multiple tbody tr td:nth-of-type(10n + 2), .charts-css.column tbody tr:nth-of-type(10n + 2) td, .charts-css.column.multiple tbody tr td:nth-of-type(10n + 2), .charts-css.area tbody tr td:nth-of-type(10n + 2)::before, .charts-css.line tbody tr td:nth-of-type(10n + 2)::before {
+  background: var(--color, var(--color-2));
+}
+.charts-css.pie tbody tr:nth-of-type(10n + 2) td, .charts-css.pie.multiple tbody tr td:nth-of-type(10n + 2) {
+  --c: var(--color, var(--color-2, transparent));
+}
+.charts-css.bar tbody tr:nth-of-type(10n + 3) td, .charts-css.bar.multiple tbody tr td:nth-of-type(10n + 3), .charts-css.column tbody tr:nth-of-type(10n + 3) td, .charts-css.column.multiple tbody tr td:nth-of-type(10n + 3), .charts-css.area tbody tr td:nth-of-type(10n + 3)::before, .charts-css.line tbody tr td:nth-of-type(10n + 3)::before {
+  background: var(--color, var(--color-3));
+}
+.charts-css.pie tbody tr:nth-of-type(10n + 3) td, .charts-css.pie.multiple tbody tr td:nth-of-type(10n + 3) {
+  --c: var(--color, var(--color-3, transparent));
+}
+.charts-css.bar tbody tr:nth-of-type(10n + 4) td, .charts-css.bar.multiple tbody tr td:nth-of-type(10n + 4), .charts-css.column tbody tr:nth-of-type(10n + 4) td, .charts-css.column.multiple tbody tr td:nth-of-type(10n + 4), .charts-css.area tbody tr td:nth-of-type(10n + 4)::before, .charts-css.line tbody tr td:nth-of-type(10n + 4)::before {
+  background: var(--color, var(--color-4));
+}
+.charts-css.pie tbody tr:nth-of-type(10n + 4) td, .charts-css.pie.multiple tbody tr td:nth-of-type(10n + 4) {
+  --c: var(--color, var(--color-4, transparent));
+}
+.charts-css.bar tbody tr:nth-of-type(10n + 5) td, .charts-css.bar.multiple tbody tr td:nth-of-type(10n + 5), .charts-css.column tbody tr:nth-of-type(10n + 5) td, .charts-css.column.multiple tbody tr td:nth-of-type(10n + 5), .charts-css.area tbody tr td:nth-of-type(10n + 5)::before, .charts-css.line tbody tr td:nth-of-type(10n + 5)::before {
+  background: var(--color, var(--color-5));
+}
+.charts-css.pie tbody tr:nth-of-type(10n + 5) td, .charts-css.pie.multiple tbody tr td:nth-of-type(10n + 5) {
+  --c: var(--color, var(--color-5, transparent));
+}
+.charts-css.bar tbody tr:nth-of-type(10n + 6) td, .charts-css.bar.multiple tbody tr td:nth-of-type(10n + 6), .charts-css.column tbody tr:nth-of-type(10n + 6) td, .charts-css.column.multiple tbody tr td:nth-of-type(10n + 6), .charts-css.area tbody tr td:nth-of-type(10n + 6)::before, .charts-css.line tbody tr td:nth-of-type(10n + 6)::before {
+  background: var(--color, var(--color-6));
+}
+.charts-css.pie tbody tr:nth-of-type(10n + 6) td, .charts-css.pie.multiple tbody tr td:nth-of-type(10n + 6) {
+  --c: var(--color, var(--color-6, transparent));
+}
+.charts-css.bar tbody tr:nth-of-type(10n + 7) td, .charts-css.bar.multiple tbody tr td:nth-of-type(10n + 7), .charts-css.column tbody tr:nth-of-type(10n + 7) td, .charts-css.column.multiple tbody tr td:nth-of-type(10n + 7), .charts-css.area tbody tr td:nth-of-type(10n + 7)::before, .charts-css.line tbody tr td:nth-of-type(10n + 7)::before {
+  background: var(--color, var(--color-7));
+}
+.charts-css.pie tbody tr:nth-of-type(10n + 7) td, .charts-css.pie.multiple tbody tr td:nth-of-type(10n + 7) {
+  --c: var(--color, var(--color-7, transparent));
+}
+.charts-css.bar tbody tr:nth-of-type(10n + 8) td, .charts-css.bar.multiple tbody tr td:nth-of-type(10n + 8), .charts-css.column tbody tr:nth-of-type(10n + 8) td, .charts-css.column.multiple tbody tr td:nth-of-type(10n + 8), .charts-css.area tbody tr td:nth-of-type(10n + 8)::before, .charts-css.line tbody tr td:nth-of-type(10n + 8)::before {
+  background: var(--color, var(--color-8));
+}
+.charts-css.pie tbody tr:nth-of-type(10n + 8) td, .charts-css.pie.multiple tbody tr td:nth-of-type(10n + 8) {
+  --c: var(--color, var(--color-8, transparent));
+}
+.charts-css.bar tbody tr:nth-of-type(10n + 9) td, .charts-css.bar.multiple tbody tr td:nth-of-type(10n + 9), .charts-css.column tbody tr:nth-of-type(10n + 9) td, .charts-css.column.multiple tbody tr td:nth-of-type(10n + 9), .charts-css.area tbody tr td:nth-of-type(10n + 9)::before, .charts-css.line tbody tr td:nth-of-type(10n + 9)::before {
+  background: var(--color, var(--color-9));
+}
+.charts-css.pie tbody tr:nth-of-type(10n + 9) td, .charts-css.pie.multiple tbody tr td:nth-of-type(10n + 9) {
+  --c: var(--color, var(--color-9, transparent));
+}
+.charts-css.bar tbody tr:nth-of-type(10n + 10) td, .charts-css.bar.multiple tbody tr td:nth-of-type(10n + 10), .charts-css.column tbody tr:nth-of-type(10n + 10) td, .charts-css.column.multiple tbody tr td:nth-of-type(10n + 10), .charts-css.area tbody tr td:nth-of-type(10n + 10)::before, .charts-css.line tbody tr td:nth-of-type(10n + 10)::before {
+  background: var(--color, var(--color-10));
+}
+.charts-css.pie tbody tr:nth-of-type(10n + 10) td, .charts-css.pie.multiple tbody tr td:nth-of-type(10n + 10) {
+  --c: var(--color, var(--color-10, transparent));
+}
+
+/*
+ * Chart data
+ */
+.charts-css .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.charts-css.show-data-on-hover .data {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  opacity: 0;
+}
+.charts-css.show-data-on-hover tr:hover .data, .charts-css.radial.show-data-on-hover tbody:hover .data, .charts-css.pie.show-data-on-hover tbody:hover .data, .charts-css.polar.show-data-on-hover tbody:hover .data, .charts-css.radar.show-data-on-hover tbody:hover .data {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  opacity: 1;
+}
+.charts-css.bar.data-center tbody tr td, .charts-css.column.data-center tbody tr td {
+  --data-position: center;
+}
+.charts-css.bar.data-start:not(.reverse) tbody tr td, .charts-css.bar.data-end.reverse tbody tr td, .charts-css.bar.data-outside.reverse tbody tr td, .charts-css.column.data-start.reverse tbody tr td, .charts-css.column.data-end:not(.reverse) tbody tr td, .charts-css.column.data-outside:not(.reverse) tbody tr td {
+  --data-position: flex-start;
+}
+.charts-css.bar.data-start.reverse tbody tr td, .charts-css.bar.data-end:not(.reverse) tbody tr td, .charts-css.bar.data-outside:not(.reverse) tbody tr td, .charts-css.column.data-start:not(.reverse) tbody tr td, .charts-css.column.data-end.reverse tbody tr td, .charts-css.column.data-outside.reverse tbody tr td {
+  --data-position: flex-end;
+}
+.charts-css.bar.data-outside:not(.reverse) tbody tr td .data {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+.charts-css.bar.data-outside.reverse tbody tr td .data {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+.charts-css.column.data-outside:not(.reverse) tbody tr td .data, .charts-css.column:not(.reverse) tbody tr td .data.outside {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+.charts-css.column.data-outside.reverse tbody tr td .data, .charts-css.column.reverse tbody tr td .data.outside {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+.charts-css.bar.reverse tbody tr td.inside .data,
+.charts-css.bar.reverse tbody tr td .data.inside, .charts-css.bar:not(.reverse) tbody tr td.inside .data,
+.charts-css.bar:not(.reverse) tbody tr td .data.inside, .charts-css.column.reverse tbody tr td.inside .data,
+.charts-css.column.reverse tbody tr td .data.inside, .charts-css.column:not(.reverse) tbody tr td.inside .data,
+.charts-css.column:not(.reverse) tbody tr td .data.inside, .charts-css.area.reverse tbody tr td.inside .data,
+.charts-css.area.reverse tbody tr td .data.inside, .charts-css.area:not(.reverse) tbody tr td.inside .data,
+.charts-css.area:not(.reverse) tbody tr td .data.inside, .charts-css.line.reverse tbody tr td.inside .data,
+.charts-css.line.reverse tbody tr td .data.inside, .charts-css.line:not(.reverse) tbody tr td.inside .data,
+.charts-css.line:not(.reverse) tbody tr td .data.inside {
+  -webkit-transform: unset;
+          transform: unset;
+}
+
+/*
+ * Chart labels
+ */
+.charts-css.bar {
+  --labels-size: 80px;
+}
+.charts-css.bar:not(.show-labels), .charts-css.column:not(.show-labels), .charts-css.area:not(.show-labels), .charts-css.line:not(.show-labels) {
+  --labels-size: 0;
+}
+.charts-css.bar.show-labels tbody tr th {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
+  -webkit-box-align: var(--labels-align-block, center);
+      -ms-flex-align: var(--labels-align-block, center);
+          align-items: var(--labels-align-block, center);
+}
+.charts-css.bar.show-labels:not(.reverse):not(.reverse-labels) tbody tr th, .charts-css.bar.show-labels.reverse.reverse-labels tbody tr th {
+  -webkit-box-pack: var(--labels-align-inline, flex-start);
+      -ms-flex-pack: var(--labels-align-inline, flex-start);
+          justify-content: var(--labels-align-inline, flex-start);
+}
+.charts-css.bar.show-labels:not(.reverse).reverse-labels tbody tr th, .charts-css.bar.show-labels.reverse:not(.reverse-labels) tbody tr th {
+  -webkit-box-pack: var(--labels-align-inline, flex-end);
+      -ms-flex-pack: var(--labels-align-inline, flex-end);
+          justify-content: var(--labels-align-inline, flex-end);
+}
+.charts-css.column, .charts-css.area, .charts-css.line {
+  --labels-size: 1.5rem;
+}
+.charts-css.column.show-labels tbody tr th, .charts-css.area.show-labels tbody tr th, .charts-css.line.show-labels tbody tr th {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: var(--labels-align-inline, center);
+      -ms-flex-align: var(--labels-align-inline, center);
+          align-items: var(--labels-align-inline, center);
+}
+.charts-css.column.show-labels:not(.reverse):not(.reverse-labels) tbody tr th, .charts-css.area.show-labels:not(.reverse):not(.reverse-labels) tbody tr th, .charts-css.line.show-labels:not(.reverse):not(.reverse-labels) tbody tr th, .charts-css.column.show-labels.reverse.reverse-labels tbody tr th, .charts-css.area.show-labels.reverse.reverse-labels tbody tr th, .charts-css.line.show-labels.reverse.reverse-labels tbody tr th {
+  -webkit-box-pack: var(--labels-align-block, flex-end);
+      -ms-flex-pack: var(--labels-align-block, flex-end);
+          justify-content: var(--labels-align-block, flex-end);
+}
+.charts-css.column.show-labels:not(.reverse).reverse-labels tbody tr th, .charts-css.area.show-labels:not(.reverse).reverse-labels tbody tr th, .charts-css.line.show-labels:not(.reverse).reverse-labels tbody tr th, .charts-css.column.show-labels.reverse:not(.reverse-labels) tbody tr th, .charts-css.area.show-labels.reverse:not(.reverse-labels) tbody tr th, .charts-css.line.show-labels.reverse:not(.reverse-labels) tbody tr th {
+  -webkit-box-pack: var(--labels-align-block, flex-start);
+      -ms-flex-pack: var(--labels-align-block, flex-start);
+          justify-content: var(--labels-align-block, flex-start);
+}
+.charts-css.bar.labels-align-inline-start tbody tr th, .charts-css.column.labels-align-inline-start tbody tr th, .charts-css.area.labels-align-inline-start tbody tr th, .charts-css.line.labels-align-inline-start tbody tr th {
+  --labels-align-inline: flex-start;
+}
+.charts-css.bar.labels-align-inline-end tbody tr th, .charts-css.column.labels-align-inline-end tbody tr th, .charts-css.area.labels-align-inline-end tbody tr th, .charts-css.line.labels-align-inline-end tbody tr th {
+  --labels-align-inline: flex-end;
+}
+.charts-css.bar.labels-align-inline-center tbody tr th, .charts-css.column.labels-align-inline-center tbody tr th, .charts-css.area.labels-align-inline-center tbody tr th, .charts-css.line.labels-align-inline-center tbody tr th {
+  --labels-align-inline: center;
+}
+.charts-css.bar.labels-align-block-start tbody tr th, .charts-css.column.labels-align-block-start tbody tr th, .charts-css.area.labels-align-block-start tbody tr th, .charts-css.line.labels-align-block-start tbody tr th {
+  --labels-align-block: flex-start;
+}
+.charts-css.bar.labels-align-block-end tbody tr th, .charts-css.column.labels-align-block-end tbody tr th, .charts-css.area.labels-align-block-end tbody tr th, .charts-css.line.labels-align-block-end tbody tr th {
+  --labels-align-block: flex-end;
+}
+.charts-css.bar.labels-align-block-center tbody tr th, .charts-css.column.labels-align-block-center tbody tr th, .charts-css.area.labels-align-block-center tbody tr th, .charts-css.line.labels-align-block-center tbody tr th {
+  --labels-align-block: center;
+}
+
+/*
+ * Chart axes
+ */
+.charts-css.column.show-primary-axis:not(.reverse) tbody tr, .charts-css.area.show-primary-axis:not(.reverse) tbody tr, .charts-css.line.show-primary-axis:not(.reverse) tbody tr {
+  -webkit-border-after: var(--primary-axis-width) var(--primary-axis-style) var(--primary-axis-color);
+          border-block-end: var(--primary-axis-width) var(--primary-axis-style) var(--primary-axis-color);
+}
+.charts-css.column.show-primary-axis.reverse tbody tr, .charts-css.area.show-primary-axis.reverse tbody tr, .charts-css.line.show-primary-axis.reverse tbody tr {
+  -webkit-border-before: var(--primary-axis-width) var(--primary-axis-style) var(--primary-axis-color);
+          border-block-start: var(--primary-axis-width) var(--primary-axis-style) var(--primary-axis-color);
+}
+.charts-css.column.show-1-secondary-axes:not(.reverse) tbody tr, .charts-css.area.show-1-secondary-axes:not(.reverse) tbody tr, .charts-css.line.show-1-secondary-axes:not(.reverse) tbody tr {
+  background-size: 100% calc(100% / 1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-1-secondary-axes.reverse tbody tr, .charts-css.area.show-1-secondary-axes.reverse tbody tr, .charts-css.line.show-1-secondary-axes.reverse tbody tr {
+  background-size: 100% calc(100% / 1);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(0deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-2-secondary-axes:not(.reverse) tbody tr, .charts-css.area.show-2-secondary-axes:not(.reverse) tbody tr, .charts-css.line.show-2-secondary-axes:not(.reverse) tbody tr {
+  background-size: 100% calc(100% / 2);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-2-secondary-axes.reverse tbody tr, .charts-css.area.show-2-secondary-axes.reverse tbody tr, .charts-css.line.show-2-secondary-axes.reverse tbody tr {
+  background-size: 100% calc(100% / 2);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(0deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-3-secondary-axes:not(.reverse) tbody tr, .charts-css.area.show-3-secondary-axes:not(.reverse) tbody tr, .charts-css.line.show-3-secondary-axes:not(.reverse) tbody tr {
+  background-size: 100% calc(100% / 3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-3-secondary-axes.reverse tbody tr, .charts-css.area.show-3-secondary-axes.reverse tbody tr, .charts-css.line.show-3-secondary-axes.reverse tbody tr {
+  background-size: 100% calc(100% / 3);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(0deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-4-secondary-axes:not(.reverse) tbody tr, .charts-css.area.show-4-secondary-axes:not(.reverse) tbody tr, .charts-css.line.show-4-secondary-axes:not(.reverse) tbody tr {
+  background-size: 100% calc(100% / 4);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-4-secondary-axes.reverse tbody tr, .charts-css.area.show-4-secondary-axes.reverse tbody tr, .charts-css.line.show-4-secondary-axes.reverse tbody tr {
+  background-size: 100% calc(100% / 4);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(0deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-5-secondary-axes:not(.reverse) tbody tr, .charts-css.area.show-5-secondary-axes:not(.reverse) tbody tr, .charts-css.line.show-5-secondary-axes:not(.reverse) tbody tr {
+  background-size: 100% calc(100% / 5);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-5-secondary-axes.reverse tbody tr, .charts-css.area.show-5-secondary-axes.reverse tbody tr, .charts-css.line.show-5-secondary-axes.reverse tbody tr {
+  background-size: 100% calc(100% / 5);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(0deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-6-secondary-axes:not(.reverse) tbody tr, .charts-css.area.show-6-secondary-axes:not(.reverse) tbody tr, .charts-css.line.show-6-secondary-axes:not(.reverse) tbody tr {
+  background-size: 100% calc(100% / 6);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-6-secondary-axes.reverse tbody tr, .charts-css.area.show-6-secondary-axes.reverse tbody tr, .charts-css.line.show-6-secondary-axes.reverse tbody tr {
+  background-size: 100% calc(100% / 6);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(0deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-7-secondary-axes:not(.reverse) tbody tr, .charts-css.area.show-7-secondary-axes:not(.reverse) tbody tr, .charts-css.line.show-7-secondary-axes:not(.reverse) tbody tr {
+  background-size: 100% calc(100% / 7);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-7-secondary-axes.reverse tbody tr, .charts-css.area.show-7-secondary-axes.reverse tbody tr, .charts-css.line.show-7-secondary-axes.reverse tbody tr {
+  background-size: 100% calc(100% / 7);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(0deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-8-secondary-axes:not(.reverse) tbody tr, .charts-css.area.show-8-secondary-axes:not(.reverse) tbody tr, .charts-css.line.show-8-secondary-axes:not(.reverse) tbody tr {
+  background-size: 100% calc(100% / 8);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-8-secondary-axes.reverse tbody tr, .charts-css.area.show-8-secondary-axes.reverse tbody tr, .charts-css.line.show-8-secondary-axes.reverse tbody tr {
+  background-size: 100% calc(100% / 8);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(0deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-9-secondary-axes:not(.reverse) tbody tr, .charts-css.area.show-9-secondary-axes:not(.reverse) tbody tr, .charts-css.line.show-9-secondary-axes:not(.reverse) tbody tr {
+  background-size: 100% calc(100% / 9);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-9-secondary-axes.reverse tbody tr, .charts-css.area.show-9-secondary-axes.reverse tbody tr, .charts-css.line.show-9-secondary-axes.reverse tbody tr {
+  background-size: 100% calc(100% / 9);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(0deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-10-secondary-axes:not(.reverse) tbody tr, .charts-css.area.show-10-secondary-axes:not(.reverse) tbody tr, .charts-css.line.show-10-secondary-axes:not(.reverse) tbody tr {
+  background-size: 100% calc(100% / 10);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-10-secondary-axes.reverse tbody tr, .charts-css.area.show-10-secondary-axes.reverse tbody tr, .charts-css.line.show-10-secondary-axes.reverse tbody tr {
+  background-size: 100% calc(100% / 10);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(0deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.column.show-data-axes tbody tr, .charts-css.area.show-data-axes tbody tr, .charts-css.line.show-data-axes tbody tr, .charts-css.column.show-dataset-axes tbody tr td, .charts-css.area.show-dataset-axes tbody tr td, .charts-css.line.show-dataset-axes tbody tr td {
+  -webkit-border-end: var(--data-axes-width) var(--data-axes-style) var(--data-axes-color);
+          border-inline-end: var(--data-axes-width) var(--data-axes-style) var(--data-axes-color);
+}
+.charts-css.column.show-data-axes:not(.reverse-data) tbody tr:first-of-type, .charts-css.area.show-data-axes:not(.reverse-data) tbody tr:first-of-type, .charts-css.line.show-data-axes:not(.reverse-data) tbody tr:first-of-type, .charts-css.column.show-data-axes.reverse-data tbody tr:last-of-type, .charts-css.area.show-data-axes.reverse-data tbody tr:last-of-type, .charts-css.line.show-data-axes.reverse-data tbody tr:last-of-type, .charts-css.column.show-dataset-axes:not(.reverse-data) tbody tr:first-of-type td, .charts-css.area.show-dataset-axes:not(.reverse-data) tbody tr:first-of-type td, .charts-css.line.show-dataset-axes:not(.reverse-data) tbody tr:first-of-type td, .charts-css.column.show-dataset-axes.reverse-data tbody tr:last-of-type td, .charts-css.area.show-dataset-axes.reverse-data tbody tr:last-of-type td, .charts-css.line.show-dataset-axes.reverse-data tbody tr:last-of-type td {
+  -webkit-border-start: var(--data-axes-width) var(--data-axes-style) var(--data-axes-color);
+          border-inline-start: var(--data-axes-width) var(--data-axes-style) var(--data-axes-color);
+}
+.charts-css.bar.show-primary-axis:not(.reverse) tbody tr {
+  -webkit-border-start: var(--primary-axis-width) var(--primary-axis-style) var(--primary-axis-color);
+          border-inline-start: var(--primary-axis-width) var(--primary-axis-style) var(--primary-axis-color);
+}
+.charts-css.bar.show-primary-axis.reverse tbody tr {
+  -webkit-border-end: var(--primary-axis-width) var(--primary-axis-style) var(--primary-axis-color);
+          border-inline-end: var(--primary-axis-width) var(--primary-axis-style) var(--primary-axis-color);
+}
+.charts-css.bar.show-1-secondary-axes:not(.reverse) tbody tr {
+  background-size: calc(100% / 1) 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(-90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-1-secondary-axes.reverse tbody tr {
+  background-size: calc(100% / 1) 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-2-secondary-axes:not(.reverse) tbody tr {
+  background-size: calc(100% / 2) 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(-90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-2-secondary-axes.reverse tbody tr {
+  background-size: calc(100% / 2) 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-3-secondary-axes:not(.reverse) tbody tr {
+  background-size: calc(100% / 3) 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(-90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-3-secondary-axes.reverse tbody tr {
+  background-size: calc(100% / 3) 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-4-secondary-axes:not(.reverse) tbody tr {
+  background-size: calc(100% / 4) 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(-90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-4-secondary-axes.reverse tbody tr {
+  background-size: calc(100% / 4) 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-5-secondary-axes:not(.reverse) tbody tr {
+  background-size: calc(100% / 5) 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(-90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-5-secondary-axes.reverse tbody tr {
+  background-size: calc(100% / 5) 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-6-secondary-axes:not(.reverse) tbody tr {
+  background-size: calc(100% / 6) 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(-90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-6-secondary-axes.reverse tbody tr {
+  background-size: calc(100% / 6) 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-7-secondary-axes:not(.reverse) tbody tr {
+  background-size: calc(100% / 7) 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(-90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-7-secondary-axes.reverse tbody tr {
+  background-size: calc(100% / 7) 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-8-secondary-axes:not(.reverse) tbody tr {
+  background-size: calc(100% / 8) 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(-90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-8-secondary-axes.reverse tbody tr {
+  background-size: calc(100% / 8) 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-9-secondary-axes:not(.reverse) tbody tr {
+  background-size: calc(100% / 9) 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(-90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-9-secondary-axes.reverse tbody tr {
+  background-size: calc(100% / 9) 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-10-secondary-axes:not(.reverse) tbody tr {
+  background-size: calc(100% / 10) 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(-90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-10-secondary-axes.reverse tbody tr {
+  background-size: calc(100% / 10) 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--secondary-axes-color)), to(transparent));
+  background-image: linear-gradient(90deg, var(--secondary-axes-color) var(--secondary-axes-width), transparent var(--secondary-axes-width));
+}
+.charts-css.bar.show-data-axes tbody tr, .charts-css.bar.show-dataset-axes tbody tr td {
+  -webkit-border-after: var(--data-axes-width) var(--data-axes-style) var(--data-axes-color);
+          border-block-end: var(--data-axes-width) var(--data-axes-style) var(--data-axes-color);
+}
+.charts-css.bar.show-data-axes:not(.reverse-data) tbody tr:first-of-type, .charts-css.bar.show-data-axes.reverse-data tbody tr:last-of-type, .charts-css.bar.show-dataset-axes:not(.reverse-data) tbody tr:first-of-type td, .charts-css.bar.show-dataset-axes.reverse-data tbody tr:last-of-type td {
+  -webkit-border-before: var(--data-axes-width) var(--data-axes-style) var(--data-axes-color);
+          border-block-start: var(--data-axes-width) var(--data-axes-style) var(--data-axes-color);
+}
+.charts-css.radial.show-primary-axis tbody, .charts-css.pie.show-primary-axis tbody, .charts-css.polar.show-primary-axis tbody, .charts-css.radar.show-primary-axis tbody {
+  border: var(--primary-axis-width) var(--primary-axis-style) var(--primary-axis-color);
+}
+.charts-css.radial.show-1-secondary-axes tbody::after, .charts-css.pie.show-1-secondary-axes tbody::after, .charts-css.polar.show-1-secondary-axes tbody::after, .charts-css.radar.show-1-secondary-axes tbody::after {
+  content: "";
   position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 50%;
+  background: repeating-radial-gradient(closest-side, transparent 0, transparent calc(100% / 2 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 2 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 2), transparent calc(100% / 2 + var(--secondary-axes-width)), transparent calc(100% / 2 + var(--secondary-axes-width)));
+}
+.charts-css.radial.show-2-secondary-axes tbody::after, .charts-css.pie.show-2-secondary-axes tbody::after, .charts-css.polar.show-2-secondary-axes tbody::after, .charts-css.radar.show-2-secondary-axes tbody::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 50%;
+  background: repeating-radial-gradient(closest-side, transparent 0, transparent calc(100% / 3 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 3 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 3), transparent calc(100% / 3 + var(--secondary-axes-width)), transparent calc(100% / 3 + var(--secondary-axes-width)));
+}
+.charts-css.radial.show-3-secondary-axes tbody::after, .charts-css.pie.show-3-secondary-axes tbody::after, .charts-css.polar.show-3-secondary-axes tbody::after, .charts-css.radar.show-3-secondary-axes tbody::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 50%;
+  background: repeating-radial-gradient(closest-side, transparent 0, transparent calc(100% / 4 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 4 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 4), transparent calc(100% / 4 + var(--secondary-axes-width)), transparent calc(100% / 4 + var(--secondary-axes-width)));
+}
+.charts-css.radial.show-4-secondary-axes tbody::after, .charts-css.pie.show-4-secondary-axes tbody::after, .charts-css.polar.show-4-secondary-axes tbody::after, .charts-css.radar.show-4-secondary-axes tbody::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 50%;
+  background: repeating-radial-gradient(closest-side, transparent 0, transparent calc(100% / 5 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 5 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 5), transparent calc(100% / 5 + var(--secondary-axes-width)), transparent calc(100% / 5 + var(--secondary-axes-width)));
+}
+.charts-css.radial.show-5-secondary-axes tbody::after, .charts-css.pie.show-5-secondary-axes tbody::after, .charts-css.polar.show-5-secondary-axes tbody::after, .charts-css.radar.show-5-secondary-axes tbody::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 50%;
+  background: repeating-radial-gradient(closest-side, transparent 0, transparent calc(100% / 6 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 6 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 6), transparent calc(100% / 6 + var(--secondary-axes-width)), transparent calc(100% / 6 + var(--secondary-axes-width)));
+}
+.charts-css.radial.show-6-secondary-axes tbody::after, .charts-css.pie.show-6-secondary-axes tbody::after, .charts-css.polar.show-6-secondary-axes tbody::after, .charts-css.radar.show-6-secondary-axes tbody::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 50%;
+  background: repeating-radial-gradient(closest-side, transparent 0, transparent calc(100% / 7 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 7 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 7), transparent calc(100% / 7 + var(--secondary-axes-width)), transparent calc(100% / 7 + var(--secondary-axes-width)));
+}
+.charts-css.radial.show-7-secondary-axes tbody::after, .charts-css.pie.show-7-secondary-axes tbody::after, .charts-css.polar.show-7-secondary-axes tbody::after, .charts-css.radar.show-7-secondary-axes tbody::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 50%;
+  background: repeating-radial-gradient(closest-side, transparent 0, transparent calc(100% / 8 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 8 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 8), transparent calc(100% / 8 + var(--secondary-axes-width)), transparent calc(100% / 8 + var(--secondary-axes-width)));
+}
+.charts-css.radial.show-8-secondary-axes tbody::after, .charts-css.pie.show-8-secondary-axes tbody::after, .charts-css.polar.show-8-secondary-axes tbody::after, .charts-css.radar.show-8-secondary-axes tbody::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 50%;
+  background: repeating-radial-gradient(closest-side, transparent 0, transparent calc(100% / 9 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 9 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 9), transparent calc(100% / 9 + var(--secondary-axes-width)), transparent calc(100% / 9 + var(--secondary-axes-width)));
+}
+.charts-css.radial.show-9-secondary-axes tbody::after, .charts-css.pie.show-9-secondary-axes tbody::after, .charts-css.polar.show-9-secondary-axes tbody::after, .charts-css.radar.show-9-secondary-axes tbody::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 50%;
+  background: repeating-radial-gradient(closest-side, transparent 0, transparent calc(100% / 10 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 10 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 10), transparent calc(100% / 10 + var(--secondary-axes-width)), transparent calc(100% / 10 + var(--secondary-axes-width)));
+}
+.charts-css.radial.show-10-secondary-axes tbody::after, .charts-css.pie.show-10-secondary-axes tbody::after, .charts-css.polar.show-10-secondary-axes tbody::after, .charts-css.radar.show-10-secondary-axes tbody::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 50%;
+  background: repeating-radial-gradient(closest-side, transparent 0, transparent calc(100% / 11 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 11 - var(--secondary-axes-width)), var(--secondary-axes-color) calc(100% / 11), transparent calc(100% / 11 + var(--secondary-axes-width)), transparent calc(100% / 11 + var(--secondary-axes-width)));
 }
 
-.chaarts.bar:hover tr {
-  opacity: 0.5;
+/*
+ * Chart legend
+ */
+.charts-css.legend {
+  padding: 1rem;
+  border: var(--legend-border-width) var(--legend-border-style) var(--legend-border-color);
+  list-style: none;
+  font-size: 1rem;
+}
+.charts-css.legend li {
+  line-height: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.charts-css.legend li::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-margin-end: 0.5rem;
+          margin-inline-end: 0.5rem;
+  border-width: 2px;
+  border-style: solid;
+}
+.charts-css.legend li:nth-child(10n+1)::before {
+  background-color: var(--color-1, transparent);
+  border-color: var(--border-color-1, var(--border-color, #000));
+}
+.charts-css.legend li:nth-child(10n+2)::before {
+  background-color: var(--color-2, transparent);
+  border-color: var(--border-color-2, var(--border-color, #000));
+}
+.charts-css.legend li:nth-child(10n+3)::before {
+  background-color: var(--color-3, transparent);
+  border-color: var(--border-color-3, var(--border-color, #000));
+}
+.charts-css.legend li:nth-child(10n+4)::before {
+  background-color: var(--color-4, transparent);
+  border-color: var(--border-color-4, var(--border-color, #000));
+}
+.charts-css.legend li:nth-child(10n+5)::before {
+  background-color: var(--color-5, transparent);
+  border-color: var(--border-color-5, var(--border-color, #000));
+}
+.charts-css.legend li:nth-child(10n+6)::before {
+  background-color: var(--color-6, transparent);
+  border-color: var(--border-color-6, var(--border-color, #000));
+}
+.charts-css.legend li:nth-child(10n+7)::before {
+  background-color: var(--color-7, transparent);
+  border-color: var(--border-color-7, var(--border-color, #000));
+}
+.charts-css.legend li:nth-child(10n+8)::before {
+  background-color: var(--color-8, transparent);
+  border-color: var(--border-color-8, var(--border-color, #000));
+}
+.charts-css.legend li:nth-child(10n+9)::before {
+  background-color: var(--color-9, transparent);
+  border-color: var(--border-color-9, var(--border-color, #000));
+}
+.charts-css.legend li:nth-child(10n+10)::before {
+  background-color: var(--color-10, transparent);
+  border-color: var(--border-color-10, var(--border-color, #000));
+}
+.charts-css:not(.legend-inline) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.charts-css.legend-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.charts-css.legend-inline li {
+  -webkit-margin-end: 1rem;
+          margin-inline-end: 1rem;
+}
+.charts-css.legend-circle li::before {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.charts-css.legend-ellipse li::before {
+  width: 2rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.charts-css.legend-square li::before {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 3px;
+}
+.charts-css.legend-rhombus li::before {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 3px;
+  -webkit-transform: rotate(45deg) scale(0.85);
+          transform: rotate(45deg) scale(0.85);
+}
+.charts-css.legend-rectangle li::before {
+  width: 2rem;
+  height: 1rem;
+  border-radius: 3px;
+}
+.charts-css.legend-line li::before {
+  width: 2rem;
+  height: 3px;
+  border-radius: 2px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
-.chaarts.bar:hover tr:hover {
+/*
+ * Chart tooltips
+ */
+.charts-css .tooltip {
+  position: absolute;
+  z-index: 1;
+  bottom: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 6px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.charts-css .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent;
+}
+.charts-css td:hover .tooltip {
+  visibility: visible;
   opacity: 1;
 }
 
-@media (prefers-contrast: more) {
-  .chaarts.bar td {
-    background: var(--chaarts-blue);
-  }
-  .chaarts.bar span {
-    background: var(--background-lighter);
-    background-clip: unset;
-    color: var(--chaarts-blue);
-  }
+/*
+ * Bar Chart
+ */
+
+.charts-css.bar tbody tr, .charts-css.column tbody tr, .charts-css.area tbody tr, .charts-css.line tbody tr {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  overflow-wrap: anywhere;
 }
 
+.charts-css.bar:not(.reverse) tbody tr, .charts-css.column.reverse tbody tr, .charts-css.area:not(.reverse) tbody tr td .data, .charts-css.area.reverse tbody tr, .charts-css.line:not(.reverse) tbody tr td .data, .charts-css.line.reverse tbody tr {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.charts-css.bar.reverse tbody tr, .charts-css.column:not(.reverse) tbody tr, .charts-css.area:not(.reverse) tbody tr, .charts-css.area.reverse tbody tr td .data, .charts-css.line:not(.reverse) tbody tr, .charts-css.line.reverse tbody tr td .data {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.charts-css.bar:not(.stacked) tbody tr td, .charts-css.column:not(.stacked) tbody tr td {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+}
+.charts-css.bar.stacked tbody tr td, .charts-css.column.stacked tbody tr td {
+  -webkit-box-flex: unset;
+      -ms-flex-positive: unset;
+          flex-grow: unset;
+  -ms-flex-negative: unset;
+      flex-shrink: unset;
+  -ms-flex-preferred-size: unset;
+      flex-basis: unset;
+}
+.charts-css.bar.stacked.reverse-datasets tbody tr, .charts-css.column:not(.reverse) tbody tr th, .charts-css.column.stacked.reverse-datasets tbody tr, .charts-css.area:not(.reverse) tbody tr th, .charts-css.line:not(.reverse) tbody tr th {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.charts-css.bar:not(.reverse-data) tbody, .charts-css.bar:not(.reverse-datasets):not(.stacked) tbody tr, .charts-css.column:not(.reverse-datasets).stacked.reverse tbody tr, .charts-css.column.reverse-datasets.stacked:not(.reverse) tbody tr {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.charts-css.bar.reverse-data tbody, .charts-css.bar.reverse-datasets:not(.stacked) tbody tr, .charts-css.column:not(.reverse-datasets).stacked:not(.reverse) tbody tr, .charts-css.column.reverse-datasets.stacked.reverse tbody tr {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+.charts-css.bar:not(.reverse-datasets).stacked:not(.reverse) tbody tr, .charts-css.bar.reverse-datasets.stacked.reverse tbody tr, .charts-css.column:not(.reverse-labels):not(.reverse-data) tbody, .charts-css.column.reverse-labels.reverse-data tbody, .charts-css.column:not(.reverse-datasets):not(.stacked) tbody tr, .charts-css.area:not(.reverse-data) tbody, .charts-css.area:not(.reverse-datasets) tbody tr, .charts-css.line:not(.reverse-data) tbody, .charts-css.line:not(.reverse-datasets) tbody tr {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.charts-css.bar:not(.reverse-datasets).stacked.reverse tbody tr, .charts-css.bar.reverse-datasets.stacked:not(.reverse) tbody tr, .charts-css.column:not(.reverse-labels).reverse-data tbody, .charts-css.column.reverse-labels:not(.reverse-data) tbody, .charts-css.column.reverse-datasets:not(.stacked) tbody tr, .charts-css.area.reverse-data tbody, .charts-css.area.reverse-datasets tbody tr, .charts-css.line.reverse-data tbody, .charts-css.line.reverse-datasets tbody tr {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+/*
+ * Column Chart
+ */
+.charts-css.column tbody, .charts-css.area tbody, .charts-css.line tbody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100%;
+  aspect-ratio: var(--aspect-ratio, 21/9);
+}
+.charts-css.column tbody tr th, .charts-css.area tbody tr th, .charts-css.line tbody tr th {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: var(--labels-size);
+}
+.charts-css.column tbody tr td {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: calc(100% * var(--end, var(--size, 1)));
+  position: relative;
+}
+.charts-css.column:not(.reverse) tbody tr td {
+  -webkit-box-align: var(--data-position, flex-start);
+      -ms-flex-align: var(--data-position, flex-start);
+          align-items: var(--data-position, flex-start);
+}
+.charts-css.column.reverse tbody tr td {
+  -webkit-box-align: var(--data-position, flex-end);
+      -ms-flex-align: var(--data-position, flex-end);
+          align-items: var(--data-position, flex-end);
+}
+.charts-css.column:not(.reverse) tbody tr td, .charts-css.column.reverse tbody tr td, .charts-css.area:not(.reverse) tbody tr td, .charts-css.area.reverse tbody tr td, .charts-css.line:not(.reverse) tbody tr td, .charts-css.line.reverse tbody tr td {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.charts-css.column.reverse tbody tr th, .charts-css.area.reverse tbody tr th, .charts-css.line.reverse tbody tr th {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.charts-css.column:not(.reverse-labels):not(.reverse) tbody tr, .charts-css.column.reverse-labels.reverse tbody tr, .charts-css.area:not(.reverse-labels):not(.reverse) tbody tr, .charts-css.area.reverse-labels.reverse tbody tr, .charts-css.line:not(.reverse-labels):not(.reverse) tbody tr, .charts-css.line.reverse-labels.reverse tbody tr {
+  -webkit-margin-after: var(--labels-size);
+          margin-block-end: var(--labels-size);
+}
+.charts-css.column:not(.reverse-labels):not(.reverse) tbody tr th, .charts-css.area:not(.reverse-labels):not(.reverse) tbody tr th, .charts-css.line:not(.reverse-labels):not(.reverse) tbody tr th {
+  -webkit-margin-before: auto;
+          margin-block-start: auto;
+  -webkit-margin-after: calc(-1 * var(--labels-size) - var(--primary-axis-width));
+          margin-block-end: calc(-1 * var(--labels-size) - var(--primary-axis-width));
+}
+.charts-css.column:not(.reverse-labels).reverse tbody tr, .charts-css.column.reverse-labels:not(.reverse) tbody tr, .charts-css.area:not(.reverse-labels).reverse tbody tr, .charts-css.area.reverse-labels:not(.reverse) tbody tr, .charts-css.line:not(.reverse-labels).reverse tbody tr, .charts-css.line.reverse-labels:not(.reverse) tbody tr {
+  -webkit-margin-before: var(--labels-size);
+          margin-block-start: var(--labels-size);
+}
+.charts-css.column:not(.reverse-labels).reverse tbody tr th, .charts-css.area:not(.reverse-labels).reverse tbody tr th, .charts-css.line:not(.reverse-labels).reverse tbody tr th {
+  -webkit-margin-after: auto;
+          margin-block-end: auto;
+  -webkit-margin-before: calc(-1 * var(--labels-size) - var(--primary-axis-width));
+          margin-block-start: calc(-1 * var(--labels-size) - var(--primary-axis-width));
+}
+.charts-css.column.reverse-labels:not(.reverse) tbody tr th, .charts-css.area.reverse-labels:not(.reverse) tbody tr th, .charts-css.line.reverse-labels:not(.reverse) tbody tr th {
+  -webkit-margin-after: auto;
+          margin-block-end: auto;
+  -webkit-margin-before: calc(-1 * var(--labels-size));
+          margin-block-start: calc(-1 * var(--labels-size));
+}
+.charts-css.column.reverse-labels.reverse tbody tr th, .charts-css.area.reverse-labels.reverse tbody tr th, .charts-css.line.reverse-labels.reverse tbody tr th {
+  -webkit-margin-before: auto;
+          margin-block-start: auto;
+  -webkit-margin-after: calc(-1 * var(--labels-size));
+          margin-block-end: calc(-1 * var(--labels-size));
+}
+.charts-css.column.data-spacing-10 tbody tr {
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
+  -webkit-padding-end: 10px;
+          padding-inline-end: 10px;
+}
+
+.charts-css.column.datasets-spacing-10 tbody tr td {
+  -webkit-margin-start: 10px;
+          margin-inline-start: 10px;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
