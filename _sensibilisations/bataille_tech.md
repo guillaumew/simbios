@@ -1,6 +1,6 @@
 ---
 title: La Bataille de la Tech
-description: Un atelier 1h30 sur l'ensemble du numérique responsable
+description: Un atelier de 2 heures sur l'ensemble du numérique responsable
 plus:
     - "Permet d'approfondir l'impact social du numérique"
     - "Coordonnation des sensibilisations possibles"
@@ -20,3 +20,5 @@ Pour une tech :
 - plus diverse
 - plus citoyenne
 - plus engagée
+
+En savoir plus sur le site de Latitudes : {% include link.html link="https://www.batailledelatech.org/" text="Bataille de la Tech" %}

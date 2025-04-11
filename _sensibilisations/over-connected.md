@@ -3,7 +3,7 @@ title: Over-Connected
 description: Un spectacle d'improvisation qui aborde les thèmes du numérique responsable
 plus:
     - "Accent sur le divertissement"
-    - "Sans limite de spectacteurs et spectatrice"
+    - "Sans limite de spectacteurs et spectatrices"
 image: 
     url: "/assets/img/services/over-connected"
     alt: "Affiche du sepctacle d'improvisation Over-Connected"

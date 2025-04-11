@@ -9,7 +9,7 @@ image:
     alt: "Exemples de cartes de la face cachée du numérique"
     type: jpg
 summary: "Simbios propose son propre atelier rappelant le fonctionnement du numérique puis son impact sur l'environnement. On abordera les pistes d'amélioration dans une ambiance bienveillante."
-order: 2
+order: 6
 ---
 
 Simbios propose son propre atelier : La Réalité du numérique. Cet atelier ludique et immersif de 2h propose :

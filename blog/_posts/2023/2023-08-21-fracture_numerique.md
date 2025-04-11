@@ -39,4 +39,4 @@ Les personnes en situation d’illectronisme peuvent se désintéresser des outi
 
 Cela signifie que si on veut proposer un service qui doit être utilisé par tous, il faut forcément penser à une alternative non numérique. Et même parmi les usagers numérique, il faut faire un outil simple d’emploi car une forte partie de la population n’a pas toutes les compétences nécessaires pour bénéficier pleinement de son outil numérique.
 
-Source : {% include link.html text="Etude INSEE de 2019" link="hhttps://www.insee.fr/fr/statistiques/4241397" %}
+Source : {% include link.html text="Etude INSEE de 2019" link="https://www.insee.fr/fr/statistiques/4241397" %}
