@@ -1,14 +1,13 @@
 ---
 title: Quantifier l'impact environnemental du numérique
-title-en: Quantifying the Environmental Impact of Digital Technology
 description: Le numérique a des impacts environnementaux divers qui peuvent être quantifiés grâce à l'Analyse du Cycle de Vie. Nous allons en faire le décryptage. 
 duration: 1h30
-duration-en: 1h30
-type: Conférence
-type-en: Presentation
-effectif: 4-100
-public: ["Tout public"]
-layout: formation
+layout: conference
+sessions:
+- name: L’ACV, un outil pour quantifier l’impact environnemental du numérique
+  url: https://nantesdigitalweek.com/evenements/lacv-un-outil-pour-quantifier-limpact-environnemental-du-numerique/
+  date: 25/09/2024
+  event: Nantes Digital Week
 
 ---
 On sait que les activités humaines ont un impact important sur l'environnement. Le numérique, malgré une image plus verte (notamment avec sa capacité à "dématerialiser" des services) contribue également à la dégradation de l'environnement.

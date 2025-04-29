@@ -3,4 +3,4 @@
 {% else %}
 {% assign aria-label=include.text | append: " (s'ouvre dans un nouveau tab)" %}
 {% endif %}
-<a href="{{include.link}}" {% if include.class %}class="{{include.class}}" {% endif %} target="new-tab" rel="noopener noreferrer{% if include.rel %} {{include.rel}}{% endif %}" {% if include.aria-role %}role="{{include.aria-role}}" {% endif %} {% if include.title %}title="{{include.title}}" {% endif %} aria-label="{{aria-label}}">{{include.text}}</a>
+<a href="{{include.link}}" {% if include.class %}class="{{include.class}}" {% endif %} target="new-tab" rel="noopener noreferrer{% if include.rel %} {{include.rel}}{% endif %}" {% if include.aria-role %}role="{{include.aria-role}}" {% endif %} {% if include.title %}title="{{include.title}}" {% endif %} aria-label="{{aria-label}}" data-lta-event-category="outbound" data-lta-event="click {{include.link}}">{{include.text}}</a>

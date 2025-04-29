@@ -6,6 +6,10 @@ collections:
     relative_directory: "sensibilisations"
     output: true
     permalink: /services/sensibilisation/:path
+  conferences:
+    elative_directory: "conferences"
+    output: true
+    permalink: /conferences/:path
   formations:
     relative_directory: "formations"
     output: true

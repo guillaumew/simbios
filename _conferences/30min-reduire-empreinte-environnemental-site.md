@@ -2,15 +2,22 @@
 title: 30 minutes pour réduire l'empreinte environnementale d'un site
 title-en: 30 minutes to reduce the environmental footprint of a website
 description: On entre dans le code HTML d'un site et on applique des optimisations rapides et efficaces
-duration: 30 minutes
-duration-en: 30 minutes
-type: Conférence
-type-en: Presentation
-effectif: 4-100
+duration: 30 min
 image: /assets/img/posts/2024/Q1/humpan_talk_daveo.webp
-public: ["Dev"]
-layout: formation
-
+layout: conference
+sessions:
+  - name: Réduire l’empreinte environnementale d’un site
+    url: https://www.paris-web.fr/2024/atelier/reduire-lempreinte-environnementale-dun-site
+    date: 28/09/2024
+    event: Paris Web
+  - name: 20 min pour réduire l’empreinte environnementale d’un site
+    url: https://www.lacantine.co/agenda/event/04-04-2024-nuitdesmeetups20minpourrduirelempreinteenvironnementaledunsite/
+    date: 04/04/2024
+    event: Nuit de Meetups
+  - name: 20 min pour réduire l’empreinte environnementale d’un site
+    url: https://www.breizhcamp.org/
+    date: 27/06/2025
+    event: BreizhCamp  
 ---
 
 Dans le cadre de mes activités, je suis souvent amené à faire des analyses de sites. A chaque fois que je regarde sous le capot d’une page web, je vois toujours (ou presque) les mêmes défauts…

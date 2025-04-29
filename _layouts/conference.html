@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+
+<div class="content markdown column-content" id="maincontent">
+    <h2>Présentation</h2>
+    {{ content }}
+    {% if page.sessions %}
+    <h2>Sessions</h2>
+    <ul>
+        {% for session in page.sessions %}
+        <li>Le {{session.date}} à {% include link.html text=session.event link=session.url %}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>

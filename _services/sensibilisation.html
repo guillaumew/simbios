@@ -52,5 +52,32 @@ layout: service
 		</div>
 	</div>
 {% endfor %}
-	
+
+	<h2>Conférences</h2>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Nom</th>
+				<th scope="col">Durée</th>
+				<th scope="col">Dates à venir</th>
+			</tr>
+		</thead>
+		<tbody>
+	{% for conference in site.conferences %}
+			<tr>
+				<th scope="row"><a href="{{conference.url}}">{{conference.title}}</a></th>
+				<td>{{conference.duration}}</td>
+				<td>
+					{% assign today_date = 'now' | date: '%s' %}
+					{% for session in conference.sessions %}
+					{% assign sess_date = session.date | date: '%s' %}
+					{% if sess_date > today_date %}
+					{{session.date}}
+					{% endif %}
+					{% endfor %}
+				</td>
+			</tr>
+	{% endfor %}
+		</tbody>
+	</table>
 </div>
