@@ -520,7 +520,7 @@
   size: 11
   nodes: 99
   requests: 5
-- path: /conferences/quantifier-impact-environnemental-num%C3%A9rique
+- path: /conferences/quantifier-impact-environnemental-numerique
   score: 92.0
   grade: A
   size: 10
