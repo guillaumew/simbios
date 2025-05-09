@@ -5,7 +5,7 @@ tags: ["Numérique Responsable", "Intelligence artificielle", "Souveraineté", "
 image: /assets/img/posts/2025/Q2/thumb-ai-ethics.jpg
 thumb: /assets/img/posts/2025/Q2/thumb-ai-ethics
 alt-image: "Un rêve de Google DeepMind"
-podcast: null
+podcast: https://sphinx.acast.com/p/open/s/65e06335dd3dcf001643bd06/e/6818c5701d28d62313aee8fb/media.mp3
 usages_ia:
   - name: "Total Français "
     data:  [39]
@@ -54,7 +54,7 @@ Pourtant, comme tout service, l'intelligence artificielle possède un impact env
 Lors d'une conversation avec ChatGPT, nous allons solliciter :
 - notre terminal dont la fabrication a probablement été réalisée en Asie et qui fonctionne avec une électricité potentiellement produite à quelques centaines de kilomètres de nous
 - notre message (ou prompt) va être transporté par un réseau invisible (sous terre, sous l'eau) pour arriver jusqu'aux États-Unis où étaient hébergés les serveurs de ChatGPT en 2024 ({% include link.html link="https://openai.com/index/introducing-data-residency-in-europe/" text="source" %}) consommant à leur tour une électricité invisible
-- les datacenters accueillants les serveurs ChatGPT sont loin. Ils ont besoin d'une électricité importante pour fonctionner, qui plus est une électricité américaine produite avec un mix plus carboné. Ces serveurs nécessitent des composants puissants (le GPU) et peu répandus jusqu'à l’avènement de l'intelligence artificielle. Cela force à mettre à jour le parc des serveurs avec un coût environnemental de fabrication extrêmement important.
+- les datacenters accueillant les serveurs ChatGPT sont loin. Ils ont besoin d'une électricité importante pour fonctionner, qui plus est une électricité américaine produite avec un mix plus carboné. Ces serveurs nécessitent des composants puissants (le GPU) et peu répandus jusqu'à l’avènement de l'intelligence artificielle. Cela force à mettre à jour le parc des serveurs avec un coût environnemental de fabrication extrêmement important.
 - il a également fallu réaliser la conception logicielle de ChatGPT avec des phases d’entraînement nécessitant de nombreuses données et beaucoup de calculs énergivores.
 
 ### Beaucoup de ressources exploitées
@@ -63,30 +63,30 @@ Lors d'une conversation avec ChatGPT, nous allons solliciter :
 
 Dans le monde, 60 % de l'électricité est d'origine fossile ({% include link.html link="https://www.eia.gov/international/data/world/electricity/electricity-generation" text="source" %}). Les énergies fossiles ont des impacts importants sur le climat et les émissions de particules.
 
-D'autre part, en vue de la réduction de notre empreinte carbone, nous avons tendance à électrifier nos usages (chauffage, transport...). Nos moyens de productions électriques parviendront-ils à satisfaire l'ensemble des besoins de l’humanité dans les années à venir ?
+D'autre part, en vue de la réduction de notre empreinte carbone, nous avons tendance à électrifier nos usages (chauffage, transport...). Nos moyens de productions électriques parviendront-ils à satisfaire l'ensemble des besoins de l’humanité dans les années à venir ? Sachant qu'une simple conversation avec ChatGPT consomme autant d'électricité qu'une minute de four ou 5 heures d'un frigo (35 Wh).
 
 #### Eau
 
 Les datacenters consomment beaucoup d'eau pour refroidir les composants électroniques des serveurs. Rien qu'aux États-Unis les datacenters consomment 1,7 milliards de litres d'eau chaque jour ({% include link.html link="https://www.nature.com/articles/s41545-021-00101-w" text="source" %}).
 
-A l'heure actuelle, nous avons encore beaucoup de difficulté à quantifier la consommation en eau de nos usages numériques. Toutefois, l'université de Californie a évalué qu'une requête à ChatGPT consomme en moyenne 17 ml d'eau ({% include link.html text="source" link="https://arxiv.org/pdf/2304.03271" %})
+A l'heure actuelle, nous avons encore beaucoup de difficultés à quantifier la consommation en eau de nos usages numériques. Toutefois, l'université de Californie a évalué qu'une requête à ChatGPT consomme en moyenne 17 ml d'eau ({% include link.html text="source" link="https://arxiv.org/pdf/2304.03271" %})
 
 #### Métaux
 
-Les calculs complexes de l'intelligence artificielle nécessitent des composants particuliers (GPU) qui n'étaient pas courant dans les centres de données avant l'intelligence artificielle.
+Les calculs complexes de l'intelligence artificielle nécessitent des composants particuliers (GPU) qui n'étaient pas courants dans les centres de données avant l'intelligence artificielle.
 
 Les serveurs risquent donc d'être rapidement remplacés par des serveurs compatibles avec l'IA avec ces précieux composants, accélérant ainsi l'obsolescence de serveurs actuels.
-Pour être fabriqués les équipements numériques nécessitent de métaux très variés présents en quantités limitées sur Terre. Ces derniers ne se renouvellent pas. L'extraction des métaux nécessite une excavation de quantité astronomique de minerais de la croûte terrestre pour obtenir très peu des métaux rares nécessaires pour le numérique (pour l'or : {% include link.html text="quelques grammes par tonne de minerais excavé" link="https://www.universalis.fr/encyclopedie/minerais/3-les-conditions-de-formation-des-gisements-et-leur-localisation/" %})
+Pour être fabriqués les équipements numériques nécessitent des métaux très variés présents en quantités limitées sur Terre. Ces derniers ne se renouvellent pas. L'extraction des métaux nécessite une excavation de quantités astronomiques de minerais de la croûte terrestre pour obtenir très peu des métaux rares nécessaires pour le numérique (pour l'or : {% include link.html text="quelques grammes par tonne de minerais excavé" link="https://www.universalis.fr/encyclopedie/minerais/3-les-conditions-de-formation-des-gisements-et-leur-localisation/" %})
 
-La séparation du métal du minerai nécessite beaucoup d'eau , de matière chimique et d'énergie. Les déchets toxiques sont généralement laissés dans des lacs artificiels qui peuvent se répandre et contaminer toutes la vie aux alentours.
+La séparation du métal du minerai nécessite beaucoup d'eau, de matière chimique et d'énergie. Les déchets toxiques sont généralement laissés dans des lacs artificiels qui peuvent se répandre et contaminer toute la vie aux alentours.
 
 #### Gaz à effet de serre
 
-Le manque de transparence des acteurs de l'intelligence artificielle rendent difficiles les évaluations de l'empreinte carbone de l'usage de l'IA. 
+Le manque de transparence des acteurs de l'intelligence artificielle rend difficiles les évaluations de l'empreinte carbone de l'usage de l'IA. 
 
 On soulignera tout de même l'excellent outil {% include link.html text="Ecologits" link="https://huggingface.co/spaces/genai-impact/ecologits-calculator" %} qui évalue les coûts environnementaux (électricité, climat, métaux...) des différents chatbots.
 
-Selon Ecologits, une conversation avec ChatGPT émet 21,4 g CO<sub>2</sub>eq. Cette donnée n'inclut pas les coûts environnementaux du terminal, du réseau ou de l’entraînement du modèle. Il s'agit uniquement de l'impact des serveurs qui traitent la requête.
+Selon Ecologits, une conversation simple avec ChatGPT (modèle 4o) émet 21,4 g CO<sub>2</sub>eq. Cette donnée n'inclut pas les coûts environnementaux du terminal, du réseau ou de l’entraînement du modèle. Il s'agit uniquement de l'impact des serveurs qui traitent la requête. C'est l'équivalent d'un peu plus de 20 min de streaming vidéo (incluant fabrication et consommation électrique du terminal, du réseau et des serveurs).
 
 Un utilisateur qui utilise donc ChatGPT 15 fois par jour 300 jours an frôle les 100 kg CO<sub>2</sub>eq uniquement sur la sollicitation du serveur pour l'IA. Cela constitue 11,3% de la {% include link.html text="limite planétaire" link="https://www.sciencedirect.com/science/article/pii/S0301479720306186#tbl3" %} individuelle, ce qui ne laisse pas beaucoup de budget carbone pour le reste des usages (alimentation, logement, transport...) 
 
@@ -107,7 +107,7 @@ Mais l’expansion ne fait que commencer, {% include link.html link="https://www
 
 Quand on regarde les outils d'IA générative les plus utilisés (toujours l'enquête Ipsos), on se rend compte que les principaux outils sont gérés par OpenAI, Google et Microsoft. Nous avons donc une position ultra dominante des Etats-Unis sur ces technologies.
 
-Or, l’intelligence artificielle est amenée à bouleverser le monde économique dans lequel on évolue. Il est donc risqué pour un pays de dépendre à ce point des technologies d'un autre pays. L'actualité récente a d'ailleurs montré que les conditions de collaborations avec les Etats-Unis peuvent changer brusquement (avec les droits de douane notamment, mais d'autres leviers sont possibles). De plus, les sociétés américaines sont toujours soumises aux Partiot Act et Cloud Act qui les obligent à donner accès aux données qu'elles hébergent si le gouvernement les exige.
+Or, l’intelligence artificielle est amenée à bouleverser le monde économique dans lequel nous évoluons. Il est donc risqué pour un pays de dépendre à ce point des technologies d'un autre pays. L'actualité récente a d'ailleurs montré que les conditions de collaborations avec les Etats-Unis peuvent changer brusquement (avec les droits de douane notamment, mais d'autres leviers sont possibles). De plus, les sociétés américaines sont toujours soumises aux Partiot Act et Cloud Act qui les obligent à donner accès aux données qu'elles hébergent si le gouvernement les exige.
 
 > La France et l'Europe sont donc en train d'investir massivement dans l'IA avec des plans d'investissements respectifs de 109 milliards et 200 milliards d'euros ({% include link.html text="source" link="https://www.info.gouv.fr/actualite/ia-une-nouvelle-impulsion-pour-la-strategie-nationale" %}).
 {: .prompt-info}
@@ -116,19 +116,15 @@ Ces investissements ont pour but de permettre aux pays de conserver une relative
 
 ### Souveraineté au niveau de l'entreprise
 
-Les entreprises doivent également s'intéresser à leur "souveraineté". On parle parfois du facteur d'autobus (ou bus factor en anglais).
+Les entreprises doivent également s'intéresser à leur "souveraineté". 
 
-> Combien de personnes clés dans votre équipe peuvent se faire renverser par un autobus avant que votre projet échoue ?
-
-Le but étant de faire en sorte d'éviter que trop peu de personnes soient nécessaires au bon fonctionnement d'un projet ou d'une entreprise.
-
-Mais on peut extrapoler ce mesure du risque aux partenaires. Quelle est la résilience de mon entreprise si tel ou tel partenaire arrête de travailler avec nous. Combien de temps me faudra-t-il pour trouver une solution alternative ?
+Quelle est la résilience de mon entreprise si tel ou tel partenaire arrête de travailler avec nous ? Combien de temps me faudra-t-il pour trouver une solution alternative ? A quel point cela peut affecter mes opérations et mon organsiation ?
 
 Si on délègue beaucoup à l’intelligence artificielle on peut en devenir dépendant, voire même dépendant de l'entreprise qui nous fournit le service d'IA.
 
 ### Souveraineté personnelle
 
-Cette même logique s'applique à l’échelle personnelle. Tout ce qu'on est délègué aux technologies entraîne la perte de compétences. Par exemple, quand j'étais enfant je connaissais une bonne dizaine de numéros de téléphone par coeur. Maintenant, j'ai délégué cele à mon application de contacts. Je n'ai mémorisé que mon numéro et je peine à me souvenir de celui de ma femme. On peut voir cela d'un œil positif (une charge mentale en moins à gérer) ou négatif (mais que devient-on quand on n'a plus de batterie dans son smartphone ?).
+Cette même logique s'applique à l’échelle personnelle. Tout ce qui est délègué aux technologies entraîne la perte de compétences. Par exemple, quand j'étais enfant je connaissais une bonne dizaine de numéros de téléphone par coeur. Maintenant, j'ai délégué cela à mon application de contacts. Je n'ai mémorisé que mon numéro et je peine à me souvenir de celui de mon épouse. On peut voir cela d'un œil positif (une charge mentale en moins à gérer) ou négatif (mais que devient-on quand on n'a plus de batterie dans son smartphone ?).
 
 Avec l'intelligence artificielle, on en arrive également à des pertes de compétences :
 - capacité de synthèse
@@ -136,7 +132,9 @@ Avec l'intelligence artificielle, on en arrive également à des pertes de comp�
 - créativité
 - ...
 
-Ce qui est important, c'est de savoir ce qu'on gagne et ce qu'on perd. On peut ensuite faire ses choix en toute conscience de choses.
+Cela fait d'ailleurs partie de principaux risques soulevés par l'enquêtes Ipsos. Les français.es semblent concerné.es par la perte de capacité de réflexion et par la dépendance aux technologies.
+
+Ce qui est important, c'est de savoir ce que l'on gagne et ce que l'on perd. On peut ensuite faire ses choix en toute conscience de choses.
 
 ## Une transformation des compétences métier
 
@@ -144,7 +142,7 @@ On en arrive à l'adaptation du monde professionnel au bouleversement porté par
 
 ### Augmentation de la fracture numérique
 
-Savoir piloter l'intelligence artificielle va devenir une compétence clé dans les prochaines années. Mais comment intégrer aux mieux l'ensemble de la population à ce nouvel outil ? Quand on sait qu'en France une personne sur six ne peut pas utiliser internet correctement et qu'une personne sur trois manque d'au moins une compétence numérique de base ({% include link.html link="https://www.insee.fr/fr/statistiques/4241397" text="source" %}), peut-on sereinement envisager un virage vers l'intelligence artificielle sans laisser une partie de la population sur le carreau ?
+Savoir piloter l'intelligence artificielle va devenir une compétence clé dans les prochaines années. Mais comment intégrer au mieux l'ensemble de la population à ce nouvel outil ? Quand on sait qu'en France une personne sur six ne peut pas utiliser internet correctement et qu'une personne sur trois manque d'au moins une compétence numérique de base ({% include link.html link="https://www.insee.fr/fr/statistiques/4241397" text="source" %}), peut-on sereinement envisager un virage vers l'intelligence artificielle sans laisser une partie de la population sur le carreau ?
 
 ### Enseignement
 
@@ -165,14 +163,14 @@ Les intelligences artificielles s’entraînent sur les données accessibles (li
 
 Les exemples où l'intelligence artificielle vient décupler nos biais de société sont pléthores :
 - une jeune fille asiatique demandant à professionnaliser sa photo de profil devient caucasienne
-- un algorithme de pré-sélection d'une boite tech n'accepte que les hommes blancs
+- un algorithme de pré-sélection des CV d'une entreprise du numérique n'accepte que les hommes blancs
 - une intelligence artificielle permet des crédits plus importants aux hommes qu'aux femmes
 
 La modération est donc nécessaire pour éviter d'amplifier les biais. Mais comment réaliser cette modération sans ouvrir la porte aux manipulations ? Imaginez-vous si l'algorithme de sélection des contenus d'un réseau social était géré par un gouvernement hostile à la liberté d'expression...
 
 ### Fiabilité
 
-On disait que la capacité à piloter une intelligence artificielle allait devenir une compétence clé. Une autre compétence qu'il va falloir développer c'est le discernement d'une information fausse.
+On disait que la capacité à piloter une intelligence artificielle allait devenir une compétence clé. Une autre compétence qu'il va falloir développer est le discernement d'une information fausse.
 
 L'intelligence artificielle permet à tout le monde de facilement :
 - falsifier un justificatif d'achat
@@ -181,7 +179,7 @@ L'intelligence artificielle permet à tout le monde de facilement :
 
 De même l'intelligence artificielle peut faire des erreurs et apporter des informations fausses.
 
-> Plus que jamais, il faut rester critiques vis-à-vis des informations que l'on reçoit. 
+> Plus que jamais, il faut rester critique vis-à-vis des informations que l'on reçoit. 
 {: .prompt-tip }
 
 C'est également une bonne idée de mentionner l'usage de l'intelligence artificielle quand vous y avez recours.
@@ -194,13 +192,24 @@ Toutefois, il a fallu attendre 2024 pour que les premières législations appara
 
 Cela montre que notre système législatif ne permet pas de cadrer correctement l’avènement des nouvelles technologies qui se développent trop rapidement.
 
+## Autres préoccupations
+
+Voici quelques sujets qui méritent également une réflexion mais que je ne vais pas approfondir :
+- on commence à inonder le web de contenus vides générés par l'intelligence artificielle. ({% include link.html text="article pour approfondir" link="https://danslesalgorithmes.net/2025/01/13/vers-un-internet-plein-de-vide/" %})
+- les intelligences artificielles ont besoin de données structurées par des humains pour mieux apprendre. Cette tâches est généralement confiée à des personnes en situation de précarité qui se font exploiter (voir le {% include link.html link="https://www.france.tv/documentaires/documentaires-societe/6888928-les-sacrifies-de-l-ia.html" text="documentaire de France TV" %})
+- l'atteinte à la vie privée :
+  - voir {% include link.html text="la collecte des données et leur partage avec des tiers par les principales IA" link="https://surfshark.com/research/chart/ai-chatbots-privacy" %}
+  - L'IA de Whatsapp collecte des données qui étaient inaccessibles avant son arrivée ({% include link.html text="explications de T. Nitot" link="https://www.linkedin.com/posts/nitot_un-produit-est-il-forc%C3%A9ment-mieux-sil-contient-activity-7313220344746573824-5MqZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAJovIQBhNez2BQQHsZTT-yWGkOGDmtDahc" %})
+- questionnements sur la propriété intellectuelle ({% include link.html link="https://bigmedia.bpifrance.fr/nos-dossiers/ia-propriete-intellectuelle-et-droits-dauteur-quels-enjeux-pour-les-entrepreneurs" text="article pour approfondir" %})
+
+
 ## Conclusion
 
 Pour résumer :
 - L'intelligence artificielle a de forts impacts environnementaux
 - C'est un support de croissance et donc elle accélère les impacts sur la planète
 - Il faut choisir ses usages et ses outils en toute conscience des enjeux éthiques soulevés (environnementaux, souveraineté, biais...)
-- Ne pas trop déléguer à l'IA : veiller à garder le contrôle de sur notre développement, nos compétences, notre indépendance
+- Ne pas trop déléguer à l'IA : veiller à garder le contrôle de notre développement, nos compétences, notre indépendance
 - Rester critique sur les usages et les résultats
 - La réflexion éthique reste sous la responsabilité de l'humain
 
@@ -210,7 +219,7 @@ Pour résumer :
 - Participer à une [Bataille de l'IA](/services/sensibilisation/bataille_ia)
 - Se former pour un [usage responsable de l'intelligence artificielle](/formations/intelligence-artificielle-responsable)
 - Le {% include link.html text="MOOC de l'INRIA" link="https://www.fun-mooc.fr/fr/cours/lintelligence-artificielle-avec-intelligence/" %} sur l'intelligence artificielle
-- Le {% include link.html text="RIA31" link="https://ref-ia.isit-europe.org/" %}, un référentiel de l'INR pour dévélopper une intelligence artificielle reposnable
+- Le {% include link.html text="RIA31" link="https://ref-ia.isit-europe.org/" %}, un référentiel de l'INR pour dévélopper une intelligence artificielle responsable
 
 ## Post-scriptum
 
