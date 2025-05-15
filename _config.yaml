@@ -45,6 +45,9 @@ sass:
 domain: simbios.fr
 baseurl:
 
+exclude :
+  - .htaccess 
+
 title: Simbios
 description: "Aide les entreprises et les particuliers à réduire l'empreinte environnementale de leurs activités numériques."
 url: https://simbios.fr
