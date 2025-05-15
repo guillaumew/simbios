@@ -1,3 +1,5 @@
+@use "colors";
+
 .table {
 	ul.legend {
 		display: none;
@@ -26,7 +28,7 @@ table:not(.charts-css) {
 	overflow-x: auto;
 	text-align: center;
 	thead tr {
-		background-color: $teal-color;
+		background-color: colors.$teal-color;
 		color: #ffffff;
 		th,dt {
 			padding: 12px 15px;
@@ -37,10 +39,10 @@ table:not(.charts-css) {
 		tr {
 			border-bottom: 1px solid #dddddd;
 			&:nth-of-type(even){
-				background-color: $dark_white-color;
+				background-color: colors.$dark_white-color;
 			}
 			&:last-of-type {
-			border-bottom: 2px solid $teal-color;
+			border-bottom: 2px solid colors.$teal-color;
 			}
 		}
 		td {

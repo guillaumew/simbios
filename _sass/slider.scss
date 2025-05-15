@@ -1,9 +1,11 @@
+@use "colors";
+
 .slider{
 	display: block;
 	padding: 0 1em;
-	border-top: solid $dark_teal-color 1px;
+	border-top: solid colors.$dark_teal-color 1px;
     .active {
-        color: $teal-color;
+        color: colors.$teal-color;
     }
 	.post_info {
 		padding-top: 1em;

@@ -1,3 +1,5 @@
+@use "colors";
+
 .workshop{
     margin-bottom: 4em;
 }
@@ -16,14 +18,14 @@
 
 .les_plus {
     display: flex;
-    border: solid 1px $teal-color;
+    border: solid 1px colors.$teal-color;
     padding: 0.5em;
     margin-bottom: 2em;
-    background: rgba($teal-color,.2);
+    background: rgba(colors.$teal-color,.2);
     .thumb_up{
         margin: auto;
         font-size: 2em;
-        color: $dark_teal-color;
+        color: colors.$dark_teal-color;
         text-align: center;
         width: 1.5em;
     }

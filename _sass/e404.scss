@@ -1,6 +1,4 @@
-$white: $light_teal-color;
-$gray: $teal-color;
-$dark: $dark_teal-color;
+@use "colors";
 
 .container {
   margin: 0 auto;
@@ -16,9 +14,9 @@ $dark: $dark_teal-color;
   top: 10%;
   position: absolute;
   border-radius: 50% 50% 0 0;
-  background: $white;
-  background-image: linear-gradient($white, $gray 75%);
-  border: 1px solid $gray;
+  background: colors.$light_teal-color;
+  background-image: linear-gradient(colors.$light_teal-color, colors.$teal-color 75%);
+  border: 1px solid colors.$teal-color;
   border-bottom: none;
   transition: transform 1s ease-out 100ms;
   &:hover, &:active {
@@ -34,7 +32,7 @@ $dark: $dark_teal-color;
 }
 .eye-left, .eye-right {
   position: absolute;
-  background: $dark;
+  background: colors.$dark_teal-color;
   width: 13px;
   height: 13px;
   border-radius: 50%;
@@ -56,17 +54,17 @@ $dark: $dark_teal-color;
   height: 10px;
   border: 3px solid;
   border-radius: 50%;
-  border-color: transparent $dark $dark transparent;
+  border-color: transparent colors.$dark_teal-color colors.$dark_teal-color transparent;
   transform: rotate(45deg);
 }
 
 .one, .two, .three, .four {
   position: absolute;
-  background: $gray;
+  background: colors.$teal-color;
   top: 85%;
   width: 25%;
   height: 23%;
-  border: 1px solid $gray;
+  border: 1px solid colors.$teal-color;
   z-index: 0;
   box-sizing: content-box;
 }
@@ -95,7 +93,7 @@ $dark: $dark_teal-color;
   position: absolute;
   width: 30%;
   height: 7%;
-  background: $dark;
+  background: colors.$dark_teal-color;
   left: 35%;
   top: 80%;
   border-radius: 50%;

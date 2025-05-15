@@ -1,11 +1,13 @@
+@use "colors";
+
 .ribbon {
-    background: $teal-color;
+    background: colors.$teal-color;
     color: white;
     h2{
         color: white;
     }
     a {
-        color: $dark_white-color;
+        color: colors.$dark_white-color;
     }
     .content-head{
         color: white;
