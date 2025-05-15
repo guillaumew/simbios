@@ -1,9 +1,11 @@
 
+@use "colors";
+
 .home-menu {
     padding: 0.5em;
     text-align: left;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    background: $dark_teal-color;
+    background: colors.$dark_teal-color;
     border-bottom: none;
     z-index: 4;
     position: fixed;
@@ -87,7 +89,7 @@
             padding: 1em;
             top:3.75em;
             right:0;
-            background: rgba($dark_teal-color,.9);
+            background: rgba(colors.$dark_teal-color,.9);
             text-align: center;
             list-style-type: none;
             -webkit-font-smoothing: antialiased;
@@ -109,7 +111,7 @@
             height: 4px;
             margin-bottom: 5px;
             position: relative;
-            background-color: $dark_white-color;
+            background-color: colors.$dark_white-color;
             border-radius: 3px;
             z-index: 1;
             transform-origin: 4px 0px;

@@ -1,7 +1,9 @@
+@use "colors";
+
 .under-menu{
     width: 100%;
     height: 3.75em;
-    background-color: $teal-color;
+    background-color: colors.$teal-color;
     position: fixed;
 }
 
@@ -48,28 +50,28 @@
     .background {
         width: 100%;
         margin: 50px 0;
-        background: linear-gradient(90deg,$teal-color 25%, rgba($dark_white-color,.25) 25%, rgba($dark_white-color,.25) 75%,$teal-color 75%);
+        background: linear-gradient(90deg,colors.$teal-color 25%, rgba(colors.$dark_white-color,.25) 25%, rgba(colors.$dark_white-color,.25) 75%,colors.$teal-color 75%);
         .how-outer {
             --small:100%; 
             --medium:50%; 
             --large:33%;
             .how-inner{
                 h3 {
-                    color: $dark_white-color;
+                    color: colors.$dark_white-color;
                     margin-top: 0;
                 }
                 hr {
-                    color: $dark_white-color;
-                    background: $dark_white-color;
+                    color: colors.$dark_white-color;
+                    background: colors.$dark_white-color;
                     height: 1px;
                     border: 0;
                     width: 66%;
                 }
-                background-color: $teal-color;
+                background-color: colors.$teal-color;
                 height: 225px;
-                -webkit-box-shadow: 10px 10px 50px 0px rgba($dark_teal-color,.5);
-                -moz-box-shadow: 10px 10px 50px 0px rgba($dark_teal-color,.5);
-                box-shadow: 10px 10px 50px 0px rgba($dark_teal-color,.5);
+                -webkit-box-shadow: 10px 10px 50px 0px rgba(colors.$dark_teal-color,.5);
+                -moz-box-shadow: 10px 10px 50px 0px rgba(colors.$dark_teal-color,.5);
+                box-shadow: 10px 10px 50px 0px rgba(colors.$dark_teal-color,.5);
 
             }
         }
@@ -85,7 +87,7 @@
         color: #0d3444;
     }
     h4, p, a {
-        color: $dark_teal-color;
+        color: colors.$dark_teal-color;
         margin: 0.1em;
     }
     p {

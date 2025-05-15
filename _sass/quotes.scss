@@ -1,3 +1,5 @@
+@use "colors";
+
 blockquote {
 	position: relative; 
     padding: 1rem 1.2rem;
@@ -50,7 +52,7 @@ blockquote[class^="prompt-"] {
 
 @media (prefers-color-scheme: dark) {
 	blockquote[class^="prompt-"] {
-		color: $dark_white-color;
+		color: colors.$dark_white-color;
 	}
 	.prompt-tip {
 		background-color: rgba(77, 187, 95, 0.2);
@@ -72,16 +74,16 @@ blockquote:not([class^="prompt-"]) {
 	margin: 1rem auto 2rem;
 	text-align: center;
 	background:
-		linear-gradient(to right, $teal-color 4px, transparent 4px) 0 100%,
-		linear-gradient(to left, $teal-color 4px, transparent 4px) 100% 0,
-		linear-gradient(to bottom, $teal-color 4px, transparent 4px) 100% 0,
-		linear-gradient(to top, $teal-color 4px, transparent 4px) 0 100%;
+		linear-gradient(to right, colors.$teal-color 4px, transparent 4px) 0 100%,
+		linear-gradient(to left, colors.$teal-color 4px, transparent 4px) 100% 0,
+		linear-gradient(to bottom, colors.$teal-color 4px, transparent 4px) 100% 0,
+		linear-gradient(to top, colors.$teal-color 4px, transparent 4px) 0 100%;
     background-repeat: no-repeat;
     background-size: 20px 20px;
 
 	&:before,&:after{
 		position: absolute;
-		color: $teal-color;
+		color: colors.$teal-color;
 		font-size: 50px;
 	}
 	&:before{

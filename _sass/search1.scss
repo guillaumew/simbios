@@ -1,3 +1,5 @@
+@use "colors";
+
 .search-wrapper{
     position: relative;
     padding: 1em 0 3em;
@@ -63,10 +65,10 @@
         overflow: clip;
         &:hover {
             background-color: #f7f8f9;
-            background-color: rgba($teal-color,.1);
+            background-color: rgba(colors.$teal-color,.1);
         }
         a {
-            color: $dark_teal-color;
+            color: colors.$dark_teal-color;
             text-decoration: none;
             padding: 0 5px;
             display: inline-flex;
@@ -77,11 +79,11 @@
 @media (prefers-color-scheme: dark) {
     body {
         .search-bar, #search-input, #results-container {
-            background-color: $input_darkmode-color;
-            color: $dark_white-color;
+            background-color: colors.$input_darkmode-color;
+            color: colors.$dark_white-color;
             border-color: grey;
             li a {
-                color: $dark_white-color;
+                color: colors.$dark_white-color;
             }
         }
     }

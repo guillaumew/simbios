@@ -1,18 +1,20 @@
+@use "colors";
+
 .post_summary{
 	margin-bottom: 1em;
 	position: relative;
 	&.realisations{
 		.corner-ribbon{
-			background-color: $dark_teal-color;
+			background-color: colors.$dark_teal-color;
 			&:before{
 				content: "Réalisation"
 			}
 		}
 		h2{
-			color: $dark_teal-color;
+			color: colors.$dark_teal-color;
 		}
 		.chip{
-			background: $dark_teal-color;
+			background: colors.$dark_teal-color;
 		}
 	}
 	.corner-ribbon-wrapper {
@@ -39,7 +41,7 @@
 		  color: #fff;
 		}
 		.blog{
-			background-color: $light_teal-color;
+			background-color: colors.$light_teal-color;
 			&:before{
 				content: "Article"
 			}
@@ -56,7 +58,7 @@
 	a{
 		text-decoration: none;
 		p {
-			color: $dark_teal-color;
+			color: colors.$dark_teal-color;
 		}
 	}
 	.thumbnail{
@@ -69,7 +71,7 @@
 	.post_summary{
 		a{
 			p {
-				color: $dark_white-color;
+				color: colors.$dark_white-color;
 			}
 		}
 	}
