@@ -1,3 +1,8 @@
+Ce repository a été déplacé sur GitLab de manière permanente.
+[https://gitlab.com/simbios/simbios](https://gitlab.com/simbios/simbios)
+
+Vous trouverez ici uniquement une archive.
+
 # Simbios
 
 ## Enpreinte environnementale du site
